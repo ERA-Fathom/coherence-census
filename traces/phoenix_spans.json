@@ -1,0 +1,64 @@
+{
+ "spans": [
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"schema.py\", \"content\": \"class Guest:\\n    guest_id: int\\n\"}",
+    "output.value": "ok"
+   },
+   "status_code": "OK"
+  },
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"models.py\", \"content\": \"def load(guest_id):\\n    return Guest(guest_id=guest_id)\\n\"}",
+    "output.value": "ok"
+   },
+   "status_code": "OK"
+  },
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"report.py\", \"content\": \"def summarize(g):\\n    return f'guest {g.guest_id}'\\n\"}",
+    "output.value": "ok"
+   },
+   "status_code": "OK"
+  },
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"schema.py\", \"content\": \"class Guest:\\n    customer_id: int\\n\"}",
+    "output.value": "ok"
+   },
+   "status_code": "OK"
+  },
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"models.py\", \"content\": \"def load(customer_id):\\n    return Guest(customer_id=customer_id)\\n\"}",
+    "output.value": "ok"
+   },
+   "status_code": "OK"
+  },
+  {
+   "name": "write_file",
+   "attributes": {
+    "openinference.span.kind": "TOOL",
+    "tool.name": "write_file",
+    "tool.parameters": "{\"path\": \"report.py\", \"content\": \"def summarize(g):\\n    return f'guest {g.customer_id}'\\n\"}",
+    "output.value": "error: disk quota exceeded"
+   },
+   "status_code": "ERROR"
+  }
+ ]
+}

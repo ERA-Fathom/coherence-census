@@ -1,0 +1,31 @@
+[
+ {
+  "op": "add",
+  "kind": "order",
+  "key": "cart",
+  "value": "lamp"
+ },
+ {
+  "op": "add",
+  "kind": "order",
+  "key": "cart",
+  "value": "chair"
+ },
+ {
+  "op": "add",
+  "kind": "order",
+  "key": "cart",
+  "value": "lamp"
+ },
+ {
+  "op": "commit",
+  "kind": "order",
+  "key": "order"
+ },
+ {
+  "op": "add",
+  "kind": "order",
+  "key": "cart",
+  "value": "table"
+ }
+]

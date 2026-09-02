@@ -1,0 +1,37 @@
+[
+ {
+  "step": 2,
+  "values": {
+   "definition": "customer_id",
+   "records": [
+    {
+     "id": "a",
+     "cites": "customer_id"
+    },
+    {
+     "id": "b",
+     "cites": "guest_id"
+    }
+   ]
+  }
+ },
+ {
+  "step": 1,
+  "values": {
+   "definition": "customer_id",
+   "records": [
+    {
+     "id": "a",
+     "cites": "customer_id"
+    }
+   ]
+  }
+ },
+ {
+  "step": 0,
+  "values": {
+   "definition": "guest_id",
+   "records": []
+  }
+ }
+]

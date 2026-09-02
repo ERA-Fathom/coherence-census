@@ -1,0 +1,26 @@
+[
+ {
+  "op": "set",
+  "kind": "fact",
+  "key": "user.city",
+  "value": "Denver"
+ },
+ {
+  "op": "set",
+  "kind": "fact",
+  "key": "user.city",
+  "value": "Austin"
+ },
+ {
+  "op": "set",
+  "kind": "fact",
+  "key": "user.role",
+  "value": "engineer"
+ },
+ {
+  "op": "answer",
+  "kind": "fact",
+  "key": "user.city",
+  "value": "The user lives in Denver."
+ }
+]

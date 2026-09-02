@@ -1,0 +1,90 @@
+{
+ "tool_calls": [
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_0",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 100"
+   },
+   "ok": true
+  },
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_1",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 101"
+   },
+   "ok": true
+  },
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_2",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 102"
+   },
+   "ok": true
+  },
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_3",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 103"
+   },
+   "ok": true
+  },
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_4",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 104"
+   },
+   "ok": true
+  },
+  {
+   "name": "core_memory_replace",
+   "args": {
+    "label": "account_5",
+    "old_content": "guest_id",
+    "new_content": "customer_id: 105"
+   },
+   "ok": true
+  }
+ ],
+ "blocks": [
+  {
+   "label": "account_0",
+   "value": "customer_id: 100"
+  },
+  {
+   "label": "account_1",
+   "value": "customer_id: 101"
+  },
+  {
+   "label": "account_2",
+   "value": "customer_id: 102"
+  },
+  {
+   "label": "account_3",
+   "value": "customer_id: 103"
+  },
+  {
+   "label": "account_4",
+   "value": "customer_id: 104"
+  },
+  {
+   "label": "account_5",
+   "value": "customer_id: 105"
+  }
+ ],
+ "passages": [
+  {
+   "id": "p0",
+   "text": "Onboarding note: guest_id 106 flagged for review."
+  }
+ ]
+}
