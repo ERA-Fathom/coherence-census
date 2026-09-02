@@ -21,13 +21,14 @@ fathom read traces/langgraph_history.json --format langgraph
 | Agent-E (web agent) | The browser action stream | With the window starved, a frontier model duplicated the order (8 lines and $106.20 against the correct 3 lines and $44.10) while every conventional success signal stayed green; the read recovered all five duplicates | `duplicate_commit` x1, `post_commit_mutation` x1 | `fathom read traces/order_duplicate.json` | [study](https://embeddedriskanalytics.com/research-reading-coherence-failure-in-a-live-web-agent.html) |
 | Agent Zero Memory (provenanced memory, on LongMemEval) | Retrieved items and the answer, with the citation lock's verdict | When the update fell outside the retrieval window the reader cited the superseded item and answered with the superseded value; across 83 stale answers the citation lock rejected none, and the read fired on every one | `superseded_value` x1 | `fathom read traces/knowledge_update.json` | [study](https://embeddedriskanalytics.com/research-reading-committed-state-when-memory-is-provenanced.html) |
 | ContextPilot (context management, on LongMemEval) | The folded history and the answer | Once the update was folded, 55 to 60 percent of questions came back with the value the agent had already replaced; the read produced no verified false positives across more than a hundred runs | `superseded_value` x1 | `fathom read traces/knowledge_update.json` | [study](https://embeddedriskanalytics.com/research-reading-committed-state-when-an-agent-manages-its-own-context.html) |
+| DBOS (Hacker News research agent, as published) | The workflow's step stream (step name, args, result, ok), matched to DBOS's own step table | The model held its citations: every discussion linked in the five reports was one the run retrieved, with no stale reference and no repeated query. The workflow re-read what it already held: in four of five runs it fetched 13 threads a second time, because nothing carries the set of threads already read across iterations | `duplicate_commit` x5 | `fathom read rows/dbos-hacker-news-agent/runs/20260902T143638Z_vector-databases/ops.json` | [study](https://embeddedriskanalytics.com/research-reading-a-durable-workflows-committed-state-from-its-own-step-stream.html) |
 <!-- census:end -->
 
 The bundled traces are minimal: each one carries the failure's shape in a dozen ops so you can read it in a minute and run it without a model. The study column holds the full run, with the framework, the models, and the counts. `python scripts/build.py` runs every row against the read and rewrites this table; CI does the same on every push.
 
 ## Rows in progress
 
-DBOS's published Hacker News research agent, read from its step stream. HAL's τ-bench airline traces across seven frontier models. Each lands as a row with its trace and its command when the run is done.
+HAL's τ-bench airline traces across seven frontier models. It lands as a row with its trace and its command when the run is done.
 
 ## Add a row
 

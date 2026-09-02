@@ -70,5 +70,14 @@
   "caught": "Once the update was folded, 55 to 60 percent of questions came back with the value the agent had already replaced; the read produced no verified false positives across more than a hundred runs",
   "cmd": "fathom read traces/knowledge_update.json",
   "study": "https://embeddedriskanalytics.com/research-reading-committed-state-when-an-agent-manages-its-own-context.html"
+ },
+ {
+  "id": "dbos-hn-agent",
+  "agent": "DBOS (Hacker News research agent, as published)",
+  "trace": "The workflow's step stream (step name, args, result, ok), matched to DBOS's own step table",
+  "run": "Five topics, three iterations each, gpt-4o-mini; 301 DBOS steps, 241 comment fetches, 49 discussions linked across the five reports",
+  "caught": "The model held its citations: every discussion linked in the five reports was one the run retrieved, with no stale reference and no repeated query. The workflow re-read what it already held: in four of five runs it fetched 13 threads a second time, because nothing carries the set of threads already read across iterations",
+  "cmd": "fathom read rows/dbos-hacker-news-agent/runs/20260902T143638Z_vector-databases/ops.json",
+  "study": "https://embeddedriskanalytics.com/research-reading-a-durable-workflows-committed-state-from-its-own-step-stream.html"
  }
 ]
