@@ -1,0 +1,36 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 73,
+   "key": "comments_read",
+   "detail": "step 73 adds '46542480' to research 'comments_read', which already holds it (first added at step 37).",
+   "cites": 37
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 122,
+   "key": "comments_read",
+   "detail": "step 122 adds '41570819' to research 'comments_read', which already holds it (first added at step 38).",
+   "cites": 38
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 125,
+   "key": "comments_read",
+   "detail": "step 125 adds '36707725' to research 'comments_read', which already holds it (first added at step 83).",
+   "cites": 83
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 128,
+   "key": "comments_read",
+   "detail": "step 128 adds '32177934' to research 'comments_read', which already holds it (first added at step 74).",
+   "cites": 74
+  }
+ ],
+ "ops_read": 135,
+ "ops_rejected": 0,
+ "live_facts": 82
+}
