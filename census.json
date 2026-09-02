@@ -1,0 +1,74 @@
+[
+ {
+  "id": "langgraph",
+  "agent": "LangGraph",
+  "trace": "Checkpoint lineage (`graph.get_state_history`)",
+  "run": "Three coherent multi-agent runs and one parallel super-step where two agents wrote the shared record at once",
+  "caught": "The channel reducer merged both writes with no consistency check and left a record citing the key the agent had already renamed away",
+  "cmd": "fathom read traces/langgraph_history.json --format langgraph",
+  "study": "https://embeddedriskanalytics.com/research-reading-a-graphs-committed-state-from-its-own-checkpoints.html"
+ },
+ {
+  "id": "crewai",
+  "agent": "CrewAI",
+  "trace": "Event bus (`tool_usage_finished`, `tool_usage_error`, `task_completed`)",
+  "run": "Coupled record-keeping across 5, 12, and 20 sub-records, sequential and hierarchical, two models",
+  "caught": "A hierarchical crew reported all twenty sub-tasks complete while one record never got written; the read recovered the dropped record from the event stream alone",
+  "cmd": "fathom read traces/crewai_events.json --format crewai --supersede guest_id=customer_id",
+  "study": "https://embeddedriskanalytics.com/research-reading-a-crews-committed-state-from-its-own-event-stream.html"
+ },
+ {
+  "id": "letta",
+  "agent": "Letta",
+  "trace": "Core blocks, archival passages, and the memory-edit tool calls",
+  "run": "A fact carried across eight core blocks, then across six core blocks and one archival passage",
+  "caught": "The agent renamed the six blocks it could see and left the archival copy on the old key; the read recovered the stale passage from the persisted memory and the edit stream",
+  "cmd": "fathom read traces/letta_memory.json --format letta --supersede guest_id=customer_id",
+  "study": "https://embeddedriskanalytics.com/research-reading-an-agents-committed-state-from-its-own-memory.html"
+ },
+ {
+  "id": "phoenix",
+  "agent": "Arize Phoenix (OpenInference)",
+  "trace": "TOOL spans as Phoenix stores them",
+  "run": "A five-file rename refactor traced through OpenInference, coherent and starved",
+  "caught": "The starved run's platform signals read tests-pass-and-done while the tool spans showed no successful edit; the read named the files still carrying the old key",
+  "cmd": "fathom read traces/phoenix_spans.json --format openinference --supersede guest_id=customer_id",
+  "study": "https://github.com/ERA-Fathom/fathom-phoenix"
+ },
+ {
+  "id": "openhands",
+  "agent": "OpenHands (coding agent)",
+  "trace": "The edit log (`str_replace_editor` calls with success flags)",
+  "run": "Rename an identifier across five files and run the tests, under a capable model and a small model with a distraction step",
+  "caught": "The small-model run made no successful edit, ran the suite against unchanged code, and reported the task complete with tests passing; the read was the one check that separated the reported success from the actual one",
+  "cmd": "fathom read traces/rename_starved.json --format edits --supersede guest_id=customer_id",
+  "study": "https://embeddedriskanalytics.com/research-committed-state-coherence-in-a-coding-agent.html"
+ },
+ {
+  "id": "agent-e",
+  "agent": "Agent-E (web agent)",
+  "trace": "The browser action stream",
+  "run": "An interaction-dense ordering task across two model tiers and a range of retained-window budgets",
+  "caught": "With the window starved, a frontier model duplicated the order (8 lines and $106.20 against the correct 3 lines and $44.10) while every conventional success signal stayed green; the read recovered all five duplicates",
+  "cmd": "fathom read traces/order_duplicate.json",
+  "study": "https://embeddedriskanalytics.com/research-reading-coherence-failure-in-a-live-web-agent.html"
+ },
+ {
+  "id": "agent-zero-memory",
+  "agent": "Agent Zero Memory (provenanced memory, on LongMemEval)",
+  "trace": "Retrieved items and the answer, with the citation lock's verdict",
+  "run": "LongMemEval knowledge-update questions on deepseek-chat and gpt-4o-mini",
+  "caught": "When the update fell outside the retrieval window the reader cited the superseded item and answered with the superseded value; across 83 stale answers the citation lock rejected none, and the read fired on every one",
+  "cmd": "fathom read traces/knowledge_update.json",
+  "study": "https://embeddedriskanalytics.com/research-reading-committed-state-when-memory-is-provenanced.html"
+ },
+ {
+  "id": "contextpilot",
+  "agent": "ContextPilot (context management, on LongMemEval)",
+  "trace": "The folded history and the answer",
+  "run": "ContextPilot's own foldHistory operation on LongMemEval knowledge-update questions, two models",
+  "caught": "Once the update was folded, 55 to 60 percent of questions came back with the value the agent had already replaced; the read produced no verified false positives across more than a hundred runs",
+  "cmd": "fathom read traces/knowledge_update.json",
+  "study": "https://embeddedriskanalytics.com/research-reading-committed-state-when-an-agent-manages-its-own-context.html"
+ }
+]

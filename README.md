@@ -1,2 +1,40 @@
-# coherence-census
-Every agent framework the Fathom committed-state read has run on, what it caught, and a trace that reproduces each catch in one command. LangGraph, CrewAI, Letta, Phoenix, OpenHands, Agent-E, LongMemEval.
+# The coherence census
+
+**Every agent and framework the Fathom read has run on, what it caught, and a trace that reproduces the catch in one command.**
+
+A long-running agent renames a field, then keeps writing the old name. It reports twenty records written when it wrote nineteen. It places an order, then places it again. The run reports success, and the contradiction ships. The [Fathom read](https://github.com/ERA-Fathom/fathom) folds the actions that succeeded into the agent's committed state and names the step that contradicts it. This repository is the census: one row per agent or framework, with the study the row comes from and a small trace in the shape of the failure the study found.
+
+```
+pip install fathom-read
+git clone https://github.com/ERA-Fathom/coherence-census && cd coherence-census
+fathom read traces/langgraph_history.json --format langgraph
+```
+
+<!-- census:start -->
+| Agent | Trace the read consumes | What the read caught in the study | The bundled trace returns | Reproduce | Study |
+|---|---|---|---|---|---|
+| LangGraph | Checkpoint lineage (`graph.get_state_history`) | The channel reducer merged both writes with no consistency check and left a record citing the key the agent had already renamed away | `superseded_value` x1 | `fathom read traces/langgraph_history.json --format langgraph` | [study](https://embeddedriskanalytics.com/research-reading-a-graphs-committed-state-from-its-own-checkpoints.html) |
+| CrewAI | Event bus (`tool_usage_finished`, `tool_usage_error`, `task_completed`) | A hierarchical crew reported all twenty sub-tasks complete while one record never got written; the read recovered the dropped record from the event stream alone | `residual` x1 | `fathom read traces/crewai_events.json --format crewai --supersede guest_id=customer_id` | [study](https://embeddedriskanalytics.com/research-reading-a-crews-committed-state-from-its-own-event-stream.html) |
+| Letta | Core blocks, archival passages, and the memory-edit tool calls | The agent renamed the six blocks it could see and left the archival copy on the old key; the read recovered the stale passage from the persisted memory and the edit stream | `residual` x1 | `fathom read traces/letta_memory.json --format letta --supersede guest_id=customer_id` | [study](https://embeddedriskanalytics.com/research-reading-an-agents-committed-state-from-its-own-memory.html) |
+| Arize Phoenix (OpenInference) | TOOL spans as Phoenix stores them | The starved run's platform signals read tests-pass-and-done while the tool spans showed no successful edit; the read named the files still carrying the old key | `residual` x1 | `fathom read traces/phoenix_spans.json --format openinference --supersede guest_id=customer_id` | [study](https://github.com/ERA-Fathom/fathom-phoenix) |
+| OpenHands (coding agent) | The edit log (`str_replace_editor` calls with success flags) | The small-model run made no successful edit, ran the suite against unchanged code, and reported the task complete with tests passing; the read was the one check that separated the reported success from the actual one | `residual` x5 | `fathom read traces/rename_starved.json --format edits --supersede guest_id=customer_id` | [study](https://embeddedriskanalytics.com/research-committed-state-coherence-in-a-coding-agent.html) |
+| Agent-E (web agent) | The browser action stream | With the window starved, a frontier model duplicated the order (8 lines and $106.20 against the correct 3 lines and $44.10) while every conventional success signal stayed green; the read recovered all five duplicates | `duplicate_commit` x1, `post_commit_mutation` x1 | `fathom read traces/order_duplicate.json` | [study](https://embeddedriskanalytics.com/research-reading-coherence-failure-in-a-live-web-agent.html) |
+| Agent Zero Memory (provenanced memory, on LongMemEval) | Retrieved items and the answer, with the citation lock's verdict | When the update fell outside the retrieval window the reader cited the superseded item and answered with the superseded value; across 83 stale answers the citation lock rejected none, and the read fired on every one | `superseded_value` x1 | `fathom read traces/knowledge_update.json` | [study](https://embeddedriskanalytics.com/research-reading-committed-state-when-memory-is-provenanced.html) |
+| ContextPilot (context management, on LongMemEval) | The folded history and the answer | Once the update was folded, 55 to 60 percent of questions came back with the value the agent had already replaced; the read produced no verified false positives across more than a hundred runs | `superseded_value` x1 | `fathom read traces/knowledge_update.json` | [study](https://embeddedriskanalytics.com/research-reading-committed-state-when-an-agent-manages-its-own-context.html) |
+<!-- census:end -->
+
+The bundled traces are minimal: each one carries the failure's shape in a dozen ops so you can read it in a minute and run it without a model. The study column holds the full run, with the framework, the models, and the counts. `python scripts/build.py` runs every row against the read and rewrites this table; CI does the same on every push.
+
+## Rows in progress
+
+DBOS's published Hacker News research agent, read from its step stream. HAL's τ-bench airline traces across seven frontier models. Each lands as a row with its trace and its command when the run is done.
+
+## Add a row
+
+Run the read on an agent the census does not cover, and open a pull request with three things: a trace in `traces/` in one of the formats the read accepts (`fathom formats` lists them), the command that reproduces the finding, and a row in `census.json` naming the agent, the trace it consumes, and what the read caught. A row whose trace returns a finding on the hosted read passes CI. If the read stayed silent on a run you expected it to flag, open an issue with the trace; a miss is worth as much as a catch.
+
+## Send us a trace
+
+If you would rather not run it yourself, send a trace to [contact@embeddedriskanalytics.com](mailto:contact@embeddedriskanalytics.com?subject=coherence%20census%20trace) and get a readout back. The read is deterministic and needs no model access; the trace is the only thing it receives.
+
+Fathom is a program of [Embedded Risk Analytics](https://embeddedriskanalytics.com). The research behind the read: [embeddedriskanalytics.com/research](https://embeddedriskanalytics.com/research.html). Paper: [SSRN 6683578](https://doi.org/10.2139/ssrn.6683578).
