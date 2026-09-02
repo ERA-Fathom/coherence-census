@@ -1,0 +1,1190 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "postgres performance",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27247621",
+  "value": "An early look at Postgres 14: Performance and monitoring Improvements",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "4602275",
+  "value": "Understanding Postgres Performance",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14384370",
+  "value": "Postgres performance analysis resulted in a 10x improvement in CPU use",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "5039042",
+  "value": "More on Postgres Performance",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12732118",
+  "value": "Postgres Count Performance",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21209533",
+  "value": "More on Postgres Performance (2013)",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15369754",
+  "value": "Fermi Estimates on Postgres Performance",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12187665",
+  "value": "Advanced Postgres Performance Tips",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46522841",
+  "value": "PgX \u2013 Debug Postgres performance in the context of your application code",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "4788790",
+  "value": "Postgres Performance: To avg or To sum/count",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35851996",
+  "value": "Postgres Pgvector Performance Tips for Developers",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37498518",
+  "value": "Airbyte made progress on Postgres replication performance",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12186391",
+  "value": "Advanced Postgres Performance Tips",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26585108",
+  "value": "Explaining Your Postgres Query Performance",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27236759",
+  "value": "An early look at Postgres 14: Performance and Monitoring Improvements",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47279422",
+  "value": "Building a High-Performance Postgres Time Series Stack with Iceberg",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37184668",
+  "value": "Nikolay Sivko: Spotting Postgres Performance Issues with Coroot",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42159929",
+  "value": "Boosting Postgres Insert Performance by 50% with Unnest",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32398112",
+  "value": "Postgres Performance Monitoring: Best Practices and Tools to Use",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24791704",
+  "value": "A Beginner's Guide to Postgres Performance Monitoring",
+  "ok": true,
+  "refs": [],
+  "step": 20,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24179752",
+  "value": "Fermi Estimates on Postgres Performance",
+  "ok": true,
+  "refs": [],
+  "step": 21,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37353052",
+  "value": "Postgres, Performance and Rails",
+  "ok": true,
+  "refs": [],
+  "step": 22,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24353157",
+  "value": "Full-Text Search Performance: Postgres vs. Elasticsearch",
+  "ok": true,
+  "refs": [],
+  "step": 23,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17261253",
+  "value": "More on Postgres Trigger Performance",
+  "ok": true,
+  "refs": [],
+  "step": 24,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49365839",
+  "value": "Debugging Postgres Performance Under Row-Level Security",
+  "ok": true,
+  "refs": [],
+  "step": 25,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43590473",
+  "value": "A Beginner's Guide to Postgres Performance Monitoring",
+  "ok": true,
+  "refs": [],
+  "step": 26,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42378621",
+  "value": "Boosting Postgres Insert Performance by 2x with Unnest",
+  "ok": true,
+  "refs": [],
+  "step": 27,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39695370",
+  "value": "Postgres Performance Boost: Hot Updates and Fill Factor",
+  "ok": true,
+  "refs": [],
+  "step": 28,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34729758",
+  "value": "Exposing Postgres Performance Secrets",
+  "ok": true,
+  "refs": [],
+  "step": 29,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26719220",
+  "value": "Explaining Your Postgres Query Performance",
+  "ok": true,
+  "refs": [],
+  "step": 30,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "27247621",
+  "ok": true,
+  "refs": [],
+  "step": 31,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "4602275",
+  "ok": true,
+  "refs": [],
+  "step": 32,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14384370",
+  "ok": true,
+  "refs": [],
+  "step": 33,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "5039042",
+  "ok": true,
+  "refs": [],
+  "step": 34,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "12732118",
+  "ok": true,
+  "refs": [],
+  "step": 35,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "21209533",
+  "ok": true,
+  "refs": [],
+  "step": 36,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "15369754",
+  "ok": true,
+  "refs": [],
+  "step": 37,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "12187665",
+  "ok": true,
+  "refs": [],
+  "step": 38,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46522841",
+  "ok": true,
+  "refs": [],
+  "step": 39,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "4788790",
+  "ok": true,
+  "refs": [],
+  "step": 40,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "12186391",
+  "ok": true,
+  "refs": [],
+  "step": 41,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37184668",
+  "ok": true,
+  "refs": [],
+  "step": 42,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42159929",
+  "ok": true,
+  "refs": [],
+  "step": 43,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37353052",
+  "ok": true,
+  "refs": [],
+  "step": 44,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24353157",
+  "ok": true,
+  "refs": [],
+  "step": 45,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17261253",
+  "ok": true,
+  "refs": [],
+  "step": 46,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "postgres performance",
+  "value": "The search results reveal a wealth of information on Postgres performance, including recent improvements in version 14, case studies demonstrating significant performance gains, and ongoing community discussions about best practices for optimizing database queries and structures.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "27247621"
+   ],
+   [
+    "story",
+    "4602275"
+   ],
+   [
+    "story",
+    "14384370"
+   ],
+   [
+    "story",
+    "5039042"
+   ],
+   [
+    "story",
+    "12732118"
+   ],
+   [
+    "story",
+    "21209533"
+   ],
+   [
+    "story",
+    "15369754"
+   ],
+   [
+    "story",
+    "12187665"
+   ],
+   [
+    "story",
+    "46522841"
+   ],
+   [
+    "story",
+    "4788790"
+   ]
+  ],
+  "step": 47,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "postgres 14 improvements",
+  "ok": true,
+  "refs": [],
+  "step": 48,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "postgres 14 improvements",
+  "ok": true,
+  "refs": [],
+  "step": 49,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27247621",
+  "value": "An early look at Postgres 14: Performance and monitoring Improvements",
+  "ok": true,
+  "refs": [],
+  "step": 50,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27236759",
+  "value": "An early look at Postgres 14: Performance and Monitoring Improvements",
+  "ok": true,
+  "refs": [],
+  "step": 51,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41944483",
+  "value": "Show HN: I made a lightweight data visualization platform",
+  "ok": true,
+  "refs": [],
+  "step": 52,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "27247621",
+  "ok": true,
+  "refs": [],
+  "step": 53,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "postgres 14 improvements",
+  "value": "The search results reveal significant discussions around PostgreSQL 14's performance improvements, particularly in data handling and storage techniques. The community is actively engaging in debates about best practices for data types and storage methods, with insights into performance implications and design considerations.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "27247621"
+   ],
+   [
+    "story",
+    "27236759"
+   ],
+   [
+    "story",
+    "41944483"
+   ]
+  ],
+  "step": 54,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "postgres query optimization",
+  "ok": true,
+  "refs": [],
+  "step": 55,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "postgres query optimization",
+  "ok": true,
+  "refs": [],
+  "step": 56,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38276727",
+  "value": "Operating on a minimal two-core Postgres instance: Query optimization insights",
+  "ok": true,
+  "refs": [],
+  "step": 57,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22432254",
+  "value": "Joe, a Postgres query optimization bot",
+  "ok": true,
+  "refs": [],
+  "step": 58,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35000372",
+  "value": "Postgres Query Optimization: Left Join vs. Union All",
+  "ok": true,
+  "refs": [],
+  "step": 59,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22673227",
+  "value": "Postgres query optimization assistant Joe now supports hypothetical indexes",
+  "ok": true,
+  "refs": [],
+  "step": 60,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37934033",
+  "value": "Simple Postgres Query Optimization: Avoid the Sequential Scan",
+  "ok": true,
+  "refs": [],
+  "step": 61,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32232100",
+  "value": "Using BUFFERS for Postgres query optimization",
+  "ok": true,
+  "refs": [],
+  "step": 62,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31452268",
+  "value": "Postgres Query Optimization: Left Join vs. Union All",
+  "ok": true,
+  "refs": [],
+  "step": 63,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29874783",
+  "value": "Explain (ANALYZE) needs BUFFERS to improve the Postgres query optimization",
+  "ok": true,
+  "refs": [],
+  "step": 64,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26197385",
+  "value": "Query Optimization in Postgres with pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 65,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26360675",
+  "value": "Query Optimization in Postgres with pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 66,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26198366",
+  "value": "Query Optimization in Postgres with Pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 67,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26332462",
+  "value": "Query Optimization in Postgres with Pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 68,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26667217",
+  "value": "Query Optimization in Postgres with Pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 69,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26497374",
+  "value": "Query Optimization in Postgres with Pg_stat_statements",
+  "ok": true,
+  "refs": [],
+  "step": 70,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41903425",
+  "value": "Bulk optimization of queries in Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 71,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13225523",
+  "value": "Adaptive query optimization \u2013 ML to improve Postgres analytical queries",
+  "ok": true,
+  "refs": [],
+  "step": 72,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "11459707",
+  "value": "PostgreSQL Query Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 73,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27888966",
+  "value": "Unravelling the Postgres Database Optimizer",
+  "ok": true,
+  "refs": [],
+  "step": 74,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44177393",
+  "value": "Exploring Postgres SQL plan execution \"expected\" vs. \"actual\" metrics visually",
+  "ok": true,
+  "refs": [],
+  "step": 75,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27048851",
+  "value": "Show HN: Another Query Optimization Algorithm for PostgreSQL",
+  "ok": true,
+  "refs": [],
+  "step": 76,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36895220",
+  "value": "Launch HN: PeerDB (YC S23) \u2013 Fast, Native ETL/ELT for Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 77,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28868382",
+  "value": "Show HN: OtterTune \u2013 Automated Database Tuning Service for RDS MySQL/Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 78,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37571974",
+  "value": "Show HN: Hydra - Open-Source Columnar Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 79,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28887375",
+  "value": "Ask HN: What RDBMS optimizations can we do for append-only tables?",
+  "ok": true,
+  "refs": [],
+  "step": 80,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24364811",
+  "value": "Launch HN: Slapdash (YC W19) \u2013 A uniform, low-latency interface for cloud apps",
+  "ok": true,
+  "refs": [],
+  "step": 81,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42158351",
+  "value": "Show HN: ColiVara \u2013 State of the Art RAG API with Vision Models",
+  "ok": true,
+  "refs": [],
+  "step": 82,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46985791",
+  "value": "Show HN: Detecting coordinated financial narratives with embeddings and AVX2",
+  "ok": true,
+  "refs": [],
+  "step": 83,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45718151",
+  "value": "I built an AI agent with Mistral that automates 80% of my PostgreSQL DBA work",
+  "ok": true,
+  "refs": [],
+  "step": 84,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41076143",
+  "value": "Show HN: Psql with Copilot Features",
+  "ok": true,
+  "refs": [],
+  "step": 85,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14931161",
+  "value": "Ask HN: Are ORMs overkill for using SQL databases?",
+  "ok": true,
+  "refs": [],
+  "step": 86,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38276727",
+  "ok": true,
+  "refs": [],
+  "step": 87,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22432254",
+  "ok": true,
+  "refs": [],
+  "step": 88,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35000372",
+  "ok": true,
+  "refs": [],
+  "step": 89,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22673227",
+  "ok": true,
+  "refs": [],
+  "step": 90,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41903425",
+  "ok": true,
+  "refs": [],
+  "step": 91,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "13225523",
+  "ok": true,
+  "refs": [],
+  "step": 92,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "11459707",
+  "ok": true,
+  "refs": [],
+  "step": 93,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "27048851",
+  "ok": true,
+  "refs": [],
+  "step": 94,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36895220",
+  "ok": true,
+  "refs": [],
+  "step": 95,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28868382",
+  "ok": true,
+  "refs": [],
+  "step": 96,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37571974",
+  "ok": true,
+  "refs": [],
+  "step": 97,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28887375",
+  "ok": true,
+  "refs": [],
+  "step": 98,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24364811",
+  "ok": true,
+  "refs": [],
+  "step": 99,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46985791",
+  "ok": true,
+  "refs": [],
+  "step": 100,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45718151",
+  "ok": true,
+  "refs": [],
+  "step": 101,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41076143",
+  "ok": true,
+  "refs": [],
+  "step": 102,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14931161",
+  "ok": true,
+  "refs": [],
+  "step": 103,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "postgres query optimization",
+  "value": "The search results provide a comprehensive overview of various techniques and tools for optimizing PostgreSQL queries, including practical insights from real-world applications and community discussions on best practices.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "38276727"
+   ],
+   [
+    "story",
+    "22432254"
+   ],
+   [
+    "story",
+    "35000372"
+   ],
+   [
+    "story",
+    "22673227"
+   ],
+   [
+    "story",
+    "37934033"
+   ],
+   [
+    "story",
+    "32232100"
+   ],
+   [
+    "story",
+    "31452268"
+   ],
+   [
+    "story",
+    "29874783"
+   ],
+   [
+    "story",
+    "26197385"
+   ],
+   [
+    "story",
+    "26360675"
+   ]
+  ],
+  "step": 104,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "PostgreSQL's performance has seen notable advancements, particularly with the release of version 14, which introduced significant enhancements in performance and monitoring capabilities. Community discussions highlight these improvements, emphasizing the importance of optimizing database operations through better resource utilization and monitoring tools, as noted in [early looks at Postgres 14](https://news.ycombinator.com/item?id=27247621). For instance, a performance analysis case study revealed a remarkable 10x improvement in CPU usage through targeted optimizations, showcasing the potential for substantial resource savings when performance bottlenecks are effectively addressed, as discussed in [performance analysis insights](https://news.ycombinator.com/item?id=14384370). Additionally, the debate surrounding the efficiency of binary versus text-based queries indicates that binary queries can outperform text-based ones, especially when handling base64 encoded data, which suggests that developers should carefully consider their data types and query formats to enhance performance, as highlighted in [Postgres performance discussions](https://news.ycombinator.com/item?id=4602275). \n\nThe community is actively engaging in discussions about the best practices for data types and storage methods, particularly regarding the use of JSON in PostgreSQL. While some argue against its efficiency, others point out that PostgreSQL's support for various data types, including JSON, can be beneficial if utilized correctly. This nuanced perspective on data modeling, especially concerning foreign keys and array columns, is essential for optimizing database design, as seen in [community-driven insights](https://news.ycombinator.com/item?id=4602275). Furthermore, the performance implications of using base64 encoding in text columns versus bytea columns have been clarified, indicating that while text-based queries can sometimes outperform byte columns, switching to binary queries can yield speed improvements with bytea columns, as discussed in [Postgres 14 improvements](https://news.ycombinator.com/item?id=4602275). \n\nQuery optimization remains a critical aspect of PostgreSQL performance, particularly in resource-limited environments. For example, operating a company on a minimal two-core PostgreSQL instance underscores the importance of query optimization, with practical insights shared on achieving efficient performance under constraints, as detailed in [operating on minimal resources](https://news.ycombinator.com/item?id=38276727). Automation tools like 'Joe', a Postgres query optimization bot, have emerged to streamline the optimization process by analyzing SQL queries and providing recommendations, which can significantly simplify the workflow for developers, as introduced in [Joe, the optimization bot](https://news.ycombinator.com/item?id=22432254). \n\nUnderstanding the differences between query methods, such as Left Join versus Union All, can lead to better performance outcomes. For instance, a comparison of these methods highlights their performance implications, providing developers with concrete examples to illustrate when to use each approach effectively, as discussed in [query optimization techniques](https://news.ycombinator.com/item?id=35000372). Additionally, the use of hypothetical indexes can aid in decision-making without impacting the database schema, allowing for better planning of database design, as noted in [hypothetical indexes support](https://news.ycombinator.com/item?id=22673227). Monitoring tools like 'pg_stat_statements' are invaluable for identifying and optimizing slow queries, enabling users to analyze query performance metrics and make informed adjustments, as emphasized in [pg_stat_statements utility](https://news.ycombinator.com/item?id=26197385). \n\nIn conclusion, the ongoing community discussions and shared experiences highlight the importance of continuous learning and adaptation in PostgreSQL performance optimization. By leveraging the latest tools, understanding the nuances of data types and query methods, and actively participating in community-driven initiatives, practitioners can significantly enhance their PostgreSQL performance and ensure efficient database operations.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "27247621"
+   ],
+   [
+    "story",
+    "14384370"
+   ],
+   [
+    "story",
+    "4602275"
+   ],
+   [
+    "story",
+    "38276727"
+   ],
+   [
+    "story",
+    "22432254"
+   ],
+   [
+    "story",
+    "35000372"
+   ],
+   [
+    "story",
+    "22673227"
+   ],
+   [
+    "story",
+    "26197385"
+   ]
+  ],
+  "step": 105,
+  "source": "synthesize_findings_step"
+ }
+]
