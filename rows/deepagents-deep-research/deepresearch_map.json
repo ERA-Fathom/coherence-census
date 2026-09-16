@@ -1,0 +1,2 @@
+{"tavily_search": {"op": "add", "kind": "research", "key": "queries", "value": "query"},
+ "task": {"op": "add", "kind": "research", "key": "delegations", "value": "description"}}

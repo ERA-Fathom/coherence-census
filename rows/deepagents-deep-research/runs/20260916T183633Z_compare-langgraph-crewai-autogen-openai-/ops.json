@@ -1,0 +1,42 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "compare langgraph, crewai, autogen, openai agents sdk and google adk on how agents persist and share state across a long task, with examples from each project's docs",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "langgraph, crewai, autogen, openai agents sdk, and google adk state persistence and sharing comparison with examples",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.requesty.ai/blog/best-ai-agent-sdks-compared-2026-langchain-crewai-openai-anthropic-google",
+  "value": "Best AI Agent SDKs Compared (2026): LangGraph, CrewAI ...",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "The provided function call is designed to compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK on how agents persist and share state across a long task, with examples from each project's documentation. This task is delegated to a research-agent subagent, which will perform the research and return a report.",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "orchestrator.final_message"
+ }
+]

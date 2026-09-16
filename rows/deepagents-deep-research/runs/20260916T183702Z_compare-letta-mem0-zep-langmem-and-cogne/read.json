@@ -1,0 +1,15 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "stale_reference",
+   "step": 3,
+   "key": "https://theaiengineer.substack.com/p/cognee-vs-mem0-vs-zep-vs-letta",
+   "detail": "step 3 acts on source 'https://theaiengineer.substack.com/p/cognee-vs-mem0-vs-zep-vs-letta', which is not in the committed state.",
+   "cites": null
+  }
+ ],
+ "ops_read": 5,
+ "ops_rejected": 0,
+ "live_facts": 3
+}

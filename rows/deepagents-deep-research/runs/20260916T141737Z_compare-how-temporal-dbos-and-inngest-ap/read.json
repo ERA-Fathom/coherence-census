@@ -1,0 +1,15 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 17,
+   "key": "https://www.youtube.com/watch?v=pczghg9ysry",
+   "detail": "step 17 writes source 'https://www.youtube.com/watch?v=pczghg9ysry' with the value it already holds (written at step 15).",
+   "cites": 15
+  }
+ ],
+ "ops_read": 21,
+ "ops_rejected": 0,
+ "live_facts": 7
+}

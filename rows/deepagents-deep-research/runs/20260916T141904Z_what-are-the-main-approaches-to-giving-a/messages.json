@@ -1,0 +1,428 @@
+[
+ {
+  "type": "human",
+  "data": {
+   "content": "What are the main approaches to giving AI agents long-term memory, and how do Letta, Mem0 and Zep differ",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "name": null,
+   "id": "4cde7050-fc29-42a7-a1e7-206ab3f84c3f"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 50,
+     "prompt_tokens": 3290,
+     "total_tokens": 3340,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 2816,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003123,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003123,
+      "upstream_inference_prompt_cost": 0.0002823,
+      "upstream_inference_completions_cost": 3e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568346-IwHkeD6zVADWkaAXvUpx",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa95-e92d-75e0-8a0d-6d229df8ef33-0",
+   "tool_calls": [
+    {
+     "name": "write_file",
+     "args": {
+      "file_path": "/research_request.md",
+      "content": "Research the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep, and highlight their differences."
+     },
+     "id": "call_es9BQdCgS2Cy5hBiH13Ew2Lz",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3290,
+    "output_tokens": 50,
+    "total_tokens": 3340,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 2816,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "Updated file /research_request.md",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "write_file",
+   "id": "10bd4085-b1db-4c80-8206-98643dc51899",
+   "tool_call_id": "call_es9BQdCgS2Cy5hBiH13Ew2Lz",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 56,
+     "prompt_tokens": 3354,
+     "total_tokens": 3410,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 3200,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0002967,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0002967,
+      "upstream_inference_prompt_cost": 0.0002631,
+      "upstream_inference_completions_cost": 3.36e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568349-VfPdzemk2XQ4ViPb7uDI",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa95-f4d4-7263-ad6a-86583146de60-0",
+   "tool_calls": [
+    {
+     "name": "task",
+     "args": {
+      "description": "Research the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep. Provide a detailed overview of each approach and highlight the differences between them.",
+      "subagent_type": "research-agent"
+     },
+     "id": "call_XPfDLNYBCjqDGEvjkiHnzyqR",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3354,
+    "output_tokens": 56,
+    "total_tokens": 3410,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 3200,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "## Overview of Long-Term Memory Approaches in AI Agents\n\n### 1. Letta\n- **Core Approach**: Letta is built on the principles of MemGPT, focusing on dynamic memory management. It allows AI agents to self-edit their memory, akin to how operating systems manage memory. This enables efficient allocation and structuring of memory.\n- **Memory Types**: Letta emphasizes a holistic approach to context management, integrating personalized memory for various applications, such as tutoring and healthcare.\n- **Unique Features**: The memory management system in Letta prioritizes relevant information over time, making it particularly suitable for long-term interactions. This allows agents to adapt and improve based on user interactions.\n\n### 2. Mem0\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, facilitating the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\n- **Memory Types**: Mem0 supports three types of memory: semantic (facts), episodic (interactions), and procedural (behaviors), providing a comprehensive understanding of user interactions and preferences.\n- **Unique Features**: Mem0's architecture is designed for efficiency, achieving significant reductions in latency and token usage compared to traditional context windows. This makes it a robust choice for applications requiring quick and efficient memory retrieval.\n\n### 3. Zep\n- **Core Approach**: Zep utilizes a temporal knowledge graph to manage memory, storing facts with validity time windows. This allows it to track when information was true and when it became outdated, which is crucial for applications that depend on the timing of information.\n- **Memory Types**: Zep focuses on temporal reasoning, making it particularly effective for applications where the timing of information is critical, such as in enterprise settings.\n- **Unique Features**: The architecture of Zep is designed to handle evolving enterprise data, ensuring that agents can provide accurate and timely information based on the most current data available.\n\n### Key Differences\n- **Memory Management**: \n  - **Letta**: Self-editing memory blocks.\n  - **Mem0**: Extraction and consolidation of memory.\n  - **Zep**: Temporal knowledge graphs that track validity over time.\n  \n- **Use Cases**: \n  - **Letta**: Long-horizon interactions, such as personalized tutoring.\n  - **Mem0**: Personalized experiences across various applications.\n  - **Zep**: Applications requiring temporal accuracy, such as enterprise data management.\n\n- **Architecture**: \n  - **Letta**: Integrates memory directly into the agent runtime.\n  - **Mem0**: Acts as a memory layer that can be added to existing agents.\n  - **Zep**: Utilizes a graph-based approach to manage memory.\n\n### Conclusion\nEach of these approaches offers unique advantages depending on the specific needs of the application. Letta is ideal for long-term, adaptive interactions; Mem0 excels in efficiency and personalization; and Zep is best suited for scenarios where the timing and evolution of information are critical.\n\n### Sources\n1. **Letta**: Insights from Charles Packer on Letta's memory management. [Composio](https://composio.dev/content/podcast-with-charles-from-letta)\n2. **Mem0**: Overview of Mem0's long-term memory architecture and its efficiency. [Mem0 Blog](https://mem0.ai/blog/long-term-memory-ai-agents)\n3. **Zep**: Explanation of Zep's temporal knowledge graph and its applications. [Upsolve AI Blog](https://upsolve.ai/blog/ai-agent-memory)",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "task",
+   "id": "f337e478-2dfe-4a11-888c-baedabc93914",
+   "tool_call_id": "call_XPfDLNYBCjqDGEvjkiHnzyqR",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 912,
+     "prompt_tokens": 4161,
+     "total_tokens": 5073,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 3328,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00092175,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00092175,
+      "upstream_inference_prompt_cost": 0.00037455,
+      "upstream_inference_completions_cost": 0.0005472
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568377-FMU9uhQ5Asvi2LAjlvmC",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa96-614a-7d90-a449-6693939017d5-0",
+   "tool_calls": [
+    {
+     "name": "write_file",
+     "args": {
+      "file_path": "/final_report.md",
+      "content": "## Approaches to Long-Term Memory in AI Agents: Letta, Mem0, and Zep\n\n### Overview of Long-Term Memory Approaches in AI Agents\n\nLong-term memory in AI agents is crucial for enhancing their ability to interact meaningfully over extended periods. This report explores three notable approaches: Letta, Mem0, and Zep, highlighting their core methodologies, memory types, unique features, and key differences.\n\n### 1. Letta\n- **Core Approach**: Letta is built on the principles of MemGPT, focusing on dynamic memory management. It allows AI agents to self-edit their memory, akin to how operating systems manage memory. This enables efficient allocation and structuring of memory.\n- **Memory Types**: Letta emphasizes a holistic approach to context management, integrating personalized memory for various applications, such as tutoring and healthcare.\n- **Unique Features**: The memory management system in Letta prioritizes relevant information over time, making it particularly suitable for long-term interactions. This allows agents to adapt and improve based on user interactions.\n\n### 2. Mem0\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, facilitating the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\n- **Memory Types**: Mem0 supports three types of memory: semantic (facts), episodic (interactions), and procedural (behaviors), providing a comprehensive understanding of user interactions and preferences.\n- **Unique Features**: Mem0's architecture is designed for efficiency, achieving significant reductions in latency and token usage compared to traditional context windows. This makes it a robust choice for applications requiring quick and efficient memory retrieval.\n\n### 3. Zep\n- **Core Approach**: Zep utilizes a temporal knowledge graph to manage memory, storing facts with validity time windows. This allows it to track when information was true and when it became outdated, which is crucial for applications that depend on the timing of information.\n- **Memory Types**: Zep focuses on temporal reasoning, making it particularly effective for applications where the timing of information is critical, such as in enterprise settings.\n- **Unique Features**: The architecture of Zep is designed to handle evolving enterprise data, ensuring that agents can provide accurate and timely information based on the most current data available.\n\n### Key Differences\n- **Memory Management**:  \n  - **Letta**: Self-editing memory blocks.  \n  - **Mem0**: Extraction and consolidation of memory.  \n  - **Zep**: Temporal knowledge graphs that track validity over time.  \n\n- **Use Cases**:  \n  - **Letta**: Long-horizon interactions, such as personalized tutoring.  \n  - **Mem0**: Personalized experiences across various applications.  \n  - **Zep**: Applications requiring temporal accuracy, such as enterprise data management.  \n\n- **Architecture**:  \n  - **Letta**: Integrates memory directly into the agent runtime.  \n  - **Mem0**: Acts as a memory layer that can be added to existing agents.  \n  - **Zep**: Utilizes a graph-based approach to manage memory.  \n\n### Conclusion\nEach of these approaches offers unique advantages depending on the specific needs of the application. Letta is ideal for long-term, adaptive interactions; Mem0 excels in efficiency and personalization; and Zep is best suited for scenarios where the timing and evolution of information are critical.\n\n### Sources\n1. **Letta**: Insights from Charles Packer on Letta's memory management.  \n   [Composio](https://composio.dev/content/podcast-with-charles-from-letta)  \n2. **Mem0**: Overview of Mem0's long-term memory architecture and its efficiency.  \n   [Mem0 Blog](https://mem0.ai/blog/long-term-memory-ai-agents)  \n3. **Zep**: Explanation of Zep's temporal knowledge graph and its applications.  \n   [Upsolve AI Blog](https://upsolve.ai/blog/ai-agent-memory)  \n"
+     },
+     "id": "call_4IuPwNWBGfPDzZzRy3sCJO4n",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 4161,
+    "output_tokens": 912,
+    "total_tokens": 5073,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 3328,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "Updated file /final_report.md",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "write_file",
+   "id": "000385ee-d8c8-439c-bc53-b166a00fbf45",
+   "tool_call_id": "call_4IuPwNWBGfPDzZzRy3sCJO4n",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 18,
+     "prompt_tokens": 5087,
+     "total_tokens": 5105,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 4992,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00039945,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00039945,
+      "upstream_inference_prompt_cost": 0.00038865,
+      "upstream_inference_completions_cost": 1.08e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568384-4BxgBHAQUt5Trzu00vgy",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa96-7e21-75c2-9c42-18ea7eb4a03b-0",
+   "tool_calls": [
+    {
+     "name": "read_file",
+     "args": {
+      "file_path": "/research_request.md"
+     },
+     "id": "call_Xppbcs9CNVG0MBQVfpvbssWy",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 5087,
+    "output_tokens": 18,
+    "total_tokens": 5105,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 4992,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "@@ lines 1-1 of 1 @@\nResearch the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep, and highlight their differences.",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "read_file",
+   "id": "021dfaa5-28f6-45d5-9226-4f6ae5970c0f",
+   "tool_call_id": "call_Xppbcs9CNVG0MBQVfpvbssWy",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "The research request has been fully addressed in the final report. The report provides a comprehensive overview of the main approaches to giving AI agents long-term memory, specifically focusing on Letta, Mem0, and Zep, along with their differences. \n\nIf you need any further information or additional topics to be researched, feel free to ask!",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 68,
+     "prompt_tokens": 5153,
+     "total_tokens": 5221,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 4992,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00043935,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00043935,
+      "upstream_inference_prompt_cost": 0.00039855,
+      "upstream_inference_completions_cost": 4.08e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568385-z3jiqW5fj31eXryeaAyM",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa96-8180-7e73-ac82-d799ea50c3ab-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 5153,
+    "output_tokens": 68,
+    "total_tokens": 5221,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 4992,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ }
+]

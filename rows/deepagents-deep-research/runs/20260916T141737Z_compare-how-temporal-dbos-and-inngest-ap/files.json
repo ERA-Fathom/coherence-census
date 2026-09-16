@@ -1,0 +1,8 @@
+{
+ "/research_request.md": {
+  "content": "Compare how Temporal, DBOS, and Inngest approach durable execution for AI agent workflows, with their tradeoffs.",
+  "encoding": "utf-8",
+  "created_at": "2026-09-16T14:17:46.648714+00:00",
+  "modified_at": "2026-09-16T14:17:46.648714+00:00"
+ }
+}

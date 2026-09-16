@@ -1,0 +1,9 @@
+{
+ "question": "Compare how Temporal, DBOS and Inngest approach durable execution for AI agent workflows, with their tradeoffs",
+ "model": "openai/gpt-4o-mini",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store')",
+ "elapsed_s": 39.6,
+ "error": null,
+ "tool_calls": 20,
+ "recursion_limit": 200
+}

@@ -1,0 +1,299 @@
+[
+ {
+  "type": "human",
+  "data": {
+   "content": "Compare how Temporal, DBOS and Inngest approach durable execution for AI agent workflows, with their tradeoffs",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "name": null,
+   "id": "2d703fb5-596b-4910-aff4-5ce3b1a6d4c5"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 45,
+     "prompt_tokens": 3287,
+     "total_tokens": 3332,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00052005,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00052005,
+      "upstream_inference_prompt_cost": 0.00049305,
+      "upstream_inference_completions_cost": 2.7e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568265-VOOzp29RBrNLQKn0vd7Y",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa94-abec-7ed0-b126-a0526c96de7c-0",
+   "tool_calls": [
+    {
+     "name": "write_file",
+     "args": {
+      "file_path": "/research_request.md",
+      "content": "Compare how Temporal, DBOS, and Inngest approach durable execution for AI agent workflows, with their tradeoffs."
+     },
+     "id": "call_bDUjF42fq0oV3WnseFnPODMz",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3287,
+    "output_tokens": 45,
+    "total_tokens": 3332,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 0,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "Updated file /research_request.md",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "write_file",
+   "id": "90089b56-0281-448e-bd23-7f41769bb329",
+   "tool_call_id": "call_bDUjF42fq0oV3WnseFnPODMz",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 136,
+     "prompt_tokens": 3346,
+     "total_tokens": 3482,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 3200,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0003435,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0003435,
+      "upstream_inference_prompt_cost": 0.0002619,
+      "upstream_inference_completions_cost": 8.16e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568266-r0FFLczybJSA5wJBrs3c",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa94-b19b-7322-9edf-08ec2fce5939-0",
+   "tool_calls": [
+    {
+     "name": "task",
+     "args": {
+      "description": "Research how Temporal approaches durable execution for AI agent workflows, including its features, benefits, and tradeoffs.",
+      "subagent_type": "research-agent"
+     },
+     "id": "call_Gtj2Uc7WPjbqViu5BwU2COQL",
+     "type": "tool_call"
+    },
+    {
+     "name": "task",
+     "args": {
+      "description": "Research how DBOS approaches durable execution for AI agent workflows, including its features, benefits, and tradeoffs.",
+      "subagent_type": "research-agent"
+     },
+     "id": "call_uV0EFERD3GVs7auo4c5IgN0j",
+     "type": "tool_call"
+    },
+    {
+     "name": "task",
+     "args": {
+      "description": "Research how Inngest approaches durable execution for AI agent workflows, including its features, benefits, and tradeoffs.",
+      "subagent_type": "research-agent"
+     },
+     "id": "call_EyBURxPILCUs4wx5z48XjXst",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 3346,
+    "output_tokens": 136,
+    "total_tokens": 3482,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 3200,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "## Key Findings on Temporal's Durable Execution for AI Agent Workflows\n\n### Overview of Temporal\nTemporal is a durable execution platform designed to manage long-running workflows, particularly in scenarios where failures can occur, such as AI agent workflows. It ensures that workflows can continue from where they left off, even after interruptions like crashes or server restarts. This capability is crucial for AI agents that often involve multiple steps, such as API calls, data processing, and decision-making.\n\n### Features of Temporal\n1. **Durable Execution**: Temporal automatically checkpoints every step in a workflow. If a worker crashes, another can pick up the workflow from the last checkpoint, preventing loss of progress and avoiding the need for manual retries.\n   \n2. **Separation of Workflows and Activities**: Temporal distinguishes between workflows (deterministic orchestration logic) and activities (non-deterministic tasks like API calls). This separation allows for clearer management of state and side effects.\n\n3. **Automatic Retries**: Activities can be retried automatically in case of transient failures, which is particularly useful for AI workflows that may encounter intermittent issues.\n\n4. **State Management**: Temporal maintains the state of workflows, allowing for complex workflows that can pause and resume based on external signals or events.\n\n5. **Human-in-the-Loop Patterns**: Temporal supports workflows that require human approval or input, making it suitable for applications where oversight is necessary.\n\n### Benefits of Using Temporal\n- **Cost Efficiency**: By preventing the need to restart workflows from scratch, Temporal can save costs associated with expensive API calls and processing time.\n- **Reliability**: The ability to recover from failures without losing state enhances the reliability of AI agent workflows, which often involve multiple steps and external dependencies.\n- **Flexibility**: Temporal's architecture allows for complex workflows that can adapt to various operational needs, including long-running processes and human interactions.\n\n### Tradeoffs and Limitations\n- **Complexity**: The deterministic nature of Temporal's workflow model can introduce complexity, especially for teams that need to manage non-deterministic tasks (like AI model calls) within a deterministic framework.\n- **Overhead**: Temporal may add some latency (approximately 10-50 milliseconds) per activity due to event history persistence, which might be negligible compared to the time taken by individual AI model calls.\n- **Learning Curve**: Teams may face a learning curve when adopting Temporal, particularly in understanding its concepts of workflows, activities, and event history.\n\n### Alternatives to Temporal\nWhile Temporal is powerful, some teams may seek alternatives due to its complexity or specific needs. Alternatives like Kitaru, Restate, and DBOS offer different approaches to durable execution, often with less overhead or more flexibility for specific use cases. For instance:\n- **Kitaru** allows for replaying real production runs without the deterministic constraints of Temporal.\n- **Restate** provides a lightweight runtime for durable services and workflows without the full orchestration overhead.\n- **DBOS** uses Postgres for workflow state management, which can be more familiar for teams already using that database.\n\n### Conclusion\nTemporal provides a robust solution for durable execution in AI agent workflows, with features that enhance reliability and efficiency. However, its complexity and deterministic requirements may lead some teams to consider alternatives that better fit their specific needs and operational contexts.\n\n### Sources\n1. Temporal for AI Agent Workflows: Durable Execution - CallSphere Blog: [Link](https://callsphere.ai/blog/temporal-ai-agent-workflows-durable-execution-workflow-as-code)\n2. Temporal Alternatives: 9 Best for Durable Execution - ZenML Blog: [Link](https://www.zenml.io/blog/temporal-alternatives)",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "task",
+   "id": "ccbb8c7c-95fb-4b25-a25b-ce10190236ff",
+   "tool_call_id": "call_Gtj2Uc7WPjbqViu5BwU2COQL",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "## Key Findings on DBOS and Durable Execution for AI Agent Workflows\n\n### Overview of DBOS\nDBOS (Durable Backed Object Store) is a lightweight, open-source library designed to enhance the reliability of AI agent workflows by providing durable execution capabilities. It is built on top of PostgreSQL and integrates seamlessly with Pydantic AI, allowing developers to create long-lived, failure-resilient code that can withstand crashes, restarts, and transient errors without losing state or duplicating work.\n\n### Features of DBOS\n1. **Checkpointing**: DBOS automatically checkpoints the progress of workflows into a database. If a process crashes or is redeployed, it can resume from the last completed step rather than starting over.\n2. **Integration with Pydantic AI**: By wrapping Pydantic AI agents with `DBOSAgent`, developers can convert agent runs into durable workflows without altering the underlying agent logic.\n3. **Durable Queues**: DBOS includes database-backed queues that support concurrency limits, rate limits, timeouts, retries, and prioritization, eliminating the need for separate broker systems.\n4. **Observability**: DBOS emits OpenTelemetry spans for every workflow and step execution, which can be integrated with observability tools like Logfire for end-to-end monitoring.\n\n### Benefits of Using DBOS\n- **Resilience**: Agents can continue their tasks across crashes and redeployments without losing progress, which is crucial for maintaining operational continuity.\n- **Scalability**: The ability to run multiple workflows in parallel enhances throughput, making it suitable for high-demand applications.\n- **Cost Efficiency**: By preventing the re-execution of completed steps, DBOS helps save on costs associated with API calls and processing.\n- **Debuggability**: The integration with observability tools allows for real-time tracking of agent states and workflow progress, making it easier to identify and resolve issues.\n\n### Tradeoffs\n- **Complexity of Setup**: While DBOS simplifies many aspects of durable execution, integrating it into existing systems may require additional effort, especially for teams unfamiliar with the technology.\n- **Database Overhead**: The reliance on a database for checkpointing and state management may introduce latency and overhead, particularly in high-frequency workflows.\n\n### Conclusion\nDBOS provides a robust framework for implementing durable execution in AI agent workflows, significantly enhancing their reliability and observability. By integrating seamlessly with Pydantic AI, it allows developers to build production-grade agents that can handle real-world tasks effectively. However, teams should consider the potential complexities and overhead associated with its implementation.\n\n### Sources\n[1] Build Reliable AI Agents with Durable Execution | Pydantic AI + DBOS: https://pydantic.dev/articles/pydantic-ai-dbos",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "task",
+   "id": "f13f3d2f-16ef-4d87-abc7-47dd139cea6a",
+   "tool_call_id": "call_uV0EFERD3GVs7auo4c5IgN0j",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "## Inngest's Approach to Durable Execution for AI Agent Workflows\n\nInngest provides a robust framework for durable execution, particularly suited for AI agent workflows. This approach is designed to handle complex, long-running processes while ensuring reliability and efficiency. Below are the key features, benefits, and tradeoffs associated with Inngest's durable execution model.\n\n### Key Features\n\n1. **Incremental Execution**: Inngest allows each step of a workflow to be executed independently. This means that if one step fails, it can be retried without affecting the previously completed steps.\n\n2. **State Persistence**: Outputs from each step are saved externally, enabling workflows to pause and resume from any point, even after failures. This is crucial for maintaining progress in long-running tasks.\n\n3. **Fault Tolerance**: The system automatically retries failed steps, ensuring that workflows can recover from errors without manual intervention.\n\n4. **Checkpointing**: This feature optimizes state persistence by decoupling execution from state saving, allowing for near-zero latency in workflows. This is particularly beneficial for latency-sensitive applications, such as real-time AI interactions.\n\n5. **Scalability**: Inngest dynamically adjusts resources to handle varying workloads, making it suitable for both small and large-scale applications.\n\n6. **Insights and Monitoring**: The platform provides tools for SQL queries over execution data, allowing developers to analyze performance and outcomes effectively.\n\n### Benefits\n\n- **Improved Reliability**: By implementing durable execution principles, Inngest enhances the reliability of workflows, making them resilient to failures and interruptions.\n\n- **Simplified Workflow Management**: Developers can focus on business logic rather than infrastructure management, as Inngest abstracts the complexities of state management and error handling.\n\n- **Enhanced User Experience**: The ability to manage complex workflows efficiently leads to better performance in applications, particularly those involving AI, where tasks often require chaining multiple computations.\n\n- **Faster Iteration Cycles**: With automated retries and seamless recovery from failures, teams can iterate more quickly, leading to faster deployment of features and improvements.\n\n### Tradeoffs\n\n- **Complexity of Implementation**: While Inngest simplifies many aspects of workflow management, the initial setup and understanding of durable execution principles can be complex, requiring expertise in managing state and dependencies.\n\n- **Potential Latency in Non-Optimized Workflows**: Although checkpointing reduces latency, workflows that do not leverage this feature effectively may still experience delays, particularly in batch processing scenarios.\n\n- **Learning Curve**: Developers may need time to familiarize themselves with Inngest's SDK and the principles of durable execution, which could slow down initial development.\n\n### User Experiences and Use Cases\n\nInngest has been successfully implemented in various scenarios, including:\n\n- **E-commerce Checkout Processes**: Managing inventory, payment processing, and order confirmations in a reliable manner.\n- **AI Workflows**: Ensuring that workflows involving AI models can handle retries and manage state transitions effectively.\n- **Event-Driven Workflows**: Automating responses to system events in real-time, enhancing responsiveness and scalability.\n\n### Conclusion\n\nInngest's durable execution framework offers a powerful solution for managing AI agent workflows, balancing reliability and efficiency with the complexities of modern software development. By leveraging its features, organizations can build resilient systems that meet the demands of today's data-driven applications.\n\n### Sources\n[1] Inngest: Durable Execution for Workflows and AI Agents | AI Engineer: https://ai.engineer/orgs/inngest  \n[2] The Principles of Durable Execution Explained - Inngest Blog: https://www.inngest.com/blog/principles-of-durable-execution",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "task",
+   "id": "7352f2eb-e604-4b54-a945-4c1fe754525f",
+   "tool_call_id": "call_EyBURxPILCUs4wx5z48XjXst",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "# Final Report on Durable Execution Approaches for AI Agent Workflows\n\n## Introduction\nDurable execution is a critical aspect of managing AI agent workflows, ensuring that processes can withstand failures and interruptions without losing progress. This report compares three prominent platforms\u2014Temporal, DBOS, and Inngest\u2014highlighting their approaches to durable execution, key features, benefits, and tradeoffs.\n\n## Overview of Temporal\nTemporal is a robust platform designed for managing long-running workflows, particularly in environments where failures are common. It provides durable execution capabilities that allow workflows to continue from the last checkpoint after interruptions.\n\n### Key Features\n- **Durable Execution**: Automatic checkpointing of workflow steps ensures that progress is not lost during failures.\n- **Separation of Workflows and Activities**: This distinction allows for clearer management of deterministic orchestration and non-deterministic tasks.\n- **Automatic Retries**: Activities can be retried automatically, enhancing reliability.\n- **State Management**: Temporal maintains workflow states, allowing for complex workflows that can pause and resume.\n- **Human-in-the-Loop Patterns**: Supports workflows requiring human input or approval.\n\n### Benefits\n- **Cost Efficiency**: Reduces costs associated with restarting workflows from scratch.\n- **Reliability**: Enhances the reliability of workflows, crucial for AI applications.\n- **Flexibility**: Adapts to various operational needs, including long-running processes.\n\n### Tradeoffs\n- **Complexity**: The deterministic model can complicate the management of non-deterministic tasks.\n- **Overhead**: Some latency may be introduced due to event history persistence.\n- **Learning Curve**: Teams may face challenges in understanding Temporal's concepts.\n\n## Overview of DBOS\nDBOS (Durable Backed Object Store) is an open-source library that enhances the reliability of AI agent workflows by providing durable execution capabilities built on PostgreSQL.\n\n### Key Features\n- **Checkpointing**: Automatically saves workflow progress to a database.\n- **Integration with Pydantic AI**: Allows for durable workflows without altering agent logic.\n- **Durable Queues**: Supports concurrency limits, rate limits, and retries.\n- **Observability**: Integrates with OpenTelemetry for monitoring.\n\n### Benefits\n- **Resilience**: Agents can continue tasks across failures without losing progress.\n- **Scalability**: Supports parallel execution of multiple workflows.\n- **Cost Efficiency**: Prevents re-execution of completed steps, saving costs.\n- **Debuggability**: Real-time tracking of agent states enhances issue resolution.\n\n### Tradeoffs\n- **Complexity of Setup**: Integrating DBOS may require additional effort.\n- **Database Overhead**: Reliance on a database may introduce latency.\n\n## Overview of Inngest\nInngest provides a framework for durable execution tailored for AI agent workflows, focusing on reliability and efficiency.\n\n### Key Features\n- **Incremental Execution**: Each workflow step can be executed independently, allowing for retries without affecting previous steps.\n- **State Persistence**: Outputs are saved externally, enabling workflows to resume from any point.\n- **Fault Tolerance**: Automatic retries for failed steps enhance reliability.\n- **Checkpointing**: Optimizes state persistence with minimal latency.\n- **Scalability**: Dynamically adjusts resources based on workload.\n\n### Benefits\n- **Improved Reliability**: Enhances resilience to failures.\n- **Simplified Workflow Management**: Abstracts complexities of state management.\n- **Enhanced User Experience**: Efficient management of complex workflows improves application performance.\n- **Faster Iteration Cycles**: Automated retries facilitate quicker feature deployment.\n\n### Tradeoffs\n- **Complexity of Implementation**: Initial setup can be complex.\n- **Potential Latency**: Workflows not optimized for checkpointing may experience delays.\n- **Learning Curve**: Familiarity with Inngest's SDK may take time.\n\n## Conclusion\nTemporal, DBOS, and Inngest each offer unique approaches to durable execution for AI agent workflows, with distinct features, benefits, and tradeoffs. Temporal excels in reliability and flexibility but may introduce complexity. DBOS provides a straightforward integration with Pydantic AI, enhancing resilience but requiring careful setup. Inngest balances reliability and efficiency, though it may present a learning curve. Organizations should evaluate these platforms based on their specific needs and operational contexts.\n\n### Sources\n1. Temporal for AI Agent Workflows: Durable Execution - CallSphere Blog: https://callsphere.ai/blog/temporal-ai-agent-workflows-durable-execution-workflow-as-code\n2. Temporal Alternatives: 9 Best for Durable Execution - ZenML Blog: https://www.zenml.io/blog/temporal-alternatives\n3. Build Reliable AI Agents with Durable Execution | Pydantic AI + DBOS: https://pydantic.dev/articles/pydantic-ai-dbos\n4. Inngest: Durable Execution for Workflows and AI Agents | AI Engineer: https://ai.engineer/orgs/inngest\n5. The Principles of Durable Execution Explained - Inngest Blog: https://www.inngest.com/blog/principles-of-durable-execution",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 1049,
+     "prompt_tokens": 5642,
+     "total_tokens": 6691,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 3456,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.0012165,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.0012165,
+      "upstream_inference_prompt_cost": 0.0005871,
+      "upstream_inference_completions_cost": 0.0006294
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "openai/gpt-4o-mini",
+    "system_fingerprint": "fp_a898fcf445",
+    "id": "gen-1789568297-xjD7OBD5pQ6DlwslwQuz",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0aa95-280c-75d0-b7c4-b4ca18e7b156-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 5642,
+    "output_tokens": 1049,
+    "total_tokens": 6691,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 3456,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ }
+]

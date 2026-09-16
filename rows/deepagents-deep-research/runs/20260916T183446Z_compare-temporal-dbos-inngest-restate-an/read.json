@@ -1,0 +1,71 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 5,
+   "key": "delegations",
+   "detail": "step 5 adds 'compare temporal, dbos, inngest, restate and hatchet on durable execution for ai agents, covering checkpointing, retries, pricing and framework integrations' to research 'delegations', which already holds it (first added at step 0).",
+   "cites": 0
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 6,
+   "key": "queries",
+   "detail": "step 6 adds 'temporal vs dbos vs inngest vs restate vs hatchet durable execution for ai agents' to research 'queries', which already holds it (first added at step 1).",
+   "cites": 1
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 7,
+   "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+   "detail": "step 7 writes source 'https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes' with the value it already holds (written at step 4).",
+   "cites": 4
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 9,
+   "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+   "detail": "step 9 writes source 'https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes' with the value it already holds (written at step 7).",
+   "cites": 7
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 11,
+   "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+   "detail": "step 11 writes source 'https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes' with the value it already holds (written at step 9).",
+   "cites": 9
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 13,
+   "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+   "detail": "step 13 writes source 'https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes' with the value it already holds (written at step 11).",
+   "cites": 11
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 14,
+   "key": "queries",
+   "detail": "step 14 adds 'temporal, dbos, inngest, restate, and hatchet durable execution for ai agents, including checkpointing, retries, pricing, and framework integrations' to research 'queries', which already holds it (first added at step 12).",
+   "cites": 12
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 16,
+   "key": "queries",
+   "detail": "step 16 adds 'temporal, dbos, inngest, restate, and hatchet durable execution for ai agents, including checkpointing, retries, pricing, and framework integrations' to research 'queries', which already holds it (first added at step 12).",
+   "cites": 12
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 17,
+   "key": "https://www.youngju.dev/blog/culture/2026-05-25-durable-workflow-temporal-inngest-trigger-hatchet-restate-dbos-2026-deep-dive.en",
+   "detail": "step 17 writes source 'https://www.youngju.dev/blog/culture/2026-05-25-durable-workflow-temporal-inngest-trigger-hatchet-restate-dbos-2026-deep-dive.en' with the value it already holds (written at step 15).",
+   "cites": 15
+  }
+ ],
+ "ops_read": 19,
+ "ops_rejected": 0,
+ "live_facts": 3
+}

@@ -1,0 +1,165 @@
+[
+ {
+  "type": "human",
+  "data": {
+   "content": "Compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK and Google ADK on how agents persist and share state across a long task, with examples from each project's docs",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "human",
+   "name": null,
+   "id": "33a5f09e-87be-4326-98ff-e1d1b57796b0"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 67,
+     "prompt_tokens": 4379,
+     "total_tokens": 4446,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 4336,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00047704,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00047704,
+      "upstream_inference_prompt_cost": 0.0004422,
+      "upstream_inference_completions_cost": 3.484e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "meta-llama/llama-3.3-70b-instruct",
+    "system_fingerprint": null,
+    "id": "gen-1789583796-FgpaERmzUVrsk5kWSYDd",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0ab81-a6eb-7351-a67a-430e8909c2f4-0",
+   "tool_calls": [
+    {
+     "name": "task",
+     "args": {
+      "subagent_type": "research-agent",
+      "description": "Compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK and Google ADK on how agents persist and share state across a long task, with examples from each project's docs"
+     },
+     "id": "chatcmpl-tool-8d71766ec51c746e",
+     "type": "tool_call"
+    }
+   ],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 4379,
+    "output_tokens": 67,
+    "total_tokens": 4446,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 4336,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ },
+ {
+  "type": "tool",
+  "data": {
+   "content": "## Key Findings\n\nThe six AI agent SDKs compared are LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK. Each has its strengths and weaknesses, and the choice of SDK depends on the specific requirements of the project. LangGraph is suitable for production deployments with conditional logic and human approval, while CrewAI is ideal for rapid prototyping of multi-agent teams. The Claude Agent SDK is the strongest choice for coding agents, and the OpenAI Agents SDK is suitable for sandboxed code execution with persistent state. Google ADK 2.0 is a graph-based orchestrator that supports multi-language teams on Google Cloud, and Microsoft Semantic Kernel is an enterprise connector for .NET shops on Azure.\n\n### Sources\n[1] Best AI Agent SDKs Compared (2026): LangGraph, CrewAI, OpenAI, Anthropic, and Google ADK: https://www.requesty.ai/blog/best-ai-agent-sdks-compared-2026-langchain-crewai-openai-anthropic-google",
+   "additional_kwargs": {},
+   "response_metadata": {},
+   "type": "tool",
+   "name": "task",
+   "id": "337eca4e-eb47-4671-b0c0-cc5c93f6c703",
+   "tool_call_id": "chatcmpl-tool-8d71766ec51c746e",
+   "artifact": null,
+   "status": "success"
+  }
+ },
+ {
+  "type": "ai",
+  "data": {
+   "content": "The provided function call is designed to compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK on how agents persist and share state across a long task, with examples from each project's documentation. This task is delegated to a research-agent subagent, which will perform the research and return a report.",
+   "additional_kwargs": {
+    "refusal": null
+   },
+   "response_metadata": {
+    "token_usage": {
+     "completion_tokens": 68,
+     "prompt_tokens": 4669,
+     "total_tokens": 4737,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null,
+      "text_tokens": null,
+      "image_tokens": 0
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 4368,
+      "image_tokens": null,
+      "text_tokens": null,
+      "video_tokens": 0
+     },
+     "cost": 0.00053236,
+     "is_byok": false,
+     "cost_details": {
+      "upstream_inference_cost": 0.00053236,
+      "upstream_inference_prompt_cost": 0.000497,
+      "upstream_inference_completions_cost": 3.536e-05
+     }
+    },
+    "model_provider": "openai",
+    "model_name": "meta-llama/llama-3.3-70b-instruct",
+    "system_fingerprint": null,
+    "id": "gen-1789583817-kyt2HXs0mvXJt0cQOujK",
+    "finish_reason": "stop",
+    "logprobs": null
+   },
+   "type": "ai",
+   "name": null,
+   "id": "lc_run--01a0ab81-fca1-7bb1-a1e6-d5877d6ceaa5-0",
+   "tool_calls": [],
+   "invalid_tool_calls": [],
+   "usage_metadata": {
+    "input_tokens": 4669,
+    "output_tokens": 68,
+    "total_tokens": 4737,
+    "input_token_details": {
+     "audio": 0,
+     "cache_read": 4368,
+     "cache_creation": 0
+    },
+    "output_token_details": {
+     "audio": 0,
+     "reasoning": 0
+    }
+   }
+  }
+ }
+]

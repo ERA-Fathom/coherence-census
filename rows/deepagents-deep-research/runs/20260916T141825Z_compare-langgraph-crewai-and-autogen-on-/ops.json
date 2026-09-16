@@ -1,0 +1,245 @@
+[
+ {
+  "op": "set",
+  "kind": "file",
+  "key": "/research_request.md",
+  "value": "Compare LangGraph, CrewAI and AutoGen on how they persist and share state between agents in a long-running task.",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "orchestrator.write_file"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "research how langgraph persists and shares state between agents in long-running tasks. focus on the mechanisms and strategies it employs for state management.",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "investigate how crewai manages state persistence and sharing among agents during long-running tasks. detail the methods and technologies used.",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "explore how autogen handles state persistence and sharing between agents in long-running tasks. include specific techniques and frameworks utilized.",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "autogen state persistence sharing between agents long-running tasks techniques frameworks",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://sparkco.ai/blog/deep-dive-into-state-persistence-agents-in-ai",
+  "value": "Deep Dive into State Persistence Agents in AI",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "crewai state persistence sharing agents long-running tasks",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.icertglobal.com/community/state-persistence-and-task-recovery-in-crewai",
+  "value": "State Persistence and Task Recovery in CrewAI | iCertGlobal Community",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "langgraph state management between agents long-running tasks",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.skakarh.com/blog/langgraph-state-management",
+  "value": "LangGraph State Management: Ultimate Guide (2026)",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "crewai state management technologies methods long-running tasks",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://crewai.com/blog/orchestrating-self-evolving-agents-with-crewai-and-nvidia-nemoclaw",
+  "value": "Orchestrating Self-Evolving Agents with CrewAI and NVIDIA NemoClaw | CrewAI",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "langgraph state persistence sharing mechanisms strategies",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://medium.com/@anil.jain.baba/long-term-agentic-memory-with-langgraph-824050b09852",
+  "value": "Medium",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "langgraph state management agents long-running tasks strategies",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://sparkco.ai/blog/mastering-langgraph-state-management-in-2025",
+  "value": "Mastering LangGraph State Management in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "autogen state persistence case studies examples",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youtube.com/watch?v=jlzteydck_q",
+  "value": "Deep Dive into Microsoft Agent Framework for AutoGen Users",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "langgraph state management examples case studies",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youtube.com/watch?v=tirhi7ikpd0&vl=en",
+  "value": "Next Level Agent State Management with LangGraph | Part 9",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "# Final Report on State Persistence and Sharing in LangGraph, CrewAI, and AutoGen\n\n## Introduction\nIn the realm of AI agents, the ability to persist and share state between agents during long-running tasks is crucial for maintaining context and ensuring effective collaboration. This report compares three prominent frameworks\u2014LangGraph, CrewAI, and AutoGen\u2014focusing on their methodologies for state management.\n\n## Overview of LangGraph\nLangGraph employs a sophisticated state management system designed to handle the complexities of multi-agent coordination. Key features include:\n\n### 1. Explicit State Schemas\nLangGraph utilizes explicit, reducer-driven state schemas defined using Python's `TypedDict` and `Annotated` types. This allows for well-structured state objects that model complex workflows.\n\n### 2. Reducer Functions\nReducer functions define how new state information merges with existing state, ensuring consistency and preventing data loss.\n\n### 3. Checkpointing and Persistence\nRobust checkpointing mechanisms maintain persistent memory states, allowing agents to recover their state after interruptions. Integration with vector databases like Pinecone enhances data storage and retrieval.\n\n### 4. Memory Management\nLangGraph supports advanced memory management techniques, such as `ConversationBufferMemory`, to track conversation history, essential for multi-turn interactions.\n\n### 5. Parallel Execution\nThe framework allows for safe parallel execution of tasks, ensuring that multiple agents can operate concurrently without state conflicts.\n\n### Conclusion\nLangGraph's state management system is robust, leveraging explicit schemas, reducer functions, and advanced memory management techniques to provide a scalable framework for AI applications.\n\n## Overview of CrewAI\nCrewAI's architecture is structured around two main components: Flows and Crews, which facilitate state persistence and sharing among agents.\n\n### 1. Dual-Layer Architecture\n- **Flows**: Manage overall structure, logic, and state management.\n- **Crews**: Execute tasks based on the logic defined in the Flows.\n\n### 2. State Management and Persistence\nCrewAI features a flexible state management system with:\n- **@persist() Decorator**: Automatically saves workflow state, allowing agents to pause and resume tasks without losing progress.\n- **Cognitive Memory Layer**: Enables agents to retain information across sessions, enhancing performance over time.\n\n### 3. Integration with NVIDIA NemoClaw\nThis integration provides a secure execution environment, enforcing security policies and sandboxing agents to maintain data privacy.\n\n### Conclusion\nCrewAI's approach to state persistence is robust, leveraging a dual-layer architecture and advanced state management techniques to effectively handle long-running tasks while ensuring reliability and security.\n\n## Overview of AutoGen\nAutoGen, in conjunction with frameworks like LangChain, plays a crucial role in managing state persistence for AI agents.\n\n### 1. Memory Management Modules\nAutoGen provides built-in memory management modules, such as `ConversationBufferMemory`, to retain conversation history and context across interactions.\n\n### 2. Vector Database Integration\nIntegration with vector databases like Pinecone allows for efficient storage and retrieval of state information, essential for handling large datasets.\n\n### 3. MCP Protocol\nThe Memory Control Protocol (MCP) facilitates secure and efficient communication between agents, managing state updates and ensuring seamless information sharing.\n\n### 4. Tool Calling Patterns\nDefining clear tool calling patterns enhances the overall functionality and responsiveness of the agents.\n\n### Conclusion\nAutoGen's approach to state persistence is multifaceted, involving memory management, vector database integration, and secure communication protocols, essential for developing AI agents capable of handling complex tasks.\n\n## Detailed Comparison\n- **State Management**: LangGraph uses explicit schemas and reducer functions, while CrewAI employs a dual-layer architecture with a cognitive memory layer. AutoGen integrates memory management modules and vector databases.\n- **Persistence Mechanisms**: LangGraph and CrewAI both implement checkpointing, but CrewAI's @persist() decorator offers automatic state saving. AutoGen focuses on memory management and secure communication.\n- **Security and Privacy**: CrewAI's integration with NVIDIA NemoClaw provides enhanced security, while AutoGen's MCP protocol ensures secure communication. LangGraph focuses on isolated contexts for parallel execution.\n\n## Conclusion\nEach framework presents unique strengths in state persistence and sharing among agents. LangGraph excels in structured state management, CrewAI offers robust security and cognitive memory, and AutoGen integrates advanced memory management with efficient data handling. The choice of framework will depend on the specific requirements of the task at hand.\n\n### Sources\n[1] Mastering LangGraph State Management in 2025: https://sparkco.ai/blog/mastering-langgraph-state-management-in-2025  \n[2] LangGraph State Management: Ultimate Guide: https://www.skakarh.com/blog/langgraph-state-management  \n[3] Long-term Agentic Memory with LangGraph: https://medium.com/@anil.jain.baba/long-term-agentic-memory-with-langgraph-824050b09852  \n[4] Next Level Agent State Management with LangGraph: https://www.youtube.com/watch?v=tIrHI7iKpD0&vl=en  \n[5] State Persistence and Task Recovery in CrewAI | iCertGlobal Community: https://www.icertglobal.com/community/state-persistence-and-task-recovery-in-crewai  \n[6] Orchestrating Self-Evolving Agents with CrewAI and NVIDIA NemoClaw | CrewAI: https://crewai.com/blog/orchestrating-self-evolving-agents-with-crewai-and-nvidia-nemoclaw  \n[7] Deep Dive into State Persistence Agents in AI: https://sparkco.ai/blog/deep-dive-into-state-persistence-agents-in-ai  \n[8] Deep Dive into Microsoft Agent Framework for AutoGen Users: https://www.youtube.com/watch?v=JlzteydCK_Q  ",
+  "ok": true,
+  "refs": [
+   [
+    "source",
+    "https://sparkco.ai/blog/mastering-langgraph-state-management-in-2025"
+   ],
+   [
+    "source",
+    "https://www.skakarh.com/blog/langgraph-state-management"
+   ],
+   [
+    "source",
+    "https://medium.com/@anil.jain.baba/long-term-agentic-memory-with-langgraph-824050b09852"
+   ],
+   [
+    "source",
+    "https://www.youtube.com/watch?v=tirhi7ikpd0&vl=en"
+   ],
+   [
+    "source",
+    "https://www.icertglobal.com/community/state-persistence-and-task-recovery-in-crewai"
+   ],
+   [
+    "source",
+    "https://crewai.com/blog/orchestrating-self-evolving-agents-with-crewai-and-nvidia-nemoclaw"
+   ],
+   [
+    "source",
+    "https://sparkco.ai/blog/deep-dive-into-state-persistence-agents-in-ai"
+   ],
+   [
+    "source",
+    "https://www.youtube.com/watch?v=jlzteydck_q"
+   ]
+  ],
+  "step": 20,
+  "source": "orchestrator.final_message"
+ }
+]

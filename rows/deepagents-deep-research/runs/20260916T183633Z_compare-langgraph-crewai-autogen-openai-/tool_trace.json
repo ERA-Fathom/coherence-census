@@ -1,0 +1,53 @@
+{
+ "calls": [
+  {
+   "n": 0,
+   "run_id": "01a0ab81-b640-7e21-8153-1fead6dff497",
+   "tool": "task",
+   "args": {
+    "subagent_type": "research-agent",
+    "description": "Compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK and Google ADK on how agents persist and share state across a long task, with examples from each project's docs"
+   },
+   "t_start": 1789583799.873007,
+   "ok": true,
+   "t_end": 1789583817.883023,
+   "output_chars": 1049,
+   "output_head": "Command(update={'files': {}, 'messages': [ToolMessage(content='## Key Findings\\n\\nThe six AI agent SDKs compared are LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK. Each has its strengths and weaknesses, and the choice of SDK depends on the specific requirements of the project. LangGraph is suitable for production deployments with conditional logic and human approval, while CrewAI is ideal for rapid prototyping of multi-agent teams. The Claude Agent SDK is the strongest choice for coding agents, and the OpenAI Agents SDK is suitable for sandboxed code execution with persistent state. Google ADK 2.0 is a graph-based orchestrator that supports multi-language teams on Google Cloud, and Microsoft Semantic Kernel is an enterprise connector for .NET shops on Azure.\\n\\n### Sources\\n[1] Best AI Agent SDKs Compared (2026): LangGraph, CrewAI, OpenAI, Anthropic, and Google ADK: https://www.requesty.ai/blog/best-ai-agent-sdks-compared-2026-langchain-crewai-openai-anthropic-google', tool_call_id='chatcmpl-tool-8d71766ec51c746e')]})",
+   "agent": "orchestrator"
+  },
+  {
+   "n": 1,
+   "run_id": "01a0ab81-bd6e-7ea0-9089-2c17366c8427",
+   "tool": "tavily_search",
+   "args": {
+    "query": "LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK state persistence and sharing comparison with examples"
+   },
+   "t_start": 1789583801.710253,
+   "ok": true,
+   "t_end": 1789583804.867332,
+   "output_chars": 25344,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK state persistence and sharing comparison with examples':\n\n## Best AI Agent SDKs Compared (2026): LangGraph, CrewAI ...\n**URL:** https://www.requesty.ai/blog/best-ai-agent-sdks-compared-2026-langchain-crewai-openai-anthropic-google\n\nBest AI Agent SDKs Compared (2026): LangGraph, CrewAI, OpenAI, Anthropic, and Google ADK | Requesty\n\n[![Requesty](/_next/image?url=%2Flogo_requesty_dark.png&w=3840&q=75&dpl=dpl_BvhGLt9n7KarRWewAA7w2kFTMkjE)](/)\n\nProduct\n\nSolutions\n\n[Models](/models)[Rankings](/rankings)[Customers](/customers)[Pricing](/pricing)\n\nResources\n\n[Docs](https://docs.requesty.ai/quickstart)\n\nSign inGet started free\n\n[Back](/blog)|JUN '26AGENTS / INTEGRATIONS\n\n10 MIN READ|Copy blog\n\nBest AI Agent SDKs Compared (2026): LangGraph, CrewAI, OpenAI, Anthropic, and Google ADK\n========================================================================================\n\nPublished June 23, 2026\n\n[Gartner](https://www.gartner.com/) reported a 1,445% surge in multi-agent system inquiries from Q1 2024 to Q2 2025. By June 2026, six SDKs dominate production agent deployments: [LangGraph](https://www.langchain.com/langgraph), [CrewAI](https://www.crewai.com/), [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/), [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk), [Google ADK](https://adk.dev/), and [Microsoft Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overv",
+   "results": [
+    [
+     "https://www.requesty.ai/blog/best-ai-agent-sdks-compared-2026-langchain-crewai-openai-anthropic-google",
+     "Best AI Agent SDKs Compared (2026): LangGraph, CrewAI ..."
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 2,
+   "run_id": "01a0ab81-e28a-7b62-830c-d8b6c14ccbde",
+   "tool": "think_tool",
+   "args": {
+    "reflection": "The search results provide a comparison of six AI agent SDKs: LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK. The comparison includes their architecture, benchmarks, token efficiency, and gateway compatibility. LangGraph is suitable for production deployments with conditional logic and human approval, while CrewAI is ideal for rapid prototyping of multi-agent teams. The Claude Agent SDK is the strongest choice for coding agents, and the OpenAI Agents SDK is suitable for sandboxed code execution with persistent state. Google ADK 2.0 is a graph-based orchestrator that supports multi-language teams on Google Cloud, and Microsoft Semantic Kernel is an enterprise connector for .NET shops on Azure. The search results also highlight the importance of using an AI gateway like Requesty to connect every SDK, providing unified cost tracking, automatic failover, and the freedom to swap models across any SDK without rewriting agent code."
+   },
+   "t_start": 1789583811.2104142,
+   "ok": true,
+   "t_end": 1789583811.211485,
+   "output_chars": 974,
+   "output_head": "Reflection recorded: The search results provide a comparison of six AI agent SDKs: LangGraph, CrewAI, AutoGen, OpenAI Agents SDK, and Google ADK. The comparison includes their architecture, benchmarks, token efficiency, and gateway compatibility. LangGraph is suitable for production deployments with conditional logic and human approval, while CrewAI is ideal for rapid prototyping of multi-agent teams. The Claude Agent SDK is the strongest choice for coding agents, and the OpenAI Agents SDK is suitable for sandboxed code execution with persistent state. Google ADK 2.0 is a graph-based orchestrator that supports multi-language teams on Google Cloud, and Microsoft Semantic Kernel is an enterprise connector for .NET shops on Azure. The search results also highlight the importance of using an AI gateway like Requesty to connect every SDK, providing unified cost tracking, automatic failover, and the freedom to swap models across any SDK without rewriting agent code.",
+   "agent": "research-agent (task 1)"
+  }
+ ]
+}

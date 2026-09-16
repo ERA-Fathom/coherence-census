@@ -1,0 +1,7 @@
+Vendored unchanged from https://github.com/langchain-ai/deepagents
+path:   examples/deep_research  (agent.py and the research_agent/ package: prompts.py, tools.py)
+commit: e031960430b24dae3381d4814ff23f87d06f2a37 (2026-09-15)
+No file in this directory is modified. The runner substitutes the model object by wrapping
+langchain.chat_models.init_chat_model before agent.py is imported (FATHOM_MODEL), and adds the
+langchain-fathom middleware by wrapping deepagents.create_deep_agent the same way. Both
+substitutions are recorded in each run's run.json.

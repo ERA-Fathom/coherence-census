@@ -1,0 +1,9 @@
+{
+ "question": "Compare LangGraph, CrewAI, AutoGen, OpenAI Agents SDK and Google ADK on how agents persist and share state across a long task, with examples from each project's docs",
+ "model": "meta-llama/llama-3.3-70b-instruct",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store'), verdict stashed by the runner",
+ "elapsed_s": 25.2,
+ "error": null,
+ "tool_calls": 3,
+ "recursion_limit": 200
+}

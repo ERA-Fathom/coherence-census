@@ -27,6 +27,15 @@
   "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/crewai-book-flow"
  },
  {
+  "id": "deepagents-deep-research",
+  "agent": "deepagents (the deep_research example)",
+  "trace": "The tool trace across the orchestrator and its research sub-agents (a LangChain callback handler), mapped by the row's `deep_research_ops.py`",
+  "run": "deepagents' own published deep research agent, six runs across gpt-4o-mini and llama-3.3-70b on three comparison questions each",
+  "caught": "Under llama-3.3-70b the report's only citation was a URL no search returned, the real article's slug rewritten to match its title; in another run the orchestrator delegated the same question twice, the second sub-agent reopened with the first one's exact query, and the run held one unreachable article five times before reporting that nothing was found",
+  "cmd": "fathom read traces/deepagents_deep_research.json",
+  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/deepagents-deep-research"
+ },
+ {
   "id": "letta",
   "agent": "Letta",
   "trace": "Core blocks, archival passages, and the memory-edit tool calls",

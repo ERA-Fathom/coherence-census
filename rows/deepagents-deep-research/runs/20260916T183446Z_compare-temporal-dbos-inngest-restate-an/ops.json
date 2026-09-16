@@ -1,0 +1,197 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "compare temporal, dbos, inngest, restate and hatchet on durable execution for ai agents, covering checkpointing, retries, pricing and framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal vs dbos vs inngest vs restate vs hatchet durable execution for ai agents",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://alatirok.com/durable-execution-ai-agents-compared",
+  "value": "Durable Execution for AI Agents: Temporal vs Restate vs DBOS",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "inngest and hatchet durable execution for ai agents",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+  "value": "Durable Execution for AI Agent Runtimes: Checkpointing ...",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "compare temporal, dbos, inngest, restate and hatchet on durable execution for ai agents, covering checkpointing, retries, pricing and framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal vs dbos vs inngest vs restate vs hatchet durable execution for ai agents",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+  "value": "Durable Execution for AI Agent Runtimes: Checkpointing ...",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "durable execution for ai agent runtimes checkpointing retries pricing framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+  "value": "Durable Execution for AI Agent Runtimes: Checkpointing ...",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "checkpointing retries pricing framework integrations temporal dbos inngest restate hatchet",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+  "value": "Durable Execution for AI Agent Runtimes: Checkpointing ...",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal, dbos, inngest, restate, and hatchet durable execution for ai agents, including checkpointing, retries, pricing, and framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes",
+  "value": "Durable Execution for AI Agent Runtimes: Checkpointing ...",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal, dbos, inngest, restate, and hatchet durable execution for ai agents, including checkpointing, retries, pricing, and framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youngju.dev/blog/culture/2026-05-25-durable-workflow-temporal-inngest-trigger-hatchet-restate-dbos-2026-deep-dive.en",
+  "value": "Durable Execution & Workflow Engines 2026 \u2014 Temporal, Inngest, Trigger.dev, Hatchet, Restate, DBOS, Step Functions Deep Dive (Infrastructure for the Long-Running AI Agent Era) | Chaos and Order",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal, dbos, inngest, restate, and hatchet durable execution for ai agents, including checkpointing, retries, pricing, and framework integrations",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youngju.dev/blog/culture/2026-05-25-durable-workflow-temporal-inngest-trigger-hatchet-restate-dbos-2026-deep-dive.en",
+  "value": "Durable Execution & Workflow Engines 2026 \u2014 Temporal, Inngest, Trigger.dev, Hatchet, Restate, DBOS, Step Functions Deep Dive (Infrastructure for the Long-Running AI Agent Era) | Chaos and Order",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "orchestrator.tavily_search"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "Unfortunately, the search results did not provide any relevant information on durable execution for AI agent runtimes, including checkpointing, retries, pricing, and framework integrations for Temporal, DBOS, Inngest, Restate, and Hatchet. The search queries yielded a research article with a redirect error, which could not be accessed.\n\n### Sources\n[1] Durable Execution for AI Agent Runtimes: Checkpointing ...: https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes/",
+  "ok": true,
+  "refs": [
+   [
+    "source",
+    "https://zylos.ai/research/2026-04-24-durable-execution-agent-runtimes"
+   ]
+  ],
+  "step": 18,
+  "source": "orchestrator.final_message"
+ }
+]

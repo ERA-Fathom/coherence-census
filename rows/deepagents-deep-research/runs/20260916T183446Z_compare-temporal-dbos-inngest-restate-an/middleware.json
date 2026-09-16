@@ -1,0 +1,29 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 1,
+   "key": "delegations",
+   "detail": "step 1 adds 'Compare Temporal, DBOS, Inngest, Restate and Hatchet on durable execution for AI agents, covering checkpointing, retries, pricing and framework integrations' to research 'delegations', which already holds it (first added at step 0).",
+   "cites": 0
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 3,
+   "key": "queries",
+   "detail": "step 3 adds 'Temporal, DBOS, Inngest, Restate, and Hatchet durable execution for AI agents, including checkpointing, retries, pricing, and framework integrations' to research 'queries', which already holds it (first added at step 2).",
+   "cites": 2
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 4,
+   "key": "queries",
+   "detail": "step 4 adds 'Temporal, DBOS, Inngest, Restate, and Hatchet durable execution for AI agents, including checkpointing, retries, pricing, and framework integrations' to research 'queries', which already holds it (first added at step 2).",
+   "cites": 2
+  }
+ ],
+ "ops_read": 5,
+ "ops_rejected": 0,
+ "live_facts": 0
+}

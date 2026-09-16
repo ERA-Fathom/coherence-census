@@ -1,0 +1,9 @@
+{
+ "question": "Compare Letta, Mem0, Zep, LangMem and Cognee on long-term memory for agents, covering architecture, retrieval, update handling and benchmarks",
+ "model": "meta-llama/llama-3.3-70b-instruct",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store'), verdict stashed by the runner",
+ "elapsed_s": 47.9,
+ "error": null,
+ "tool_calls": 6,
+ "recursion_limit": 200
+}

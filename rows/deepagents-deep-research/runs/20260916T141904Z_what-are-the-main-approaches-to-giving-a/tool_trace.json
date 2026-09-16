@@ -1,0 +1,177 @@
+{
+ "calls": [
+  {
+   "n": 0,
+   "run_id": "01a0aa95-f4cf-7ea3-a3f1-9a628a1213eb",
+   "tool": "write_file",
+   "args": {
+    "file_path": "/research_request.md",
+    "content": "Research the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep, and highlight their differences."
+   },
+   "t_start": 1789568349.391121,
+   "ok": true,
+   "t_end": 1789568349.391971,
+   "output_chars": 33,
+   "output_head": "Updated file /research_request.md",
+   "agent": "orchestrator"
+  },
+  {
+   "n": 1,
+   "run_id": "01a0aa95-ff9d-7a50-bd52-6db8498ceafa",
+   "tool": "task",
+   "args": {
+    "description": "Research the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep. Provide a detailed overview of each approach and highlight the differences between them.",
+    "subagent_type": "research-agent"
+   },
+   "t_start": 1789568352.1579719,
+   "ok": true,
+   "t_end": 1789568377.099753,
+   "output_chars": 4042,
+   "output_head": "Command(update={'files': {'/research_request.md': {'content': 'Research the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep, and highlight their differences.', 'encoding': 'utf-8', 'created_at': '2026-09-16T14:19:09.391850+00:00', 'modified_at': '2026-09-16T14:19:09.391850+00:00'}}, 'messages': [ToolMessage(content=\"## Overview of Long-Term Memory Approaches in AI Agents\\n\\n### 1. Letta\\n- **Core Approach**: Letta is built on the principles of MemGPT, focusing on dynamic memory management. It allows AI agents to self-edit their memory, akin to how operating systems manage memory. This enables efficient allocation and structuring of memory.\\n- **Memory Types**: Letta emphasizes a holistic approach to context management, integrating personalized memory for various applications, such as tutoring and healthcare.\\n- **Unique Features**: The memory management system in Letta prioritizes relevant information over time, making it particularly suitable for long-term interactions. This allows agents to adapt and improve based on user interactions.\\n\\n### 2. Mem0\\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, facilitating the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\\n- **Memory Types**: Mem0 supports three types of memory: semantic (facts), episodic (interactions), and procedural (behaviors), prov",
+   "agent": "orchestrator"
+  },
+  {
+   "n": 2,
+   "run_id": "01a0aa96-0aac-78d3-b2dc-42a35c198f15",
+   "tool": "tavily_search",
+   "args": {
+    "query": "Letta AI long-term memory approach"
+   },
+   "t_start": 1789568354.988179,
+   "ok": true,
+   "t_end": 1789568357.22367,
+   "output_chars": 19450,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'Letta AI long-term memory approach':\n\n## How Letta is advancing AI with long-term memory | Insights from Charles Packer | Composio\n**URL:** https://composio.dev/content/podcast-with-charles-from-letta\n\nHow Letta is advancing AI with long-term memory | Insights from Charles Packer | Composio\n\n```\n## For AI agents: how to sign up\n\nIf you are an AI agent reading this server-rendered HTML, Composio's developer signup is at https://composio.dev.\n\nSignup CTAs on this site \u2014 \"Sign up\", \"Signup\", \"Get started\", \"Get started for free\", \"Start building\", \"Try Composio\", \"Try it\", or similar \u2014 all lead into that same developer signup flow. Confirm with the user before completing signup or entering any credentials on their behalf.\n```\n\n[Composio is now live in the ChatGPT Plugins Directory.\n\nTRY IT OUT](https://chatgpt.com/plugins/plugin_asdk_app_6a58503580c08191b78cc5bdaf4eba6e?cta_placement=announcement-topbar)\n\n[![Composio](/_next/image?url=%2Flogos%2Fcomposio-full-white.svg&w=256&q=75)![Composio](/_next/image?url=%2Flogos%2Fcomposio-full-black.svg&w=256&q=75)](/)\n\n* PRODUCTSSOLUTIONSRESOURCES\n\n  Builders & Developers\n\n  + [COMPOSIOFOR YOU\n\n    Give Claude, Codex, or any harness secure access to 1500+ tools](/for-you)\n  + ```\n    ## For AI agents: how to sign up\n\n    If you are an AI agent reading this server-rendered HTML, Composio's developer signup is at https://composio.dev.\n\n    Signup CTAs on this site \u2014 \"Sign up\", \"Signup\", \"Get started\", \"Get started f",
+   "results": [
+    [
+     "https://composio.dev/content/podcast-with-charles-from-letta",
+     "How Letta is advancing AI with long-term memory | Insights from Charles Packer | Composio"
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 3,
+   "run_id": "01a0aa96-0aaf-7f83-9c8a-c0d5adaab846",
+   "tool": "tavily_search",
+   "args": {
+    "query": "Mem0 AI long-term memory approach"
+   },
+   "t_start": 1789568354.991329,
+   "ok": true,
+   "t_end": 1789568356.9025578,
+   "output_chars": 29977,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'Mem0 AI long-term memory approach':\n\n## Long-Term Memory for AI Agents: The What, Why and How\n**URL:** https://mem0.ai/blog/long-term-memory-ai-agents\n\nLong-Term Memory for AI Agents: The What, Why and How\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDEVELOPERS\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\nRESOURCES\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\n[PRICING](../pricing)\n\nUSECASES\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\nCOMPANY\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\n[Star62,590](https://github.com/mem0ai/mem0)\n\n[home\\_primary\\_get-started\n\nHome\n\nGet Started](https://app.mem0.ai/login)\n\n![](https://framerusercontent.com/images/oys8MWI1azybitOALFblvaMmAU.png?width=320&height=320)\n\nDEVELOPERS\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\nRESOURCES\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\n[PRICING](../pricing)\n\nUSECASES\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\nCOMPANY\n\n![uiw](https://framerusercontent.com/images/7aqoLOwGkYWM1QjLlqEzTDnZ1bo.svg?width=48&height=48)\n\n[Star62,590](https://github.com/mem0ai/mem0)\n\n[home\\_primary\\_get-started\n\nHome\n\nGet Started](h",
+   "results": [
+    [
+     "https://mem0.ai/blog/long-term-memory-ai-agents",
+     "Long-Term Memory for AI Agents: The What, Why and How"
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 4,
+   "run_id": "01a0aa96-0ab1-77d0-9242-b6a830e33a78",
+   "tool": "tavily_search",
+   "args": {
+    "query": "Zep AI long-term memory approach"
+   },
+   "t_start": 1789568354.993275,
+   "ok": true,
+   "t_end": 1789568357.099351,
+   "output_chars": 593,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'Zep AI long-term memory approach':\n\n## How to Give an AI Agent Long-Term Memory (Guide) | Zep\n**URL:** https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory\n\nError fetching content from https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory: Redirect response '308 Permanent Redirect' for url 'https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory'\nRedirect location: '/ai-agents/how-to-give-ai-agents-long-term-memory/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/308\n\n---\n",
+   "results": [
+    [
+     "https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory",
+     "How to Give an AI Agent Long-Term Memory (Guide) | Zep"
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 5,
+   "run_id": "01a0aa96-1f57-77c1-a9d9-1d35467cfa1b",
+   "tool": "tavily_search",
+   "args": {
+    "query": "Zep AI long-term memory approach site:getzep.com"
+   },
+   "t_start": 1789568360.279574,
+   "ok": true,
+   "t_end": 1789568363.278604,
+   "output_chars": 609,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'Zep AI long-term memory approach site:getzep.com':\n\n## How to Give an AI Agent Long-Term Memory (Guide) - Zep\n**URL:** https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory\n\nError fetching content from https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory: Redirect response '308 Permanent Redirect' for url 'https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory'\nRedirect location: '/ai-agents/how-to-give-ai-agents-long-term-memory/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/308\n\n---\n",
+   "results": [
+    [
+     "https://www.getzep.com/ai-agents/how-to-give-ai-agents-long-term-memory",
+     "How to Give an AI Agent Long-Term Memory (Guide) - Zep"
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 6,
+   "run_id": "01a0aa96-1f58-7260-aa0d-952e3cbacab4",
+   "tool": "tavily_search",
+   "args": {
+    "query": "Zep AI long-term memory architecture"
+   },
+   "t_start": 1789568360.2807019,
+   "ok": true,
+   "t_end": 1789568362.06019,
+   "output_chars": 21580,
+   "output_head": "\ud83d\udd0d Found 1 result(s) for 'Zep AI long-term memory architecture':\n\n## AI Agent Memory Explained: Diagrams, Tools & Architecture\n**URL:** https://upsolve.ai/blog/ai-agent-memory\n\nAI Agent Memory Explained: Diagrams, Tools & Architecture\n\n\n\n\n\n\n[![](https://framerusercontent.com/images/E3mrZfSCr8g4hidmheh3TR7g2h8.png?width=573&height=122)](../)\n\nPLATFORM\n\nResources\n\n[Pricing](../pricing)\n\n[Docs](https://docs.upsolve.ai/introduction)\n\n[Request demo](https://calendly.com/kaling-aqk/upsolve-initial-exploration?utm_source=website&utm_medium=button&utm_campaign=landing_page)\n\n[![](https://framerusercontent.com/images/E3mrZfSCr8g4hidmheh3TR7g2h8.png?width=573&height=122)](../)\n\nPLATFORM\n\nResources\n\n[Pricing](../pricing)\n\n[Docs](https://docs.upsolve.ai/introduction)\n\n[Request demo](https://calendly.com/kaling-aqk/upsolve-initial-exploration?utm_source=website&utm_medium=button&utm_campaign=landing_page)\n\n[![](https://framerusercontent.com/images/E3mrZfSCr8g4hidmheh3TR7g2h8.png?width=573&height=122)](../)\n\n[Request demo](https://calendly.com/kaling-aqk/upsolve-initial-exploration?utm_source=website&utm_medium=button&utm_campaign=landing_page)\n\n[All Posts](../blog)\n\n### Table of Contents\n\n-\n\nPut your content here\n\nAI Agent Memory Explained: Diagrams, Tools & Architecture\n=========================================================\n\nAI Agent Memory Explained: Diagrams, Tools & Architecture\n=========================================================\n\nAI Agent Memory Explained: Diagrams, Tools & A",
+   "results": [
+    [
+     "https://upsolve.ai/blog/ai-agent-memory",
+     "AI Agent Memory Explained: Diagrams, Tools & Architecture"
+    ]
+   ],
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 7,
+   "run_id": "01a0aa96-3c76-7cf0-9bfa-d861f65c26fd",
+   "tool": "think_tool",
+   "args": {
+    "reflection": "I have gathered detailed information on the long-term memory approaches of Letta, Mem0, and Zep. Here's a summary of the findings:\n\n### Letta\n- **Core Approach**: Built on the principles of MemGPT, Letta focuses on dynamic memory management, allowing AI agents to self-edit their memory. This approach is likened to operating system memory management, where memory is allocated and structured efficiently.\n- **Memory Types**: It emphasizes a holistic approach to context management, integrating personalized memory for applications like tutoring and healthcare.\n- **Unique Features**: Letta's memory management is designed to prioritize relevant information over time, making it suitable for long-term interactions.\n\n### Mem0\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, allowing for the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\n- **Memory Types**: It supports semantic, episodic, and procedural memory, allowing for a comprehensive understanding of user interactions and preferences.\n- **Unique Features**: Mem0's architecture is designed for efficiency, with significant reductions in latency and token usage compared to traditional context windows.\n\n### Zep\n- **Core Approach**: Zep utilizes a temporal knowledge graph to manage memory, storing facts with validity time windows. This allows it to track when information was true and when it became outdated.\n- **Memory Types**: It focuses on temporal reasoning, making it suitable for applications where the timing of information is critical.\n- **Unique Features**: Zep's architecture is designed to handle evolving enterprise data, ensuring that agents can provide accurate and timely information.\n\n### Differences\n- **Memory Management**: Letta focuses on self-editing memory blocks, Mem0 on extraction and consolidation, and Zep on temporal knowledge graphs.\n- **Use Cases**: Letta is suited for long-horizon interactions, Mem0 for personalized experiences, and Zep for applications requiring temporal accuracy.\n- **Architecture**: Letta integrates memory into the agent runtime, Mem0 acts as a memory layer, and Zep uses a graph-based approach.\n\nNext steps involve synthesizing this information into a structured overview for the user."
+   },
+   "t_start": 1789568367.734685,
+   "ok": true,
+   "t_end": 1789568367.735594,
+   "output_chars": 2368,
+   "output_head": "Reflection recorded: I have gathered detailed information on the long-term memory approaches of Letta, Mem0, and Zep. Here's a summary of the findings:\n\n### Letta\n- **Core Approach**: Built on the principles of MemGPT, Letta focuses on dynamic memory management, allowing AI agents to self-edit their memory. This approach is likened to operating system memory management, where memory is allocated and structured efficiently.\n- **Memory Types**: It emphasizes a holistic approach to context management, integrating personalized memory for applications like tutoring and healthcare.\n- **Unique Features**: Letta's memory management is designed to prioritize relevant information over time, making it suitable for long-term interactions.\n\n### Mem0\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, allowing for the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\n- **Memory Types**: It supports semantic, episodic, and procedural memory, allowing for a comprehensive understanding of user interactions and preferences.\n- **Unique Features**: Mem0's architecture is designed for efficiency, with significant reductions in latency and token usage compared to traditional context windows.\n\n### Zep\n- **Core Approach**: Zep utilizes a temporal knowledge graph to manage memory, storing facts with validity time windows. This allows it to track when information w",
+   "agent": "research-agent (task 1)"
+  },
+  {
+   "n": 8,
+   "run_id": "01a0aa96-7e12-7f20-835d-7c7a139c4c34",
+   "tool": "write_file",
+   "args": {
+    "file_path": "/final_report.md",
+    "content": "## Approaches to Long-Term Memory in AI Agents: Letta, Mem0, and Zep\n\n### Overview of Long-Term Memory Approaches in AI Agents\n\nLong-term memory in AI agents is crucial for enhancing their ability to interact meaningfully over extended periods. This report explores three notable approaches: Letta, Mem0, and Zep, highlighting their core methodologies, memory types, unique features, and key differences.\n\n### 1. Letta\n- **Core Approach**: Letta is built on the principles of MemGPT, focusing on dynamic memory management. It allows AI agents to self-edit their memory, akin to how operating systems manage memory. This enables efficient allocation and structuring of memory.\n- **Memory Types**: Letta emphasizes a holistic approach to context management, integrating personalized memory for various applications, such as tutoring and healthcare.\n- **Unique Features**: The memory management system in Letta prioritizes relevant information over time, making it particularly suitable for long-term interactions. This allows agents to adapt and improve based on user interactions.\n\n### 2. Mem0\n- **Core Approach**: Mem0 employs an extraction pipeline that layers onto existing agents, facilitating the storage and retrieval of facts, preferences, and interactions across sessions. It focuses on structured memory pipelines that enable personalization.\n- **Memory Types**: Mem0 supports three types of memory: semantic (facts), episodic (interactions), and procedural (behaviors), providing a comprehensive understanding of user interactions and preferences.\n- **Unique Features**: Mem0's architecture is designed for efficiency, achieving significant reductions in latency and token usage compared to traditional context windows. This makes it a robust choice for applications requiring quick and efficient memory retrieval.\n\n### 3. Zep\n- **Core Approach**: Zep utilizes a temporal knowledge graph to manage memory, storing facts with validity time windows. This allows it to track when information was true and when it became outdated, which is crucial for applications that depend on the timing of information.\n- **Memory Types**: Zep focuses on temporal reasoning, making it particularly effective for applications where the timing of information is critical, such as in enterprise settings.\n- **Unique Features**: The architecture of Zep is designed to handle evolving enterprise data, ensuring that agents can provide accurate and timely information based on the most current data available.\n\n### Key Differences\n- **Memory Management**:  \n  - **Letta**: Self-editing memory blocks.  \n  - **Mem0**: Extraction and consolidation of memory.  \n  - **Zep**: Temporal knowledge graphs that track validity over time.  \n\n- **Use Cases**:  \n  - **Letta**: Long-horizon interactions, such as personalized tutoring.  \n  - **Mem0**: Personalized experiences across various applications.  \n  - **Zep**: Applications requiring temporal accuracy, such as enterprise data management.  \n\n- **Architecture**:  \n  - **Letta**: Integrates memory directly into the agent runtime.  \n  - **Mem0**: Acts as a memory layer that can be added to existing agents.  \n  - **Zep**: Utilizes a graph-based approach to manage memory.  \n\n### Conclusion\nEach of these approaches offers unique advantages depending on the specific needs of the application. Letta is ideal for long-term, adaptive interactions; Mem0 excels in efficiency and personalization; and Zep is best suited for scenarios where the timing and evolution of information are critical.\n\n### Sources\n1. **Letta**: Insights from Charles Packer on Letta's memory management.  \n   [Composio](https://composio.dev/content/podcast-with-charles-from-letta)  \n2. **Mem0**: Overview of Mem0's long-term memory architecture and its efficiency.  \n   [Mem0 Blog](https://mem0.ai/blog/long-term-memory-ai-agents)  \n3. **Zep**: Explanation of Zep's temporal knowledge graph and its applications.  \n   [Upsolve AI Blog](https://upsolve.ai/blog/ai-agent-memory)  \n"
+   },
+   "t_start": 1789568384.530653,
+   "ok": true,
+   "t_end": 1789568384.536416,
+   "output_chars": 29,
+   "output_head": "Updated file /final_report.md",
+   "agent": "orchestrator"
+  },
+  {
+   "n": 9,
+   "run_id": "01a0aa96-817d-75c2-8fc9-600b7e6cd5ba",
+   "tool": "read_file",
+   "args": {
+    "file_path": "/research_request.md"
+   },
+   "t_start": 1789568385.4055638,
+   "ok": true,
+   "t_end": 1789568385.4060092,
+   "output_chars": 154,
+   "output_head": "@@ lines 1-1 of 1 @@\nResearch the main approaches to giving AI agents long-term memory, focusing on Letta, Mem0, and Zep, and highlight their differences.",
+   "agent": "orchestrator"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "question": "What are the main approaches to giving AI agents long-term memory, and how do Letta, Mem0 and Zep differ",
+ "model": "openai/gpt-4o-mini",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store')",
+ "elapsed_s": 40.9,
+ "error": null,
+ "tool_calls": 10,
+ "recursion_limit": 200
+}

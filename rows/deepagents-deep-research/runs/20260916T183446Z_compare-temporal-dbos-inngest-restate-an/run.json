@@ -1,0 +1,9 @@
+{
+ "question": "Compare Temporal, DBOS, Inngest, Restate and Hatchet on durable execution for AI agents, covering checkpointing, retries, pricing and framework integrations",
+ "model": "meta-llama/llama-3.3-70b-instruct",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store'), verdict stashed by the runner",
+ "elapsed_s": 103.8,
+ "error": null,
+ "tool_calls": 18,
+ "recursion_limit": 200
+}

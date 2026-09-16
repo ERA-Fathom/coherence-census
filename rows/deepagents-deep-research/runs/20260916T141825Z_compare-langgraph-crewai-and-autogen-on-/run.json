@@ -1,0 +1,9 @@
+{
+ "question": "Compare LangGraph, CrewAI and AutoGen on how they persist and share state between agents in a long-running task",
+ "model": "openai/gpt-4o-mini",
+ "middleware": "langchain-fathom FathomMiddleware(on_finding='store')",
+ "elapsed_s": 35.9,
+ "error": null,
+ "tool_calls": 18,
+ "recursion_limit": 200
+}

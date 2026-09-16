@@ -1,0 +1,233 @@
+[
+ {
+  "op": "set",
+  "kind": "file",
+  "key": "/research_request.md",
+  "value": "Compare how Temporal, DBOS, and Inngest approach durable execution for AI agent workflows, with their tradeoffs.",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "orchestrator.write_file"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "research how temporal approaches durable execution for ai agent workflows, including its features, benefits, and tradeoffs.",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "research how dbos approaches durable execution for ai agent workflows, including its features, benefits, and tradeoffs.",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "delegations",
+  "value": "research how inngest approaches durable execution for ai agent workflows, including its features, benefits, and tradeoffs.",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "orchestrator.task"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "dbos durable execution ai agent workflows features benefits tradeoffs",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://pydantic.dev/articles/pydantic-ai-dbos",
+  "value": "Build Reliable AI Agents with Durable Execution | Pydantic AI + DBOS",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal durable execution ai agent workflows features benefits tradeoffs",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://callsphere.ai/blog/temporal-ai-agent-workflows-durable-execution-workflow-as-code",
+  "value": "Temporal for AI Agent Workflows: Durable Execution",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "inngest durable execution ai agent workflows features benefits tradeoffs",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://ai.engineer/orgs/inngest",
+  "value": "Inngest: Durable Execution for Workflows and AI Agents | AI Engineer",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "inngest durable execution benefits tradeoffs user experiences case studies",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.inngest.com/blog/principles-of-durable-execution",
+  "value": "The Principles of Durable Execution Explained - Inngest Blog",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "research-agent (task 3).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "dbos durable execution ai agent workflows tradeoffs benefits features overview",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://pydantic.dev/articles/pydantic-ai-dbos",
+  "value": "Build Reliable AI Agents with Durable Execution",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "research-agent (task 2).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal durable execution ai workflows benefits tradeoffs features",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youtube.com/watch?v=pczghg9ysry",
+  "value": "What is Temporal? Durable Execution Explained",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal durable execution ai workflows overview features benefits tradeoffs",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.youtube.com/watch?v=pczghg9ysry",
+  "value": "What is Temporal? Durable Execution Explained",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "temporal durable execution ai workflows features benefits tradeoffs blog post",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "set",
+  "kind": "source",
+  "key": "https://www.zenml.io/blog/temporal-alternatives",
+  "value": "Temporal Alternatives: 9 Best for Durable Execution - ZenML Blog",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "research-agent (task 1).tavily_search"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "# Final Report on Durable Execution Approaches for AI Agent Workflows\n\n## Introduction\nDurable execution is a critical aspect of managing AI agent workflows, ensuring that processes can withstand failures and interruptions without losing progress. This report compares three prominent platforms\u2014Temporal, DBOS, and Inngest\u2014highlighting their approaches to durable execution, key features, benefits, and tradeoffs.\n\n## Overview of Temporal\nTemporal is a robust platform designed for managing long-running workflows, particularly in environments where failures are common. It provides durable execution capabilities that allow workflows to continue from the last checkpoint after interruptions.\n\n### Key Features\n- **Durable Execution**: Automatic checkpointing of workflow steps ensures that progress is not lost during failures.\n- **Separation of Workflows and Activities**: This distinction allows for clearer management of deterministic orchestration and non-deterministic tasks.\n- **Automatic Retries**: Activities can be retried automatically, enhancing reliability.\n- **State Management**: Temporal maintains workflow states, allowing for complex workflows that can pause and resume.\n- **Human-in-the-Loop Patterns**: Supports workflows requiring human input or approval.\n\n### Benefits\n- **Cost Efficiency**: Reduces costs associated with restarting workflows from scratch.\n- **Reliability**: Enhances the reliability of workflows, crucial for AI applications.\n- **Flexibility**: Adapts to various operational needs, including long-running processes.\n\n### Tradeoffs\n- **Complexity**: The deterministic model can complicate the management of non-deterministic tasks.\n- **Overhead**: Some latency may be introduced due to event history persistence.\n- **Learning Curve**: Teams may face challenges in understanding Temporal's concepts.\n\n## Overview of DBOS\nDBOS (Durable Backed Object Store) is an open-source library that enhances the reliability of AI agent workflows by providing durable execution capabilities built on PostgreSQL.\n\n### Key Features\n- **Checkpointing**: Automatically saves workflow progress to a database.\n- **Integration with Pydantic AI**: Allows for durable workflows without altering agent logic.\n- **Durable Queues**: Supports concurrency limits, rate limits, and retries.\n- **Observability**: Integrates with OpenTelemetry for monitoring.\n\n### Benefits\n- **Resilience**: Agents can continue tasks across failures without losing progress.\n- **Scalability**: Supports parallel execution of multiple workflows.\n- **Cost Efficiency**: Prevents re-execution of completed steps, saving costs.\n- **Debuggability**: Real-time tracking of agent states enhances issue resolution.\n\n### Tradeoffs\n- **Complexity of Setup**: Integrating DBOS may require additional effort.\n- **Database Overhead**: Reliance on a database may introduce latency.\n\n## Overview of Inngest\nInngest provides a framework for durable execution tailored for AI agent workflows, focusing on reliability and efficiency.\n\n### Key Features\n- **Incremental Execution**: Each workflow step can be executed independently, allowing for retries without affecting previous steps.\n- **State Persistence**: Outputs are saved externally, enabling workflows to resume from any point.\n- **Fault Tolerance**: Automatic retries for failed steps enhance reliability.\n- **Checkpointing**: Optimizes state persistence with minimal latency.\n- **Scalability**: Dynamically adjusts resources based on workload.\n\n### Benefits\n- **Improved Reliability**: Enhances resilience to failures.\n- **Simplified Workflow Management**: Abstracts complexities of state management.\n- **Enhanced User Experience**: Efficient management of complex workflows improves application performance.\n- **Faster Iteration Cycles**: Automated retries facilitate quicker feature deployment.\n\n### Tradeoffs\n- **Complexity of Implementation**: Initial setup can be complex.\n- **Potential Latency**: Workflows not optimized for checkpointing may experience delays.\n- **Learning Curve**: Familiarity with Inngest's SDK may take time.\n\n## Conclusion\nTemporal, DBOS, and Inngest each offer unique approaches to durable execution for AI agent workflows, with distinct features, benefits, and tradeoffs. Temporal excels in reliability and flexibility but may introduce complexity. DBOS provides a straightforward integration with Pydantic AI, enhancing resilience but requiring careful setup. Inngest balances reliability and efficiency, though it may present a learning curve. Organizations should evaluate these platforms based on their specific needs and operational contexts.\n\n### Sources\n1. Temporal for AI Agent Workflows: Durable Execution - CallSphere Blog: https://callsphere.ai/blog/temporal-ai-agent-workflows-durable-execution-workflow-as-code\n2. Temporal Alternatives: 9 Best for Durable Execution - ZenML Blog: https://www.zenml.io/blog/temporal-alternatives\n3. Build Reliable AI Agents with Durable Execution | Pydantic AI + DBOS: https://pydantic.dev/articles/pydantic-ai-dbos\n4. Inngest: Durable Execution for Workflows and AI Agents | AI Engineer: https://ai.engineer/orgs/inngest\n5. The Principles of Durable Execution Explained - Inngest Blog: https://www.inngest.com/blog/principles-of-durable-execution",
+  "ok": true,
+  "refs": [
+   [
+    "source",
+    "https://callsphere.ai/blog/temporal-ai-agent-workflows-durable-execution-workflow-as-code"
+   ],
+   [
+    "source",
+    "https://www.zenml.io/blog/temporal-alternatives"
+   ],
+   [
+    "source",
+    "https://pydantic.dev/articles/pydantic-ai-dbos"
+   ],
+   [
+    "source",
+    "https://ai.engineer/orgs/inngest"
+   ],
+   [
+    "source",
+    "https://www.inngest.com/blog/principles-of-durable-execution"
+   ]
+  ],
+  "step": 20,
+  "source": "orchestrator.final_message"
+ }
+]
