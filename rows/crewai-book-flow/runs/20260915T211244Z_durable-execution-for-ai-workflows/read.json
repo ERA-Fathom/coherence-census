@@ -1,0 +1,22 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "stale_reference",
+   "step": 80,
+   "key": "agent completed execution",
+   "detail": "step 80 acts on chapter_title 'agent completed execution', which is not in the committed state.",
+   "cites": null
+  },
+  {
+   "kind": "stale_reference",
+   "step": 82,
+   "key": "aws lambda: serverless compute for fault-tolerant ai workflows",
+   "detail": "step 82 acts on chapter 'aws lambda: serverless compute for fault-tolerant ai workflows', which is not in the committed state.",
+   "cites": null
+  }
+ ],
+ "ops_read": 83,
+ "ops_rejected": 0,
+ "live_facts": 42
+}

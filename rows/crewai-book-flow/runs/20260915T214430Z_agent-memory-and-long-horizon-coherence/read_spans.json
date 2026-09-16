@@ -1,0 +1,155 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 14,
+   "key": "queries",
+   "detail": "step 14 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 16,
+   "key": "queries",
+   "detail": "step 16 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 17,
+   "key": "queries",
+   "detail": "step 17 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 18,
+   "key": "queries",
+   "detail": "step 18 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 19,
+   "key": "queries",
+   "detail": "step 19 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 20,
+   "key": "queries",
+   "detail": "step 20 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 21,
+   "key": "queries",
+   "detail": "step 21 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 22,
+   "key": "queries",
+   "detail": "step 22 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 23,
+   "key": "queries",
+   "detail": "step 23 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 24,
+   "key": "queries",
+   "detail": "step 24 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 25,
+   "key": "queries",
+   "detail": "step 25 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 26,
+   "key": "queries",
+   "detail": "step 26 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 27,
+   "key": "queries",
+   "detail": "step 27 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 28,
+   "key": "queries",
+   "detail": "step 28 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 29,
+   "key": "queries",
+   "detail": "step 29 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 30,
+   "key": "queries",
+   "detail": "step 30 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 31,
+   "key": "queries",
+   "detail": "step 31 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 32,
+   "key": "queries",
+   "detail": "step 32 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 33,
+   "key": "queries",
+   "detail": "step 33 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 34,
+   "key": "queries",
+   "detail": "step 34 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 35,
+   "key": "queries",
+   "detail": "step 35 adds 'AI agents keeping state over long tasks case studies and real-world examples' to research 'queries', which already holds it (first added at step 13).",
+   "cites": 13
+  }
+ ],
+ "ops_read": 36,
+ "ops_rejected": 0,
+ "live_facts": 0
+}

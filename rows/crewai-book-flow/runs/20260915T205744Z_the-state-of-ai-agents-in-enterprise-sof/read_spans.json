@@ -1,0 +1,204 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 9,
+   "key": "queries",
+   "detail": "step 9 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 10,
+   "key": "queries",
+   "detail": "step 10 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 11,
+   "key": "queries",
+   "detail": "step 11 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 18,
+   "key": "queries",
+   "detail": "step 18 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 22,
+   "key": "queries",
+   "detail": "step 22 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 23,
+   "key": "queries",
+   "detail": "step 23 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 24,
+   "key": "queries",
+   "detail": "step 24 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 25,
+   "key": "queries",
+   "detail": "step 25 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 26,
+   "key": "queries",
+   "detail": "step 26 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 28,
+   "key": "queries",
+   "detail": "step 28 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 29,
+   "key": "queries",
+   "detail": "step 29 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 30,
+   "key": "queries",
+   "detail": "step 30 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 39,
+   "key": "queries",
+   "detail": "step 39 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 40,
+   "key": "queries",
+   "detail": "step 40 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 41,
+   "key": "queries",
+   "detail": "step 41 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 42,
+   "key": "queries",
+   "detail": "step 42 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 43,
+   "key": "queries",
+   "detail": "step 43 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 44,
+   "key": "queries",
+   "detail": "step 44 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 45,
+   "key": "queries",
+   "detail": "step 45 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 46,
+   "key": "queries",
+   "detail": "step 46 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 49,
+   "key": "queries",
+   "detail": "step 49 adds 'cost of implementing AI agents in enterprises' to research 'queries', which already holds it (first added at step 14).",
+   "cites": 14
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 53,
+   "key": "queries",
+   "detail": "step 53 adds 'AI agent platforms for enterprises' to research 'queries', which already holds it (first added at step 12).",
+   "cites": 12
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 55,
+   "key": "queries",
+   "detail": "step 55 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 58,
+   "key": "queries",
+   "detail": "step 58 adds 'future of AI agents in enterprises' to research 'queries', which already holds it (first added at step 21).",
+   "cites": 21
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 63,
+   "key": "queries",
+   "detail": "step 63 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 64,
+   "key": "queries",
+   "detail": "step 64 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 65,
+   "key": "queries",
+   "detail": "step 65 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 66,
+   "key": "queries",
+   "detail": "step 66 adds 'best practices for AI agent governance in enterprises' to research 'queries', which already holds it (first added at step 5).",
+   "cites": 5
+  }
+ ],
+ "ops_read": 73,
+ "ops_rejected": 0,
+ "live_facts": 0
+}

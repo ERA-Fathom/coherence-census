@@ -18,6 +18,15 @@
   "study": "https://embeddedriskanalytics.com/research-reading-a-crews-committed-state-from-its-own-event-stream.html"
  },
  {
+  "id": "crewai-book-flow",
+  "agent": "CrewAI (the write_a_book_with_flows example)",
+  "trace": "Event bus (`tool_usage_finished`, `task_completed`), mapped by the row's `book_flow_ops.py`",
+  "run": "CrewAI's own published book-writing flow, nine runs across gpt-4o-mini, llama-3.3-70b and mistral-small at 4 to 14 chapters",
+  "caught": "Under llama-3.3-70b at 14 chapters one chapter crew's researcher issued the identical search 25 times and three crews re-ran queries the outline crew had already committed; another run saved a 14-chapter book as finished with an outlined chapter missing behind a placeholder title",
+  "cmd": "fathom read traces/crewai_book_flow.json",
+  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/crewai-book-flow"
+ },
+ {
   "id": "letta",
   "agent": "Letta",
   "trace": "Core blocks, archival passages, and the memory-edit tool calls",

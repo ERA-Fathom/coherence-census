@@ -1,0 +1,22 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 45,
+   "key": "queries",
+   "detail": "step 45 adds 'durable execution engines and how ai agent workflows use them' to research 'queries', which already holds it (first added at step 0).",
+   "cites": 0
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 52,
+   "key": "queries",
+   "detail": "step 52 adds 'durable execution engines and how ai agent workflows use them' to research 'queries', which already holds it (first added at step 0).",
+   "cites": 0
+  }
+ ],
+ "ops_read": 75,
+ "ops_rejected": 1,
+ "live_facts": 42
+}
