@@ -1,0 +1,167 @@
+[
+ {
+  "iteration": 1,
+  "committed": [
+   "rust async"
+  ],
+  "proposed": [
+   "rust async performance",
+   "async frameworks comparison",
+   "embedded systems rust",
+   "async programming tools"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 2,
+  "committed": [
+   "rust async",
+   "rust async performance"
+  ],
+  "proposed": [
+   "async frameworks",
+   "rust async use cases",
+   "async runtime comparison",
+   "rust async tools"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 3,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks"
+  ],
+  "proposed": [
+   "async programming tools",
+   "rust async use cases",
+   "async performance comparison",
+   "recent rust async updates"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 4,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools"
+  ],
+  "proposed": [
+   "async programming tools",
+   "rust async use cases",
+   "async performance comparison",
+   "rust async recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "rust async use cases"
+ },
+ {
+  "iteration": 5,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools",
+   "rust async use cases"
+  ],
+  "proposed": [
+   "async programming tools",
+   "rust async comparisons",
+   "async deployment strategies",
+   "recent rust async updates"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "rust async comparisons"
+ },
+ {
+  "iteration": 6,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools",
+   "rust async use cases",
+   "rust async comparisons"
+  ],
+  "proposed": [
+   "async programming tools",
+   "rust async use cases",
+   "async performance optimization",
+   "async runtime comparison"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "async performance optimization"
+ },
+ {
+  "iteration": 7,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools",
+   "rust async use cases",
+   "rust async comparisons",
+   "async performance optimization"
+  ],
+  "proposed": [
+   "async task scheduling",
+   "Rust async libraries",
+   "async programming risks",
+   "async deployment strategies"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 8,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools",
+   "rust async use cases",
+   "rust async comparisons",
+   "async performance optimization",
+   "async task scheduling"
+  ],
+  "proposed": [
+   "async task prioritization",
+   "rust async tools",
+   "async programming challenges",
+   "rust async recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 9,
+  "committed": [
+   "rust async",
+   "rust async performance",
+   "async frameworks",
+   "async programming tools",
+   "rust async use cases",
+   "rust async comparisons",
+   "async performance optimization",
+   "async task scheduling",
+   "async task prioritization"
+  ],
+  "proposed": [
+   "async task management",
+   "rust async libraries",
+   "async programming challenges",
+   "rust async deployment"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ }
+]

@@ -1,0 +1,170 @@
+{
+ "coherent": false,
+ "findings": [
+  {
+   "kind": "duplicate_commit",
+   "step": 59,
+   "key": "32398112",
+   "detail": "step 59 writes story '32398112' with the value it already holds (written at step 19).",
+   "cites": 19
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 141,
+   "key": "32398112",
+   "detail": "step 141 writes story '32398112' with the value it already holds (written at step 59).",
+   "cites": 59
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 145,
+   "key": "18562912",
+   "detail": "step 145 writes story '18562912' with the value it already holds (written at step 119).",
+   "cites": 119
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 146,
+   "key": "47354839",
+   "detail": "step 146 writes story '47354839' with the value it already holds (written at step 63).",
+   "cites": 63
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 151,
+   "key": "41328762",
+   "detail": "step 151 writes story '41328762' with the value it already holds (written at step 66).",
+   "cites": 66
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 174,
+   "key": "comments_read",
+   "detail": "step 174 adds '41328762' to research 'comments_read', which already holds it (first added at step 93).",
+   "cites": 93
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 199,
+   "key": "48925117",
+   "detail": "step 199 writes story '48925117' with the value it already holds (written at step 150).",
+   "cites": 150
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 200,
+   "key": "957656",
+   "detail": "step 200 writes story '957656' with the value it already holds (written at step 162).",
+   "cites": 162
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 201,
+   "key": "36225520",
+   "detail": "step 201 writes story '36225520' with the value it already holds (written at step 163).",
+   "cites": 163
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 202,
+   "key": "37222930",
+   "detail": "step 202 writes story '37222930' with the value it already holds (written at step 147).",
+   "cites": 147
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 212,
+   "key": "comments_read",
+   "detail": "step 212 adds '957656' to research 'comments_read', which already holds it (first added at step 182).",
+   "cites": 182
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 213,
+   "key": "comments_read",
+   "detail": "step 213 adds '36225520' to research 'comments_read', which already holds it (first added at step 183).",
+   "cites": 183
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 231,
+   "key": "13467992",
+   "detail": "step 231 writes story '13467992' with the value it already holds (written at step 51).",
+   "cites": 51
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 242,
+   "key": "36895220",
+   "detail": "step 242 writes story '36895220' with the value it already holds (written at step 154).",
+   "cites": 154
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 257,
+   "key": "comments_read",
+   "detail": "step 257 adds '13467992' to research 'comments_read', which already holds it (first added at step 55).",
+   "cites": 55
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 265,
+   "key": "comments_read",
+   "detail": "step 265 adds '36895220' to research 'comments_read', which already holds it (first added at step 177).",
+   "cites": 177
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 276,
+   "key": "42389867",
+   "detail": "step 276 writes story '42389867' with the value it already holds (written at step 225).",
+   "cites": 225
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 277,
+   "key": "43949354",
+   "detail": "step 277 writes story '43949354' with the value it already holds (written at step 226).",
+   "cites": 226
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 279,
+   "key": "35096366",
+   "detail": "step 279 writes story '35096366' with the value it already holds (written at step 166).",
+   "cites": 166
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 287,
+   "key": "45381883",
+   "detail": "step 287 writes story '45381883' with the value it already holds (written at step 129).",
+   "cites": 129
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 291,
+   "key": "comments_read",
+   "detail": "step 291 adds '43949354' to research 'comments_read', which already holds it (first added at step 253).",
+   "cites": 253
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 293,
+   "key": "comments_read",
+   "detail": "step 293 adds '35096366' to research 'comments_read', which already holds it (first added at step 186).",
+   "cites": 186
+  },
+  {
+   "kind": "duplicate_commit",
+   "step": 298,
+   "key": "comments_read",
+   "detail": "step 298 adds '45381883' to research 'comments_read', which already holds it (first added at step 137).",
+   "cites": 137
+  }
+ ],
+ "ops_read": 308,
+ "ops_rejected": 0,
+ "live_facts": 177,
+ "read_version": "0.4.1"
+}

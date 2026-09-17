@@ -1,0 +1,5189 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38971221",
+  "value": "Vector Databases: A Technical Primer [pdf]",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41985176",
+  "value": "Vector databases are the wrong abstraction",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35826929",
+  "value": "What is a Vector Database? (2021)",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38420554",
+  "value": "VectorDB: Vector Database Built by Kagi Search",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45169624",
+  "value": "Will Amazon S3 Vectors kill vector databases or save them?",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43896011",
+  "value": "Show HN: VectorVFS, your filesystem as a vector database",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43975423",
+  "value": "Show HN: HelixDB \u2013 Open-source vector-graph database for AI applications (Rust)",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39119198",
+  "value": "Are we at peak vector database?",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37747534",
+  "value": "Every database will become a vector database sooner or later",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47000535",
+  "value": "Zvec: A lightweight, fast, in-process vector database",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35550567",
+  "value": "Do you need a vector database?",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44969622",
+  "value": "Show HN: I replaced vector databases with Git for AI memory (PoC)",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37499375",
+  "value": "Show HN: Lantern \u2013 a PostgreSQL vector database for building AI applications",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37764489",
+  "value": "Choosing vector database: a side-by-side comparison",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35308551",
+  "value": "Vector database built for scalable similarity search",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37193599",
+  "value": "Vector databases: analyzing the trade-offs",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37097004",
+  "value": "Do we really need a specialized vector database?",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35641164",
+  "value": "Show HN: CozoDB, Hybrid Relational-Graph-Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30425599",
+  "value": "A gentle introduction to vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39101682",
+  "value": "Qdrant, the Vector Search Database, raised $28M in a Series A round",
+  "ok": true,
+  "refs": [],
+  "step": 20,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36943318",
+  "value": "Which vector database should I use? A comparison cheatsheet",
+  "ok": true,
+  "refs": [],
+  "step": 21,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33252137",
+  "value": "Rewriting a high performance vector database in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 22,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28552034",
+  "value": "Show HN: Embeddinghub: A vector database built for Machine Learning embeddings",
+  "ok": true,
+  "refs": [],
+  "step": 23,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45224141",
+  "value": "Vector database that can index 1B vectors in 48M",
+  "ok": true,
+  "refs": [],
+  "step": 24,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37122064",
+  "value": "Show HN: Epsilla \u2013 Open-source vector database with low query latency",
+  "ok": true,
+  "refs": [],
+  "step": 25,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37825155",
+  "value": "Why AutoGPT engineers ditched vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 26,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41030716",
+  "value": "Show HN: TinkerBird \u2013 A Chrome-native vector database",
+  "ok": true,
+  "refs": [],
+  "step": 27,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39426209",
+  "value": "Show HN: I built a vector database API on Cloudflare",
+  "ok": true,
+  "refs": [],
+  "step": 28,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38416994",
+  "value": "Investing in new vector database development vs enhancing existing databases",
+  "ok": true,
+  "refs": [],
+  "step": 29,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47016530",
+  "value": "A header-only C vector database library",
+  "ok": true,
+  "refs": [],
+  "step": 30,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38971221",
+  "ok": true,
+  "refs": [],
+  "step": 31,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41985176",
+  "ok": true,
+  "refs": [],
+  "step": 32,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35826929",
+  "ok": true,
+  "refs": [],
+  "step": 33,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38420554",
+  "ok": true,
+  "refs": [],
+  "step": 34,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45169624",
+  "ok": true,
+  "refs": [],
+  "step": 35,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43896011",
+  "ok": true,
+  "refs": [],
+  "step": 36,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43975423",
+  "ok": true,
+  "refs": [],
+  "step": 37,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39119198",
+  "ok": true,
+  "refs": [],
+  "step": 38,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37747534",
+  "ok": true,
+  "refs": [],
+  "step": 39,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47000535",
+  "ok": true,
+  "refs": [],
+  "step": 40,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35550567",
+  "ok": true,
+  "refs": [],
+  "step": 41,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44969622",
+  "ok": true,
+  "refs": [],
+  "step": 42,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37499375",
+  "ok": true,
+  "refs": [],
+  "step": 43,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37764489",
+  "ok": true,
+  "refs": [],
+  "step": 44,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35308551",
+  "ok": true,
+  "refs": [],
+  "step": 45,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37193599",
+  "ok": true,
+  "refs": [],
+  "step": 46,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37097004",
+  "ok": true,
+  "refs": [],
+  "step": 47,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35641164",
+  "ok": true,
+  "refs": [],
+  "step": 48,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30425599",
+  "ok": true,
+  "refs": [],
+  "step": 49,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39101682",
+  "ok": true,
+  "refs": [],
+  "step": 50,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36943318",
+  "ok": true,
+  "refs": [],
+  "step": 51,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33252137",
+  "ok": true,
+  "refs": [],
+  "step": 52,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28552034",
+  "ok": true,
+  "refs": [],
+  "step": 53,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45224141",
+  "ok": true,
+  "refs": [],
+  "step": 54,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37122064",
+  "ok": true,
+  "refs": [],
+  "step": 55,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37825155",
+  "ok": true,
+  "refs": [],
+  "step": 56,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41030716",
+  "ok": true,
+  "refs": [],
+  "step": 57,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39426209",
+  "ok": true,
+  "refs": [],
+  "step": 58,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38416994",
+  "ok": true,
+  "refs": [],
+  "step": 59,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47016530",
+  "ok": true,
+  "refs": [],
+  "step": 60,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector databases",
+  "value": "The search results reveal a vibrant discussion around vector databases, highlighting both their potential and limitations. Key insights include the technical nuances of using existing databases like Postgres for vector storage, the debate on the abstraction of vector databases, and the community's exploration of hybrid search capabilities. There is a clear interest in practical implementations and the accessibility of tools like Qdrant.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "38971221"
+   ],
+   [
+    "story",
+    "41985176"
+   ],
+   [
+    "story",
+    "35826929"
+   ],
+   [
+    "story",
+    "38420554"
+   ],
+   [
+    "story",
+    "45169624"
+   ],
+   [
+    "story",
+    "43896011"
+   ],
+   [
+    "story",
+    "43975423"
+   ],
+   [
+    "story",
+    "39119198"
+   ],
+   [
+    "story",
+    "37747534"
+   ],
+   [
+    "story",
+    "47000535"
+   ]
+  ],
+  "step": 61,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database performance",
+  "ok": true,
+  "refs": [],
+  "step": 62,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database performance",
+  "ok": true,
+  "refs": [],
+  "step": 63,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39013813",
+  "value": "New Insights on Vector Database Performance: Updated Qdrant Benchmarks",
+  "ok": true,
+  "refs": [],
+  "step": 64,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36910762",
+  "value": "Vector Database Performance Benchmarks",
+  "ok": true,
+  "refs": [],
+  "step": 65,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36715036",
+  "value": "Vector Database Performance Benchmarks",
+  "ok": true,
+  "refs": [],
+  "step": 66,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36351701",
+  "value": "Vector Database Performance Benchmarking",
+  "ok": true,
+  "refs": [],
+  "step": 67,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43917122",
+  "value": "OpenSearch 3.0 Released",
+  "ok": true,
+  "refs": [],
+  "step": 68,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33252137",
+  "value": "Rewriting a high performance vector database in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 69,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47922034",
+  "value": "FerresDB is now open-source \u2013 A high-performance vector database",
+  "ok": true,
+  "refs": [],
+  "step": 70,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32840564",
+  "value": "Rewriting a high performance vector database in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 71,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40748768",
+  "value": "SQL Vector Databases Boost RAG Performance",
+  "ok": true,
+  "refs": [],
+  "step": 72,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45345718",
+  "value": "Qdrant: High-Performance Vector Database and Vector Search Engine in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 73,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36965637",
+  "value": "Empowering Scalability in LLM App Dev with a High-Performance Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 74,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41136382",
+  "value": "Maximizing ChatGPT Performance with Vector Databases",
+  "ok": true,
+  "refs": [],
+  "step": 75,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13713003",
+  "value": "Voodoo \u2013 A Vector Algebra for Portable Database Performance on Modern Hardware [pdf]",
+  "ok": true,
+  "refs": [],
+  "step": 76,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35567566",
+  "value": "A brand new high-performance SQL-based vector database has been released",
+  "ok": true,
+  "refs": [],
+  "step": 77,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44403785",
+  "value": "Ragged \u2013 Leveraging Video Container Formats for Efficient Vector DB Distribution",
+  "ok": true,
+  "refs": [],
+  "step": 78,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36825681",
+  "value": "Vector Database Stability",
+  "ok": true,
+  "refs": [],
+  "step": 79,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46178312",
+  "value": "LokiVector: An Embedded Document Vector DB Crash-Tested Durability",
+  "ok": true,
+  "refs": [],
+  "step": 80,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43975423",
+  "value": "Show HN: HelixDB \u2013 Open-source vector-graph database for AI applications (Rust)",
+  "ok": true,
+  "refs": [],
+  "step": 81,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37122064",
+  "value": "Show HN: Epsilla \u2013 Open-source vector database with low query latency",
+  "ok": true,
+  "refs": [],
+  "step": 82,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46809092",
+  "value": "Show HN: Zvec \u2013 The SQLite of Vector Databases",
+  "ok": true,
+  "refs": [],
+  "step": 83,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36587393",
+  "value": "Thoughts on Pricing a Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 84,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35707938",
+  "value": "Show HN: Langchain's new member-A SQL+Vector database built on ClickHouse",
+  "ok": true,
+  "refs": [],
+  "step": 85,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37512522",
+  "value": "Show HN: A vector database with semantic SQL-like filtering",
+  "ok": true,
+  "refs": [],
+  "step": 86,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44055479",
+  "value": "Show HN: Building High-Performance AI Agents with SmartBuckets and MCP",
+  "ok": true,
+  "refs": [],
+  "step": 87,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39941144",
+  "value": "Show HN: Chromem-go \u2013 Embeddable vector database for Go",
+  "ok": true,
+  "refs": [],
+  "step": 88,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48493673",
+  "value": "VDBBench 2.0: now measures cost, not just performance",
+  "ok": true,
+  "refs": [],
+  "step": 89,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36958175",
+  "value": "Show HN: PromptTools \u2013 open-source tools for evaluating LLMs and vector DBs",
+  "ok": true,
+  "refs": [],
+  "step": 90,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35042836",
+  "value": "Launch HN: Vellum (YC W23) \u2013 Dev Platform for LLM Apps",
+  "ok": true,
+  "refs": [],
+  "step": 91,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41637452",
+  "value": "Show HN: Airbyte 1.0, Marketplace, AI Assist, GenAI Support and Enterprise GA",
+  "ok": true,
+  "refs": [],
+  "step": 92,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41849352",
+  "value": "Show HN: I launched my DevOps PostgreSQL platform today",
+  "ok": true,
+  "refs": [],
+  "step": 93,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43917122",
+  "ok": true,
+  "refs": [],
+  "step": 94,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33252137",
+  "ok": true,
+  "refs": [],
+  "step": 95,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47922034",
+  "ok": true,
+  "refs": [],
+  "step": 96,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35567566",
+  "ok": true,
+  "refs": [],
+  "step": 97,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36825681",
+  "ok": true,
+  "refs": [],
+  "step": 98,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43975423",
+  "ok": true,
+  "refs": [],
+  "step": 99,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37122064",
+  "ok": true,
+  "refs": [],
+  "step": 100,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36587393",
+  "ok": true,
+  "refs": [],
+  "step": 101,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35707938",
+  "ok": true,
+  "refs": [],
+  "step": 102,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37512522",
+  "ok": true,
+  "refs": [],
+  "step": 103,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44055479",
+  "ok": true,
+  "refs": [],
+  "step": 104,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39941144",
+  "ok": true,
+  "refs": [],
+  "step": 105,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48493673",
+  "ok": true,
+  "refs": [],
+  "step": 106,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36958175",
+  "ok": true,
+  "refs": [],
+  "step": 107,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35042836",
+  "ok": true,
+  "refs": [],
+  "step": 108,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41637452",
+  "ok": true,
+  "refs": [],
+  "step": 109,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41849352",
+  "ok": true,
+  "refs": [],
+  "step": 110,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database performance",
+  "value": "The search results reveal a growing interest in vector database performance, with several benchmarks and new releases highlighting advancements in speed and efficiency. The community is actively discussing the implications of these developments, particularly in relation to existing technologies like Elasticsearch.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "39013813"
+   ],
+   [
+    "story",
+    "36910762"
+   ],
+   [
+    "story",
+    "36715036"
+   ],
+   [
+    "story",
+    "36351701"
+   ],
+   [
+    "story",
+    "43917122"
+   ],
+   [
+    "story",
+    "33252137"
+   ],
+   [
+    "story",
+    "47922034"
+   ],
+   [
+    "story",
+    "32840564"
+   ],
+   [
+    "story",
+    "40748768"
+   ],
+   [
+    "story",
+    "45345718"
+   ]
+  ],
+  "step": 111,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database tools",
+  "ok": true,
+  "refs": [],
+  "step": 112,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database tools",
+  "ok": true,
+  "refs": [],
+  "step": 113,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36328361",
+  "value": "Open Source Vector Database Benchmarking Tool",
+  "ok": true,
+  "refs": [],
+  "step": 114,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36910762",
+  "value": "Vector Database Performance Benchmarks",
+  "ok": true,
+  "refs": [],
+  "step": 115,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37079053",
+  "value": "Show HN: Retake \u2013 Open-Source Hybrid Search for Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 116,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42293942",
+  "value": "Garvata: Observability and Debugging for AI Agent Stack",
+  "ok": true,
+  "refs": [],
+  "step": 117,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44835214",
+  "value": "I Built OmniAgent: The Missing Bridge Between MCP and Custom Business Logic",
+  "ok": true,
+  "refs": [],
+  "step": 118,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46850146",
+  "value": "Show HN: Vector Inspector \u2013 A forensic tool for vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 119,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36370799",
+  "value": "Open Source Benchmarking Tool for Vector Databases",
+  "ok": true,
+  "refs": [],
+  "step": 120,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38690285",
+  "value": "Show HN: R\u039eASON \u2013 Open-source TypeScript framework for LLM apps",
+  "ok": true,
+  "refs": [],
+  "step": 121,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35557881",
+  "value": "Show HN: Sync data from SaaS tools to a vector database automatically",
+  "ok": true,
+  "refs": [],
+  "step": 122,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43064788",
+  "value": "Ask HN: What advantages do AI startups even have besides speed?",
+  "ok": true,
+  "refs": [],
+  "step": 123,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41525118",
+  "value": "Ask HN: The Cost of Building an AI Workflow with Open-Source Tools for a Startup",
+  "ok": true,
+  "refs": [],
+  "step": 124,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40162210",
+  "value": "Show HN: I put PubMed in a vector DB",
+  "ok": true,
+  "refs": [],
+  "step": 125,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37846029",
+  "value": "Show HN: VectorAdmin \u2013 An open-source vector database management system",
+  "ok": true,
+  "refs": [],
+  "step": 126,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37419618",
+  "value": "Interview with David Garnitz, Creator of VectorFlow",
+  "ok": true,
+  "refs": [],
+  "step": 127,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36958175",
+  "value": "Show HN: PromptTools \u2013 open-source tools for evaluating LLMs and vector DBs",
+  "ok": true,
+  "refs": [],
+  "step": 128,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37499375",
+  "value": "Show HN: Lantern \u2013 a PostgreSQL vector database for building AI applications",
+  "ok": true,
+  "refs": [],
+  "step": 129,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35729280",
+  "value": "Show HN: GPT-4 powered internal tools",
+  "ok": true,
+  "refs": [],
+  "step": 130,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40247270",
+  "value": "Show HN: Rispose.com \u2013 A free tool to embed OpenAI Assistants on any website",
+  "ok": true,
+  "refs": [],
+  "step": 131,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34764554",
+  "value": "Ask HN: What tools for building AI products do you wish you'd discovered sooner?",
+  "ok": true,
+  "refs": [],
+  "step": 132,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43155338",
+  "value": "Show HN: HelixDB, Open-Source Hybrid Graph-Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 133,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40296399",
+  "value": "Show HN: I built a tool to automate SEO cross-linking of my articles",
+  "ok": true,
+  "refs": [],
+  "step": 134,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47362956",
+  "value": "Show HN: RAG Doctor \u2013 CLI tool to diagnose broken RAG pipelines",
+  "ok": true,
+  "refs": [],
+  "step": 135,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46175783",
+  "value": "Show HN: ContextPacker code context API for your agent without vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 136,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48968851",
+  "value": "Show HN: Storage Hunters Wiki \u2013 Ad-free database and tools for the Roblox game",
+  "ok": true,
+  "refs": [],
+  "step": 137,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45477929",
+  "value": "Show HN: Churches in Boulder \u2013 search tool using agentic retrieval",
+  "ok": true,
+  "refs": [],
+  "step": 138,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42987923",
+  "value": "Show HN: KnowLang \u2013 An open-source tool for understanding complex codebases",
+  "ok": true,
+  "refs": [],
+  "step": 139,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42174829",
+  "value": "Show HN: FastGraphRAG \u2013 Better RAG using good old PageRank",
+  "ok": true,
+  "refs": [],
+  "step": 140,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43906841",
+  "value": "Launch HN: Exa (YC S21) \u2013 The web as a database",
+  "ok": true,
+  "refs": [],
+  "step": 141,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46442245",
+  "value": "Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.",
+  "ok": true,
+  "refs": [],
+  "step": 142,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41457633",
+  "value": "Show HN: AnythingLLM \u2013 Open-Source, All-in-One Desktop AI Assistant",
+  "ok": true,
+  "refs": [],
+  "step": 143,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37079053",
+  "ok": true,
+  "refs": [],
+  "step": 144,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42293942",
+  "ok": true,
+  "refs": [],
+  "step": 145,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46850146",
+  "ok": true,
+  "refs": [],
+  "step": 146,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38690285",
+  "ok": true,
+  "refs": [],
+  "step": 147,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35557881",
+  "ok": true,
+  "refs": [],
+  "step": 148,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43064788",
+  "ok": true,
+  "refs": [],
+  "step": 149,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41525118",
+  "ok": true,
+  "refs": [],
+  "step": 150,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40162210",
+  "ok": true,
+  "refs": [],
+  "step": 151,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37846029",
+  "ok": true,
+  "refs": [],
+  "step": 152,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36958175",
+  "ok": true,
+  "refs": [],
+  "step": 153,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37499375",
+  "ok": true,
+  "refs": [],
+  "step": 154,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35729280",
+  "ok": true,
+  "refs": [],
+  "step": 155,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40247270",
+  "ok": true,
+  "refs": [],
+  "step": 156,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34764554",
+  "ok": true,
+  "refs": [],
+  "step": 157,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43155338",
+  "ok": true,
+  "refs": [],
+  "step": 158,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40296399",
+  "ok": true,
+  "refs": [],
+  "step": 159,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47362956",
+  "ok": true,
+  "refs": [],
+  "step": 160,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42174829",
+  "ok": true,
+  "refs": [],
+  "step": 161,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43906841",
+  "ok": true,
+  "refs": [],
+  "step": 162,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46442245",
+  "ok": true,
+  "refs": [],
+  "step": 163,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41457633",
+  "ok": true,
+  "refs": [],
+  "step": 164,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database tools",
+  "value": "The search results reveal a vibrant ecosystem of tools and discussions surrounding vector databases, focusing on benchmarking, performance evaluation, and integration with existing systems. Key projects like Retake and Vector Inspector are addressing specific challenges in the field, while community discussions emphasize the importance of empirical performance data.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "36328361"
+   ],
+   [
+    "story",
+    "36910762"
+   ],
+   [
+    "story",
+    "37079053"
+   ],
+   [
+    "story",
+    "42293942"
+   ],
+   [
+    "story",
+    "44835214"
+   ],
+   [
+    "story",
+    "46850146"
+   ],
+   [
+    "story",
+    "36370799"
+   ],
+   [
+    "story",
+    "38690285"
+   ],
+   [
+    "story",
+    "35557881"
+   ],
+   [
+    "story",
+    "43064788"
+   ]
+  ],
+  "step": 165,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database use cases",
+  "ok": true,
+  "refs": [],
+  "step": 166,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database use cases",
+  "ok": true,
+  "refs": [],
+  "step": 167,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35802891",
+  "value": "Are Vector Databases Enough for Data Visual Activity?",
+  "ok": true,
+  "refs": [],
+  "step": 168,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37499375",
+  "value": "Show HN: Lantern \u2013 a PostgreSQL vector database for building AI applications",
+  "ok": true,
+  "refs": [],
+  "step": 169,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36847106",
+  "value": "Ask HN: What are you using Vector Databases for?",
+  "ok": true,
+  "refs": [],
+  "step": 170,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36587393",
+  "value": "Thoughts on Pricing a Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 171,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15713796",
+  "value": "Ask HN: Vector-space database (as a service)?",
+  "ok": true,
+  "refs": [],
+  "step": 172,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42174829",
+  "value": "Show HN: FastGraphRAG \u2013 Better RAG using good old PageRank",
+  "ok": true,
+  "refs": [],
+  "step": 173,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37050532",
+  "value": "Show HN: Chat with your data using LangChain, Pinecone, and Airbyte",
+  "ok": true,
+  "refs": [],
+  "step": 174,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36958175",
+  "value": "Show HN: PromptTools \u2013 open-source tools for evaluating LLMs and vector DBs",
+  "ok": true,
+  "refs": [],
+  "step": 175,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35375727",
+  "value": "Launch HN: Baseplate (YC W23) \u2013 Back end-as-a-service for LLM apps",
+  "ok": true,
+  "refs": [],
+  "step": 176,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44225930",
+  "value": "Launch HN: Chonkie (YC X25) \u2013 Open-Source Library for Advanced Chunking",
+  "ok": true,
+  "refs": [],
+  "step": 177,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35042836",
+  "value": "Launch HN: Vellum (YC W23) \u2013 Dev Platform for LLM Apps",
+  "ok": true,
+  "refs": [],
+  "step": 178,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36326525",
+  "value": "Launch HN: Credal.ai (YC W23) \u2013 Data Safety for Enterprise AI",
+  "ok": true,
+  "refs": [],
+  "step": 179,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 180,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41627966",
+  "value": "Launch HN: Panora (YC S24) \u2013 Data Integration API for LLMs",
+  "ok": true,
+  "refs": [],
+  "step": 181,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44501076",
+  "value": "Show HN: Sumble \u2013 knowledge graph for GTM data \u2013 query tech stack, key projects",
+  "ok": true,
+  "refs": [],
+  "step": 182,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38517060",
+  "value": "Show HN: AIConsole, an Open-Source Desktop AI Editor to Customize Your Workflow",
+  "ok": true,
+  "refs": [],
+  "step": 183,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41637452",
+  "value": "Show HN: Airbyte 1.0, Marketplace, AI Assist, GenAI Support and Enterprise GA",
+  "ok": true,
+  "refs": [],
+  "step": 184,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38530343",
+  "value": "Show HN: SuperDuperDB \u2013 Open-source framework for integrating AI with databases",
+  "ok": true,
+  "refs": [],
+  "step": 185,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41351797",
+  "value": "What should I do when someone blatantly copy my open-source project on GitHub?",
+  "ok": true,
+  "refs": [],
+  "step": 186,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39837654",
+  "value": "Show HN: Unstract(AGPL) \u2013 Launch LLM-powered APIs to structure unstructured docs",
+  "ok": true,
+  "refs": [],
+  "step": 187,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35956563",
+  "value": "Why large context windows are a good thing for vector DBs (and vice versa)",
+  "ok": true,
+  "refs": [],
+  "step": 188,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45319922",
+  "value": "Show HN: VectorLiteDB \u2013 a vector DB for local dev, like SQLite but for vectors",
+  "ok": true,
+  "refs": [],
+  "step": 189,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34726647",
+  "value": "Dev LLM stack, production LLM stack, example projects, & things you'll discover",
+  "ok": true,
+  "refs": [],
+  "step": 190,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40212919",
+  "value": "Show HN: We made Trellis \u2013 a way to run SQL query on your unstructured data",
+  "ok": true,
+  "refs": [],
+  "step": 191,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43974991",
+  "value": "Show HN: OpenMemory \u2013 Make your MCP clients more context-aware",
+  "ok": true,
+  "refs": [],
+  "step": 192,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36169126",
+  "value": "APIs that make any developer an AI engineer",
+  "ok": true,
+  "refs": [],
+  "step": 193,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46249896",
+  "value": "Show HN: EdgeVec \u2013 Sub-millisecond vector search in the browser (Rust/WASM)",
+  "ok": true,
+  "refs": [],
+  "step": 194,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37342482",
+  "value": "Show HN: LLMStack \u2013 Self-Hosted, Low-Code Platform to Build AI Experiences",
+  "ok": true,
+  "refs": [],
+  "step": 195,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38669963",
+  "value": "Show HN: Python package for generating accurate SQL via LLMs using RAG",
+  "ok": true,
+  "refs": [],
+  "step": 196,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35714635",
+  "value": "Why it finally makes sense to build, not buy, a workplace search product",
+  "ok": true,
+  "refs": [],
+  "step": 197,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35802891",
+  "ok": true,
+  "refs": [],
+  "step": 198,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37499375",
+  "ok": true,
+  "refs": [],
+  "step": 199,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36847106",
+  "ok": true,
+  "refs": [],
+  "step": 200,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36587393",
+  "ok": true,
+  "refs": [],
+  "step": 201,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "15713796",
+  "ok": true,
+  "refs": [],
+  "step": 202,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42174829",
+  "ok": true,
+  "refs": [],
+  "step": 203,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37050532",
+  "ok": true,
+  "refs": [],
+  "step": 204,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36958175",
+  "ok": true,
+  "refs": [],
+  "step": 205,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35375727",
+  "ok": true,
+  "refs": [],
+  "step": 206,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44225930",
+  "ok": true,
+  "refs": [],
+  "step": 207,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35042836",
+  "ok": true,
+  "refs": [],
+  "step": 208,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36326525",
+  "ok": true,
+  "refs": [],
+  "step": 209,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 210,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41627966",
+  "ok": true,
+  "refs": [],
+  "step": 211,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44501076",
+  "ok": true,
+  "refs": [],
+  "step": 212,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38517060",
+  "ok": true,
+  "refs": [],
+  "step": 213,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41637452",
+  "ok": true,
+  "refs": [],
+  "step": 214,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38530343",
+  "ok": true,
+  "refs": [],
+  "step": 215,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41351797",
+  "ok": true,
+  "refs": [],
+  "step": 216,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39837654",
+  "ok": true,
+  "refs": [],
+  "step": 217,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35956563",
+  "ok": true,
+  "refs": [],
+  "step": 218,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45319922",
+  "ok": true,
+  "refs": [],
+  "step": 219,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34726647",
+  "ok": true,
+  "refs": [],
+  "step": 220,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40212919",
+  "ok": true,
+  "refs": [],
+  "step": 221,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36169126",
+  "ok": true,
+  "refs": [],
+  "step": 222,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46249896",
+  "ok": true,
+  "refs": [],
+  "step": 223,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37342482",
+  "ok": true,
+  "refs": [],
+  "step": 224,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35714635",
+  "ok": true,
+  "refs": [],
+  "step": 225,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database use cases",
+  "value": "The search results reveal a growing interest in vector databases, particularly their use cases in AI and data visualization. Discussions highlight both the advantages and limitations of these databases, with specific applications and performance considerations being key topics.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "35802891"
+   ],
+   [
+    "story",
+    "37499375"
+   ],
+   [
+    "story",
+    "36847106"
+   ],
+   [
+    "story",
+    "36587393"
+   ],
+   [
+    "story",
+    "15713796"
+   ],
+   [
+    "story",
+    "42174829"
+   ],
+   [
+    "story",
+    "37050532"
+   ],
+   [
+    "story",
+    "36958175"
+   ],
+   [
+    "story",
+    "35375727"
+   ],
+   [
+    "story",
+    "44225930"
+   ]
+  ],
+  "step": 226,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 227,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 228,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39027027",
+  "value": "Vector Database Feature Comparison Matrix (35 DBs)",
+  "ok": true,
+  "refs": [],
+  "step": 229,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43832617",
+  "value": "Postgres vs. Qdrant Vector Database Comparison",
+  "ok": true,
+  "refs": [],
+  "step": 230,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40296399",
+  "value": "Show HN: I built a tool to automate SEO cross-linking of my articles",
+  "ok": true,
+  "refs": [],
+  "step": 231,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38877405",
+  "value": "Comparison of Vector Databases",
+  "ok": true,
+  "refs": [],
+  "step": 232,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41865106",
+  "value": "A Quick Comparison of Vector Databases for RAG Systems",
+  "ok": true,
+  "refs": [],
+  "step": 233,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37241750",
+  "value": "Vector Databases for AI Apps (Comparisons, Reviews, Demos, and Limitations)",
+  "ok": true,
+  "refs": [],
+  "step": 234,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37764489",
+  "value": "Choosing vector database: a side-by-side comparison",
+  "ok": true,
+  "refs": [],
+  "step": 235,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36943318",
+  "value": "Which vector database should I use? A comparison cheatsheet",
+  "ok": true,
+  "refs": [],
+  "step": 236,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35641164",
+  "value": "Show HN: CozoDB, Hybrid Relational-Graph-Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 237,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46850146",
+  "value": "Show HN: Vector Inspector \u2013 A forensic tool for vector databases",
+  "ok": true,
+  "refs": [],
+  "step": 238,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49207194",
+  "value": "Show HN: Remembrane \u2013 agent memory in one SQLite file, zero dependencies",
+  "ok": true,
+  "refs": [],
+  "step": 239,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46937543",
+  "value": "Show HN: The biggest achievement of my life so far",
+  "ok": true,
+  "refs": [],
+  "step": 240,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42011372",
+  "value": "Show HN: Hasura PromptQL: A new way of talking to your data",
+  "ok": true,
+  "refs": [],
+  "step": 241,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45695419",
+  "value": "Show HN: I spent $450 on GCP's Video API, so I built a local alternative",
+  "ok": true,
+  "refs": [],
+  "step": 242,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35456569",
+  "value": "Show HN: Semantic Search with Qdrant and Transformers.js",
+  "ok": true,
+  "refs": [],
+  "step": 243,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48591866",
+  "value": "Show HN: I built a free API cost calculator after a $340 surprise invoice",
+  "ok": true,
+  "refs": [],
+  "step": 244,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46178312",
+  "value": "LokiVector: An Embedded Document Vector DB Crash-Tested Durability",
+  "ok": true,
+  "refs": [],
+  "step": 245,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39813074",
+  "value": "Show HN: \"MedSearch\" - vector similarity search app for medical image retrieval",
+  "ok": true,
+  "refs": [],
+  "step": 246,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40522529",
+  "value": "Ask HN: RAG and unstructured data from several docs",
+  "ok": true,
+  "refs": [],
+  "step": 247,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48108667",
+  "value": "Show HN: Matterbeam, a company-wide write-ahead log for your data",
+  "ok": true,
+  "refs": [],
+  "step": 248,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39027027",
+  "ok": true,
+  "refs": [],
+  "step": 249,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40296399",
+  "ok": true,
+  "refs": [],
+  "step": 250,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38877405",
+  "ok": true,
+  "refs": [],
+  "step": 251,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37764489",
+  "ok": true,
+  "refs": [],
+  "step": 252,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36943318",
+  "ok": true,
+  "refs": [],
+  "step": 253,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35641164",
+  "ok": true,
+  "refs": [],
+  "step": 254,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46850146",
+  "ok": true,
+  "refs": [],
+  "step": 255,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46937543",
+  "ok": true,
+  "refs": [],
+  "step": 256,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42011372",
+  "ok": true,
+  "refs": [],
+  "step": 257,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40522529",
+  "ok": true,
+  "refs": [],
+  "step": 258,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database comparisons",
+  "value": "The search results reveal a rich landscape of vector database comparisons, showcasing various tools and community discussions that emphasize the importance of feature sets, performance metrics, and scalability in selecting the right database for specific applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "39027027"
+   ],
+   [
+    "story",
+    "43832617"
+   ],
+   [
+    "story",
+    "40296399"
+   ],
+   [
+    "story",
+    "38877405"
+   ],
+   [
+    "story",
+    "41865106"
+   ],
+   [
+    "story",
+    "37241750"
+   ],
+   [
+    "story",
+    "37764489"
+   ],
+   [
+    "story",
+    "36943318"
+   ],
+   [
+    "story",
+    "35641164"
+   ],
+   [
+    "story",
+    "46850146"
+   ]
+  ],
+  "step": 259,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database deployment",
+  "ok": true,
+  "refs": [],
+  "step": 260,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database deployment",
+  "ok": true,
+  "refs": [],
+  "step": 261,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37147140",
+  "value": "Show HN: Marqo \u2013 Vectorless Vector Search",
+  "ok": true,
+  "refs": [],
+  "step": 262,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46809092",
+  "value": "Show HN: Zvec \u2013 The SQLite of Vector Databases",
+  "ok": true,
+  "refs": [],
+  "step": 263,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41766152",
+  "value": "Show HN: Quick AI Agent Deployment with Flowise and Qdrant",
+  "ok": true,
+  "refs": [],
+  "step": 264,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44525502",
+  "value": "Show HN: LlamaFarm \u2013 Working on binary AI Project deployment \u2013 (early preview)",
+  "ok": true,
+  "refs": [],
+  "step": 265,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35375727",
+  "value": "Launch HN: Baseplate (YC W23) \u2013 Back end-as-a-service for LLM apps",
+  "ok": true,
+  "refs": [],
+  "step": 266,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48478148",
+  "value": "Show HN: HelixDB \u2013 A graph database built on object storage",
+  "ok": true,
+  "refs": [],
+  "step": 267,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 268,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41637452",
+  "value": "Show HN: Airbyte 1.0, Marketplace, AI Assist, GenAI Support and Enterprise GA",
+  "ok": true,
+  "refs": [],
+  "step": 269,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38530343",
+  "value": "Show HN: SuperDuperDB \u2013 Open-source framework for integrating AI with databases",
+  "ok": true,
+  "refs": [],
+  "step": 270,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42328655",
+  "value": "Show HN: Piazza, syncing the web in a vectorized DB",
+  "ok": true,
+  "refs": [],
+  "step": 271,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37342482",
+  "value": "Show HN: LLMStack \u2013 Self-Hosted, Low-Code Platform to Build AI Experiences",
+  "ok": true,
+  "refs": [],
+  "step": 272,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43182964",
+  "value": "Show HN: Swiftgum (Open Source) \u2013 Turn Data into LLM-Ready Markdown",
+  "ok": true,
+  "refs": [],
+  "step": 273,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42714746",
+  "value": "Show HN: AI chat client that can run on SharePoint and regulated environments",
+  "ok": true,
+  "refs": [],
+  "step": 274,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38049863",
+  "value": "Show HN: SuperDuperDB - Unleash the Power of AI in Your Database",
+  "ok": true,
+  "refs": [],
+  "step": 275,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41985890",
+  "value": "Show HN: Add RAG to any app in minutes \u2013 Dabarqus",
+  "ok": true,
+  "refs": [],
+  "step": 276,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45238432",
+  "value": "Show HN: VittoriaDB \u2013 Zero-config embedded vector DB with HNSW and ACID storage",
+  "ok": true,
+  "refs": [],
+  "step": 277,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40945352",
+  "value": "Show HN: MemFree \u2013 Open-Source Hybrid AI Search Engine",
+  "ok": true,
+  "refs": [],
+  "step": 278,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46656593",
+  "value": "Show HN: Partner \u2013 An AI co-founder that remembers you",
+  "ok": true,
+  "refs": [],
+  "step": 279,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46316223",
+  "value": "Show HN: Shodh \u2013 Cognitive memory for AI agents (runs on edge)",
+  "ok": true,
+  "refs": [],
+  "step": 280,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46178312",
+  "value": "LokiVector: An Embedded Document Vector DB Crash-Tested Durability",
+  "ok": true,
+  "refs": [],
+  "step": 281,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46136279",
+  "value": "Show HN: Rephole, semantic code-search for your repos via REST API",
+  "ok": true,
+  "refs": [],
+  "step": 282,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45957731",
+  "value": "Show HN YC tracker App",
+  "ok": true,
+  "refs": [],
+  "step": 283,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46709963",
+  "value": "Show HN: DockerHoster \u2013 Self-hosted alternative to Vercel with auto-deployments",
+  "ok": true,
+  "refs": [],
+  "step": 284,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47414291",
+  "value": "Show HN: Antfly: Distributed, Multimodal Search and Memory and Graphs in Go",
+  "ok": true,
+  "refs": [],
+  "step": 285,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48181342",
+  "value": "Show HN: InsForge \u2013 Open-source Heroku for coding agents",
+  "ok": true,
+  "refs": [],
+  "step": 286,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42806254",
+  "value": "Show HN: Helicone (YC W23) \u2013 OSS LLM Observability and Development Platform",
+  "ok": true,
+  "refs": [],
+  "step": 287,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47374958",
+  "value": "Show HN: AgentArmor \u2013 open-source 8-layer security framework for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 288,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "3277159",
+  "value": "Ask HN: New curriculum needed for university's Web Application Development ",
+  "ok": true,
+  "refs": [],
+  "step": 289,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44658756",
+  "value": "Show HN: SQLite AI - Open-Source Extensions to Bring AI to SQLite, Everywhere",
+  "ok": true,
+  "refs": [],
+  "step": 290,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43159822",
+  "value": "Show HN: A faster way to set up Flowise and Qdrant for AI agent development",
+  "ok": true,
+  "refs": [],
+  "step": 291,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37147140",
+  "ok": true,
+  "refs": [],
+  "step": 292,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44525502",
+  "ok": true,
+  "refs": [],
+  "step": 293,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35375727",
+  "ok": true,
+  "refs": [],
+  "step": 294,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48478148",
+  "ok": true,
+  "refs": [],
+  "step": 295,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 296,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41637452",
+  "ok": true,
+  "refs": [],
+  "step": 297,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38530343",
+  "ok": true,
+  "refs": [],
+  "step": 298,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42328655",
+  "ok": true,
+  "refs": [],
+  "step": 299,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37342482",
+  "ok": true,
+  "refs": [],
+  "step": 300,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43182964",
+  "ok": true,
+  "refs": [],
+  "step": 301,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38049863",
+  "ok": true,
+  "refs": [],
+  "step": 302,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41985890",
+  "ok": true,
+  "refs": [],
+  "step": 303,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47414291",
+  "ok": true,
+  "refs": [],
+  "step": 304,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48181342",
+  "ok": true,
+  "refs": [],
+  "step": 305,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42806254",
+  "ok": true,
+  "refs": [],
+  "step": 306,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47374958",
+  "ok": true,
+  "refs": [],
+  "step": 307,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "3277159",
+  "ok": true,
+  "refs": [],
+  "step": 308,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database deployment",
+  "value": "The search results reveal a vibrant discussion around vector databases, focusing on innovative deployments, technical challenges, and community feedback. Key themes include the integration of AI, the importance of preprocessing techniques, and the need for user-friendly solutions.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "37147140"
+   ],
+   [
+    "story",
+    "46809092"
+   ],
+   [
+    "story",
+    "41766152"
+   ],
+   [
+    "story",
+    "44525502"
+   ],
+   [
+    "story",
+    "35375727"
+   ],
+   [
+    "story",
+    "48478148"
+   ],
+   [
+    "story",
+    "45504388"
+   ],
+   [
+    "story",
+    "41637452"
+   ],
+   [
+    "story",
+    "38530343"
+   ],
+   [
+    "story",
+    "42328655"
+   ]
+  ],
+  "step": 309,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 310,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 311,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48478148",
+  "value": "Show HN: HelixDB \u2013 A graph database built on object storage",
+  "ok": true,
+  "refs": [],
+  "step": 312,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36965637",
+  "value": "Empowering Scalability in LLM App Dev with a High-Performance Vector Database",
+  "ok": true,
+  "refs": [],
+  "step": 313,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40836953",
+  "value": "Show HN: Vector search and reranking SaaS API",
+  "ok": true,
+  "refs": [],
+  "step": 314,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35547426",
+  "value": "Show HN: GPTCache \u2013 Redis for LLMs",
+  "ok": true,
+  "refs": [],
+  "step": 315,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44572270",
+  "value": "Show HN: RooAGI's Roo-VectorDB: A New PostgreSQL Extension for Vector Search",
+  "ok": true,
+  "refs": [],
+  "step": 316,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37171805",
+  "value": "Ask HN: What is the most important feature for you when choosing a vector db?",
+  "ok": true,
+  "refs": [],
+  "step": 317,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37192409",
+  "value": "Ask HN: What is the most important feature for you when choosing a vector db?",
+  "ok": true,
+  "refs": [],
+  "step": 318,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45132103",
+  "value": "Show HN: Per row context understanding for data transformations",
+  "ok": true,
+  "refs": [],
+  "step": 319,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35630732",
+  "value": "Show HN: Reduce your GPT bill via semantic caching",
+  "ok": true,
+  "refs": [],
+  "step": 320,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "3277159",
+  "value": "Ask HN: New curriculum needed for university's Web Application Development ",
+  "ok": true,
+  "refs": [],
+  "step": 321,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41328762",
+  "value": "How did we build a usage billing tool?",
+  "ok": true,
+  "refs": [],
+  "step": 322,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26195057",
+  "value": "Launch HN: MindsDB (YC W20) \u2013 Machine Learning Inside Your Database",
+  "ok": true,
+  "refs": [],
+  "step": 323,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48478148",
+  "ok": true,
+  "refs": [],
+  "step": 324,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40836953",
+  "ok": true,
+  "refs": [],
+  "step": 325,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35547426",
+  "ok": true,
+  "refs": [],
+  "step": 326,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44572270",
+  "ok": true,
+  "refs": [],
+  "step": 327,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37171805",
+  "ok": true,
+  "refs": [],
+  "step": 328,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37192409",
+  "ok": true,
+  "refs": [],
+  "step": 329,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "3277159",
+  "ok": true,
+  "refs": [],
+  "step": 330,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41328762",
+  "ok": true,
+  "refs": [],
+  "step": 331,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26195057",
+  "ok": true,
+  "refs": [],
+  "step": 332,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector database scalability",
+  "value": "The search results reveal a growing interest in vector databases, particularly in their scalability and integration with existing technologies. Key discussions focus on performance, implementation challenges, and the importance of semantic caching for LLM applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "48478148"
+   ],
+   [
+    "story",
+    "36965637"
+   ],
+   [
+    "story",
+    "40836953"
+   ],
+   [
+    "story",
+    "35547426"
+   ],
+   [
+    "story",
+    "44572270"
+   ],
+   [
+    "story",
+    "37171805"
+   ],
+   [
+    "story",
+    "37192409"
+   ],
+   [
+    "story",
+    "45132103"
+   ],
+   [
+    "story",
+    "35630732"
+   ],
+   [
+    "story",
+    "3277159"
+   ]
+  ],
+  "step": 333,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector search applications",
+  "ok": true,
+  "refs": [],
+  "step": 334,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector search applications",
+  "ok": true,
+  "refs": [],
+  "step": 335,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40435821",
+  "value": "Cookbook for Building Vector Search Based Applications (With Marqo)",
+  "ok": true,
+  "refs": [],
+  "step": 336,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40509447",
+  "value": "Build Your First End-to-End Vector Search Application",
+  "ok": true,
+  "refs": [],
+  "step": 337,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36167144",
+  "value": "Python SDK for PostgresML with scalable LLM embedding memory and text generation",
+  "ok": true,
+  "refs": [],
+  "step": 338,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41618450",
+  "value": "Unlocking the Power of Efficient Vector Search in RAG Application",
+  "ok": true,
+  "refs": [],
+  "step": 339,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23855712",
+  "value": "Vespa Updates:Approximate Nearest Neighbor Vector Search, GKE Sample Application",
+  "ok": true,
+  "refs": [],
+  "step": 340,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37147140",
+  "value": "Show HN: Marqo \u2013 Vectorless Vector Search",
+  "ok": true,
+  "refs": [],
+  "step": 341,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37457921",
+  "value": "Open source projects rewarding contributors",
+  "ok": true,
+  "refs": [],
+  "step": 342,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44403785",
+  "value": "Ragged \u2013 Leveraging Video Container Formats for Efficient Vector DB Distribution",
+  "ok": true,
+  "refs": [],
+  "step": 343,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36719650",
+  "value": "MongoDB launches Vector Search",
+  "ok": true,
+  "refs": [],
+  "step": 344,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41581969",
+  "value": "Show HN: ETL Framework for Vector Databases (Open Source)",
+  "ok": true,
+  "refs": [],
+  "step": 345,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37222496",
+  "value": "Neo4j\u2019s Vector Search: Unlocking Deeper Insights for AI-Powered Applications",
+  "ok": true,
+  "refs": [],
+  "step": 346,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44426233",
+  "value": "Ask HN: What's the 2025 stack for a self-hosted photo library with local AI?",
+  "ok": true,
+  "refs": [],
+  "step": 347,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39813074",
+  "value": "Show HN: \"MedSearch\" - vector similarity search app for medical image retrieval",
+  "ok": true,
+  "refs": [],
+  "step": 348,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46284280",
+  "value": "Show HN: EdgeVec v0.4.0 \u2013 Sub-millisecond vector search in WASM (Rust)",
+  "ok": true,
+  "refs": [],
+  "step": 349,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46178312",
+  "value": "LokiVector: An Embedded Document Vector DB Crash-Tested Durability",
+  "ok": true,
+  "refs": [],
+  "step": 350,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37499375",
+  "value": "Show HN: Lantern \u2013 a PostgreSQL vector database for building AI applications",
+  "ok": true,
+  "refs": [],
+  "step": 351,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40836953",
+  "value": "Show HN: Vector search and reranking SaaS API",
+  "ok": true,
+  "refs": [],
+  "step": 352,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44813342",
+  "value": "Show HN: Vectorwrap: one line vector search for Postgres, MySQL, SQLite, DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 353,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46600287",
+  "value": "Show HN: RAGGuard \u2013 Permission-aware retrieval for RAG applications",
+  "ok": true,
+  "refs": [],
+  "step": 354,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36228877",
+  "value": "Vector Search for Apache Cassandra and AstraDB",
+  "ok": true,
+  "refs": [],
+  "step": 355,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35902431",
+  "value": "Personalize embedding results with application data in your database",
+  "ok": true,
+  "refs": [],
+  "step": 356,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36488784",
+  "value": "Vector Search with MongoDB: Powering the Next Generation of Applications",
+  "ok": true,
+  "refs": [],
+  "step": 357,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40799791",
+  "value": "Show HN: R2R V2 \u2013 A open source RAG engine with prod features",
+  "ok": true,
+  "refs": [],
+  "step": 358,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48478148",
+  "value": "Show HN: HelixDB \u2013 A graph database built on object storage",
+  "ok": true,
+  "refs": [],
+  "step": 359,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36803533",
+  "value": "Show HN: RAGstack \u2013 private ChatGPT for enterprise VPCs, built with Llama 2",
+  "ok": true,
+  "refs": [],
+  "step": 360,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46207017",
+  "value": "Launch HN: Mentat (YC F24) \u2013 Controlling LLMs with Runtime Intervention",
+  "ok": true,
+  "refs": [],
+  "step": 361,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38530343",
+  "value": "Show HN: SuperDuperDB \u2013 Open-source framework for integrating AI with databases",
+  "ok": true,
+  "refs": [],
+  "step": 362,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37705566",
+  "value": "Show HN: Sycamore \u2013 an LLM-powered semantic data preparation system for search",
+  "ok": true,
+  "refs": [],
+  "step": 363,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46647465",
+  "value": "Show HN: Spent 2.5 years building better job search (now using it to find a job)",
+  "ok": true,
+  "refs": [],
+  "step": 364,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35889826",
+  "value": "Show HN: Zep \u2013 Long-Term Memory Store for LLM Apps",
+  "ok": true,
+  "refs": [],
+  "step": 365,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36167144",
+  "ok": true,
+  "refs": [],
+  "step": 366,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37147140",
+  "ok": true,
+  "refs": [],
+  "step": 367,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37457921",
+  "ok": true,
+  "refs": [],
+  "step": 368,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44426233",
+  "ok": true,
+  "refs": [],
+  "step": 369,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37499375",
+  "ok": true,
+  "refs": [],
+  "step": 370,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40836953",
+  "ok": true,
+  "refs": [],
+  "step": 371,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35902431",
+  "ok": true,
+  "refs": [],
+  "step": 372,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40799791",
+  "ok": true,
+  "refs": [],
+  "step": 373,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48478148",
+  "ok": true,
+  "refs": [],
+  "step": 374,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36803533",
+  "ok": true,
+  "refs": [],
+  "step": 375,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46207017",
+  "ok": true,
+  "refs": [],
+  "step": 376,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38530343",
+  "ok": true,
+  "refs": [],
+  "step": 377,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37705566",
+  "ok": true,
+  "refs": [],
+  "step": 378,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35889826",
+  "ok": true,
+  "refs": [],
+  "step": 379,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector search applications",
+  "value": "The search results reveal a vibrant discussion around vector search applications, highlighting various tools, frameworks, and community insights. Key topics include the performance improvements offered by specific SDKs, the implications of new terminologies, and the challenges faced in context handling within RAG applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "40435821"
+   ],
+   [
+    "story",
+    "40509447"
+   ],
+   [
+    "story",
+    "36167144"
+   ],
+   [
+    "story",
+    "41618450"
+   ],
+   [
+    "story",
+    "23855712"
+   ],
+   [
+    "story",
+    "37147140"
+   ],
+   [
+    "story",
+    "37457921"
+   ],
+   [
+    "story",
+    "44403785"
+   ],
+   [
+    "story",
+    "36719650"
+   ],
+   [
+    "story",
+    "41581969"
+   ]
+  ],
+  "step": 380,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "vector search frameworks",
+  "ok": true,
+  "refs": [],
+  "step": 381,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "vector search frameworks",
+  "ok": true,
+  "refs": [],
+  "step": 382,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46264972",
+  "value": "Show HN: I built a circuit breaker that predicts AI failures",
+  "ok": true,
+  "refs": [],
+  "step": 383,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43659999",
+  "value": "Show HN: HelixDB \u2013 Native graph and vector types for RAG and retrieval",
+  "ok": true,
+  "refs": [],
+  "step": 384,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42296935",
+  "value": "Show HN: Superlinked \u2013 Vector Embeddings for Structured and Unstructured Data",
+  "ok": true,
+  "refs": [],
+  "step": 385,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47374335",
+  "value": "MemX \u2013 my AI agent remembers I hate capsicum on pizza",
+  "ok": true,
+  "refs": [],
+  "step": 386,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24810213",
+  "value": "Show HN: ML framework, vector database and search engine of vector spaces",
+  "ok": true,
+  "refs": [],
+  "step": 387,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45235033",
+  "value": "Show HN: VeritasGraph \u2013 On-prem Graph RAG (3.3k+ visitors, 130 stars in 5 days)",
+  "ok": true,
+  "refs": [],
+  "step": 388,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35375540",
+  "value": "Show HN: Open-source ETL framework to sync data from SaaS tools to vector stores",
+  "ok": true,
+  "refs": [],
+  "step": 389,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38530343",
+  "value": "Show HN: SuperDuperDB \u2013 Open-source framework for integrating AI with databases",
+  "ok": true,
+  "refs": [],
+  "step": 390,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44572270",
+  "value": "Show HN: RooAGI's Roo-VectorDB: A New PostgreSQL Extension for Vector Search",
+  "ok": true,
+  "refs": [],
+  "step": 391,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46539270",
+  "value": "Show HN: File-base agent memory framework, like Claude's skills",
+  "ok": true,
+  "refs": [],
+  "step": 392,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41581969",
+  "value": "Show HN: ETL Framework for Vector Databases (Open Source)",
+  "ok": true,
+  "refs": [],
+  "step": 393,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40799791",
+  "value": "Show HN: R2R V2 \u2013 A open source RAG engine with prod features",
+  "ok": true,
+  "refs": [],
+  "step": 394,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46234186",
+  "value": "Show HN: Sim \u2013 Apache-2.0 n8n alternative",
+  "ok": true,
+  "refs": [],
+  "step": 395,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48383578",
+  "value": "I Replaced My AI Agent's Flat Fact Store with a Graph Database",
+  "ok": true,
+  "refs": [],
+  "step": 396,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47169742",
+  "value": "Show HN: Librarian \u2013 Cut token costs by up to 85% for LangGraph and OpenClaw",
+  "ok": true,
+  "refs": [],
+  "step": 397,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35889826",
+  "value": "Show HN: Zep \u2013 Long-Term Memory Store for LLM Apps",
+  "ok": true,
+  "refs": [],
+  "step": 398,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37457921",
+  "value": "Open source projects rewarding contributors",
+  "ok": true,
+  "refs": [],
+  "step": 399,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45964138",
+  "value": "Show HN: Startfa.st \u2013 A curated, fast directory of AI, dev, and product tools",
+  "ok": true,
+  "refs": [],
+  "step": 400,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44683110",
+  "value": "The magic wand that solves agent memory",
+  "ok": true,
+  "refs": [],
+  "step": 401,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44658756",
+  "value": "Show HN: SQLite AI - Open-Source Extensions to Bring AI to SQLite, Everywhere",
+  "ok": true,
+  "refs": [],
+  "step": 402,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45159035",
+  "value": "Show HN: VeritasGraph,An on-premise Graph RAG with verifiable source attribution",
+  "ok": true,
+  "refs": [],
+  "step": 403,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47454669",
+  "value": "Show HN: FrogDB \u2013 yet another \"Redis in Rust\" project",
+  "ok": true,
+  "refs": [],
+  "step": 404,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47246630",
+  "value": "Show HN: Retrievo \u2013 In-memory hybrid search for .NET AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 405,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46012864",
+  "value": "ShowHN: RepoScout \u2013 A multi-platform Git repo search tool in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 406,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44578205",
+  "value": "Open Source Multimodal Semantic Search",
+  "ok": true,
+  "refs": [],
+  "step": 407,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49371913",
+  "value": "Offline RAG on iOS with Spatial Integration",
+  "ok": true,
+  "refs": [],
+  "step": 408,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45026132",
+  "value": "Show HN: SQLite Extensions Guide",
+  "ok": true,
+  "refs": [],
+  "step": 409,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47377187",
+  "value": "Analyzing OpenClaw's 3-layer defense against prompt injection",
+  "ok": true,
+  "refs": [],
+  "step": 410,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46078282",
+  "value": "Show HN: Cupertino \u2013 Offline Apple docs for AI agents (22K pages, MCP, Swift)",
+  "ok": true,
+  "refs": [],
+  "step": 411,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42252370",
+  "value": "Show HN: A Fusion of MongoDB and Pinecone",
+  "ok": true,
+  "refs": [],
+  "step": 412,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43659999",
+  "ok": true,
+  "refs": [],
+  "step": 413,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42296935",
+  "ok": true,
+  "refs": [],
+  "step": 414,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47374335",
+  "ok": true,
+  "refs": [],
+  "step": 415,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45235033",
+  "ok": true,
+  "refs": [],
+  "step": 416,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35375540",
+  "ok": true,
+  "refs": [],
+  "step": 417,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38530343",
+  "ok": true,
+  "refs": [],
+  "step": 418,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44572270",
+  "ok": true,
+  "refs": [],
+  "step": 419,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40799791",
+  "ok": true,
+  "refs": [],
+  "step": 420,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46234186",
+  "ok": true,
+  "refs": [],
+  "step": 421,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48383578",
+  "ok": true,
+  "refs": [],
+  "step": 422,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47169742",
+  "ok": true,
+  "refs": [],
+  "step": 423,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35889826",
+  "ok": true,
+  "refs": [],
+  "step": 424,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37457921",
+  "ok": true,
+  "refs": [],
+  "step": 425,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44683110",
+  "ok": true,
+  "refs": [],
+  "step": 426,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45159035",
+  "ok": true,
+  "refs": [],
+  "step": 427,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "49371913",
+  "ok": true,
+  "refs": [],
+  "step": 428,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "vector search frameworks",
+  "value": "The search results reveal a vibrant ecosystem of vector databases and frameworks, with a focus on integration, performance in specific use cases, and community engagement. Notable projects include HelixDB, Superlinked, and Roo-VectorDB, each addressing unique challenges in data retrieval and AI applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46264972"
+   ],
+   [
+    "story",
+    "43659999"
+   ],
+   [
+    "story",
+    "42296935"
+   ],
+   [
+    "story",
+    "47374335"
+   ],
+   [
+    "story",
+    "24810213"
+   ],
+   [
+    "story",
+    "45235033"
+   ],
+   [
+    "story",
+    "35375540"
+   ],
+   [
+    "story",
+    "38530343"
+   ],
+   [
+    "story",
+    "44572270"
+   ],
+   [
+    "story",
+    "46539270"
+   ]
+  ],
+  "step": 429,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 430,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 431,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33806577",
+  "value": "Netdata 1.37.0: Infinite scalability, database tiering, and much more",
+  "ok": true,
+  "refs": [],
+  "step": 432,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1138834",
+  "value": "PyCon 2010: What every developer should know about database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 433,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12624168",
+  "value": "Pushing Database Scalability Up and Out with GPUs",
+  "ok": true,
+  "refs": [],
+  "step": 434,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12569634",
+  "value": "Pushing Database Scalability Up and Out with GPUs",
+  "ok": true,
+  "refs": [],
+  "step": 435,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12565438",
+  "value": "Pushing Database Scalability Up and Out with GPUs",
+  "ok": true,
+  "refs": [],
+  "step": 436,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12561965",
+  "value": "Pushing Database Scalability Up and Out with GPUs",
+  "ok": true,
+  "refs": [],
+  "step": 437,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "8435031",
+  "value": "The key to distributed database performance: scalability",
+  "ok": true,
+  "refs": [],
+  "step": 438,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6354616",
+  "value": "Need Help with Database Scalability? Understand\u00a0I/O",
+  "ok": true,
+  "refs": [],
+  "step": 439,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6201327",
+  "value": "ParElastic Database Scalability solution for MySQL",
+  "ok": true,
+  "refs": [],
+  "step": 440,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "222688",
+  "value": "Tips on when and how to shard your database for scalability from CTO of Flixster",
+  "ok": true,
+  "refs": [],
+  "step": 441,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "8061402",
+  "value": "Database Scalability \u2013 The Shard Conflict (slideshare)",
+  "ok": true,
+  "refs": [],
+  "step": 442,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1152803",
+  "value": "PyCon 2010:What every developer should know about database scalability (video)",
+  "ok": true,
+  "refs": [],
+  "step": 443,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "8564781",
+  "value": "AWS Re:Invent 2014 \u2013 7 Sessions on Databases and Scalability",
+  "ok": true,
+  "refs": [],
+  "step": 444,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "4842063",
+  "value": "EnterpriseDB cranks up Postgres database scalability",
+  "ok": true,
+  "refs": [],
+  "step": 445,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40812703",
+  "value": "Multi-Tenant Architecture: Enhancing Database Scalability with TiDB",
+  "ok": true,
+  "refs": [],
+  "step": 446,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "3903018",
+  "value": "Database scalability is not only about scale-up, scale-out and hardware...",
+  "ok": true,
+  "refs": [],
+  "step": 447,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "11515505",
+  "value": "Ask HN: Which cloud provider to use in 2016? AWS or GCE?",
+  "ok": true,
+  "refs": [],
+  "step": 448,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "498647",
+  "value": "Ask HN: Just replace my DBA: painless db admin and scale without the cloud? ",
+  "ok": true,
+  "refs": [],
+  "step": 449,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "11604736",
+  "value": "How do you make money online? Why is it so hard?",
+  "ok": true,
+  "refs": [],
+  "step": 450,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1983684",
+  "value": "Databases in the Cloud: Share your Thoughts with Us",
+  "ok": true,
+  "refs": [],
+  "step": 451,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35341005",
+  "value": "Scaling PostgreSQL with Amazon S3",
+  "ok": true,
+  "refs": [],
+  "step": 452,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46780489",
+  "value": "Database Benchmarks Lie (If You Let Them)",
+  "ok": true,
+  "refs": [],
+  "step": 453,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40043100",
+  "value": "Serverless MySQL: Cost-Efficient Revolutionizing of Scalability and Performance",
+  "ok": true,
+  "refs": [],
+  "step": 454,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "8069089",
+  "value": "Resolving the Shard Conflict of Creating a Distributed Database",
+  "ok": true,
+  "refs": [],
+  "step": 455,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "7837322",
+  "value": "Oracle launches MySQL Fabric",
+  "ok": true,
+  "refs": [],
+  "step": 456,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6084187",
+  "value": "Cloudant Contributes CouchDB clustering code back to CouchDB",
+  "ok": true,
+  "refs": [],
+  "step": 457,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "331147",
+  "value": "SQL Server 2008 Database Performance and Scalability - the Microsoft approach",
+  "ok": true,
+  "refs": [],
+  "step": 458,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "7171317",
+  "value": "ActorDB: A distributed SQL database with the scalability of a KV store",
+  "ok": true,
+  "refs": [],
+  "step": 459,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12520717",
+  "value": "ActorDB \u2013 Distributed SQL database with linear scalability",
+  "ok": true,
+  "refs": [],
+  "step": 460,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32690233",
+  "value": "Git\u2019s database internals V: scalability",
+  "ok": true,
+  "refs": [],
+  "step": 461,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33806577",
+  "ok": true,
+  "refs": [],
+  "step": 462,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "222688",
+  "ok": true,
+  "refs": [],
+  "step": 463,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "11515505",
+  "ok": true,
+  "refs": [],
+  "step": 464,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "498647",
+  "ok": true,
+  "refs": [],
+  "step": 465,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "11604736",
+  "ok": true,
+  "refs": [],
+  "step": 466,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35341005",
+  "ok": true,
+  "refs": [],
+  "step": 467,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46780489",
+  "ok": true,
+  "refs": [],
+  "step": 468,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "7171317",
+  "ok": true,
+  "refs": [],
+  "step": 469,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "database scalability",
+  "value": "The search results reveal a strong focus on database scalability, particularly in the context of leveraging new technologies like GPUs and understanding I/O operations. There is a mix of theoretical discussions and practical advice, with a notable emphasis on the importance of architecture and data access patterns in achieving scalability.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "33806577"
+   ],
+   [
+    "story",
+    "1138834"
+   ],
+   [
+    "story",
+    "12624168"
+   ],
+   [
+    "story",
+    "12569634"
+   ],
+   [
+    "story",
+    "12565438"
+   ],
+   [
+    "story",
+    "12561965"
+   ],
+   [
+    "story",
+    "8435031"
+   ],
+   [
+    "story",
+    "6354616"
+   ],
+   [
+    "story",
+    "6201327"
+   ],
+   [
+    "story",
+    "222688"
+   ]
+  ],
+  "step": 470,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "Vector databases have emerged as a significant topic of discussion within the tech community, showcasing both their potential and limitations. The exploration of vector databases highlights their integration with traditional databases like PostgreSQL, particularly through tools such as [pgvector](https://news.ycombinator.com/item?id=38971221). This integration allows for enhanced capabilities in AI applications, yet there remains a debate regarding the abstraction of vector databases and their practical use cases. For instance, the article '[Vector databases are the wrong abstraction](https://news.ycombinator.com/item?id=41985176)' argues that the current abstraction may not be optimal for all scenarios, suggesting a need for more nuanced approaches to data management. Additionally, the community is actively discussing hybrid search capabilities, which indicate a gap in current functionalities of vector databases, as users express the need for filtering results based on specific criteria.\n\nPerformance metrics are a critical aspect of vector databases, with benchmarks revealing significant advancements in speed and efficiency. For example, [Qdrant](https://news.ycombinator.com/item?id=39013813) has shown notable performance improvements, particularly in high-dimensional data retrieval. Meanwhile, [Zilliz](https://news.ycombinator.com/item?id=36910762) provides tools for benchmarking various vector databases, although specific metrics were not detailed in the discussions. The release of [OpenSearch 3.0](https://news.ycombinator.com/item?id=43917122) has also enhanced vector database performance, positioning it as a competitor to traditional solutions like Elasticsearch. Furthermore, the application of Rust in rewriting vector databases could lead to substantial performance gains, as discussed in the article '[Rewriting a high-performance vector database in Rust](https://news.ycombinator.com/item?id=33252137)'.\n\nThe ecosystem surrounding vector databases is vibrant, with numerous tools and frameworks emerging to address specific challenges. For instance, [Retake](https://news.ycombinator.com/item?id=37079053) is an open-source hybrid search tool compatible with managed PostgreSQL services, while [Vector Inspector](https://news.ycombinator.com/item?id=46850146) focuses on metadata and visualization for forensic analysis. Community discussions emphasize the importance of empirical performance data, with users expressing a strong interest in performance testing for new tools, indicating that developers prioritize data-driven evaluations when selecting technologies.\n\nReal-world applications of vector databases are diverse, ranging from face recognition to semantic search and reverse image search. The project '[Lantern](https://news.ycombinator.com/item?id=37499375)' exemplifies a PostgreSQL vector database designed specifically for AI applications, showcasing the trend of integrating vector capabilities with traditional relational databases. However, community concerns about scalability and performance metrics for large datasets persist, particularly as data volumes increase beyond one million records. Discussions around the importance of vector dimensions reveal that smaller dimensions can enhance performance and scalability, which is crucial for handling extensive datasets effectively.\n\nComparative analyses of vector databases have gained traction, with a comprehensive comparison matrix for 35 vector databases available in the community. The '[Choosing vector database: a side-by-side comparison](https://news.ycombinator.com/item?id=37764489)' article has garnered significant attention, highlighting the performance and scalability insights from comparisons between Postgres and Qdrant. Community feedback indicates a strong interest in open-source solutions and collaborative development, emphasizing the need for tools that can support multiple distinct knowledge bases for enterprise applications.\n\nDeployment strategies for vector databases are also evolving, with innovative approaches being discussed. For example, [Marqo](https://news.ycombinator.com/item?id=37147140) introduces a 'Vectorless Vector Search' concept, which raises questions about its effectiveness compared to traditional methods. Meanwhile, [Zvec](https://news.ycombinator.com/item?id=47000535) is positioned as a lightweight alternative for vector database management, appealing to developers seeking simplicity. The significance of preprocessing techniques, such as stemming, in vector generation is also highlighted, as these techniques can impact recall and precision in search results.\n\nAs the landscape of vector databases continues to evolve, scalability remains a critical focus. Solutions like [HelixDB](https://news.ycombinator.com/item?id=48478148) offer flexibility with multi-tenancy and deployment options, while community discussions emphasize the importance of semantic caching for improving cache hit rates in large language model (LLM) queries. The integration of vector search capabilities into existing technologies, such as MongoDB's [Atlas Vector Search](https://news.ycombinator.com/item?id=36719650), reflects a growing trend towards enhancing traditional databases with vector functionalities. Overall, the ongoing dialogue within the community underscores the dynamic nature of vector databases and their potential to reshape data management practices.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "38971221"
+   ],
+   [
+    "story",
+    "41985176"
+   ],
+   [
+    "story",
+    "39013813"
+   ],
+   [
+    "story",
+    "36910762"
+   ],
+   [
+    "story",
+    "43917122"
+   ],
+   [
+    "story",
+    "33252137"
+   ],
+   [
+    "story",
+    "37079053"
+   ],
+   [
+    "story",
+    "46850146"
+   ],
+   [
+    "story",
+    "37499375"
+   ],
+   [
+    "story",
+    "37764489"
+   ],
+   [
+    "story",
+    "37147140"
+   ],
+   [
+    "story",
+    "47000535"
+   ],
+   [
+    "story",
+    "48478148"
+   ],
+   [
+    "story",
+    "36719650"
+   ]
+  ],
+  "step": 471,
+  "source": "synthesize_findings_step"
+ }
+]

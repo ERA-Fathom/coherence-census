@@ -36,6 +36,15 @@
   "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/deepagents-deep-research"
  },
  {
+  "id": "dbos-hn-agent",
+  "agent": "DBOS (the Hacker News research agent example)",
+  "trace": "The DBOS step stream (every checkpointed step with its arguments and result), mapped by the row's `hn_agent_ops.py`",
+  "run": "DBOS's own published research agent, five topics at ten iterations on gpt-4o-mini, run as published and again with the repair in front of the follow-up step",
+  "caught": "As published the agent repeated 14 of 50 searches, all from iteration 4 on, and re-read 42 percent of the threads it fetched; with the repair in front of the one step where it proposes its next queries, repeats fell to 0 of 50, re-reads to 12 percent, and distinct threads covered rose 35 percent at the same model and iteration count",
+  "cmd": "fathom read traces/dbos_hn_agent.json",
+  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/dbos-hn-agent"
+ },
+ {
   "id": "letta",
   "agent": "Letta",
   "trace": "Core blocks, archival passages, and the memory-edit tool calls",

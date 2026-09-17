@@ -1,0 +1,168 @@
+[
+ {
+  "iteration": 1,
+  "committed": [
+   "postgres performance"
+  ],
+  "proposed": [
+   "Postgres indexing strategies",
+   "database performance tools",
+   "Postgres vs MySQL",
+   "configuration tuning Postgres"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 2,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies"
+  ],
+  "proposed": [
+   "postgres monitoring tools",
+   "database configuration tips",
+   "postgres vs mysql performance",
+   "real-time data processing"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 3,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools"
+  ],
+  "proposed": [
+   "postgres performance tuning",
+   "database extensions",
+   "postgres vs mysql",
+   "recent postgres updates"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 4,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning"
+  ],
+  "proposed": [
+   "postgres performance tools",
+   "database configuration tips",
+   "postgres vs mysql performance",
+   "real-time data processing postgres"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 5,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning",
+   "postgres performance tools"
+  ],
+  "proposed": [
+   "postgres performance comparison",
+   "postgres configuration tips",
+   "postgres extensions tools",
+   "postgres use cases"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 6,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning",
+   "postgres performance tools",
+   "postgres performance comparison"
+  ],
+  "proposed": [
+   "postgres performance comparison",
+   "postgres configuration tips",
+   "postgres use cases",
+   "postgres recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "postgres configuration tips"
+ },
+ {
+  "iteration": 7,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning",
+   "postgres performance tools",
+   "postgres performance comparison",
+   "postgres configuration tips"
+  ],
+  "proposed": [
+   "postgres performance tools",
+   "postgres use cases",
+   "postgres recent developments",
+   "database comparison"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "postgres use cases"
+ },
+ {
+  "iteration": 8,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning",
+   "postgres performance tools",
+   "postgres performance comparison",
+   "postgres configuration tips",
+   "postgres use cases"
+  ],
+  "proposed": [
+   "postgres performance comparison",
+   "postgres configuration tips",
+   "postgres use cases",
+   "postgres monitoring tools"
+  ],
+  "regrounds": 1,
+  "outcome": "regrounded",
+  "chosen": "postgres recent developments"
+ },
+ {
+  "iteration": 9,
+  "committed": [
+   "postgres performance",
+   "postgres indexing strategies",
+   "postgres monitoring tools",
+   "postgres performance tuning",
+   "postgres performance tools",
+   "postgres performance comparison",
+   "postgres configuration tips",
+   "postgres use cases",
+   "postgres recent developments"
+  ],
+  "proposed": [
+   "postgres performance tools",
+   "postgres use cases",
+   "postgres configuration tips",
+   "postgres recent benchmarks"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "postgres recent benchmarks"
+ }
+]

@@ -1,0 +1,4759 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18168400",
+  "value": "Calls between JavaScript and WebAssembly are finally fast",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "9732827",
+  "value": "From Asm.js to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12838335",
+  "value": "WebAssembly Browser Preview",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21710105",
+  "value": "Web-assembly powered WYSIWYG LaTeX Editor, supporting nearly all LaTeX package",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47331811",
+  "value": "Making WebAssembly a first-class language on the Web",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14448404",
+  "value": "Goodbye PNaCl, Hello WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41851051",
+  "value": "Sqlite3 WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14458648",
+  "value": "WebAssembly: Mozilla Won",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32069418",
+  "value": "Tell HN: We are trying to get tail calls into the WebAssembly standard",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15694018",
+  "value": "WebAssembly support now shipping in all major browsers",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14495893",
+  "value": "WebAssembly 101: A developer\u2019s first steps",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30356020",
+  "value": "LibreOffice running natively in the browser via WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16811721",
+  "value": "Sneak Peek at WebAssembly Studio",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27832115",
+  "value": "WebAssembly from Scratch: From FizzBuzz to DooM",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18275489",
+  "value": "WebAssembly\u2019s post-MVP future",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17616459",
+  "value": "Is WebAssembly the Return of Java Applets and Flash?",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23776514",
+  "value": "Moving from TypeScript to Rust / WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31341442",
+  "value": "Why I Quit Google\u2019s WebAssembly Team, and How It Made Me Sick",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15780702",
+  "value": "Rust: Enable WebAssembly backend by default",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34078532",
+  "value": "WebAssembly: Docker Without Containers",
+  "ok": true,
+  "refs": [],
+  "step": 20,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37393820",
+  "value": "Learn WebAssembly by writing small programs",
+  "ok": true,
+  "refs": [],
+  "step": 21,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21803489",
+  "value": "WebAssembly becomes a W3C Recommendation",
+  "ok": true,
+  "refs": [],
+  "step": 22,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19501614",
+  "value": "Standardizing WASI: A system interface to run WebAssembly outside the web",
+  "ok": true,
+  "refs": [],
+  "step": 23,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30107540",
+  "value": "Prime Video Uses WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 24,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16049242",
+  "value": "Clang runs in the browser and compiles C++ to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 25,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38125348",
+  "value": "Bringing garbage collected programming languages efficiently to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 26,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19274941",
+  "value": "Show HN: I wrote a book about WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 27,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21515725",
+  "value": "The Bytecode Alliance: Building a secure, composable future for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 28,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45362023",
+  "value": "Python on the Edge: Fast, sandboxed, and powered by WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 29,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16585315",
+  "value": "Making WebAssembly better for Rust and for all languages",
+  "ok": true,
+  "refs": [],
+  "step": 30,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "18168400",
+  "ok": true,
+  "refs": [],
+  "step": 31,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "9732827",
+  "ok": true,
+  "refs": [],
+  "step": 32,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "12838335",
+  "ok": true,
+  "refs": [],
+  "step": 33,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "21710105",
+  "ok": true,
+  "refs": [],
+  "step": 34,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47331811",
+  "ok": true,
+  "refs": [],
+  "step": 35,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14448404",
+  "ok": true,
+  "refs": [],
+  "step": 36,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41851051",
+  "ok": true,
+  "refs": [],
+  "step": 37,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14458648",
+  "ok": true,
+  "refs": [],
+  "step": 38,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32069418",
+  "ok": true,
+  "refs": [],
+  "step": 39,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "15694018",
+  "ok": true,
+  "refs": [],
+  "step": 40,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14495893",
+  "ok": true,
+  "refs": [],
+  "step": 41,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30356020",
+  "ok": true,
+  "refs": [],
+  "step": 42,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16811721",
+  "ok": true,
+  "refs": [],
+  "step": 43,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "27832115",
+  "ok": true,
+  "refs": [],
+  "step": 44,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "18275489",
+  "ok": true,
+  "refs": [],
+  "step": 45,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17616459",
+  "ok": true,
+  "refs": [],
+  "step": 46,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23776514",
+  "ok": true,
+  "refs": [],
+  "step": 47,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31341442",
+  "ok": true,
+  "refs": [],
+  "step": 48,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "15780702",
+  "ok": true,
+  "refs": [],
+  "step": 49,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34078532",
+  "ok": true,
+  "refs": [],
+  "step": 50,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37393820",
+  "ok": true,
+  "refs": [],
+  "step": 51,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "21803489",
+  "ok": true,
+  "refs": [],
+  "step": 52,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19501614",
+  "ok": true,
+  "refs": [],
+  "step": 53,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30107540",
+  "ok": true,
+  "refs": [],
+  "step": 54,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16049242",
+  "ok": true,
+  "refs": [],
+  "step": 55,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38125348",
+  "ok": true,
+  "refs": [],
+  "step": 56,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19274941",
+  "ok": true,
+  "refs": [],
+  "step": 57,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "21515725",
+  "ok": true,
+  "refs": [],
+  "step": 58,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45362023",
+  "ok": true,
+  "refs": [],
+  "step": 59,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16585315",
+  "ok": true,
+  "refs": [],
+  "step": 60,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly",
+  "value": "The search results reveal a rich landscape of discussions and articles surrounding WebAssembly, focusing on its performance improvements, practical applications, and community engagement. Key insights highlight the transition from asm.js, the integration of WebAssembly in various tools and frameworks, and the ongoing discussions about its future capabilities.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "18168400"
+   ],
+   [
+    "story",
+    "9732827"
+   ],
+   [
+    "story",
+    "12838335"
+   ],
+   [
+    "story",
+    "21710105"
+   ],
+   [
+    "story",
+    "47331811"
+   ],
+   [
+    "story",
+    "14448404"
+   ],
+   [
+    "story",
+    "41851051"
+   ],
+   [
+    "story",
+    "14458648"
+   ],
+   [
+    "story",
+    "32069418"
+   ],
+   [
+    "story",
+    "15694018"
+   ]
+  ],
+  "step": 61,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 62,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 63,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44813318",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 64,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26203161",
+  "value": "WebAssembly Search Tools for Static Sites",
+  "ok": true,
+  "refs": [],
+  "step": 65,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15694235",
+  "value": "A new WebAssembly tool: Cheerp 2.0 compiles C++ to mixed wasm/JavaScript",
+  "ok": true,
+  "refs": [],
+  "step": 66,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43216758",
+  "value": "Puffin Tools \u2013 Free WebAssembly tools in the browser",
+  "ok": true,
+  "refs": [],
+  "step": 67,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44821574",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 68,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43983366",
+  "value": "WebAssembly Language Tools \u2013 Language server and other tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 69,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43239066",
+  "value": "Show HN: Puffin Tools \u2013 Free WebAssembly tools in the browser",
+  "ok": true,
+  "refs": [],
+  "step": 70,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40670904",
+  "value": "Nix as a WebAssembly Build Tool",
+  "ok": true,
+  "refs": [],
+  "step": 71,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48476861",
+  "value": "WebAssembly Language Tools v0.11.0 is released",
+  "ok": true,
+  "refs": [],
+  "step": 72,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44836037",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 73,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26501451",
+  "value": "A curated list of language-agnostic WebAssembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 74,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24923054",
+  "value": "WebAssembly tools, frameworks, and libraries for .NET Developers",
+  "ok": true,
+  "refs": [],
+  "step": 75,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25373597",
+  "value": "Debugging WebAssembly with Modern Tools",
+  "ok": true,
+  "refs": [],
+  "step": 76,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30438733",
+  "value": "Debugging WebAssembly with modern tools (2020)",
+  "ok": true,
+  "refs": [],
+  "step": 77,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46339833",
+  "value": "Show HN: FileZen \u2013 Client-side PDF and Video tools using WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 78,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21725884",
+  "value": "Fastq.bio, an interactive genomics web tool in WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 79,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18665669",
+  "value": "Announcing Bolero: F# tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 80,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18653875",
+  "value": "Announcing Bolero: F# tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 81,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24376562",
+  "value": "A Suduko solving serverless endpoint using WebAssembly and OR-Tools",
+  "ok": true,
+  "refs": [],
+  "step": 82,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35905538",
+  "value": "Show HN: Wzprof, a cross-language profiler using WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 83,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42230649",
+  "value": "Show HN: QuackHouse, Database in the browser, using WASM and DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 84,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44517407",
+  "value": "Show HN: Toolbox: Run FFmpeg, Imagemagick, 7Zip and Friends in the Browser",
+  "ok": true,
+  "refs": [],
+  "step": 85,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19735559",
+  "value": "Blockupload.io: Upload Files to Bitcoin Cash Blockchain(LZMA and OCB3-ChaCha20",
+  "ok": true,
+  "refs": [],
+  "step": 86,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46993832",
+  "value": "Show HN: PolyMCP \u2013 Run MCP Python Tools in WASM via Pyodide",
+  "ok": true,
+  "refs": [],
+  "step": 87,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26323966",
+  "value": "Local PDF Tools \u2013 Powered by WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 88,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38759549",
+  "value": "YoWASP aims to distribute up-to-date FOSS FPGA tools compiled to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 89,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39811546",
+  "value": "Crows \u2013 a Rust and WebAssembly based load testing tool",
+  "ok": true,
+  "refs": [],
+  "step": 90,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32493940",
+  "value": "A new WebAssembly based video editing tool",
+  "ok": true,
+  "refs": [],
+  "step": 91,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45557511",
+  "value": "Show HN: Infectio \u2013 A browser-based malware analysis tool built with WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 92,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31359201",
+  "value": "Ask HN: How to build a career in systems-level open source tech?",
+  "ok": true,
+  "refs": [],
+  "step": 93,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44813318",
+  "ok": true,
+  "refs": [],
+  "step": 94,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43216758",
+  "ok": true,
+  "refs": [],
+  "step": 95,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25373597",
+  "ok": true,
+  "refs": [],
+  "step": 96,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46339833",
+  "ok": true,
+  "refs": [],
+  "step": 97,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42230649",
+  "ok": true,
+  "refs": [],
+  "step": 98,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19735559",
+  "ok": true,
+  "refs": [],
+  "step": 99,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26323966",
+  "ok": true,
+  "refs": [],
+  "step": 100,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38759549",
+  "ok": true,
+  "refs": [],
+  "step": 101,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39811546",
+  "ok": true,
+  "refs": [],
+  "step": 102,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32493940",
+  "ok": true,
+  "refs": [],
+  "step": 103,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45557511",
+  "ok": true,
+  "refs": [],
+  "step": 104,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31359201",
+  "ok": true,
+  "refs": [],
+  "step": 105,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly tools",
+  "value": "The search results reveal a variety of tools and discussions surrounding WebAssembly, particularly focusing on tools for AI integration, static site search enhancements, and browser-based utilities. Community feedback highlights both excitement and challenges in using these tools.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "44813318"
+   ],
+   [
+    "story",
+    "26203161"
+   ],
+   [
+    "story",
+    "15694235"
+   ],
+   [
+    "story",
+    "43216758"
+   ],
+   [
+    "story",
+    "44821574"
+   ],
+   [
+    "story",
+    "43983366"
+   ],
+   [
+    "story",
+    "43239066"
+   ],
+   [
+    "story",
+    "40670904"
+   ],
+   [
+    "story",
+    "48476861"
+   ],
+   [
+    "story",
+    "44836037"
+   ]
+  ],
+  "step": 106,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly performance",
+  "ok": true,
+  "refs": [],
+  "step": 107,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly performance",
+  "ok": true,
+  "refs": [],
+  "step": 108,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26803155",
+  "value": "Is WebAssembly magic performance pixie dust?",
+  "ok": true,
+  "refs": [],
+  "step": 109,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14159052",
+  "value": "JavaScript performance, WebAssembly, and Shared Memory in Microsoft Edge",
+  "ok": true,
+  "refs": [],
+  "step": 110,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22024758",
+  "value": "Wasm3 \u2013 A high performance WebAssembly interpreter in C",
+  "ok": true,
+  "refs": [],
+  "step": 111,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13604537",
+  "value": "A first look at WebAssembly performance",
+  "ok": true,
+  "refs": [],
+  "step": 112,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32098016",
+  "value": "Is WebAssembly magic performance pixie dust? (2021)",
+  "ok": true,
+  "refs": [],
+  "step": 113,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17362745",
+  "value": "Improved JavaScript and WebAssembly performance in EdgeHTML 17",
+  "ok": true,
+  "refs": [],
+  "step": 114,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33350105",
+  "value": "Emulator Performance: WebAssembly vs. JavaScript (2021)",
+  "ok": true,
+  "refs": [],
+  "step": 115,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20456617",
+  "value": "Show HN: M3 \u2013 A high performance WebAssembly interpreter in C",
+  "ok": true,
+  "refs": [],
+  "step": 116,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35198505",
+  "value": "The Truth about Rust/WebAssembly Performance",
+  "ok": true,
+  "refs": [],
+  "step": 117,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13592020",
+  "value": "A first look at WebAssembly performance",
+  "ok": true,
+  "refs": [],
+  "step": 118,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22083669",
+  "value": "WebAssembly: High-performance web, or malware vector? With co-designer Rossberg",
+  "ok": true,
+  "refs": [],
+  "step": 119,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36792881",
+  "value": "The truth about Rust/WebAssembly performance [video]",
+  "ok": true,
+  "refs": [],
+  "step": 120,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34442561",
+  "value": "WebAssembly Performance",
+  "ok": true,
+  "refs": [],
+  "step": 121,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20333788",
+  "value": "Increase Rust and WebAssembly performance",
+  "ok": true,
+  "refs": [],
+  "step": 122,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14202663",
+  "value": "Improved JavaScript Performance, WebAssembly, and Shared Memory in MS Edge",
+  "ok": true,
+  "refs": [],
+  "step": 123,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26815022",
+  "value": "Is WebAssembly magic performance pixie dust?",
+  "ok": true,
+  "refs": [],
+  "step": 124,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26792378",
+  "value": "Is WebAssembly magic performance pixie dust?",
+  "ok": true,
+  "refs": [],
+  "step": 125,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21509837",
+  "value": "An (experimental) high performance WebAssembly interpreter written in C",
+  "ok": true,
+  "refs": [],
+  "step": 126,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17348355",
+  "value": "Improved JavaScript and WebAssembly Performance in EdgeHTML 17",
+  "ok": true,
+  "refs": [],
+  "step": 127,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46889237",
+  "value": "Rust vs. JavaScript: performance, WebAssembly, and developer experience",
+  "ok": true,
+  "refs": [],
+  "step": 128,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40199229",
+  "value": "WebAssembly performance patterns for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 129,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35240914",
+  "value": "The Truth about Rust/WebAssembly Performance",
+  "ok": true,
+  "refs": [],
+  "step": 130,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35218093",
+  "value": "Asp.net Core 8 Preview 2: QuickGrid and Enhanced Blazor WebAssembly Performance",
+  "ok": true,
+  "refs": [],
+  "step": 131,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17348542",
+  "value": "Improved JavaScript and WebAssembly Performance in EdgeHTML 17",
+  "ok": true,
+  "refs": [],
+  "step": 132,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16609438",
+  "value": "Debugging Web Assembly Performance with AssemblyScript and a Gameboy Emulator",
+  "ok": true,
+  "refs": [],
+  "step": 133,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46910852",
+  "value": "Show HN: Axiom \u2013 C++ tensor library with NumPys API, optimized for Apple Silicon",
+  "ok": true,
+  "refs": [],
+  "step": 134,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46580750",
+  "value": "Show HN: Coi \u2013 A compiled-reactive language for high-performance WASM apps",
+  "ok": true,
+  "refs": [],
+  "step": 135,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16519656",
+  "value": "WebAssembly Startup Time Optimization for Apps",
+  "ok": true,
+  "refs": [],
+  "step": 136,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16476768",
+  "value": "Optimizing WebAssembly Startup Time",
+  "ok": true,
+  "refs": [],
+  "step": 137,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17809224",
+  "value": "WebAssembly vs. JS, a benchmark",
+  "ok": true,
+  "refs": [],
+  "step": 138,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26803155",
+  "ok": true,
+  "refs": [],
+  "step": 139,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14159052",
+  "ok": true,
+  "refs": [],
+  "step": 140,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22024758",
+  "ok": true,
+  "refs": [],
+  "step": 141,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "13604537",
+  "ok": true,
+  "refs": [],
+  "step": 142,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32098016",
+  "ok": true,
+  "refs": [],
+  "step": 143,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17362745",
+  "ok": true,
+  "refs": [],
+  "step": 144,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33350105",
+  "ok": true,
+  "refs": [],
+  "step": 145,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20456617",
+  "ok": true,
+  "refs": [],
+  "step": 146,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46910852",
+  "ok": true,
+  "refs": [],
+  "step": 147,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16519656",
+  "ok": true,
+  "refs": [],
+  "step": 148,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly performance",
+  "value": "The search results reveal a strong interest in the performance of WebAssembly, with various articles and community discussions highlighting its advantages over JavaScript, particularly in compute-heavy scenarios. However, there are ongoing concerns about its limitations in interacting with web APIs and the necessity of JavaScript wrappers, which could hinder its performance in certain applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26803155"
+   ],
+   [
+    "story",
+    "14159052"
+   ],
+   [
+    "story",
+    "22024758"
+   ],
+   [
+    "story",
+    "13604537"
+   ],
+   [
+    "story",
+    "32098016"
+   ],
+   [
+    "story",
+    "17362745"
+   ],
+   [
+    "story",
+    "33350105"
+   ],
+   [
+    "story",
+    "20456617"
+   ],
+   [
+    "story",
+    "35198505"
+   ],
+   [
+    "story",
+    "13592020"
+   ]
+  ],
+  "step": 149,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly use cases",
+  "ok": true,
+  "refs": [],
+  "step": 150,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly use cases",
+  "ok": true,
+  "refs": [],
+  "step": 151,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37982103",
+  "value": "True Portability Is the Killer Use Case for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 152,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19991829",
+  "value": "WebAssembly a Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 153,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35469259",
+  "value": "Unexpectedly Useful: A Real World Use Case for WebAssembly System Interface",
+  "ok": true,
+  "refs": [],
+  "step": 154,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36132380",
+  "value": "Show HN: WebAssembly System Interface (WASI) with Sockets for Go",
+  "ok": true,
+  "refs": [],
+  "step": 155,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34565026",
+  "value": "Ask HN: Is WASM (WebAssembly) getting adoption in real use cases?",
+  "ok": true,
+  "refs": [],
+  "step": 156,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43344659",
+  "value": "Show HN: WebAssembly from the Ground Up \u2013 learn WASM by building a compiler",
+  "ok": true,
+  "refs": [],
+  "step": 157,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20013060",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 158,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19983416",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 159,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19982653",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 160,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20054650",
+  "value": "WebAssembly at eBay: a real-world use case",
+  "ok": true,
+  "refs": [],
+  "step": 161,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19997158",
+  "value": "WebAssembly at eBay: A Real-World Use Case By",
+  "ok": true,
+  "refs": [],
+  "step": 162,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20000061",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 163,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13651677",
+  "value": "Ask HN: Why Can't Fuchsia OS be Based on V8 Instead of DartVM?",
+  "ok": true,
+  "refs": [],
+  "step": 164,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19993552",
+  "value": "Using WebAssembly to improve barcode scanning",
+  "ok": true,
+  "refs": [],
+  "step": 165,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42750917",
+  "value": "Show HN: Billion Cell Spreadsheets with Incremental Computation",
+  "ok": true,
+  "refs": [],
+  "step": 166,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 167,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28155585",
+  "value": "Ask HN: Best use of WebAssembly so far?",
+  "ok": true,
+  "refs": [],
+  "step": 168,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23752376",
+  "value": "Ask HN: Would you be interested in a Python to WebAssembly compiler?",
+  "ok": true,
+  "refs": [],
+  "step": 169,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20600494",
+  "value": "Show HN: Desktop Viewer for WebAssembly Modules",
+  "ok": true,
+  "refs": [],
+  "step": 170,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20437555",
+  "value": "Ask HN: Are there any new languages designed specifically for webassembly",
+  "ok": true,
+  "refs": [],
+  "step": 171,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41677581",
+  "value": "Ask HN: Inappropriate Uses of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 172,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28173598",
+  "value": "Transforming data in real-time with WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 173,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33328850",
+  "value": "A WebAssembly-based, cloud-native ETL application framework for Cloud DATABASE",
+  "ok": true,
+  "refs": [],
+  "step": 174,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45633453",
+  "value": "Show HN: Duck-UI \u2013 Browser-Based SQL IDE for DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 175,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26285687",
+  "value": "Launch HN: Spruce (YC W21) \u2013 OSS for User Owned and Provably Authentic Data",
+  "ok": true,
+  "refs": [],
+  "step": 176,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37673361",
+  "value": "Show HN: Customizable Woodworking Plans with Three.js",
+  "ok": true,
+  "refs": [],
+  "step": 177,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42164169",
+  "value": "Show HN: GitHub Multi-Topic Explorer: A Tool for Multiple Topics Searches",
+  "ok": true,
+  "refs": [],
+  "step": 178,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46570584",
+  "value": "Show HN: webrtc-rs/rtc \u2013 A Sans-I/O WebRTC Stack for Rust",
+  "ok": true,
+  "refs": [],
+  "step": 179,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38026581",
+  "value": "Show HN: HyperMap \u2013 a new REST API standard that supports client-side JavaScript",
+  "ok": true,
+  "refs": [],
+  "step": 180,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44181297",
+  "value": "Show HN: Kleks \u2013 declarative documents with live preview (in Rust+WASM)",
+  "ok": true,
+  "refs": [],
+  "step": 181,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37982103",
+  "ok": true,
+  "refs": [],
+  "step": 182,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19991829",
+  "ok": true,
+  "refs": [],
+  "step": 183,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34565026",
+  "ok": true,
+  "refs": [],
+  "step": 184,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43344659",
+  "ok": true,
+  "refs": [],
+  "step": 185,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "13651677",
+  "ok": true,
+  "refs": [],
+  "step": 186,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42750917",
+  "ok": true,
+  "refs": [],
+  "step": 187,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 188,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28155585",
+  "ok": true,
+  "refs": [],
+  "step": 189,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23752376",
+  "ok": true,
+  "refs": [],
+  "step": 190,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20600494",
+  "ok": true,
+  "refs": [],
+  "step": 191,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20437555",
+  "ok": true,
+  "refs": [],
+  "step": 192,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41677581",
+  "ok": true,
+  "refs": [],
+  "step": 193,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45633453",
+  "ok": true,
+  "refs": [],
+  "step": 194,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26285687",
+  "ok": true,
+  "refs": [],
+  "step": 195,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37673361",
+  "ok": true,
+  "refs": [],
+  "step": 196,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42164169",
+  "ok": true,
+  "refs": [],
+  "step": 197,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46570584",
+  "ok": true,
+  "refs": [],
+  "step": 198,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44181297",
+  "ok": true,
+  "refs": [],
+  "step": 199,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly use cases",
+  "value": "The search results reveal a strong interest in WebAssembly's use cases, particularly in real-world applications like eBay, and highlight its performance advantages over JavaScript. Discussions also touch on technical challenges such as memory management and the potential for broader adoption in various programming environments.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "37982103"
+   ],
+   [
+    "story",
+    "19991829"
+   ],
+   [
+    "story",
+    "35469259"
+   ],
+   [
+    "story",
+    "36132380"
+   ],
+   [
+    "story",
+    "34565026"
+   ],
+   [
+    "story",
+    "43344659"
+   ],
+   [
+    "story",
+    "20013060"
+   ],
+   [
+    "story",
+    "19983416"
+   ],
+   [
+    "story",
+    "19982653"
+   ],
+   [
+    "story",
+    "20054650"
+   ]
+  ],
+  "step": 200,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 201,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 202,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26268604",
+  "value": "A Comparison between WebAssembly and RISC-V",
+  "ok": true,
+  "refs": [],
+  "step": 203,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43950422",
+  "value": "A Comparison between WebAssembly and RISC-V (2020)",
+  "ok": true,
+  "refs": [],
+  "step": 204,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24079495",
+  "value": "A Comparison between WebAssembly and RISC-V",
+  "ok": true,
+  "refs": [],
+  "step": 205,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16251316",
+  "value": "How JavaScript works: comparison with WebAssembly and why it\u2019s better",
+  "ok": true,
+  "refs": [],
+  "step": 206,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15749863",
+  "value": "WebAssembly vs. JavaScript: performance, platform API access, memory, debugging",
+  "ok": true,
+  "refs": [],
+  "step": 207,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15798686",
+  "value": "WebAssembly vs. JavaScript: performance, platform API access, memory, debugging",
+  "ok": true,
+  "refs": [],
+  "step": 208,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31581023",
+  "value": "Show HN: WebAssembly Error Diffusion Dither Performance Comparison",
+  "ok": true,
+  "refs": [],
+  "step": 209,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47393000",
+  "value": "Show HN: Webassembly4J Run WebAssembly from Java",
+  "ok": true,
+  "refs": [],
+  "step": 210,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31590819",
+  "value": "Show HN: Common Lisp running natively over WebAssembly for the first time",
+  "ok": true,
+  "refs": [],
+  "step": 211,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14506519",
+  "value": "Web Assembly vs. JavaScript: video FX performance comparison",
+  "ok": true,
+  "refs": [],
+  "step": 212,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48572553",
+  "value": "Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD",
+  "ok": true,
+  "refs": [],
+  "step": 213,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43653304",
+  "value": "K8s Server-Side Package Management with Yoke's Air Traffic Controller",
+  "ok": true,
+  "refs": [],
+  "step": 214,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47943555",
+  "value": "Show HN: Pcons: new software build tool in Python, inspired by SCons and CMake",
+  "ok": true,
+  "refs": [],
+  "step": 215,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31590819",
+  "ok": true,
+  "refs": [],
+  "step": 216,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48572553",
+  "ok": true,
+  "refs": [],
+  "step": 217,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly comparisons",
+  "value": "The search results provide a comprehensive overview of comparisons involving WebAssembly, particularly against RISC-V and JavaScript. They highlight performance metrics, architectural differences, and community perspectives on the use of WebAssembly in various applications.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26268604"
+   ],
+   [
+    "story",
+    "43950422"
+   ],
+   [
+    "story",
+    "24079495"
+   ],
+   [
+    "story",
+    "16251316"
+   ],
+   [
+    "story",
+    "15749863"
+   ],
+   [
+    "story",
+    "15798686"
+   ],
+   [
+    "story",
+    "31581023"
+   ],
+   [
+    "story",
+    "47393000"
+   ],
+   [
+    "story",
+    "31590819"
+   ],
+   [
+    "story",
+    "14506519"
+   ]
+  ],
+  "step": 218,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly deployment",
+  "ok": true,
+  "refs": [],
+  "step": 219,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly deployment",
+  "ok": true,
+  "refs": [],
+  "step": 220,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36859587",
+  "value": "Compiling Llama2.C to WebAssembly for Cross Platform Lightweight Deployment",
+  "ok": true,
+  "refs": [],
+  "step": 221,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46759940",
+  "value": "Show HN:PolyMCP \u2013 from Server to WebAssembly from the Same Python Code",
+  "ok": true,
+  "refs": [],
+  "step": 222,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 223,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33328850",
+  "value": "A WebAssembly-based, cloud-native ETL application framework for Cloud DATABASE",
+  "ok": true,
+  "refs": [],
+  "step": 224,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35136827",
+  "value": "Launch HN: Pynecone (YC W23) \u2013 Web Apps in Pure Python",
+  "ok": true,
+  "refs": [],
+  "step": 225,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45633453",
+  "value": "Show HN: Duck-UI \u2013 Browser-Based SQL IDE for DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 226,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37764133",
+  "value": "Show HN: Ambient, a multiplayer game engine and platform using WASM/WebGPU/Rust",
+  "ok": true,
+  "refs": [],
+  "step": 227,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20656411",
+  "value": "Ask HN: Modern day web development for someone who last did it 15 years ago",
+  "ok": true,
+  "refs": [],
+  "step": 228,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38168651",
+  "value": "Show HN: Cerbos Hub - Authorization Management System",
+  "ok": true,
+  "refs": [],
+  "step": 229,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46910852",
+  "value": "Show HN: Axiom \u2013 C++ tensor library with NumPys API, optimized for Apple Silicon",
+  "ok": true,
+  "refs": [],
+  "step": 230,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43121308",
+  "value": "Show HN: Love2d Game running in browser with a single-player eSports twist",
+  "ok": true,
+  "refs": [],
+  "step": 231,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22889264",
+  "value": "Launch HN: Fleetfn.com \u2013 Deploy your functions and run cold start to zero",
+  "ok": true,
+  "refs": [],
+  "step": 232,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22886490",
+  "value": "Launch HN: Fleetfn.com \u2013 Serverless Function Fastest",
+  "ok": true,
+  "refs": [],
+  "step": 233,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 234,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "35136827",
+  "ok": true,
+  "refs": [],
+  "step": 235,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45633453",
+  "ok": true,
+  "refs": [],
+  "step": 236,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37764133",
+  "ok": true,
+  "refs": [],
+  "step": 237,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20656411",
+  "ok": true,
+  "refs": [],
+  "step": 238,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38168651",
+  "ok": true,
+  "refs": [],
+  "step": 239,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46910852",
+  "ok": true,
+  "refs": [],
+  "step": 240,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly deployment",
+  "value": "The search results reveal a vibrant discussion around WebAssembly deployment, highlighting various frameworks and platforms that leverage WebAssembly for cross-platform applications. Key projects like Lunatic and Pynecone are gaining traction, while community discussions reflect both technical interest and branding considerations.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "36859587"
+   ],
+   [
+    "story",
+    "46759940"
+   ],
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "33328850"
+   ],
+   [
+    "story",
+    "35136827"
+   ],
+   [
+    "story",
+    "45633453"
+   ],
+   [
+    "story",
+    "37764133"
+   ],
+   [
+    "story",
+    "20656411"
+   ],
+   [
+    "story",
+    "38168651"
+   ],
+   [
+    "story",
+    "46910852"
+   ]
+  ],
+  "step": 241,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 242,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 243,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44813318",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 244,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26203161",
+  "value": "WebAssembly Search Tools for Static Sites",
+  "ok": true,
+  "refs": [],
+  "step": 245,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15694235",
+  "value": "A new WebAssembly tool: Cheerp 2.0 compiles C++ to mixed wasm/JavaScript",
+  "ok": true,
+  "refs": [],
+  "step": 246,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43216758",
+  "value": "Puffin Tools \u2013 Free WebAssembly tools in the browser",
+  "ok": true,
+  "refs": [],
+  "step": 247,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44821574",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 248,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43983366",
+  "value": "WebAssembly Language Tools \u2013 Language server and other tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 249,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43239066",
+  "value": "Show HN: Puffin Tools \u2013 Free WebAssembly tools in the browser",
+  "ok": true,
+  "refs": [],
+  "step": 250,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40670904",
+  "value": "Nix as a WebAssembly Build Tool",
+  "ok": true,
+  "refs": [],
+  "step": 251,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48476861",
+  "value": "WebAssembly Language Tools v0.11.0 is released",
+  "ok": true,
+  "refs": [],
+  "step": 252,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44836037",
+  "value": "Wassette: WebAssembly-based tools for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 253,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26501451",
+  "value": "A curated list of language-agnostic WebAssembly tools",
+  "ok": true,
+  "refs": [],
+  "step": 254,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24923054",
+  "value": "WebAssembly tools, frameworks, and libraries for .NET Developers",
+  "ok": true,
+  "refs": [],
+  "step": 255,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25373597",
+  "value": "Debugging WebAssembly with Modern Tools",
+  "ok": true,
+  "refs": [],
+  "step": 256,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30438733",
+  "value": "Debugging WebAssembly with modern tools (2020)",
+  "ok": true,
+  "refs": [],
+  "step": 257,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46339833",
+  "value": "Show HN: FileZen \u2013 Client-side PDF and Video tools using WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 258,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21725884",
+  "value": "Fastq.bio, an interactive genomics web tool in WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 259,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18665669",
+  "value": "Announcing Bolero: F# tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 260,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18653875",
+  "value": "Announcing Bolero: F# tools for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 261,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24376562",
+  "value": "A Suduko solving serverless endpoint using WebAssembly and OR-Tools",
+  "ok": true,
+  "refs": [],
+  "step": 262,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35905538",
+  "value": "Show HN: Wzprof, a cross-language profiler using WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 263,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42230649",
+  "value": "Show HN: QuackHouse, Database in the browser, using WASM and DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 264,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44517407",
+  "value": "Show HN: Toolbox: Run FFmpeg, Imagemagick, 7Zip and Friends in the Browser",
+  "ok": true,
+  "refs": [],
+  "step": 265,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19735559",
+  "value": "Blockupload.io: Upload Files to Bitcoin Cash Blockchain(LZMA and OCB3-ChaCha20",
+  "ok": true,
+  "refs": [],
+  "step": 266,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46993832",
+  "value": "Show HN: PolyMCP \u2013 Run MCP Python Tools in WASM via Pyodide",
+  "ok": true,
+  "refs": [],
+  "step": 267,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26323966",
+  "value": "Local PDF Tools \u2013 Powered by WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 268,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38759549",
+  "value": "YoWASP aims to distribute up-to-date FOSS FPGA tools compiled to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 269,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39811546",
+  "value": "Crows \u2013 a Rust and WebAssembly based load testing tool",
+  "ok": true,
+  "refs": [],
+  "step": 270,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32493940",
+  "value": "A new WebAssembly based video editing tool",
+  "ok": true,
+  "refs": [],
+  "step": 271,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45557511",
+  "value": "Show HN: Infectio \u2013 A browser-based malware analysis tool built with WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 272,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31359201",
+  "value": "Ask HN: How to build a career in systems-level open source tech?",
+  "ok": true,
+  "refs": [],
+  "step": 273,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44813318",
+  "ok": true,
+  "refs": [],
+  "step": 274,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43216758",
+  "ok": true,
+  "refs": [],
+  "step": 275,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25373597",
+  "ok": true,
+  "refs": [],
+  "step": 276,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46339833",
+  "ok": true,
+  "refs": [],
+  "step": 277,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42230649",
+  "ok": true,
+  "refs": [],
+  "step": 278,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19735559",
+  "ok": true,
+  "refs": [],
+  "step": 279,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26323966",
+  "ok": true,
+  "refs": [],
+  "step": 280,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38759549",
+  "ok": true,
+  "refs": [],
+  "step": 281,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39811546",
+  "ok": true,
+  "refs": [],
+  "step": 282,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32493940",
+  "ok": true,
+  "refs": [],
+  "step": 283,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45557511",
+  "ok": true,
+  "refs": [],
+  "step": 284,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31359201",
+  "ok": true,
+  "refs": [],
+  "step": 285,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly tools",
+  "value": "The search results reveal a variety of tools and discussions surrounding WebAssembly, particularly focusing on tools for AI integration, static site search capabilities, and language support. The community is actively engaging in discussions about the utility and future of WebAssembly, with a notable interest in debugging and performance optimization.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "44813318"
+   ],
+   [
+    "story",
+    "26203161"
+   ],
+   [
+    "story",
+    "15694235"
+   ],
+   [
+    "story",
+    "43216758"
+   ],
+   [
+    "story",
+    "44821574"
+   ],
+   [
+    "story",
+    "43983366"
+   ],
+   [
+    "story",
+    "43239066"
+   ],
+   [
+    "story",
+    "40670904"
+   ],
+   [
+    "story",
+    "48476861"
+   ],
+   [
+    "story",
+    "44836037"
+   ]
+  ],
+  "step": 286,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly debugging",
+  "ok": true,
+  "refs": [],
+  "step": 287,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly debugging",
+  "ok": true,
+  "refs": [],
+  "step": 288,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25373597",
+  "value": "Debugging WebAssembly with Modern Tools",
+  "ok": true,
+  "refs": [],
+  "step": 289,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20877998",
+  "value": "Debugging WebAssembly outside of the browser",
+  "ok": true,
+  "refs": [],
+  "step": 290,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20176898",
+  "value": "Debugging WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 291,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21704280",
+  "value": "Improved WebAssembly Debugging in Chrome DevTools",
+  "ok": true,
+  "refs": [],
+  "step": 292,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30438733",
+  "value": "Debugging WebAssembly with modern tools (2020)",
+  "ok": true,
+  "refs": [],
+  "step": 293,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32317791",
+  "value": "Debugging WebAssembly from Go Sources in Chrome DevTools",
+  "ok": true,
+  "refs": [],
+  "step": 294,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38219535",
+  "value": "JetBrains Rider Implemented .NET WebAssembly Debugging",
+  "ok": true,
+  "refs": [],
+  "step": 295,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22236833",
+  "value": "Improved WebAssembly Debugging in Chrome DevTools",
+  "ok": true,
+  "refs": [],
+  "step": 296,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27631703",
+  "value": "How to WASM DWARF: Introduction to debugging WebAssembly code (2020)",
+  "ok": true,
+  "refs": [],
+  "step": 297,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16783745",
+  "value": "Debugging Webassembly with Print-Statements \u2013 Hexdump Addition",
+  "ok": true,
+  "refs": [],
+  "step": 298,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16609438",
+  "value": "Debugging Web Assembly Performance with AssemblyScript and a Gameboy Emulator",
+  "ok": true,
+  "refs": [],
+  "step": 299,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24144732",
+  "value": "Debugging memory leaks in WebAssembly using Emscripten",
+  "ok": true,
+  "refs": [],
+  "step": 300,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13323423",
+  "value": "Testing native WebAssembly in browsers",
+  "ok": true,
+  "refs": [],
+  "step": 301,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46210806",
+  "value": "Qt, Linux and everything: Debugging Qt WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 302,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22037345",
+  "value": "Debugging Through WebAssembly Is Impossible",
+  "ok": true,
+  "refs": [],
+  "step": 303,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25958243",
+  "value": "The State of Debugging in WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 304,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29500071",
+  "value": "Chasing Memory Bugs through V8 and WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 305,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22738188",
+  "value": "Debugging Uno Platform WebAssembly Apps in Visual Studio 2019",
+  "ok": true,
+  "refs": [],
+  "step": 306,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36528264",
+  "value": "Timecraft, a runtime built on WebAssembly that enables time travel debugging",
+  "ok": true,
+  "refs": [],
+  "step": 307,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40649829",
+  "value": "Building, Shipping and Debugging a C++ WebAssembly App",
+  "ok": true,
+  "refs": [],
+  "step": 308,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48926939",
+  "value": "Show HN: Firefox in WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 309,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31590819",
+  "value": "Show HN: Common Lisp running natively over WebAssembly for the first time",
+  "ok": true,
+  "refs": [],
+  "step": 310,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40309297",
+  "value": "Show HN: Browser debugging tool an ex-Cloudflare team has been building for 4yrs",
+  "ok": true,
+  "refs": [],
+  "step": 311,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15749863",
+  "value": "WebAssembly vs. JavaScript: performance, platform API access, memory, debugging",
+  "ok": true,
+  "refs": [],
+  "step": 312,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15798686",
+  "value": "WebAssembly vs. JavaScript: performance, platform API access, memory, debugging",
+  "ok": true,
+  "refs": [],
+  "step": 313,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42723443",
+  "value": "Show HN: WasmBots \u2013 A WebAssembly-powered programming game",
+  "ok": true,
+  "refs": [],
+  "step": 314,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23517533",
+  "value": "WASM extended with Hot Reloading, Remote Debugging and Uniform Hardware Access",
+  "ok": true,
+  "refs": [],
+  "step": 315,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48151237",
+  "value": "Show HN: A nibble-oriented CPU in Verilog to build a scientific calculator",
+  "ok": true,
+  "refs": [],
+  "step": 316,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20656411",
+  "value": "Ask HN: Modern day web development for someone who last did it 15 years ago",
+  "ok": true,
+  "refs": [],
+  "step": 317,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47276341",
+  "value": "Show HN: Fbsviewer \u2013 FlatBuffers binary viewer. Pure Rust compiler in WASM",
+  "ok": true,
+  "refs": [],
+  "step": 318,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25373597",
+  "ok": true,
+  "refs": [],
+  "step": 319,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20877998",
+  "ok": true,
+  "refs": [],
+  "step": 320,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32317791",
+  "ok": true,
+  "refs": [],
+  "step": 321,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46210806",
+  "ok": true,
+  "refs": [],
+  "step": 322,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22037345",
+  "ok": true,
+  "refs": [],
+  "step": 323,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36528264",
+  "ok": true,
+  "refs": [],
+  "step": 324,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48926939",
+  "ok": true,
+  "refs": [],
+  "step": 325,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31590819",
+  "ok": true,
+  "refs": [],
+  "step": 326,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40309297",
+  "ok": true,
+  "refs": [],
+  "step": 327,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23517533",
+  "ok": true,
+  "refs": [],
+  "step": 328,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48151237",
+  "ok": true,
+  "refs": [],
+  "step": 329,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20656411",
+  "ok": true,
+  "refs": [],
+  "step": 330,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47276341",
+  "ok": true,
+  "refs": [],
+  "step": 331,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly debugging",
+  "value": "The search results reveal a vibrant discussion around debugging WebAssembly, with a focus on modern tools, browser integration, and community-driven solutions. There is a clear interest in expanding debugging capabilities beyond traditional environments, as well as a desire for more diverse tools to support various development needs.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "25373597"
+   ],
+   [
+    "story",
+    "20877998"
+   ],
+   [
+    "story",
+    "20176898"
+   ],
+   [
+    "story",
+    "21704280"
+   ],
+   [
+    "story",
+    "30438733"
+   ],
+   [
+    "story",
+    "32317791"
+   ],
+   [
+    "story",
+    "38219535"
+   ],
+   [
+    "story",
+    "22236833"
+   ],
+   [
+    "story",
+    "27631703"
+   ],
+   [
+    "story",
+    "16783745"
+   ]
+  ],
+  "step": 332,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly use cases",
+  "ok": true,
+  "refs": [],
+  "step": 333,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly use cases",
+  "ok": true,
+  "refs": [],
+  "step": 334,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37982103",
+  "value": "True Portability Is the Killer Use Case for WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 335,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19991829",
+  "value": "WebAssembly a Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 336,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35469259",
+  "value": "Unexpectedly Useful: A Real World Use Case for WebAssembly System Interface",
+  "ok": true,
+  "refs": [],
+  "step": 337,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36132380",
+  "value": "Show HN: WebAssembly System Interface (WASI) with Sockets for Go",
+  "ok": true,
+  "refs": [],
+  "step": 338,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34565026",
+  "value": "Ask HN: Is WASM (WebAssembly) getting adoption in real use cases?",
+  "ok": true,
+  "refs": [],
+  "step": 339,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43344659",
+  "value": "Show HN: WebAssembly from the Ground Up \u2013 learn WASM by building a compiler",
+  "ok": true,
+  "refs": [],
+  "step": 340,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20013060",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 341,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19983416",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 342,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19982653",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 343,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20054650",
+  "value": "WebAssembly at eBay: a real-world use case",
+  "ok": true,
+  "refs": [],
+  "step": 344,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19997158",
+  "value": "WebAssembly at eBay: A Real-World Use Case By",
+  "ok": true,
+  "refs": [],
+  "step": 345,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20000061",
+  "value": "WebAssembly at eBay: A Real-World Use Case",
+  "ok": true,
+  "refs": [],
+  "step": 346,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "13651677",
+  "value": "Ask HN: Why Can't Fuchsia OS be Based on V8 Instead of DartVM?",
+  "ok": true,
+  "refs": [],
+  "step": 347,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19993552",
+  "value": "Using WebAssembly to improve barcode scanning",
+  "ok": true,
+  "refs": [],
+  "step": 348,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42750917",
+  "value": "Show HN: Billion Cell Spreadsheets with Incremental Computation",
+  "ok": true,
+  "refs": [],
+  "step": 349,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 350,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28155585",
+  "value": "Ask HN: Best use of WebAssembly so far?",
+  "ok": true,
+  "refs": [],
+  "step": 351,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23752376",
+  "value": "Ask HN: Would you be interested in a Python to WebAssembly compiler?",
+  "ok": true,
+  "refs": [],
+  "step": 352,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20600494",
+  "value": "Show HN: Desktop Viewer for WebAssembly Modules",
+  "ok": true,
+  "refs": [],
+  "step": 353,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20437555",
+  "value": "Ask HN: Are there any new languages designed specifically for webassembly",
+  "ok": true,
+  "refs": [],
+  "step": 354,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41677581",
+  "value": "Ask HN: Inappropriate Uses of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 355,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28173598",
+  "value": "Transforming data in real-time with WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 356,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33328850",
+  "value": "A WebAssembly-based, cloud-native ETL application framework for Cloud DATABASE",
+  "ok": true,
+  "refs": [],
+  "step": 357,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45633453",
+  "value": "Show HN: Duck-UI \u2013 Browser-Based SQL IDE for DuckDB",
+  "ok": true,
+  "refs": [],
+  "step": 358,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26285687",
+  "value": "Launch HN: Spruce (YC W21) \u2013 OSS for User Owned and Provably Authentic Data",
+  "ok": true,
+  "refs": [],
+  "step": 359,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37673361",
+  "value": "Show HN: Customizable Woodworking Plans with Three.js",
+  "ok": true,
+  "refs": [],
+  "step": 360,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42164169",
+  "value": "Show HN: GitHub Multi-Topic Explorer: A Tool for Multiple Topics Searches",
+  "ok": true,
+  "refs": [],
+  "step": 361,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46570584",
+  "value": "Show HN: webrtc-rs/rtc \u2013 A Sans-I/O WebRTC Stack for Rust",
+  "ok": true,
+  "refs": [],
+  "step": 362,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38026581",
+  "value": "Show HN: HyperMap \u2013 a new REST API standard that supports client-side JavaScript",
+  "ok": true,
+  "refs": [],
+  "step": 363,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44181297",
+  "value": "Show HN: Kleks \u2013 declarative documents with live preview (in Rust+WASM)",
+  "ok": true,
+  "refs": [],
+  "step": 364,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37982103",
+  "ok": true,
+  "refs": [],
+  "step": 365,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19991829",
+  "ok": true,
+  "refs": [],
+  "step": 366,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34565026",
+  "ok": true,
+  "refs": [],
+  "step": 367,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43344659",
+  "ok": true,
+  "refs": [],
+  "step": 368,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "13651677",
+  "ok": true,
+  "refs": [],
+  "step": 369,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42750917",
+  "ok": true,
+  "refs": [],
+  "step": 370,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 371,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28155585",
+  "ok": true,
+  "refs": [],
+  "step": 372,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23752376",
+  "ok": true,
+  "refs": [],
+  "step": 373,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20600494",
+  "ok": true,
+  "refs": [],
+  "step": 374,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20437555",
+  "ok": true,
+  "refs": [],
+  "step": 375,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41677581",
+  "ok": true,
+  "refs": [],
+  "step": 376,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45633453",
+  "ok": true,
+  "refs": [],
+  "step": 377,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26285687",
+  "ok": true,
+  "refs": [],
+  "step": 378,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37673361",
+  "ok": true,
+  "refs": [],
+  "step": 379,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42164169",
+  "ok": true,
+  "refs": [],
+  "step": 380,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46570584",
+  "ok": true,
+  "refs": [],
+  "step": 381,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44181297",
+  "ok": true,
+  "refs": [],
+  "step": 382,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly use cases",
+  "value": "The search results reveal a strong interest in the practical applications and performance benefits of WebAssembly, particularly in real-world scenarios like eBay. Discussions also highlight technical challenges and community perspectives on security and memory management.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "37982103"
+   ],
+   [
+    "story",
+    "19991829"
+   ],
+   [
+    "story",
+    "35469259"
+   ],
+   [
+    "story",
+    "36132380"
+   ],
+   [
+    "story",
+    "34565026"
+   ],
+   [
+    "story",
+    "43344659"
+   ],
+   [
+    "story",
+    "20013060"
+   ],
+   [
+    "story",
+    "19983416"
+   ],
+   [
+    "story",
+    "19982653"
+   ],
+   [
+    "story",
+    "20054650"
+   ]
+  ],
+  "step": 383,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "webassembly security",
+  "ok": true,
+  "refs": [],
+  "step": 384,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "webassembly security",
+  "ok": true,
+  "refs": [],
+  "step": 385,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43059107",
+  "value": "The Feds Push for WebAssembly Security over eBPF",
+  "ok": true,
+  "refs": [],
+  "step": 386,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43152461",
+  "value": "The Feds Push for WebAssembly Security over eBPF",
+  "ok": true,
+  "refs": [],
+  "step": 387,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40330994",
+  "value": "Serverless WebAssembly: security, speed, and startup times",
+  "ok": true,
+  "refs": [],
+  "step": 388,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37059792",
+  "value": "How secure is WebAssembly? 5 security concerns unique to WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 389,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23877118",
+  "value": "Web Assembly Security Concerns",
+  "ok": true,
+  "refs": [],
+  "step": 390,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42877786",
+  "value": "WebAssembly and Security: A Review",
+  "ok": true,
+  "refs": [],
+  "step": 391,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41034410",
+  "value": "WebAssembly and Security: A Review",
+  "ok": true,
+  "refs": [],
+  "step": 392,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 393,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21593800",
+  "value": "How to Create Polyglot HTML/JS/WebAssembly Module",
+  "ok": true,
+  "refs": [],
+  "step": 394,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20491016",
+  "value": "Analysis of the Google Keep WebAssembly Module",
+  "ok": true,
+  "refs": [],
+  "step": 395,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24216764",
+  "value": "Everything old is new again: binary security of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 396,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26994741",
+  "value": "Everything Old Is New Again: Binary Security of WebAssembly [pdf]",
+  "ok": true,
+  "refs": [],
+  "step": 397,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23695775",
+  "value": "Everything Old Is New Again: Binary Security of WebAssembly [pdf]",
+  "ok": true,
+  "refs": [],
+  "step": 398,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23880065",
+  "value": "More Worries over the Security of Web Assembly",
+  "ok": true,
+  "refs": [],
+  "step": 399,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25826628",
+  "value": "Usenix Security '20-Everything Old Is New Again: Binary Security of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 400,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24787514",
+  "value": "On \u201cBinary Security of WebAssembly\u201d",
+  "ok": true,
+  "refs": [],
+  "step": 401,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23863182",
+  "value": "More Worries over the Security of Web Assembly",
+  "ok": true,
+  "refs": [],
+  "step": 402,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24206913",
+  "value": "Everything Old Is New Again: Binary Security of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 403,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23687733",
+  "value": "Everything Old Is New Again: Binary Security of WebAssembly [pdf]",
+  "ok": true,
+  "refs": [],
+  "step": 404,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24797909",
+  "value": "On \"binary security of webassembly\"",
+  "ok": true,
+  "refs": [],
+  "step": 405,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17605800",
+  "value": "The security model of WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 406,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32167208",
+  "value": "Web Assembly takes a security drubbing, risk compared to Java applets and Flash",
+  "ok": true,
+  "refs": [],
+  "step": 407,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32947704",
+  "value": "Software supply chain security empowered with WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 408,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47126656",
+  "value": "Show HN: Shibuya \u2013 A High-Performance WAF in Rust with eBPF and ML Engine",
+  "ok": true,
+  "refs": [],
+  "step": 409,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17388928",
+  "value": "Changes in WebAssembly Could Render Meltdown and Spectre Browser Patches Useless",
+  "ok": true,
+  "refs": [],
+  "step": 410,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17390632",
+  "value": "Changes in WebAssembly Could Render Meltdown and Spectre Browser Patches Useless",
+  "ok": true,
+  "refs": [],
+  "step": 411,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "17412459",
+  "value": "How browsers safely run untrusted WebAssembly code",
+  "ok": true,
+  "refs": [],
+  "step": 412,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45436843",
+  "value": "Fast, Secure, Language-Agnostic Policy Engine Using WASM",
+  "ok": true,
+  "refs": [],
+  "step": 413,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16578782",
+  "value": "Exploits in C/C++ to compiled JavaScript / WebAssembly",
+  "ok": true,
+  "refs": [],
+  "step": 414,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22800687",
+  "value": "Exploits in C/C++ to compiled JavaScript / WebAssembly (2018)",
+  "ok": true,
+  "refs": [],
+  "step": 415,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 416,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24216764",
+  "ok": true,
+  "refs": [],
+  "step": 417,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26994741",
+  "ok": true,
+  "refs": [],
+  "step": 418,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23880065",
+  "ok": true,
+  "refs": [],
+  "step": 419,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17605800",
+  "ok": true,
+  "refs": [],
+  "step": 420,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32167208",
+  "ok": true,
+  "refs": [],
+  "step": 421,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47126656",
+  "ok": true,
+  "refs": [],
+  "step": 422,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17388928",
+  "ok": true,
+  "refs": [],
+  "step": 423,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "17412459",
+  "ok": true,
+  "refs": [],
+  "step": 424,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45436843",
+  "ok": true,
+  "refs": [],
+  "step": 425,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16578782",
+  "ok": true,
+  "refs": [],
+  "step": 426,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "webassembly security",
+  "value": "The search results reveal a strong focus on the security aspects of WebAssembly, with multiple articles and community discussions addressing its vulnerabilities, comparisons with other technologies, and the implications of its use in secure environments. The community is actively engaged in debates about the effectiveness of WASM's security measures and potential attack vectors.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "43059107"
+   ],
+   [
+    "story",
+    "43152461"
+   ],
+   [
+    "story",
+    "40330994"
+   ],
+   [
+    "story",
+    "37059792"
+   ],
+   [
+    "story",
+    "23877118"
+   ],
+   [
+    "story",
+    "42877786"
+   ],
+   [
+    "story",
+    "41034410"
+   ],
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "21593800"
+   ],
+   [
+    "story",
+    "20491016"
+   ]
+  ],
+  "step": 427,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "WebAssembly (WASM) has emerged as a transformative technology in web development, offering significant performance improvements and practical applications across various domains. The transition from asm.js to WebAssembly has been a focal point of discussion, with many developers noting the clearer compilation paths for LLVM-based languages, which facilitate easier compilation to WebAssembly compared to JavaScript. This shift is highlighted in the article [From Asm.js to WebAssembly](https://news.ycombinator.com/item?id=9732827), where the advantages of WASM's architecture are explored. Furthermore, the performance enhancements in calls between JavaScript and WebAssembly have been substantial, as discussed in [Calls between JavaScript and WebAssembly are finally fast](https://news.ycombinator.com/item?id=18168400), indicating that the overhead of inter-language calls has been significantly reduced, which is crucial for applications requiring frequent interactions between the two languages.\n\nPractical applications of WebAssembly are becoming increasingly evident, with notable examples such as the [Web-assembly powered WYSIWYG LaTeX Editor](https://news.ycombinator.com/item?id=21710105), which showcases how WASM can handle complex web applications efficiently. The community is actively engaged in discussions about enhancing WebAssembly features, such as tail call optimization, as seen in the thread [Tell HN: We are trying to get tail calls into the WebAssembly standard](https://news.ycombinator.com/item?id=32069418). The widespread support for WebAssembly across all major browsers, confirmed in [WebAssembly support now shipping in all major browsers](https://news.ycombinator.com/item?id=15694018), ensures that developers can build cross-browser applications with confidence.\n\nThe tools surrounding WebAssembly are also evolving, with various frameworks and utilities emerging to facilitate its integration into existing workflows. For instance, Wassette focuses on sandboxing for AI agent integration, allowing for efficient local execution of untrusted tools, as discussed in [Wassette: WebAssembly-based tools for AI agents](https://news.ycombinator.com/item?id=44813318). Cheerp 2.0 enables the compilation of C++ to a combination of WebAssembly and JavaScript, providing developers with the ability to leverage existing C++ codebases for web applications, as noted in [Cheerp 2.0's mixed compilation output for enhanced performance](https://news.ycombinator.com/item?id=15694235). However, user feedback on tools like Puffin Tools indicates some challenges, such as loading issues, which are documented in [Puffin Tools \u2013 Free WebAssembly tools in the browser](https://news.ycombinator.com/item?id=43216758).\n\nPerformance metrics reveal that WebAssembly can outperform JavaScript in compute-heavy tasks, with benchmarks indicating improvements of up to 50x in certain scenarios, as highlighted in [A first look at WebAssembly performance](https://news.ycombinator.com/item?id=13604537). The shared memory capabilities of WebAssembly further enhance its performance in specific applications, as discussed in [JavaScript performance, WebAssembly, and Shared Memory in Microsoft Edge](https://news.ycombinator.com/item?id=14159052). However, community concerns persist regarding WebAssembly's interaction with the DOM and web APIs, necessitating JavaScript wrappers that could hinder performance in non-compute-heavy applications.\n\nReal-world use cases, such as eBay's implementation of WebAssembly, demonstrate its practical benefits in enhancing performance and efficiency within large-scale environments, as detailed in [WebAssembly at eBay: A Real-World Use Case](https://news.ycombinator.com/item?id=20013060). The WebAssembly System Interface (WASI) is being explored for standardized interactions with host environments, which could lead to broader adoption and integration, as discussed in [Unexpectedly Useful: A Real World Use Case for WebAssembly System Interface](https://news.ycombinator.com/item?id=35469259). However, memory management remains a concern, particularly regarding the heavy resource consumption associated with each WASM module having its own heap, which can lead to inefficiencies.\n\nSecurity is another critical aspect of WebAssembly, with ongoing discussions about its vulnerabilities and the implications of its use in secure environments. The U.S. government's advocacy for WebAssembly as a more secure alternative to eBPF for running untrusted code is highlighted in [The Feds Push for WebAssembly Security over eBPF](https://news.ycombinator.com/item?id=43059107). Community discussions reveal concerns about memory safety and side-channel attacks, emphasizing the importance of input validation and the risks associated with WASM's execution model, as noted in [How secure is WebAssembly? 5 security concerns unique to WebAssembly](https://news.ycombinator.com/item?id=37059792).\n\nIn conclusion, WebAssembly represents a significant advancement in web technology, with its performance benefits, practical applications, and evolving ecosystem of tools and frameworks. Developers are encouraged to explore the capabilities of WebAssembly, leverage the growing community resources, and stay informed about ongoing discussions regarding its future developments and security considerations.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "9732827"
+   ],
+   [
+    "story",
+    "18168400"
+   ],
+   [
+    "story",
+    "21710105"
+   ],
+   [
+    "story",
+    "32069418"
+   ],
+   [
+    "story",
+    "15694018"
+   ],
+   [
+    "story",
+    "44813318"
+   ],
+   [
+    "story",
+    "15694235"
+   ],
+   [
+    "story",
+    "43216758"
+   ],
+   [
+    "story",
+    "13604537"
+   ],
+   [
+    "story",
+    "14159052"
+   ],
+   [
+    "story",
+    "20013060"
+   ],
+   [
+    "story",
+    "35469259"
+   ],
+   [
+    "story",
+    "43059107"
+   ],
+   [
+    "story",
+    "37059792"
+   ]
+  ],
+  "step": 428,
+  "source": "synthesize_findings_step"
+ }
+]

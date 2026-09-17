@@ -1,0 +1,4859 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41222101",
+  "value": "Kubernetes Cost Management with the New OpenCost Plugin for Headlamp",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48326053",
+  "value": "Reconciling Kubernetes cost estimates with CUR / FOCUS billing data",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26650050",
+  "value": "Show HN: Kubectl cost \u2013 Kubernetes cost metrics via CLI",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26255207",
+  "value": "Show HN: Tracking Kubernetes cost metrics in Prometheus",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34806326",
+  "value": "Predicting Kubernetes Resource Cost Before Deployment",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28920812",
+  "value": "Show HN: Kubernetes Cost Visibility for Amazon EKS",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32167298",
+  "value": "Free Plug-and-Play Kubernetes Cost Monitoring",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "11870243",
+  "value": "How to Calculate Kubernetes Cost Savings",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27606293",
+  "value": "How to Monitor Kubernetes Costs with Kubecost and Lens IDE",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18330979",
+  "value": "Effectively Managing Kubernetes with Cost Monitoring",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23782028",
+  "value": "Problems with Kubernetes Cost Estimation",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19644970",
+  "value": "Kubecost: a better approach to Kubernetes cost monitoring",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46058585",
+  "value": "Show HN: Wozz \u2013 Agentless Kubernetes cost auditor (open source)",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24187857",
+  "value": "Manage Kubernetes Costs and Deployments: Spot Instances and Helm Transformations",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36954993",
+  "value": "Low-cost Kubernetes cluster on Infomaniak",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32940211",
+  "value": "Kubernetes Cost Monitoring: 3 Metrics You Need to Track ASAP",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24688806",
+  "value": "Kubernetes Cost Savings by Reducing the Number of Clusters",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23758931",
+  "value": "How to Save More Than 2/3 of Engineers\u2019 Kubernetes Cost",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44198434",
+  "value": "Save Millions on Your Cloud Bill: 11 Strategies for Kubernetes Cost Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39181228",
+  "value": "We built a standalone Kubernetes cost monitoring agent",
+  "ok": true,
+  "refs": [],
+  "step": 20,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35042616",
+  "value": "Kubernetes: The Cost of Doing It Wrong",
+  "ok": true,
+  "refs": [],
+  "step": 21,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22813946",
+  "value": "Keeping Your Kubernetes Hosting Costs Down",
+  "ok": true,
+  "refs": [],
+  "step": 22,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 23,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41570819",
+  "value": "IBM acquires Kubernetes cost optimization startup Kubecost",
+  "ok": true,
+  "refs": [],
+  "step": 24,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45810825",
+  "value": "We Cut Kubernetes Costs by ~78% Without a Second of Downtime",
+  "ok": true,
+  "refs": [],
+  "step": 25,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39316482",
+  "value": "Building a Standalone Kubernetes Cost Monitoring Agent",
+  "ok": true,
+  "refs": [],
+  "step": 26,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38159354",
+  "value": "Grafana Wants to Help You Avoid Getting Dinged by Kubernetes Costs",
+  "ok": true,
+  "refs": [],
+  "step": 27,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34581110",
+  "value": "Why Kubernetes Costs Spiral Out of Control\u2013and How to Prevent It",
+  "ok": true,
+  "refs": [],
+  "step": 28,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24617545",
+  "value": "How to Reduce Your Kubernetes Cost",
+  "ok": true,
+  "refs": [],
+  "step": 29,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43278634",
+  "value": "2025 Kubernetes Cost Benchmark Report",
+  "ok": true,
+  "refs": [],
+  "step": 30,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41222101",
+  "ok": true,
+  "refs": [],
+  "step": 31,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48326053",
+  "ok": true,
+  "refs": [],
+  "step": 32,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26650050",
+  "ok": true,
+  "refs": [],
+  "step": 33,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "28920812",
+  "ok": true,
+  "refs": [],
+  "step": 34,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "18330979",
+  "ok": true,
+  "refs": [],
+  "step": 35,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46058585",
+  "ok": true,
+  "refs": [],
+  "step": 36,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 37,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41570819",
+  "ok": true,
+  "refs": [],
+  "step": 38,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43278634",
+  "ok": true,
+  "refs": [],
+  "step": 39,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost",
+  "value": "The search results reveal a growing interest in Kubernetes cost management tools, with various solutions being discussed, including plugins, CLI tools, and self-service platforms. Community discussions highlight the need for clarity in cost calculation methodologies and the importance of reconciling estimates with actual billing data.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "41222101"
+   ],
+   [
+    "story",
+    "48326053"
+   ],
+   [
+    "story",
+    "26650050"
+   ],
+   [
+    "story",
+    "26255207"
+   ],
+   [
+    "story",
+    "34806326"
+   ],
+   [
+    "story",
+    "28920812"
+   ],
+   [
+    "story",
+    "32167298"
+   ],
+   [
+    "story",
+    "11870243"
+   ],
+   [
+    "story",
+    "27606293"
+   ],
+   [
+    "story",
+    "18330979"
+   ]
+  ],
+  "step": 40,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 41,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 42,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 43,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 44,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 45,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 46,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 47,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 48,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 49,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 50,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 51,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 52,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 53,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 54,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 55,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 56,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 57,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 58,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 59,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 60,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 61,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 62,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 63,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 64,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 65,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 66,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 67,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 68,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 69,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 70,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 71,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 72,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 73,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 74,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 75,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 76,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 77,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 78,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 79,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 80,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 81,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 82,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 83,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 84,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 85,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 86,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 87,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 88,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 89,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 90,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 91,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 92,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results reveal a variety of tools and discussions focused on managing Kubernetes costs, with several new solutions emerging that emphasize automation and cost efficiency. Community feedback highlights the importance of these tools in addressing cloud cost management challenges.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 93,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost optimization",
+  "ok": true,
+  "refs": [],
+  "step": 94,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost optimization",
+  "ok": true,
+  "refs": [],
+  "step": 95,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44198434",
+  "value": "Save Millions on Your Cloud Bill: 11 Strategies for Kubernetes Cost Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 96,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41570819",
+  "value": "IBM acquires Kubernetes cost optimization startup Kubecost",
+  "ok": true,
+  "refs": [],
+  "step": 97,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37569068",
+  "value": "State of Kubernetes Cost Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 98,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40298134",
+  "value": "FinOps for Kubernetes: Engineering Cost Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 99,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39631782",
+  "value": "Kubernetes is (not) a cost optimization problem",
+  "ok": true,
+  "refs": [],
+  "step": 100,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26818920",
+  "value": "Guide to Kubernetes autoscaling for cloud cost optimization",
+  "ok": true,
+  "refs": [],
+  "step": 101,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31286838",
+  "value": "Continuous Cost Optimization for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 102,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22410448",
+  "value": "We use Kubernetes and spot instances to reduce EC2 billing up to 80%",
+  "ok": true,
+  "refs": [],
+  "step": 103,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 104,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44479937",
+  "value": "Kubernetes FinOps 2.0: Using AI for Cost Optimization with Predictive Scaling",
+  "ok": true,
+  "refs": [],
+  "step": 105,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45104974",
+  "value": "Launch HN: Datafruit (YC S25) \u2013 AI for DevOps",
+  "ok": true,
+  "refs": [],
+  "step": 106,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 107,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40786971",
+  "value": "Show HN: Open-Source and Cross-Cloud Policies-as-Code Solution",
+  "ok": true,
+  "refs": [],
+  "step": 108,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42967374",
+  "value": "Show HN: TrueFoundry raises $19M Series A to scale AI deployment with agents",
+  "ok": true,
+  "refs": [],
+  "step": 109,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36678463",
+  "value": "Show HN: Simplify Appwrite Deployment on AWS",
+  "ok": true,
+  "refs": [],
+  "step": 110,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41523012",
+  "value": "Show HN: GitHub Cost Visibility and Optimization",
+  "ok": true,
+  "refs": [],
+  "step": 111,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22609076",
+  "value": "Ask HN: Prometheus-Cortex Technical Expertise",
+  "ok": true,
+  "refs": [],
+  "step": 112,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26400017",
+  "value": "Show HN: Cast AI has built a service to cut AWS cloud bill 50% to 90%",
+  "ok": true,
+  "refs": [],
+  "step": 113,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 114,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 115,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45877029",
+  "value": "Show HN: Akamas Insights now GA \u2013 Optimize reliability, performance, and costs",
+  "ok": true,
+  "refs": [],
+  "step": 116,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42742677",
+  "value": "Show HN: Nimbus \u2013 AI Agent to control cloud costs",
+  "ok": true,
+  "refs": [],
+  "step": 117,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 118,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45747742",
+  "value": "Show HN: Optimize Databricks SQL",
+  "ok": true,
+  "refs": [],
+  "step": 119,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43144210",
+  "value": "Show HN: I Used AI to Fight ATS Rejection \u2013 500 Signups in 5 Days",
+  "ok": true,
+  "refs": [],
+  "step": 120,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36599099",
+  "value": "Show HN: Apache Doris \u2013 A Faster, Smarter, and Stabler Database",
+  "ok": true,
+  "refs": [],
+  "step": 121,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41570819",
+  "ok": true,
+  "refs": [],
+  "step": 122,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37569068",
+  "ok": true,
+  "refs": [],
+  "step": 123,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22410448",
+  "ok": true,
+  "refs": [],
+  "step": 124,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 125,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44479937",
+  "ok": true,
+  "refs": [],
+  "step": 126,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45104974",
+  "ok": true,
+  "refs": [],
+  "step": 127,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 128,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41523012",
+  "ok": true,
+  "refs": [],
+  "step": 129,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22609076",
+  "ok": true,
+  "refs": [],
+  "step": 130,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26400017",
+  "ok": true,
+  "refs": [],
+  "step": 131,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45877029",
+  "ok": true,
+  "refs": [],
+  "step": 132,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost optimization",
+  "value": "The search results reveal a rich landscape of discussions and resources focused on Kubernetes cost optimization, highlighting various strategies, tools, and community insights. Key themes include the importance of monitoring, the role of FinOps, and real-world examples of cost-saving implementations.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "44198434"
+   ],
+   [
+    "story",
+    "41570819"
+   ],
+   [
+    "story",
+    "37569068"
+   ],
+   [
+    "story",
+    "40298134"
+   ],
+   [
+    "story",
+    "39631782"
+   ],
+   [
+    "story",
+    "26818920"
+   ],
+   [
+    "story",
+    "31286838"
+   ],
+   [
+    "story",
+    "22410448"
+   ],
+   [
+    "story",
+    "36707725"
+   ],
+   [
+    "story",
+    "44479937"
+   ]
+  ],
+  "step": 133,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 134,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 135,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 136,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 137,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 138,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 139,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 140,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 141,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 142,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 143,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 144,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 145,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 146,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 147,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 148,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 149,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 150,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 151,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 152,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 153,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 154,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 155,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 156,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 157,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 158,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 159,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 160,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 161,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 162,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 163,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 164,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 165,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 166,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 167,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 168,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 169,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 170,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 171,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 172,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 173,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 174,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 175,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 176,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 177,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 178,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 179,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 180,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 181,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 182,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 183,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 184,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 185,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results reveal a variety of tools and discussions focused on managing costs associated with Kubernetes deployments. Key tools like PodCost, Wozz, and CAST AI are highlighted for their unique features and community engagement. The community is actively discussing the effectiveness of these tools, particularly in terms of cost savings and operational efficiency.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 186,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost comparison",
+  "ok": true,
+  "refs": [],
+  "step": 187,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost comparison",
+  "ok": true,
+  "refs": [],
+  "step": 188,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 189,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 190,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 191,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost comparison",
+  "value": "The search results reveal a community engaged in discussions about the complexities of Kubernetes management, the importance of observability, and the nuances of software classification. There is a clear preference for managed services over self-hosting, reflecting a desire for ease of use in monitoring solutions.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "25991485"
+   ]
+  ],
+  "step": 192,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost performance",
+  "ok": true,
+  "refs": [],
+  "step": 193,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost performance",
+  "ok": true,
+  "refs": [],
+  "step": 194,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 195,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 196,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22609076",
+  "value": "Ask HN: Prometheus-Cortex Technical Expertise",
+  "ok": true,
+  "refs": [],
+  "step": 197,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 198,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37159712",
+  "value": "Show HN: Run globally distributed full-stack apps on high-performance MicroVMs",
+  "ok": true,
+  "refs": [],
+  "step": 199,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45877029",
+  "value": "Show HN: Akamas Insights now GA \u2013 Optimize reliability, performance, and costs",
+  "ok": true,
+  "refs": [],
+  "step": 200,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36815923",
+  "value": "Show HN: Koyeb \u2013 Deploy code to production, everywhere, in minutes",
+  "ok": true,
+  "refs": [],
+  "step": 201,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42967374",
+  "value": "Show HN: TrueFoundry raises $19M Series A to scale AI deployment with agents",
+  "ok": true,
+  "refs": [],
+  "step": 202,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42175573",
+  "value": "Show HN: Ylem \u2013 an open-source orchestrator for real-time data streaming",
+  "ok": true,
+  "refs": [],
+  "step": 203,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36480230",
+  "value": "Launch HN: Argonaut (YC S21) \u2013 Easily Deploy Apps and Infra to AWS and GCP",
+  "ok": true,
+  "refs": [],
+  "step": 204,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 205,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44194082",
+  "value": "Show HN: ClickStack \u2013 Open-source Datadog alternative by ClickHouse and HyperDX",
+  "ok": true,
+  "refs": [],
+  "step": 206,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 207,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43603441",
+  "value": "Show HN: Latitude.sh Databases \u2013 Simple PostgreSQL DBaaS on Bare Metal",
+  "ok": true,
+  "refs": [],
+  "step": 208,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44128307",
+  "value": "Show HN: ClickStack \u2013 open-source Datadog alternative by ClickHouse and HyperDX",
+  "ok": true,
+  "refs": [],
+  "step": 209,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41849352",
+  "value": "Show HN: I launched my DevOps PostgreSQL platform today",
+  "ok": true,
+  "refs": [],
+  "step": 210,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "34983201",
+  "value": "Upcoming price changes to Linode services",
+  "ok": true,
+  "refs": [],
+  "step": 211,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16763193",
+  "value": "Ask HN: How to grow, evolve a freelance business",
+  "ok": true,
+  "refs": [],
+  "step": 212,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43953924",
+  "value": "Show HN: Developer First Observability with Prism",
+  "ok": true,
+  "refs": [],
+  "step": 213,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36678463",
+  "value": "Show HN: Simplify Appwrite Deployment on AWS",
+  "ok": true,
+  "refs": [],
+  "step": 214,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36599099",
+  "value": "Show HN: Apache Doris \u2013 A Faster, Smarter, and Stabler Database",
+  "ok": true,
+  "refs": [],
+  "step": 215,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49408476",
+  "value": "Ask HN: What a fullstack dev should know about security?",
+  "ok": true,
+  "refs": [],
+  "step": 216,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16606864",
+  "value": "Ask HN: Next steps for scaling a scikit-learn Flask ML API",
+  "ok": true,
+  "refs": [],
+  "step": 217,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22609076",
+  "ok": true,
+  "refs": [],
+  "step": 218,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37159712",
+  "ok": true,
+  "refs": [],
+  "step": 219,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45877029",
+  "ok": true,
+  "refs": [],
+  "step": 220,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36480230",
+  "ok": true,
+  "refs": [],
+  "step": 221,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44194082",
+  "ok": true,
+  "refs": [],
+  "step": 222,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 223,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43603441",
+  "ok": true,
+  "refs": [],
+  "step": 224,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44128307",
+  "ok": true,
+  "refs": [],
+  "step": 225,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41849352",
+  "ok": true,
+  "refs": [],
+  "step": 226,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "34983201",
+  "ok": true,
+  "refs": [],
+  "step": 227,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16763193",
+  "ok": true,
+  "refs": [],
+  "step": 228,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost performance",
+  "value": "The search results reveal a strong focus on cost optimization and performance management within Kubernetes environments. Discussions highlight various tools and user experiences that emphasize the importance of dynamic resource allocation and the potential for cost savings through strategic resource management.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46510959"
+   ],
+   [
+    "story",
+    "45289501"
+   ],
+   [
+    "story",
+    "22609076"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "37159712"
+   ],
+   [
+    "story",
+    "45877029"
+   ],
+   [
+    "story",
+    "36815923"
+   ],
+   [
+    "story",
+    "42967374"
+   ],
+   [
+    "story",
+    "42175573"
+   ],
+   [
+    "story",
+    "36480230"
+   ]
+  ],
+  "step": 229,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 230,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 231,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 232,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 233,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 234,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 235,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 236,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 237,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 238,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 239,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 240,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 241,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 242,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 243,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 244,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 245,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 246,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 247,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 248,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 249,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 250,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 251,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 252,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 253,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 254,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 255,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 256,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 257,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 258,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 259,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 260,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 261,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 262,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 263,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 264,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 265,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 266,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 267,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 268,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 269,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 270,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 271,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 272,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 273,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 274,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 275,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 276,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 277,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 278,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 279,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 280,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 281,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results highlight various tools and solutions for managing Kubernetes costs, with a focus on automation, cost-saving features, and community feedback on their effectiveness. Tools like CAST AI and Syself are particularly noted for their capabilities and user satisfaction.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 282,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 283,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 284,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 285,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 286,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 287,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 288,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 289,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 290,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 291,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 292,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 293,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 294,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 295,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 296,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 297,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 298,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 299,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 300,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 301,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 302,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 303,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 304,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 305,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 306,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 307,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 308,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 309,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 310,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 311,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 312,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 313,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 314,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 315,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 316,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 317,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 318,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 319,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 320,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 321,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 322,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 323,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 324,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 325,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 326,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 327,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 328,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 329,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 330,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 331,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 332,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 333,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 334,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results reveal a variety of tools and discussions focused on managing and optimizing Kubernetes costs. Key tools like PodCost, Wozz, and CAST AI are highlighted for their unique features and benefits, while community discussions provide insights into user experiences and comparisons with established solutions.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 335,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 336,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 337,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 338,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 339,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 340,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 341,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 342,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 343,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 344,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 345,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 346,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 347,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 348,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 349,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 350,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 351,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 352,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 353,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 354,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 355,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 356,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 357,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 358,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 359,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 360,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 361,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 362,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 363,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 364,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 365,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 366,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 367,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 368,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 369,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 370,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 371,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 372,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 373,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 374,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 375,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 376,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 377,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 378,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 379,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 380,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 381,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 382,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 383,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 384,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 385,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 386,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 387,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results reveal a variety of tools and discussions focused on Kubernetes cost management, highlighting both community-driven and commercial solutions. Key tools like PodCost, Wozz, CAST AI, and Syself are noted for their unique features and user benefits, with a strong emphasis on cost optimization and resource management.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 388,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 389,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "kubernetes cost tools",
+  "ok": true,
+  "refs": [],
+  "step": 390,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46750955",
+  "value": "Show HN: PodCost \u2013 Find wasted GPU and Kubernetes spend (with live demo)",
+  "ok": true,
+  "refs": [],
+  "step": 391,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46542480",
+  "value": "Show HN: Wozz \u2013 open-source Kubernetes cost linter and cluster auditor",
+  "ok": true,
+  "refs": [],
+  "step": 392,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32177934",
+  "value": "Show HN: We've built FREE cloud cost monitoring module for K8s",
+  "ok": true,
+  "refs": [],
+  "step": 393,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19436874",
+  "value": "A Cost and Performance Management Tool for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 394,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44915164",
+  "value": "Show HN: Edka \u2013 Kubernetes clusters on your own Hetzner account",
+  "ok": true,
+  "refs": [],
+  "step": 395,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39178753",
+  "value": "Launch HN: Dashdive (YC W23) \u2013 Track your cloud costs precisely",
+  "ok": true,
+  "refs": [],
+  "step": 396,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39237397",
+  "value": "Wanna team-up with an SRE to build a product and/or company?",
+  "ok": true,
+  "refs": [],
+  "step": 397,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46970360",
+  "value": "Show HN: Multi Tenant MCP Platform",
+  "ok": true,
+  "refs": [],
+  "step": 398,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45789033",
+  "value": "Show HN: Postflare AI \u2013 An AI-Powered Social Media Strategist and Bulk Scheduler",
+  "ok": true,
+  "refs": [],
+  "step": 399,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46510959",
+  "value": "Tell HN: My Experience with Vertical Pod Autoscaler (VPA) in 2025",
+  "ok": true,
+  "refs": [],
+  "step": 400,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45289501",
+  "value": "Ask HN: Experienced the counter-intuitive cost reduction by increasing CPU?",
+  "ok": true,
+  "refs": [],
+  "step": 401,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42931780",
+  "value": "Moved from Jira to OpenProject \u2013 Built an Open-Source Migration Tool",
+  "ok": true,
+  "refs": [],
+  "step": 402,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36197880",
+  "value": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+  "ok": true,
+  "refs": [],
+  "step": 403,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24865707",
+  "value": "Ask HN: Has anyone moved from Kubernetes to Nomad?",
+  "ok": true,
+  "refs": [],
+  "step": 404,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46731256",
+  "value": "Show HN: Build agents via YAML with Prolog validation and 110 built-in tools",
+  "ok": true,
+  "refs": [],
+  "step": 405,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32853846",
+  "value": "Show HN: Free cloud security insights for Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 406,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36707725",
+  "value": "Show HN: Elevating Appwrite Deployment on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 407,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968719",
+  "value": "Show HN: LLMKube \u2013 Kubernetes for Local LLMs with GPU Acceleration",
+  "ok": true,
+  "refs": [],
+  "step": 408,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47073930",
+  "value": "Show HN: Axon \u2013 Let coding agents develop their own framework on Kubernetes",
+  "ok": true,
+  "refs": [],
+  "step": 409,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45579177",
+  "value": "Show HN: I built a tool to make Kubernetes feel like a PaaS",
+  "ok": true,
+  "refs": [],
+  "step": 410,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44814322",
+  "value": "Show HN: Chkk \u2013 Safer Upgrades for Kubernetes and Open-Source Projects",
+  "ok": true,
+  "refs": [],
+  "step": 411,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27469627",
+  "value": "Profiling Kubernetes with cluster, node and pod level filtering using gProfiler",
+  "ok": true,
+  "refs": [],
+  "step": 412,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25991485",
+  "value": "Launch HN: Opstrace (YC S19) \u2013 open-source Datadog",
+  "ok": true,
+  "refs": [],
+  "step": 413,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39819458",
+  "value": "Show HN: Tracecat \u2013 Open-source security alert automation / SOAR alternative",
+  "ok": true,
+  "refs": [],
+  "step": 414,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43623820",
+  "value": "Show HN: Coroot \u2013 eBPF-based, open source observability with actionable insights",
+  "ok": true,
+  "refs": [],
+  "step": 415,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37134293",
+  "value": "Show HN: Layerform \u2013 Open-source development environments using Terraform files",
+  "ok": true,
+  "refs": [],
+  "step": 416,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23917956",
+  "value": "Launch HN: Reploy (YC S20) \u2013 Instant fullstack staging environments for web apps",
+  "ok": true,
+  "refs": [],
+  "step": 417,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30502978",
+  "value": "Launch HN: Drifting in Space (YC W22) \u2013 A server process for every user",
+  "ok": true,
+  "refs": [],
+  "step": 418,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45504388",
+  "value": "Launch HN: LlamaFarm (YC W22) \u2013 Open-source framework for distributed AI",
+  "ok": true,
+  "refs": [],
+  "step": 419,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43129301",
+  "value": "Launch HN: Massdriver (YC W22) \u2013 Self-serve cloud infra without the red tape",
+  "ok": true,
+  "refs": [],
+  "step": 420,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46542480",
+  "ok": true,
+  "refs": [],
+  "step": 421,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32177934",
+  "ok": true,
+  "refs": [],
+  "step": 422,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44915164",
+  "ok": true,
+  "refs": [],
+  "step": 423,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39178753",
+  "ok": true,
+  "refs": [],
+  "step": 424,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39237397",
+  "ok": true,
+  "refs": [],
+  "step": 425,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45789033",
+  "ok": true,
+  "refs": [],
+  "step": 426,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42931780",
+  "ok": true,
+  "refs": [],
+  "step": 427,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36197880",
+  "ok": true,
+  "refs": [],
+  "step": 428,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24865707",
+  "ok": true,
+  "refs": [],
+  "step": 429,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46731256",
+  "ok": true,
+  "refs": [],
+  "step": 430,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36707725",
+  "ok": true,
+  "refs": [],
+  "step": 431,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47073930",
+  "ok": true,
+  "refs": [],
+  "step": 432,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25991485",
+  "ok": true,
+  "refs": [],
+  "step": 433,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39819458",
+  "ok": true,
+  "refs": [],
+  "step": 434,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43623820",
+  "ok": true,
+  "refs": [],
+  "step": 435,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37134293",
+  "ok": true,
+  "refs": [],
+  "step": 436,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "23917956",
+  "ok": true,
+  "refs": [],
+  "step": 437,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30502978",
+  "ok": true,
+  "refs": [],
+  "step": 438,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45504388",
+  "ok": true,
+  "refs": [],
+  "step": 439,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43129301",
+  "ok": true,
+  "refs": [],
+  "step": 440,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "kubernetes cost tools",
+  "value": "The search results reveal a variety of tools and discussions focused on managing Kubernetes costs, with notable mentions of PodCost, Wozz, and CAST AI. The community is actively discussing the effectiveness of these tools, comparing them, and sharing experiences with Kubernetes cost management.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "19436874"
+   ],
+   [
+    "story",
+    "44915164"
+   ],
+   [
+    "story",
+    "39178753"
+   ],
+   [
+    "story",
+    "39237397"
+   ],
+   [
+    "story",
+    "46970360"
+   ],
+   [
+    "story",
+    "45789033"
+   ],
+   [
+    "story",
+    "46510959"
+   ]
+  ],
+  "step": 441,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "Kubernetes cost management has become a critical focus for organizations leveraging container orchestration, as evidenced by the growing interest in various tools and methodologies aimed at optimizing expenses. The community has highlighted the need for clarity in cost calculation methodologies, particularly with tools like the [OpenCost plugin for Headlamp](https://news.ycombinator.com/item?id=41222101), which calculates pod costs but lacks detailed documentation on its methodology. In contrast, [Red Hat Insights](https://news.ycombinator.com/item?id=48326053) provides accurate cost calculations based on actual cloud billing data, serving as a benchmark for other tools. Additionally, CLI tools such as [kubectl cost](https://news.ycombinator.com/item?id=26650050) are gaining traction, showcasing a trend towards command-line based cost management solutions. The emergence of self-service platforms like [Vantage's Kubernetes Cost Visibility](https://news.ycombinator.com/item?id=28920812) for Amazon EKS, which offers a free tier, indicates a shift towards more accessible cost management solutions for Kubernetes users.\n\nThe landscape of Kubernetes cost tools is rich with options, including [PodCost](https://news.ycombinator.com/item?id=46750955), which identifies wasted resources in Kubernetes environments, particularly focusing on GPU spending. Meanwhile, [Wozz](https://news.ycombinator.com/item?id=46542480) is an open-source Kubernetes cost linter and cluster auditor currently seeking design partners, emphasizing community-driven development. [CAST AI](https://news.ycombinator.com/item?id=32177934) stands out with its free cost monitoring solution that boasts significant automation features, claiming an average cost saving of 63% for users. The community has noted a preference for CAST AI over Kubecost due to its lack of limits on the number of clusters or nodes, which is particularly advantageous for users managing multiple Kubernetes environments.\n\nCost optimization strategies are essential for managing cloud expenses effectively. The acquisition of [Kubecost by IBM](https://news.ycombinator.com/item?id=41570819) underscores the increasing importance of cost management tools in Kubernetes. Google's report on [Kubernetes cost optimization](https://news.ycombinator.com/item?id=37569068) provides valuable insights applicable across various cloud environments, emphasizing the role of FinOps as a critical practice for managing costs in Kubernetes deployments. The community debates whether Kubernetes itself is a cost optimization problem or if the challenges stem from management practices, as discussed in the article [Kubernetes is (not) a cost optimization problem](https://news.ycombinator.com/item?id=39631782).\n\nDynamic autoscaling techniques, such as the use of the [Vertical Pod Autoscaler (VPA)](https://news.ycombinator.com/item?id=46510959), can lead to significant cost savings by adjusting resource allocations based on actual usage. Interestingly, some users have reported counter-intuitive experiences where increasing CPU allocation resulted in lower overall costs, suggesting that under-provisioning can lead to inefficiencies. Tools like [Akamas Insights](https://news.ycombinator.com/item?id=45877029) are emerging, focusing on AI-driven optimization for Kubernetes, which reflects a trend towards automation in resource management. Furthermore, the adoption of pay-per-use pricing models for microVM services allows for flexible cost management, enabling users to scale costs based on actual usage.\n\nCommunity discussions reveal a strong interest in tools that help manage cloud costs effectively, especially in multi-cloud scenarios. The need for effective cost management tools is underscored by the stress associated with cloud sprawl, as users express a desire for solutions that can track and filter cloud costs efficiently. Tools like [Cloudchipr](https://news.ycombinator.com/item?id=32177934) provide detailed approaches to managing cloud costs, emphasizing resource identification and cost tracking. As Kubernetes continues to evolve, the integration of financial management practices into its ecosystem will be crucial for organizations aiming to optimize their cloud expenditures.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "41222101"
+   ],
+   [
+    "story",
+    "48326053"
+   ],
+   [
+    "story",
+    "26650050"
+   ],
+   [
+    "story",
+    "28920812"
+   ],
+   [
+    "story",
+    "46750955"
+   ],
+   [
+    "story",
+    "46542480"
+   ],
+   [
+    "story",
+    "32177934"
+   ],
+   [
+    "story",
+    "41570819"
+   ],
+   [
+    "story",
+    "37569068"
+   ],
+   [
+    "story",
+    "39631782"
+   ],
+   [
+    "story",
+    "46510959"
+   ],
+   [
+    "story",
+    "45877029"
+   ]
+  ],
+  "step": 442,
+  "source": "synthesize_findings_step"
+ }
+]

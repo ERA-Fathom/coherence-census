@@ -1,0 +1,171 @@
+[
+ {
+  "iteration": 1,
+  "committed": [
+   "kubernetes cost"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "cost optimization strategies",
+   "kubernetes pricing comparison",
+   "resource allocation budgeting"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 2,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools"
+  ],
+  "proposed": [
+   "kubernetes cost optimization",
+   "kubernetes cost comparison",
+   "kubernetes resource allocation",
+   "kubernetes cost monitoring tools"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 3,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison",
+   "kubernetes deployment strategies"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "kubernetes resource allocation"
+ },
+ {
+  "iteration": 4,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "kubernetes pricing comparison",
+   "kubernetes resource efficiency",
+   "kubernetes deployment costs"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "kubernetes pricing comparison"
+ },
+ {
+  "iteration": 5,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "kubernetes pricing models",
+   "kubernetes resource efficiency",
+   "kubernetes cost predictions"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "kubernetes pricing models"
+ },
+ {
+  "iteration": 6,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison",
+   "kubernetes pricing models"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "kubernetes pricing models",
+   "kubernetes resource management",
+   "kubernetes cloud comparisons"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "kubernetes resource management"
+ },
+ {
+  "iteration": 7,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison",
+   "kubernetes pricing models",
+   "kubernetes resource management"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "kubernetes pricing models",
+   "kubernetes resource efficiency",
+   "kubernetes cost visibility"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "kubernetes resource efficiency"
+ },
+ {
+  "iteration": 8,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison",
+   "kubernetes pricing models",
+   "kubernetes resource management",
+   "kubernetes resource efficiency"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "cloud cost optimization",
+   "kubernetes pricing models",
+   "resource allocation strategies"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "cloud cost optimization"
+ },
+ {
+  "iteration": 9,
+  "committed": [
+   "kubernetes cost",
+   "kubernetes cost tools",
+   "kubernetes cost optimization",
+   "kubernetes resource allocation",
+   "kubernetes pricing comparison",
+   "kubernetes pricing models",
+   "kubernetes resource management",
+   "kubernetes resource efficiency",
+   "cloud cost optimization"
+  ],
+  "proposed": [
+   "kubernetes cost tools",
+   "cloud cost management",
+   "kubernetes pricing models",
+   "resource allocation strategies"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "cloud cost management"
+ }
+]

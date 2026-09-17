@@ -1,0 +1,167 @@
+[
+ {
+  "iteration": 1,
+  "committed": [
+   "webassembly"
+  ],
+  "proposed": [
+   "webassembly tools",
+   "webassembly use cases",
+   "webassembly vs native",
+   "webassembly deployment"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 2,
+  "committed": [
+   "webassembly",
+   "webassembly tools"
+  ],
+  "proposed": [
+   "webassembly performance",
+   "wasm debugging tools",
+   "webassembly use cases",
+   "webassembly vs native"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 3,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance"
+  ],
+  "proposed": [
+   "webassembly use cases",
+   "webassembly tools extensions",
+   "webassembly vs javascript",
+   "webassembly recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 4,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases"
+  ],
+  "proposed": [
+   "webassembly security",
+   "wasm deployment strategies",
+   "webassembly vs native",
+   "webassembly community projects"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 5,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases",
+   "webassembly security"
+  ],
+  "proposed": [
+   "webassembly tools",
+   "webassembly vs javascript",
+   "webassembly deployment",
+   "webassembly recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "webassembly vs javascript"
+ },
+ {
+  "iteration": 6,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases",
+   "webassembly security",
+   "webassembly vs javascript"
+  ],
+  "proposed": [
+   "webassembly tools",
+   "wasm use cases",
+   "webassembly deployment",
+   "wasm recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "wasm use cases"
+ },
+ {
+  "iteration": 7,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases",
+   "webassembly security",
+   "webassembly vs javascript",
+   "wasm use cases"
+  ],
+  "proposed": [
+   "wasm tools",
+   "webassembly deployment",
+   "wasm security issues",
+   "webassembly vs native"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 8,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases",
+   "webassembly security",
+   "webassembly vs javascript",
+   "wasm use cases",
+   "wasm tools"
+  ],
+  "proposed": [
+   "wasm tools",
+   "webassembly applications",
+   "wasm vs native",
+   "webassembly deployment"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "webassembly applications"
+ },
+ {
+  "iteration": 9,
+  "committed": [
+   "webassembly",
+   "webassembly tools",
+   "webassembly performance",
+   "webassembly use cases",
+   "webassembly security",
+   "webassembly vs javascript",
+   "wasm use cases",
+   "wasm tools",
+   "webassembly applications"
+  ],
+  "proposed": [
+   "wasm security vulnerabilities",
+   "webassembly microservices",
+   "wasm database integration",
+   "webassembly recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ }
+]

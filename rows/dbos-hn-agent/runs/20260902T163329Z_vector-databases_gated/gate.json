@@ -1,0 +1,169 @@
+[
+ {
+  "iteration": 1,
+  "committed": [
+   "vector databases"
+  ],
+  "proposed": [
+   "vector database performance",
+   "Qdrant use cases",
+   "vector search alternatives",
+   "hybrid search implementations"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 2,
+  "committed": [
+   "vector databases",
+   "vector database performance"
+  ],
+  "proposed": [
+   "vector database tools",
+   "vector database use cases",
+   "vector search comparisons",
+   "vector database deployment"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 3,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools"
+  ],
+  "proposed": [
+   "vector database use cases",
+   "vector database comparisons",
+   "vector database deployment",
+   "vector database recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 4,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases"
+  ],
+  "proposed": [
+   "vector database comparisons",
+   "vector database deployment",
+   "vector database extensions",
+   "recent vector database developments"
+  ],
+  "regrounds": 0,
+  "outcome": "clean"
+ },
+ {
+  "iteration": 5,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases",
+   "vector database comparisons"
+  ],
+  "proposed": [
+   "vector database deployment",
+   "vector database use cases",
+   "vector database benchmarks",
+   "vector database integration"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "vector database deployment"
+ },
+ {
+  "iteration": 6,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases",
+   "vector database comparisons",
+   "vector database deployment"
+  ],
+  "proposed": [
+   "vector database tools",
+   "vector database scalability",
+   "vector database use cases",
+   "vector database recent developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "vector database scalability"
+ },
+ {
+  "iteration": 7,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases",
+   "vector database comparisons",
+   "vector database deployment",
+   "vector database scalability"
+  ],
+  "proposed": [
+   "vector database tools",
+   "vector search applications",
+   "database integration challenges",
+   "recent vector database developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "vector search applications"
+ },
+ {
+  "iteration": 8,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases",
+   "vector database comparisons",
+   "vector database deployment",
+   "vector database scalability",
+   "vector search applications"
+  ],
+  "proposed": [
+   "vector database tools",
+   "vector database comparisons",
+   "vector search frameworks",
+   "vector database deployment"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "vector search frameworks"
+ },
+ {
+  "iteration": 9,
+  "committed": [
+   "vector databases",
+   "vector database performance",
+   "vector database tools",
+   "vector database use cases",
+   "vector database comparisons",
+   "vector database deployment",
+   "vector database scalability",
+   "vector search applications",
+   "vector search frameworks"
+  ],
+  "proposed": [
+   "vector database tools",
+   "vector search frameworks",
+   "database scalability",
+   "recent vector developments"
+  ],
+  "regrounds": 0,
+  "outcome": "filtered",
+  "chosen": "database scalability"
+ }
+]

@@ -1,0 +1,17 @@
+[
+ {"op": "add", "kind": "research", "key": "queries", "value": "postgres performance", "ok": true, "refs": [], "step": 0, "source": "search_hackernews_step"},
+ {"op": "set", "kind": "story", "key": "1001", "value": "Postgres 17 is fast", "ok": true, "refs": [], "step": 1, "source": "search_hackernews_step"},
+ {"op": "set", "kind": "story", "key": "1002", "value": "Tuning shared_buffers", "ok": true, "refs": [], "step": 2, "source": "search_hackernews_step"},
+ {"op": "add", "kind": "research", "key": "comments_read", "value": "1001", "ok": true, "refs": [], "step": 3, "source": "get_comments_step"},
+ {"op": "set", "kind": "finding", "key": "postgres performance", "value": "Postgres 17 improves vacuum and index builds", "ok": true, "refs": [["story", "1001"], ["story", "1002"]], "step": 4, "source": "evaluate_results_step"},
+ {"op": "set", "kind": "research", "key": "current_topic", "value": "postgres indexing strategies", "ok": true, "refs": [], "step": 5, "source": "generate_follow_ups_step"},
+ {"op": "add", "kind": "research", "key": "queries", "value": "postgres indexing strategies", "ok": true, "refs": [], "step": 6, "source": "search_hackernews_step"},
+ {"op": "set", "kind": "story", "key": "1003", "value": "BRIN indexes explained", "ok": true, "refs": [], "step": 7, "source": "search_hackernews_step"},
+ {"op": "add", "kind": "research", "key": "comments_read", "value": "1003", "ok": true, "refs": [], "step": 8, "source": "get_comments_step"},
+ {"op": "set", "kind": "finding", "key": "postgres indexing strategies", "value": "BRIN suits append-only tables", "ok": true, "refs": [["story", "1003"]], "step": 9, "source": "evaluate_results_step"},
+ {"op": "set", "kind": "research", "key": "current_topic", "value": "postgres performance", "ok": true, "refs": [], "step": 10, "source": "generate_follow_ups_step"},
+ {"op": "add", "kind": "research", "key": "queries", "value": "postgres performance", "ok": true, "refs": [], "step": 11, "source": "search_hackernews_step"},
+ {"op": "add", "kind": "research", "key": "comments_read", "value": "1001", "ok": true, "refs": [], "step": 12, "source": "get_comments_step"},
+ {"op": "commit", "kind": "research", "key": "research", "value": null, "ok": true, "refs": [], "step": 13, "source": "should_continue_step"},
+ {"op": "answer", "kind": "research", "key": "report", "value": "Postgres 17 is fast (https://news.ycombinator.com/item?id=1001); BRIN indexes (https://news.ycombinator.com/item?id=1003); connection pooling (https://news.ycombinator.com/item?id=9999).", "ok": true, "refs": [["story", "1001"], ["story", "1003"], ["story", "9999"]], "step": 14, "source": "synthesize_findings_step"}
+]

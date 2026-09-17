@@ -1,0 +1,4547 @@
+[
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async",
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26406989",
+  "value": "Why asynchronous Rust doesn't work",
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45774086",
+  "value": "Futurelock: A subtle risk in async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 2,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48019163",
+  "value": "Async Rust never left the MVP state",
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "22727985",
+  "value": "Writing an OS in Rust: Async/Await",
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20738606",
+  "value": "How Rust optimizes async/await",
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26110612",
+  "value": "Comparison of Rust async and Linux thread context switch time and memory use",
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46547740",
+  "value": "Embassy: Modern embedded framework, using Rust and async",
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "31611456",
+  "value": "Async Rust doesn't have to be hard",
+  "ok": true,
+  "refs": [],
+  "step": 8,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37639896",
+  "value": "The State of Async Rust: Runtimes",
+  "ok": true,
+  "refs": [],
+  "step": 9,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37176960",
+  "value": "Learning async Rust with entirely too many web servers",
+  "ok": true,
+  "refs": [],
+  "step": 10,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29911141",
+  "value": "Async Rust in Practice: Performance, Pitfalls, Profiling",
+  "ok": true,
+  "refs": [],
+  "step": 11,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45464632",
+  "value": "Cancellations in async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 12,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29208196",
+  "value": "Why asynchronous Rust doesn't work",
+  "ok": true,
+  "refs": [],
+  "step": 13,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38178592",
+  "value": "A four year plan for async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 14,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41992975",
+  "value": "Async Rust is not safe with io_uring",
+  "ok": true,
+  "refs": [],
+  "step": 15,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37891020",
+  "value": "Why Async Rust?",
+  "ok": true,
+  "refs": [],
+  "step": 16,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39981945",
+  "value": "Zed Decoded: Async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 17,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18641796",
+  "value": "Inside Rust's Async Transform",
+  "ok": true,
+  "refs": [],
+  "step": 18,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43083017",
+  "value": "Why I'm writing a Scheme implementation in 2025: Async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 19,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26503809",
+  "value": "Building a shared vision for Async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 20,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36790238",
+  "value": "Asynchronous Rust on Cortex-M microcontrollers",
+  "ok": true,
+  "refs": [],
+  "step": 21,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32119002",
+  "value": "Async Rust: What is a runtime? how Tokio works under the hood",
+  "ok": true,
+  "refs": [],
+  "step": 22,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41925323",
+  "value": "Async Rust in Three Parts",
+  "ok": true,
+  "refs": [],
+  "step": 23,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29493340",
+  "value": "Monoio \u2013 A thread-per-core Rust async runtime with io_uring",
+  "ok": true,
+  "refs": [],
+  "step": 24,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "21796753",
+  "value": "Show HN: Coerce \u2013 Actor runtime for Rust using async/await and tokio channels",
+  "ok": true,
+  "refs": [],
+  "step": 25,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "27542504",
+  "value": "Six ways to make async Rust easier",
+  "ok": true,
+  "refs": [],
+  "step": 26,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43789142",
+  "value": "A Visual Journey Through Async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 27,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30580797",
+  "value": "Request Coalescing in Async Rust",
+  "ok": true,
+  "refs": [],
+  "step": 28,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37289321",
+  "value": "PHP-Tokio \u2013 Use any async Rust library from PHP",
+  "ok": true,
+  "refs": [],
+  "step": 29,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20400991",
+  "value": "Rust async-await status report 2",
+  "ok": true,
+  "refs": [],
+  "step": 30,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26406989",
+  "ok": true,
+  "refs": [],
+  "step": 31,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45774086",
+  "ok": true,
+  "refs": [],
+  "step": 32,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48019163",
+  "ok": true,
+  "refs": [],
+  "step": 33,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "22727985",
+  "ok": true,
+  "refs": [],
+  "step": 34,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20738606",
+  "ok": true,
+  "refs": [],
+  "step": 35,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26110612",
+  "ok": true,
+  "refs": [],
+  "step": 36,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46547740",
+  "ok": true,
+  "refs": [],
+  "step": 37,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "31611456",
+  "ok": true,
+  "refs": [],
+  "step": 38,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37639896",
+  "ok": true,
+  "refs": [],
+  "step": 39,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37176960",
+  "ok": true,
+  "refs": [],
+  "step": 40,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29911141",
+  "ok": true,
+  "refs": [],
+  "step": 41,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45464632",
+  "ok": true,
+  "refs": [],
+  "step": 42,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29208196",
+  "ok": true,
+  "refs": [],
+  "step": 43,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "38178592",
+  "ok": true,
+  "refs": [],
+  "step": 44,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41992975",
+  "ok": true,
+  "refs": [],
+  "step": 45,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37891020",
+  "ok": true,
+  "refs": [],
+  "step": 46,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39981945",
+  "ok": true,
+  "refs": [],
+  "step": 47,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "18641796",
+  "ok": true,
+  "refs": [],
+  "step": 48,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43083017",
+  "ok": true,
+  "refs": [],
+  "step": 49,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26503809",
+  "ok": true,
+  "refs": [],
+  "step": 50,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36790238",
+  "ok": true,
+  "refs": [],
+  "step": 51,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32119002",
+  "ok": true,
+  "refs": [],
+  "step": 52,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41925323",
+  "ok": true,
+  "refs": [],
+  "step": 53,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29493340",
+  "ok": true,
+  "refs": [],
+  "step": 54,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "21796753",
+  "ok": true,
+  "refs": [],
+  "step": 55,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "27542504",
+  "ok": true,
+  "refs": [],
+  "step": 56,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43789142",
+  "ok": true,
+  "refs": [],
+  "step": 57,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30580797",
+  "ok": true,
+  "refs": [],
+  "step": 58,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37289321",
+  "ok": true,
+  "refs": [],
+  "step": 59,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "20400991",
+  "ok": true,
+  "refs": [],
+  "step": 60,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async",
+  "value": "The search results reveal a vibrant discussion around the challenges and advancements in Rust's async programming model. Key articles highlight both the technical limitations and potential solutions, while community comments reflect diverse opinions on libraries and frameworks.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26406989"
+   ],
+   [
+    "story",
+    "45774086"
+   ],
+   [
+    "story",
+    "48019163"
+   ],
+   [
+    "story",
+    "22727985"
+   ],
+   [
+    "story",
+    "20738606"
+   ],
+   [
+    "story",
+    "26110612"
+   ],
+   [
+    "story",
+    "46547740"
+   ],
+   [
+    "story",
+    "31611456"
+   ],
+   [
+    "story",
+    "37639896"
+   ],
+   [
+    "story",
+    "37176960"
+   ]
+  ],
+  "step": 61,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "async performance",
+  "ok": true,
+  "refs": [],
+  "step": 62,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "async performance",
+  "ok": true,
+  "refs": [],
+  "step": 63,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6966657",
+  "value": "Tiny Scala high-performance, async web framework, inspired by Sinatra",
+  "ok": true,
+  "refs": [],
+  "step": 64,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18099383",
+  "value": "Show HN: High performance async web framework built with uvloop and httptools",
+  "ok": true,
+  "refs": [],
+  "step": 65,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "12445082",
+  "value": "NET Core MVC Thread Pool: Sequential vs. Async Performance",
+  "ok": true,
+  "refs": [],
+  "step": 66,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1817215",
+  "value": "Mozy releases C++ library for high-perf async, event I/O in a sync model.",
+  "ok": true,
+  "refs": [],
+  "step": 67,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28579253",
+  "value": "Zenoh performance: a stroll in Rust async wonderland",
+  "ok": true,
+  "refs": [],
+  "step": 68,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28564135",
+  "value": "Zenoh performance: a stroll in Rust async wonderland",
+  "ok": true,
+  "refs": [],
+  "step": 69,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45373627",
+  "value": "PostgreSQL 18.0 Released With Async I/O, Performance Improvements",
+  "ok": true,
+  "refs": [],
+  "step": 70,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45762008",
+  "value": "Evolving PHP Streams for Async, Security, and Performance",
+  "ok": true,
+  "refs": [],
+  "step": 71,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25421537",
+  "value": "Improving Performance with Async-Profiler",
+  "ok": true,
+  "refs": [],
+  "step": 72,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16433072",
+  "value": "Need feedback on project dealing with monitoring the event loop",
+  "ok": true,
+  "refs": [],
+  "step": 73,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45249930",
+  "value": "AuthTuna \u2013 A modern, async security framework for FastAPI",
+  "ok": true,
+  "refs": [],
+  "step": 74,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44667157",
+  "value": "Show HN: TimeBasedLogger \u2013 Python Logger That Logs Based on Time",
+  "ok": true,
+  "refs": [],
+  "step": 75,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29911141",
+  "value": "Async Rust in Practice: Performance, Pitfalls, Profiling",
+  "ok": true,
+  "refs": [],
+  "step": 76,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46892207",
+  "value": "Async Rust in ScyllaDB: performance, pitfalls, profiling",
+  "ok": true,
+  "refs": [],
+  "step": 77,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16228844",
+  "value": "The Performance Characteristics of Async Methods in C#",
+  "ok": true,
+  "refs": [],
+  "step": 78,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40793347",
+  "value": "Async Rust in ScyllaDB: performance, pitfalls, profiling",
+  "ok": true,
+  "refs": [],
+  "step": 79,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "4060765",
+  "value": "Performance consideration for Async/Await and MarshalByRefObject",
+  "ok": true,
+  "refs": [],
+  "step": 80,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "7569769",
+  "value": "Dart 1.3 improves async and server-side performance",
+  "ok": true,
+  "refs": [],
+  "step": 81,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41688563",
+  "value": "Libuv: High-performance, Cross-platform Async I/O Library for Developers",
+  "ok": true,
+  "refs": [],
+  "step": 82,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39318404",
+  "value": "Performance Pitfalls of Async Function Pointers in Rust (& It Might Not Matter)",
+  "ok": true,
+  "refs": [],
+  "step": 83,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "16233895",
+  "value": "The performance characteristics of async methods",
+  "ok": true,
+  "refs": [],
+  "step": 84,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "7562118",
+  "value": "Dart improves async and server-side performance",
+  "ok": true,
+  "refs": [],
+  "step": 85,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32336336",
+  "value": "Async Rust in Practice: Performance, Pitfalls, Profiling",
+  "ok": true,
+  "refs": [],
+  "step": 86,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41329263",
+  "value": "Show HN: Lcdp.ai v0.29.0 \u2013 An AI-powered low-code platform for rapid development",
+  "ok": true,
+  "refs": [],
+  "step": 87,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "5612035",
+  "value": "Asynchronous Loggers for Low-Latency Logging",
+  "ok": true,
+  "refs": [],
+  "step": 88,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38695568",
+  "value": "Careful what data you send or how to tank your performance with Task.async",
+  "ok": true,
+  "refs": [],
+  "step": 89,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38686757",
+  "value": "Careful what data you send or how to tank your performance with Task.async",
+  "ok": true,
+  "refs": [],
+  "step": 90,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44530518",
+  "value": "SQLite async connection pool for high-performance",
+  "ok": true,
+  "refs": [],
+  "step": 91,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6187451",
+  "value": "Analysis of Complexity, Performance, and Debugability of Async Patterns in Node",
+  "ok": true,
+  "refs": [],
+  "step": 92,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6217273",
+  "value": "Wordpress 3.6 is still not using \"async\" or \"defer\" for better performance.",
+  "ok": true,
+  "refs": [],
+  "step": 93,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "6966657",
+  "ok": true,
+  "refs": [],
+  "step": 94,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "16433072",
+  "ok": true,
+  "refs": [],
+  "step": 95,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45249930",
+  "ok": true,
+  "refs": [],
+  "step": 96,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29911141",
+  "ok": true,
+  "refs": [],
+  "step": 97,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "5612035",
+  "ok": true,
+  "refs": [],
+  "step": 98,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44530518",
+  "ok": true,
+  "refs": [],
+  "step": 99,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "async performance",
+  "value": "The search results reveal a variety of discussions and resources related to async performance in Rust and other languages. Key insights include the performance advantages of Rust async frameworks, concerns about runtime limitations, and innovative proposals for improving async task management.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "6966657"
+   ],
+   [
+    "story",
+    "18099383"
+   ],
+   [
+    "story",
+    "12445082"
+   ],
+   [
+    "story",
+    "1817215"
+   ],
+   [
+    "story",
+    "28579253"
+   ],
+   [
+    "story",
+    "28564135"
+   ],
+   [
+    "story",
+    "45373627"
+   ],
+   [
+    "story",
+    "45762008"
+   ],
+   [
+    "story",
+    "25421537"
+   ],
+   [
+    "story",
+    "16433072"
+   ]
+  ],
+  "step": 100,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "async frameworks",
+  "ok": true,
+  "refs": [],
+  "step": 101,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "async frameworks",
+  "ok": true,
+  "refs": [],
+  "step": 102,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25061901",
+  "value": "How we designed Dropbox\u2019s ATF \u2013 an async task framework",
+  "ok": true,
+  "refs": [],
+  "step": 103,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40822512",
+  "value": "Llama-agents: an async-first framework for building production ready agents",
+  "ok": true,
+  "refs": [],
+  "step": 104,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1552095",
+  "value": "Monocle - An async programming framework with a blocking look-alike syntax",
+  "ok": true,
+  "refs": [],
+  "step": 105,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "10610232",
+  "value": "Show HN: ButterflyNet \u2013 Fully async networking framework for Python 3.4",
+  "ok": true,
+  "refs": [],
+  "step": 106,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "28916362",
+  "value": "FutureSDR: An Async SDR Framework Implemented in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 107,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18448971",
+  "value": "Starlette: ASGI (\u201cAsync WSGI\u201d) Framework for Python",
+  "ok": true,
+  "refs": [],
+  "step": 108,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "5450929",
+  "value": "Play Framework: async I/O without the thread pool and callback hell",
+  "ok": true,
+  "refs": [],
+  "step": 109,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33298918",
+  "value": "Show HN: Django REST Framework Async",
+  "ok": true,
+  "refs": [],
+  "step": 110,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23690929",
+  "value": "Python async frameworks \u2013 Beyond developer tribalism",
+  "ok": true,
+  "refs": [],
+  "step": 111,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6324477",
+  "value": "Sender.js - Async XHR Framework",
+  "ok": true,
+  "refs": [],
+  "step": 112,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "15627422",
+  "value": "Show HN: Actix async web framework for Rust with HTTP/1 and HTTP/2 support",
+  "ok": true,
+  "refs": [],
+  "step": 113,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23763299",
+  "value": "Python async frameworks \u2013 Beyond developer tribalism \u2013 Encode",
+  "ok": true,
+  "refs": [],
+  "step": 114,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14514807",
+  "value": "Cargonauts \u2013 A Rust async web framework",
+  "ok": true,
+  "refs": [],
+  "step": 115,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6966657",
+  "value": "Tiny Scala high-performance, async web framework, inspired by Sinatra",
+  "ok": true,
+  "refs": [],
+  "step": 116,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "5521680",
+  "value": "phpDaemon: Async framework for network apps implemented in PHP using libevent",
+  "ok": true,
+  "refs": [],
+  "step": 117,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45249930",
+  "value": "AuthTuna \u2013 A modern, async security framework for FastAPI",
+  "ok": true,
+  "refs": [],
+  "step": 118,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "19311452",
+  "value": "PHP async framework Swoole reaches 100K req/sec on a 6-core machine",
+  "ok": true,
+  "refs": [],
+  "step": 119,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "8560911",
+  "value": "Pretzel, C# style async/await framework for python",
+  "ok": true,
+  "refs": [],
+  "step": 120,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48062479",
+  "value": "First async A2A framework, needs someone who cares",
+  "ok": true,
+  "refs": [],
+  "step": 121,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42780584",
+  "value": "Creating a Tiny Async Framework",
+  "ok": true,
+  "refs": [],
+  "step": 122,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "23883652",
+  "value": "Python async frameworks \u2013 Beyond developer tribalism",
+  "ok": true,
+  "refs": [],
+  "step": 123,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20671404",
+  "value": "Learn how Python async frameworks work, by building small clone from scratch",
+  "ok": true,
+  "refs": [],
+  "step": 124,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "18099383",
+  "value": "Show HN: High performance async web framework built with uvloop and httptools",
+  "ok": true,
+  "refs": [],
+  "step": 125,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "1551707",
+  "value": "Monocle - an async Python framework with a blocking look-alike syntax",
+  "ok": true,
+  "refs": [],
+  "step": 126,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32026313",
+  "value": "Async framework for Obj-C: parallel processing, advanced notifications and more",
+  "ok": true,
+  "refs": [],
+  "step": 127,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "6583960",
+  "value": "Play Framework: async I/O without the thread pool and callback hell",
+  "ok": true,
+  "refs": [],
+  "step": 128,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30137668",
+  "value": "Show HN: Efficient C++ async web framework",
+  "ok": true,
+  "refs": [],
+  "step": 129,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "5099213",
+  "value": "Play Framework - async by default",
+  "ok": true,
+  "refs": [],
+  "step": 130,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48307715",
+  "value": "Came across the async framework userver 3.0 recently \u2013 they've moved to C++20",
+  "ok": true,
+  "refs": [],
+  "step": 131,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32032093",
+  "value": "Show HN: Async Framework for Obj-C: parallel processing, notifications and more",
+  "ok": true,
+  "refs": [],
+  "step": 132,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25061901",
+  "ok": true,
+  "refs": [],
+  "step": 133,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40822512",
+  "ok": true,
+  "refs": [],
+  "step": 134,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "1552095",
+  "ok": true,
+  "refs": [],
+  "step": 135,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "10610232",
+  "ok": true,
+  "refs": [],
+  "step": 136,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "6966657",
+  "ok": true,
+  "refs": [],
+  "step": 137,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "5521680",
+  "ok": true,
+  "refs": [],
+  "step": 138,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45249930",
+  "ok": true,
+  "refs": [],
+  "step": 139,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "19311452",
+  "ok": true,
+  "refs": [],
+  "step": 140,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32026313",
+  "ok": true,
+  "refs": [],
+  "step": 141,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "6583960",
+  "ok": true,
+  "refs": [],
+  "step": 142,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30137668",
+  "ok": true,
+  "refs": [],
+  "step": 143,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "async frameworks",
+  "value": "The search results reveal a variety of async frameworks, particularly in Rust and Python, showcasing innovative approaches to asynchronous programming. Key frameworks like Dropbox's ATF and Llama-agents highlight the importance of task prioritization and integration capabilities. Community discussions reflect a cautious optimism towards new frameworks, emphasizing the need for proven reliability.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "25061901"
+   ],
+   [
+    "story",
+    "40822512"
+   ],
+   [
+    "story",
+    "1552095"
+   ],
+   [
+    "story",
+    "10610232"
+   ],
+   [
+    "story",
+    "28916362"
+   ],
+   [
+    "story",
+    "18448971"
+   ],
+   [
+    "story",
+    "5450929"
+   ],
+   [
+    "story",
+    "33298918"
+   ],
+   [
+    "story",
+    "23690929"
+   ],
+   [
+    "story",
+    "6324477"
+   ]
+  ],
+  "step": 144,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "async task management",
+  "ok": true,
+  "refs": [],
+  "step": 145,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "async task management",
+  "ok": true,
+  "refs": [],
+  "step": 146,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42747628",
+  "value": "Show HN: A simple, zero-dependency async task management Go library",
+  "ok": true,
+  "refs": [],
+  "step": 147,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "20691459",
+  "value": "Tasker: Swift library for task management, async/await, url interception",
+  "ok": true,
+  "refs": [],
+  "step": 148,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24444332",
+  "value": "Minimalist web-based task management and async comms tool for teams",
+  "ok": true,
+  "refs": [],
+  "step": 149,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45013572",
+  "value": "Show HN: Async \u2013 Claude code and Linear and GitHub PRs in one opinionated tool",
+  "ok": true,
+  "refs": [],
+  "step": 150,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47165602",
+  "value": "Show HN: Mission Control \u2013 Open-source task management for AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 151,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41374760",
+  "value": "Ask HN: Fastest Async Front-End?",
+  "ok": true,
+  "refs": [],
+  "step": 152,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32911232",
+  "value": "Launch HN: Spinach.io (YC W22) \u2013 Better daily standups",
+  "ok": true,
+  "refs": [],
+  "step": 153,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42867050",
+  "value": "Show HN: Mcp-Agent \u2013 Build effective agents with Model Context Protocol",
+  "ok": true,
+  "refs": [],
+  "step": 154,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26180933",
+  "value": "Ask HN: Organising yourself/your team: options for non-tech old-school firms?",
+  "ok": true,
+  "refs": [],
+  "step": 155,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44357841",
+  "value": "Show HN: GUI for Claude Code \u2013 parallel tasks supported",
+  "ok": true,
+  "refs": [],
+  "step": 156,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46688060",
+  "value": "Show HN: Stashcast \u2013 Self-hosted custom podcast feeds for any media",
+  "ok": true,
+  "refs": [],
+  "step": 157,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24505834",
+  "value": "Remoty \u2013 work like you're in the same office",
+  "ok": true,
+  "refs": [],
+  "step": 158,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41723569",
+  "value": "Show HN: Kameo \u2013 Fault-tolerant async actors built on Tokio",
+  "ok": true,
+  "refs": [],
+  "step": 159,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47705491",
+  "value": "Show HN: Render Workflows \u2013 Durable task orchestration without queues or workers",
+  "ok": true,
+  "refs": [],
+  "step": 160,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46993751",
+  "value": "Show HN: Built two remote tools for coding agents (one in a night)",
+  "ok": true,
+  "refs": [],
+  "step": 161,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42299098",
+  "value": "Show HN: Flow \u2013 A dynamic task engine for building AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 162,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44581559",
+  "value": "Show HN: Infersync \u2013 Clock in on Tasks from Project Tools",
+  "ok": true,
+  "refs": [],
+  "step": 163,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42791871",
+  "value": "Show HN: Go-SQS-Worker \u2013 A Simple and Scalable Async Job Library for AWS SQS",
+  "ok": true,
+  "refs": [],
+  "step": 164,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44053754",
+  "value": "Show HN: Representing Agents as MCP Servers",
+  "ok": true,
+  "refs": [],
+  "step": 165,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29392354",
+  "value": "Launch HN: DailyBot (YC S21) \u2013 in-chat automation for work",
+  "ok": true,
+  "refs": [],
+  "step": 166,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43918471",
+  "value": "Show HN: DBOS Python 1.0 \u2013 Lightweight Durable Workflows Built on Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 167,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43491351",
+  "value": "Ask HN: Which agentic framework/tool do you prefer and why?",
+  "ok": true,
+  "refs": [],
+  "step": 168,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44202930",
+  "value": "Show HN: Lightweight Durable Workflows Built on Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 169,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47638715",
+  "value": "Show HN: Batty \u2013 Run a team of AI coding agents in tmux with test gating",
+  "ok": true,
+  "refs": [],
+  "step": 170,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46947714",
+  "value": "Show HN: Airut \u2013 Sandboxed Claude Code sessions over email",
+  "ok": true,
+  "refs": [],
+  "step": 171,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49538195",
+  "value": "Show HN: Aura \u2013 a Rust agent that investigates and fixes production incidents",
+  "ok": true,
+  "refs": [],
+  "step": 172,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45926607",
+  "value": "Show HN: Neo4j SDK with minimal cognitive load for an LLM",
+  "ok": true,
+  "refs": [],
+  "step": 173,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44920125",
+  "value": "Show HN: Agentic Sync \u2013 AI-Native Task Management Platform",
+  "ok": true,
+  "refs": [],
+  "step": 174,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33236826",
+  "value": "Show HN: Asananas \u2013 Little tool to monitor resource allocation in Asana",
+  "ok": true,
+  "refs": [],
+  "step": 175,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42585146",
+  "value": "Show HN: Minimalist task management tool with command line functionalities",
+  "ok": true,
+  "refs": [],
+  "step": 176,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45013572",
+  "ok": true,
+  "refs": [],
+  "step": 177,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47165602",
+  "ok": true,
+  "refs": [],
+  "step": 178,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41374760",
+  "ok": true,
+  "refs": [],
+  "step": 179,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "32911232",
+  "ok": true,
+  "refs": [],
+  "step": 180,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42867050",
+  "ok": true,
+  "refs": [],
+  "step": 181,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26180933",
+  "ok": true,
+  "refs": [],
+  "step": 182,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41723569",
+  "ok": true,
+  "refs": [],
+  "step": 183,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42299098",
+  "ok": true,
+  "refs": [],
+  "step": 184,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44581559",
+  "ok": true,
+  "refs": [],
+  "step": 185,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44053754",
+  "ok": true,
+  "refs": [],
+  "step": 186,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29392354",
+  "ok": true,
+  "refs": [],
+  "step": 187,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43491351",
+  "ok": true,
+  "refs": [],
+  "step": 188,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42585146",
+  "ok": true,
+  "refs": [],
+  "step": 189,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "async task management",
+  "value": "The search results reveal a vibrant discussion around async task management tools, particularly focusing on integration, user experience, and the technical architecture of these systems. Key insights highlight the challenges of maintaining context across different data models and the importance of structured task definitions.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "42747628"
+   ],
+   [
+    "story",
+    "20691459"
+   ],
+   [
+    "story",
+    "24444332"
+   ],
+   [
+    "story",
+    "45013572"
+   ],
+   [
+    "story",
+    "47165602"
+   ],
+   [
+    "story",
+    "41374760"
+   ],
+   [
+    "story",
+    "32911232"
+   ],
+   [
+    "story",
+    "42867050"
+   ],
+   [
+    "story",
+    "26180933"
+   ],
+   [
+    "story",
+    "44357841"
+   ]
+  ],
+  "step": 190,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "rust async tools",
+  "ok": true,
+  "refs": [],
+  "step": 191,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async tools",
+  "ok": true,
+  "refs": [],
+  "step": 192,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37435515",
+  "value": "Maybe Rust isn\u2019t a good tool for massively concurrent, userspace software",
+  "ok": true,
+  "refs": [],
+  "step": 193,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44735929",
+  "value": "Show HN: RKIK v0.6.0 \u2013 A stateless NTP inspection CLI (Rust, async, no root)",
+  "ok": true,
+  "refs": [],
+  "step": 194,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35860752",
+  "value": "Show HN: A CLI tool to interact with ChatGPT, written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 195,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 196,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46692347",
+  "value": "Show HN: TopicRadar \u2013 Track trending topics across HN, GitHub, ArXiv, and more",
+  "ok": true,
+  "refs": [],
+  "step": 197,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46772592",
+  "value": "Show HN: Debba.sql \u2013 A lightweight SQL manager built with Tauri and Rust",
+  "ok": true,
+  "refs": [],
+  "step": 198,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46252336",
+  "value": "Show HN: ADK-Rust: a Rust Implementation of Google Agent Dev Kit",
+  "ok": true,
+  "refs": [],
+  "step": 199,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30794634",
+  "value": "Show HN: Daggyr DAG Work Orchestration Engine",
+  "ok": true,
+  "refs": [],
+  "step": 200,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47376994",
+  "value": "Show HN: Kremis \u2013 Rust graph DB; every answer is fact, inference, or unknown",
+  "ok": true,
+  "refs": [],
+  "step": 201,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46616490",
+  "value": "Show HN: Dockyard \u2013 Fast Docker CLI Alternative Written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 202,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43161092",
+  "value": "Show HN: Bhumi\u2013OSS Python Library w Rust Underhead for 2.5x Faster LLM Inference",
+  "ok": true,
+  "refs": [],
+  "step": 203,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47315910",
+  "value": "Show HN: I built a 38K-line Rust CLI using 3 AI models as my engineering team",
+  "ok": true,
+  "refs": [],
+  "step": 204,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47138618",
+  "value": "Show HN: Neuron \u2013 Independent Rust crates for building AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 205,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46379855",
+  "value": "Modern Rust and llama.cpp running on 20-year-old PowerPC Macs (Tiger/Leopard)",
+  "ok": true,
+  "refs": [],
+  "step": 206,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46511131",
+  "value": "Show HN: DBMS OLTP written in Rust \u2013 prioritises clarity and correctness",
+  "ok": true,
+  "refs": [],
+  "step": 207,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46674086",
+  "value": "Ask HN: Could we replace Job Descriptions with actual Git Issues?",
+  "ok": true,
+  "refs": [],
+  "step": 208,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47183039",
+  "value": "Show HN: Vibe Code your 3D Models",
+  "ok": true,
+  "refs": [],
+  "step": 209,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39540445",
+  "value": "Show HN: Kalosm an embeddable framework for pre-trained models in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 210,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30688516",
+  "value": "Show HN: Fast subdomain enumerator written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 211,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43918241",
+  "value": "Show HN: Audioscrape \u2013 From $7 Rust MVP to Podcast Intelligence Platform",
+  "ok": true,
+  "refs": [],
+  "step": 212,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43284227",
+  "value": "Show HN: Shelgon: A Framework for Building Interactive REPL Shells in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 213,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42208648",
+  "value": "Show HN: PDF2MD \u2013 Rust+Redis+ClickHouse+VLLM conversion pipeline for PDFs",
+  "ok": true,
+  "refs": [],
+  "step": 214,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33329141",
+  "value": "A complete microservice backed by MySQL, written in Rust and compiled into WASM",
+  "ok": true,
+  "refs": [],
+  "step": 215,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47115662",
+  "value": "Show HN: I'm building a pure-Rust reimplementation of rsync (Protocol 32)",
+  "ok": true,
+  "refs": [],
+  "step": 216,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47136076",
+  "value": "Show HN: Tokio-prompt-orchestrator \u2013 LLM pipeline orchestration in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 217,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49538195",
+  "value": "Show HN: Aura \u2013 a Rust agent that investigates and fixes production incidents",
+  "ok": true,
+  "refs": [],
+  "step": 218,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46698468",
+  "value": "Show HN: Raps \u2013 Rust CLI for Autodesk Platform Services (0ms Deps, MCP Support)",
+  "ok": true,
+  "refs": [],
+  "step": 219,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47312728",
+  "value": "Show HN: The Mog Programming Language",
+  "ok": true,
+  "refs": [],
+  "step": 220,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36847594",
+  "value": "Show HN: Borgo \u2013 a Rusty language that compiles to Go",
+  "ok": true,
+  "refs": [],
+  "step": 221,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47282106",
+  "value": "Show HN: Sqry \u2013 semantic code search using AST and call graphs",
+  "ok": true,
+  "refs": [],
+  "step": 222,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37435515",
+  "ok": true,
+  "refs": [],
+  "step": 223,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 224,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46692347",
+  "ok": true,
+  "refs": [],
+  "step": 225,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47376994",
+  "ok": true,
+  "refs": [],
+  "step": 226,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47315910",
+  "ok": true,
+  "refs": [],
+  "step": 227,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46674086",
+  "ok": true,
+  "refs": [],
+  "step": 228,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47183039",
+  "ok": true,
+  "refs": [],
+  "step": 229,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39540445",
+  "ok": true,
+  "refs": [],
+  "step": 230,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30688516",
+  "ok": true,
+  "refs": [],
+  "step": 231,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43918241",
+  "ok": true,
+  "refs": [],
+  "step": 232,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43284227",
+  "ok": true,
+  "refs": [],
+  "step": 233,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33329141",
+  "ok": true,
+  "refs": [],
+  "step": 234,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47115662",
+  "ok": true,
+  "refs": [],
+  "step": 235,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47312728",
+  "ok": true,
+  "refs": [],
+  "step": 236,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36847594",
+  "ok": true,
+  "refs": [],
+  "step": 237,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47282106",
+  "ok": true,
+  "refs": [],
+  "step": 238,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async tools",
+  "value": "The search results reveal a mix of discussions around Rust's async capabilities, practical applications in tools, and comparisons with other languages like Elixir and Go. The community is actively debating the efficiency and suitability of Rust for massively concurrent applications, while also showcasing innovative Rust-based projects.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "37435515"
+   ],
+   [
+    "story",
+    "44735929"
+   ],
+   [
+    "story",
+    "35860752"
+   ],
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "46692347"
+   ],
+   [
+    "story",
+    "46772592"
+   ],
+   [
+    "story",
+    "46252336"
+   ],
+   [
+    "story",
+    "30794634"
+   ],
+   [
+    "story",
+    "47376994"
+   ],
+   [
+    "story",
+    "46616490"
+   ]
+  ],
+  "step": 239,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "async task scheduling",
+  "ok": true,
+  "refs": [],
+  "step": 240,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "async task scheduling",
+  "ok": true,
+  "refs": [],
+  "step": 241,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "25061901",
+  "value": "How we designed Dropbox\u2019s ATF \u2013 an async task framework",
+  "ok": true,
+  "refs": [],
+  "step": 242,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42299098",
+  "value": "Show HN: Flow \u2013 A dynamic task engine for building AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 243,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47110669",
+  "value": "Show HN: Pq \u2013 Simple, durable background tasks in Python using Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 244,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46601631",
+  "value": "Show HN: FastScheduler \u2013 Decorator-first Python task scheduler, async support",
+  "ok": true,
+  "refs": [],
+  "step": 245,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "29392354",
+  "value": "Launch HN: DailyBot (YC S21) \u2013 in-chat automation for work",
+  "ok": true,
+  "refs": [],
+  "step": 246,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41256977",
+  "value": "Show HN: Queue/Cron as a service built on Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 247,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30794634",
+  "value": "Show HN: Daggyr DAG Work Orchestration Engine",
+  "ok": true,
+  "refs": [],
+  "step": 248,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48619311",
+  "value": "Ask HN: What's your go-to queue system?",
+  "ok": true,
+  "refs": [],
+  "step": 249,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41867824",
+  "value": "Show HN: Tawazi \u2013 A Python library for parallel execution of functions in DAGs",
+  "ok": true,
+  "refs": [],
+  "step": 250,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46403424",
+  "value": "2025 Workplace Productivity Guide: How Pulse Gives Me Executive-Level Assistant",
+  "ok": true,
+  "refs": [],
+  "step": 251,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44802278",
+  "value": "Show HN: 1Medium \u2013 Calendar-Centric Project Planning and Status Updates",
+  "ok": true,
+  "refs": [],
+  "step": 252,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42275105",
+  "value": "Show HN: Chancy, a Postgres-backed, batteries-included task queue for Python",
+  "ok": true,
+  "refs": [],
+  "step": 253,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "40458923",
+  "value": "Show HN: Open-source real time data framework for LLM applications",
+  "ok": true,
+  "refs": [],
+  "step": 254,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41173227",
+  "value": "Ask HN: Theory of Backups",
+  "ok": true,
+  "refs": [],
+  "step": 255,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "32516418",
+  "value": "Show HN: I built an app to save time planning your Google calendar using AI",
+  "ok": true,
+  "refs": [],
+  "step": 256,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46205283",
+  "value": "AI Transforms the Real Estate",
+  "ok": true,
+  "refs": [],
+  "step": 257,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45129932",
+  "value": "Show HN: Pinblocks \u2013 Pin collaborative data blocks to your chats",
+  "ok": true,
+  "refs": [],
+  "step": 258,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45150654",
+  "value": "Show HN: Pinblocks \u2013 Your Chats with Notion-Style Collaborative Blocks",
+  "ok": true,
+  "refs": [],
+  "step": 259,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41893894",
+  "value": "Zivor Live Chat All-in-One Live Chat and Customer Engagement Platform",
+  "ok": true,
+  "refs": [],
+  "step": 260,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45463447",
+  "value": "Show HN: Schedulist Tasks and Planner",
+  "ok": true,
+  "refs": [],
+  "step": 261,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "25061901",
+  "ok": true,
+  "refs": [],
+  "step": 262,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "42299098",
+  "ok": true,
+  "refs": [],
+  "step": 263,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46601631",
+  "ok": true,
+  "refs": [],
+  "step": 264,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "29392354",
+  "ok": true,
+  "refs": [],
+  "step": 265,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48619311",
+  "ok": true,
+  "refs": [],
+  "step": 266,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "40458923",
+  "ok": true,
+  "refs": [],
+  "step": 267,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "41173227",
+  "ok": true,
+  "refs": [],
+  "step": 268,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46205283",
+  "ok": true,
+  "refs": [],
+  "step": 269,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45129932",
+  "ok": true,
+  "refs": [],
+  "step": 270,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45463447",
+  "ok": true,
+  "refs": [],
+  "step": 271,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "async task scheduling",
+  "value": "The search results reveal a variety of tools and frameworks focused on asynchronous task scheduling, with significant community engagement and interest in optimizing task execution and management. Notable discussions include the design of Dropbox's ATF and the capabilities of Flow for AI agents.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "25061901"
+   ],
+   [
+    "story",
+    "42299098"
+   ],
+   [
+    "story",
+    "47110669"
+   ],
+   [
+    "story",
+    "46601631"
+   ],
+   [
+    "story",
+    "29392354"
+   ],
+   [
+    "story",
+    "41256977"
+   ],
+   [
+    "story",
+    "30794634"
+   ],
+   [
+    "story",
+    "48619311"
+   ],
+   [
+    "story",
+    "41867824"
+   ],
+   [
+    "story",
+    "46403424"
+   ]
+  ],
+  "step": 272,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "rust async use cases",
+  "ok": true,
+  "refs": [],
+  "step": 273,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async use cases",
+  "ok": true,
+  "refs": [],
+  "step": 274,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 275,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46252336",
+  "value": "Show HN: ADK-Rust: a Rust Implementation of Google Agent Dev Kit",
+  "ok": true,
+  "refs": [],
+  "step": 276,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46524862",
+  "value": "Show HN: Titan Planet \u2013 JavaScript back end framework now powered by V8",
+  "ok": true,
+  "refs": [],
+  "step": 277,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46511467",
+  "value": "Show HN: Titan Planet \u2013 JavaScript back end framework now powered by V8",
+  "ok": true,
+  "refs": [],
+  "step": 278,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46674086",
+  "value": "Ask HN: Could we replace Job Descriptions with actual Git Issues?",
+  "ok": true,
+  "refs": [],
+  "step": 279,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968461",
+  "value": "Show HN: Optimizing LiteLLM with Rust \u2013 When Expectations Meet Reality",
+  "ok": true,
+  "refs": [],
+  "step": 280,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46570584",
+  "value": "Show HN: webrtc-rs/rtc \u2013 A Sans-I/O WebRTC Stack for Rust",
+  "ok": true,
+  "refs": [],
+  "step": 281,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48057646",
+  "value": "Show HN: WordPress WebSocket Relay in Rust with Yjs CRDT Provider for WP 7.0",
+  "ok": true,
+  "refs": [],
+  "step": 282,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44899717",
+  "value": "Show HN: Minarrow \u2013 Fast Rust columnar engine with Apache Arrow compatibility",
+  "ok": true,
+  "refs": [],
+  "step": 283,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47115662",
+  "value": "Show HN: I'm building a pure-Rust reimplementation of rsync (Protocol 32)",
+  "ok": true,
+  "refs": [],
+  "step": 284,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47110445",
+  "value": "Show HN: BoltFFI a high performance Rust bindings generator",
+  "ok": true,
+  "refs": [],
+  "step": 285,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47312728",
+  "value": "Show HN: The Mog Programming Language",
+  "ok": true,
+  "refs": [],
+  "step": 286,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45155846",
+  "value": "Show HN: CrabCamera \u2013 Cross-platform camera plugin for Tauri desktop apps",
+  "ok": true,
+  "refs": [],
+  "step": 287,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44504058",
+  "value": "JavaScript helper function for you to use",
+  "ok": true,
+  "refs": [],
+  "step": 288,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38629659",
+  "value": "Show HN: KATA Teams \u2013 Summarize Slack, streamline standups, autogenerate updates",
+  "ok": true,
+  "refs": [],
+  "step": 289,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "14810269",
+  "value": "Ask HN: Is GraphQL suitable for communication between microservices?",
+  "ok": true,
+  "refs": [],
+  "step": 290,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45569167",
+  "value": "Show HN: Tabsdata \u2013 Pub/Sub for Tables to Replace ETL Pipelines",
+  "ok": true,
+  "refs": [],
+  "step": 291,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43693597",
+  "value": "Show HN: Rocal.dev \u2013 Build Web Apps That Work Offline First",
+  "ok": true,
+  "refs": [],
+  "step": 292,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43975423",
+  "value": "Show HN: HelixDB \u2013 Open-source vector-graph database for AI applications (Rust)",
+  "ok": true,
+  "refs": [],
+  "step": 293,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48923788",
+  "value": "Rustwright: Playwright rewritten in Rust that uses 70% less memory",
+  "ok": true,
+  "refs": [],
+  "step": 294,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49490148",
+  "value": "Show HN: DataZen \u2013 a local-first client for cross-database workflows",
+  "ok": true,
+  "refs": [],
+  "step": 295,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "10023871",
+  "value": "Ask HN: How does your support/sales/management inspect production DB data?",
+  "ok": true,
+  "refs": [],
+  "step": 296,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "11440481",
+  "value": "Ask HN: Secure file sync solution (2016 Edition)",
+  "ok": true,
+  "refs": [],
+  "step": 297,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44153571",
+  "value": "CQRS and Event Sourcing for the Rest of Us",
+  "ok": true,
+  "refs": [],
+  "step": 298,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36895220",
+  "value": "Launch HN: PeerDB (YC S23) \u2013 Fast, Native ETL/ELT for Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 299,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43964201",
+  "value": "Show HN: Airweave \u2013 Let agents search any app",
+  "ok": true,
+  "refs": [],
+  "step": 300,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45427482",
+  "value": "Launch HN: Airweave (YC X25) \u2013 Let agents search any app",
+  "ok": true,
+  "refs": [],
+  "step": 301,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42494502",
+  "value": "Show HN: Callosum \u2013 A smarter OpenAPI editor/client",
+  "ok": true,
+  "refs": [],
+  "step": 302,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47142950",
+  "value": "Show HN: CharityVerify \u2013 Trust scores for 138K Canadian charities",
+  "ok": true,
+  "refs": [],
+  "step": 303,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44712111",
+  "value": "Show HN: Fix your outdated GitHub docs on autopilot",
+  "ok": true,
+  "refs": [],
+  "step": 304,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 305,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46674086",
+  "ok": true,
+  "refs": [],
+  "step": 306,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45968461",
+  "ok": true,
+  "refs": [],
+  "step": 307,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46570584",
+  "ok": true,
+  "refs": [],
+  "step": 308,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48057646",
+  "ok": true,
+  "refs": [],
+  "step": 309,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47115662",
+  "ok": true,
+  "refs": [],
+  "step": 310,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47110445",
+  "ok": true,
+  "refs": [],
+  "step": 311,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47312728",
+  "ok": true,
+  "refs": [],
+  "step": 312,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45155846",
+  "ok": true,
+  "refs": [],
+  "step": 313,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "14810269",
+  "ok": true,
+  "refs": [],
+  "step": 314,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43975423",
+  "ok": true,
+  "refs": [],
+  "step": 315,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "48923788",
+  "ok": true,
+  "refs": [],
+  "step": 316,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "49490148",
+  "ok": true,
+  "refs": [],
+  "step": 317,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "10023871",
+  "ok": true,
+  "refs": [],
+  "step": 318,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "11440481",
+  "ok": true,
+  "refs": [],
+  "step": 319,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "44153571",
+  "ok": true,
+  "refs": [],
+  "step": 320,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36895220",
+  "ok": true,
+  "refs": [],
+  "step": 321,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43964201",
+  "ok": true,
+  "refs": [],
+  "step": 322,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45427482",
+  "ok": true,
+  "refs": [],
+  "step": 323,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async use cases",
+  "value": "The search results reveal a variety of use cases for Rust in async programming, particularly in web development, real-time communication, and systems programming. Projects like Lunatic and ADK-Rust showcase Rust's versatility and performance advantages in different domains.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "46252336"
+   ],
+   [
+    "story",
+    "46524862"
+   ],
+   [
+    "story",
+    "46511467"
+   ],
+   [
+    "story",
+    "46674086"
+   ],
+   [
+    "story",
+    "45968461"
+   ],
+   [
+    "story",
+    "46570584"
+   ],
+   [
+    "story",
+    "48057646"
+   ],
+   [
+    "story",
+    "44899717"
+   ],
+   [
+    "story",
+    "47115662"
+   ]
+  ],
+  "step": 324,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "rust async comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 325,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async comparisons",
+  "ok": true,
+  "refs": [],
+  "step": 326,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26110612",
+  "value": "Comparison of Rust async and Linux thread context switch time and memory use",
+  "ok": true,
+  "refs": [],
+  "step": 327,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26099024",
+  "value": "Comparison of Rust async and Linux thread context switch time and memory use",
+  "ok": true,
+  "refs": [],
+  "step": 328,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "38950040",
+  "value": "Comparison of Rust async and Linux thread context switch time and memory use",
+  "ok": true,
+  "refs": [],
+  "step": 329,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47115662",
+  "value": "Show HN: I'm building a pure-Rust reimplementation of rsync (Protocol 32)",
+  "ok": true,
+  "refs": [],
+  "step": 330,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47474785",
+  "value": "Show HN: Banish: A declarative framework for rule-based state machines in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 331,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48915923",
+  "value": "Show HN: GWZ \u2013 Git Workspace Zone (multi-repo that feels like plain Git)",
+  "ok": true,
+  "refs": [],
+  "step": 332,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "24033649",
+  "value": "Ask HN: Secure Email Encrypted at Rest",
+  "ok": true,
+  "refs": [],
+  "step": 333,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26110612",
+  "ok": true,
+  "refs": [],
+  "step": 334,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47115662",
+  "ok": true,
+  "refs": [],
+  "step": 335,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "24033649",
+  "ok": true,
+  "refs": [],
+  "step": 336,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async comparisons",
+  "value": "The search results primarily focus on the performance comparison of Rust's async programming model against traditional Linux threading, with significant community engagement and discussion around the implications of these technologies. Key insights include performance metrics, challenges in async programming, and philosophical debates on software development practices.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26110612"
+   ],
+   [
+    "story",
+    "26099024"
+   ],
+   [
+    "story",
+    "38950040"
+   ],
+   [
+    "story",
+    "47115662"
+   ],
+   [
+    "story",
+    "47474785"
+   ],
+   [
+    "story",
+    "48915923"
+   ],
+   [
+    "story",
+    "24033649"
+   ]
+  ],
+  "step": 337,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "rust async tools",
+  "ok": true,
+  "refs": [],
+  "step": 338,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async tools",
+  "ok": true,
+  "refs": [],
+  "step": 339,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "37435515",
+  "value": "Maybe Rust isn\u2019t a good tool for massively concurrent, userspace software",
+  "ok": true,
+  "refs": [],
+  "step": 340,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44735929",
+  "value": "Show HN: RKIK v0.6.0 \u2013 A stateless NTP inspection CLI (Rust, async, no root)",
+  "ok": true,
+  "refs": [],
+  "step": 341,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "35860752",
+  "value": "Show HN: A CLI tool to interact with ChatGPT, written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 342,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "26367029",
+  "value": "Launch HN: Lunatic (YC W21) \u2013 An Erlang Inspired WebAssembly Platform",
+  "ok": true,
+  "refs": [],
+  "step": 343,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46692347",
+  "value": "Show HN: TopicRadar \u2013 Track trending topics across HN, GitHub, ArXiv, and more",
+  "ok": true,
+  "refs": [],
+  "step": 344,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46772592",
+  "value": "Show HN: Debba.sql \u2013 A lightweight SQL manager built with Tauri and Rust",
+  "ok": true,
+  "refs": [],
+  "step": 345,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46252336",
+  "value": "Show HN: ADK-Rust: a Rust Implementation of Google Agent Dev Kit",
+  "ok": true,
+  "refs": [],
+  "step": 346,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30794634",
+  "value": "Show HN: Daggyr DAG Work Orchestration Engine",
+  "ok": true,
+  "refs": [],
+  "step": 347,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47376994",
+  "value": "Show HN: Kremis \u2013 Rust graph DB; every answer is fact, inference, or unknown",
+  "ok": true,
+  "refs": [],
+  "step": 348,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46616490",
+  "value": "Show HN: Dockyard \u2013 Fast Docker CLI Alternative Written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 349,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43161092",
+  "value": "Show HN: Bhumi\u2013OSS Python Library w Rust Underhead for 2.5x Faster LLM Inference",
+  "ok": true,
+  "refs": [],
+  "step": 350,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47315910",
+  "value": "Show HN: I built a 38K-line Rust CLI using 3 AI models as my engineering team",
+  "ok": true,
+  "refs": [],
+  "step": 351,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47138618",
+  "value": "Show HN: Neuron \u2013 Independent Rust crates for building AI agents",
+  "ok": true,
+  "refs": [],
+  "step": 352,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46379855",
+  "value": "Modern Rust and llama.cpp running on 20-year-old PowerPC Macs (Tiger/Leopard)",
+  "ok": true,
+  "refs": [],
+  "step": 353,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46511131",
+  "value": "Show HN: DBMS OLTP written in Rust \u2013 prioritises clarity and correctness",
+  "ok": true,
+  "refs": [],
+  "step": 354,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46674086",
+  "value": "Ask HN: Could we replace Job Descriptions with actual Git Issues?",
+  "ok": true,
+  "refs": [],
+  "step": 355,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47183039",
+  "value": "Show HN: Vibe Code your 3D Models",
+  "ok": true,
+  "refs": [],
+  "step": 356,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "39540445",
+  "value": "Show HN: Kalosm an embeddable framework for pre-trained models in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 357,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "30688516",
+  "value": "Show HN: Fast subdomain enumerator written in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 358,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43918241",
+  "value": "Show HN: Audioscrape \u2013 From $7 Rust MVP to Podcast Intelligence Platform",
+  "ok": true,
+  "refs": [],
+  "step": 359,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43284227",
+  "value": "Show HN: Shelgon: A Framework for Building Interactive REPL Shells in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 360,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "42208648",
+  "value": "Show HN: PDF2MD \u2013 Rust+Redis+ClickHouse+VLLM conversion pipeline for PDFs",
+  "ok": true,
+  "refs": [],
+  "step": 361,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "33329141",
+  "value": "A complete microservice backed by MySQL, written in Rust and compiled into WASM",
+  "ok": true,
+  "refs": [],
+  "step": 362,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47115662",
+  "value": "Show HN: I'm building a pure-Rust reimplementation of rsync (Protocol 32)",
+  "ok": true,
+  "refs": [],
+  "step": 363,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47136076",
+  "value": "Show HN: Tokio-prompt-orchestrator \u2013 LLM pipeline orchestration in Rust",
+  "ok": true,
+  "refs": [],
+  "step": 364,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "49538195",
+  "value": "Show HN: Aura \u2013 a Rust agent that investigates and fixes production incidents",
+  "ok": true,
+  "refs": [],
+  "step": 365,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46698468",
+  "value": "Show HN: Raps \u2013 Rust CLI for Autodesk Platform Services (0ms Deps, MCP Support)",
+  "ok": true,
+  "refs": [],
+  "step": 366,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47312728",
+  "value": "Show HN: The Mog Programming Language",
+  "ok": true,
+  "refs": [],
+  "step": 367,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36847594",
+  "value": "Show HN: Borgo \u2013 a Rusty language that compiles to Go",
+  "ok": true,
+  "refs": [],
+  "step": 368,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47282106",
+  "value": "Show HN: Sqry \u2013 semantic code search using AST and call graphs",
+  "ok": true,
+  "refs": [],
+  "step": 369,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "37435515",
+  "ok": true,
+  "refs": [],
+  "step": 370,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "26367029",
+  "ok": true,
+  "refs": [],
+  "step": 371,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46692347",
+  "ok": true,
+  "refs": [],
+  "step": 372,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47376994",
+  "ok": true,
+  "refs": [],
+  "step": 373,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47315910",
+  "ok": true,
+  "refs": [],
+  "step": 374,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46674086",
+  "ok": true,
+  "refs": [],
+  "step": 375,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47183039",
+  "ok": true,
+  "refs": [],
+  "step": 376,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "39540445",
+  "ok": true,
+  "refs": [],
+  "step": 377,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "30688516",
+  "ok": true,
+  "refs": [],
+  "step": 378,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43918241",
+  "ok": true,
+  "refs": [],
+  "step": 379,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "43284227",
+  "ok": true,
+  "refs": [],
+  "step": 380,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "33329141",
+  "ok": true,
+  "refs": [],
+  "step": 381,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47115662",
+  "ok": true,
+  "refs": [],
+  "step": 382,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47312728",
+  "ok": true,
+  "refs": [],
+  "step": 383,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36847594",
+  "ok": true,
+  "refs": [],
+  "step": 384,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47282106",
+  "ok": true,
+  "refs": [],
+  "step": 385,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async tools",
+  "value": "The search results reveal a mix of discussions around Rust's async capabilities, its limitations in massively concurrent applications, and emerging tools like Lunatic that aim to enhance concurrency in Rust. Community perspectives highlight both the challenges and potential solutions in the async landscape.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "37435515"
+   ],
+   [
+    "story",
+    "44735929"
+   ],
+   [
+    "story",
+    "35860752"
+   ],
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "46692347"
+   ],
+   [
+    "story",
+    "46772592"
+   ],
+   [
+    "story",
+    "46252336"
+   ],
+   [
+    "story",
+    "30794634"
+   ],
+   [
+    "story",
+    "47376994"
+   ],
+   [
+    "story",
+    "46616490"
+   ]
+  ],
+  "step": 386,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "set",
+  "kind": "research",
+  "key": "current_topic",
+  "value": "rust async optimizations",
+  "ok": true,
+  "refs": [],
+  "step": 387,
+  "source": "generate_follow_ups_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "queries",
+  "value": "rust async optimizations",
+  "ok": true,
+  "refs": [],
+  "step": 388,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46442990",
+  "value": "Show HN: I bootstrapped a podcast search engine in Rust (1 yr update)",
+  "ok": true,
+  "refs": [],
+  "step": 389,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "43161092",
+  "value": "Show HN: Bhumi\u2013OSS Python Library w Rust Underhead for 2.5x Faster LLM Inference",
+  "ok": true,
+  "refs": [],
+  "step": 390,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46379855",
+  "value": "Modern Rust and llama.cpp running on 20-year-old PowerPC Macs (Tiger/Leopard)",
+  "ok": true,
+  "refs": [],
+  "step": 391,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45968461",
+  "value": "Show HN: Optimizing LiteLLM with Rust \u2013 When Expectations Meet Reality",
+  "ok": true,
+  "refs": [],
+  "step": 392,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "47115662",
+  "value": "Show HN: I'm building a pure-Rust reimplementation of rsync (Protocol 32)",
+  "ok": true,
+  "refs": [],
+  "step": 393,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "41156550",
+  "value": "Show HN: Rust Under the Hood \u2013 Explore Rust Through Assembly",
+  "ok": true,
+  "refs": [],
+  "step": 394,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45155846",
+  "value": "Show HN: CrabCamera \u2013 Cross-platform camera plugin for Tauri desktop apps",
+  "ok": true,
+  "refs": [],
+  "step": 395,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46571103",
+  "value": "Show HN: Embex \u2013 9K organic downloads in 2 weeks with zero marketing",
+  "ok": true,
+  "refs": [],
+  "step": 396,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "48384180",
+  "value": "Show HN: GreenKube \u2013 Open-source K8s cost and CO2 optimization engine",
+  "ok": true,
+  "refs": [],
+  "step": 397,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45636127",
+  "value": "Show HN: We're tracking AI bot visits daily across our network",
+  "ok": true,
+  "refs": [],
+  "step": 398,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "46571980",
+  "value": "Show HN: Ferrite \u2013 Markdown editor in Rust with native Mermaid diagram rendering",
+  "ok": true,
+  "refs": [],
+  "step": 399,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "45316795",
+  "value": "Show HN: I made a spaced-repetition-based language learning app",
+  "ok": true,
+  "refs": [],
+  "step": 400,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "36895220",
+  "value": "Launch HN: PeerDB (YC S23) \u2013 Fast, Native ETL/ELT for Postgres",
+  "ok": true,
+  "refs": [],
+  "step": 401,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "set",
+  "kind": "story",
+  "key": "44248007",
+  "value": "AppGallery Connect: Service Platform for HarmonyOS Applications",
+  "ok": true,
+  "refs": [],
+  "step": 402,
+  "source": "search_hackernews_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45968461",
+  "ok": true,
+  "refs": [],
+  "step": 403,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "47115662",
+  "ok": true,
+  "refs": [],
+  "step": 404,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45155846",
+  "ok": true,
+  "refs": [],
+  "step": 405,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "46571980",
+  "ok": true,
+  "refs": [],
+  "step": 406,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "45316795",
+  "ok": true,
+  "refs": [],
+  "step": 407,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "add",
+  "kind": "research",
+  "key": "comments_read",
+  "value": "36895220",
+  "ok": true,
+  "refs": [],
+  "step": 408,
+  "source": "get_comments_step"
+ },
+ {
+  "op": "set",
+  "kind": "finding",
+  "key": "rust async optimizations",
+  "value": "The search results reveal a variety of Rust projects focusing on performance optimizations, particularly in the context of machine learning and desktop applications. While some projects claim significant performance improvements, community skepticism about benchmarks and the implications of rewriting established tools is prevalent.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "46442990"
+   ],
+   [
+    "story",
+    "43161092"
+   ],
+   [
+    "story",
+    "46379855"
+   ],
+   [
+    "story",
+    "45968461"
+   ],
+   [
+    "story",
+    "47115662"
+   ],
+   [
+    "story",
+    "41156550"
+   ],
+   [
+    "story",
+    "45155846"
+   ],
+   [
+    "story",
+    "46571103"
+   ],
+   [
+    "story",
+    "48384180"
+   ],
+   [
+    "story",
+    "45636127"
+   ]
+  ],
+  "step": 409,
+  "source": "evaluate_results_step"
+ },
+ {
+  "op": "answer",
+  "kind": "research",
+  "key": "report",
+  "value": "Rust's async programming model has generated vibrant discussions within the developer community, highlighting both its potential and the challenges it faces. As noted in various articles, async Rust is still evolving, with many libraries considered to be in a minimum viable product (MVP) state, which raises concerns about their robustness and reliability. For instance, the article [Why asynchronous Rust doesn't work](https://news.ycombinator.com/item?id=26406989) discusses limitations in task management and the need for deeper integration with the language to enhance reliability. Furthermore, the post [Async Rust never left the MVP state](https://news.ycombinator.com/item?id=48019163) argues that the async ecosystem has not matured significantly, indicating that many libraries still lack comprehensive features. This sentiment is echoed in community discussions, where preferences lean towards simpler async libraries like async_std for ease of use, as highlighted by user comments in various threads.\n\nPerformance optimizations in async Rust can lead to significant improvements over traditional threading models. For example, the article [How Rust optimizes async/await](https://news.ycombinator.com/item?id=20738606) discusses specific strategies, such as stack allocation and state machine usage, that enhance the efficiency of async tasks. Additionally, a comparison of Rust async and Linux thread context switch time reveals that async Rust can significantly reduce context switch overhead, as detailed in the discussion [Comparison of Rust async and Linux thread context switch time and memory use](https://news.ycombinator.com/item?id=26110612). This performance advantage is particularly relevant in high-load scenarios, where managing concurrency effectively is crucial.\n\nThe community is also exploring various async frameworks, with notable examples including Dropbox's ATF, which emphasizes dynamic task prioritization, and the Llama-agents framework, designed for production-ready applications. The [discussion on Dropbox's ATF](https://news.ycombinator.com/item?id=25061901) highlights its focus on scalability and reliability, while the [Llama-agents framework](https://news.ycombinator.com/item?id=40822512) integrates agentic features that enhance its usability in real-world applications. Furthermore, the Monocle framework offers a blocking-like syntax for async programming, which may lower the barrier for developers transitioning to async paradigms, as discussed in the [Monocle article](https://news.ycombinator.com/item?id=1552095).\n\nAsync task management tools are also a focal point of discussion, particularly regarding integration and user experience. The tool 'Async' integrates Claude code with Linear and GitHub, emphasizing the need for maintaining context across different data models, a common challenge in async task management. Community feedback indicates a strong interest in tools that enhance developer experience, particularly in managing dependencies and avoiding deadlocks in asynchronous task execution. The importance of structured task definitions, including acceptance criteria, is highlighted in discussions about improving clarity in task completion, as seen in various community comments.\n\nIn terms of practical applications, Rust's async capabilities are being explored in diverse areas such as web development, real-time communication, and systems programming. Projects like Lunatic, an Erlang-inspired WebAssembly platform, showcase Rust's versatility in multi-environment applications, while the webrtc-rs/rtc project demonstrates its application in real-time communication. The [Lunatic project](https://news.ycombinator.com/item?id=26367029) is particularly noteworthy for its potential to create applications that function across different environments, indicating a significant use case for async Rust.\n\nDespite these advancements, there are ongoing debates about Rust's effectiveness in massively concurrent applications compared to languages like Erlang and Elixir. The article [Maybe Rust isn\u2019t a good tool for massively concurrent, userspace software](https://news.ycombinator.com/item?id=37435515) discusses the limitations of Rust's async capabilities in such environments, suggesting that the actor-based model of Lunatic may provide better concurrency management. Community discussions reveal a preference for languages like Elixir for certain types of applications due to their meta-programming capabilities and seamless integration with Rust through tools like Rustler.\n\nIn conclusion, while Rust's async programming model presents exciting opportunities for performance optimization and innovative applications, it also faces significant challenges that require ongoing community engagement and development. Practitioners are encouraged to explore the various frameworks and tools available, engage in community discussions, and consider the implications of adopting async Rust in their projects.",
+  "ok": true,
+  "refs": [
+   [
+    "story",
+    "26406989"
+   ],
+   [
+    "story",
+    "48019163"
+   ],
+   [
+    "story",
+    "20738606"
+   ],
+   [
+    "story",
+    "26110612"
+   ],
+   [
+    "story",
+    "25061901"
+   ],
+   [
+    "story",
+    "40822512"
+   ],
+   [
+    "story",
+    "1552095"
+   ],
+   [
+    "story",
+    "26367029"
+   ],
+   [
+    "story",
+    "37435515"
+   ]
+  ],
+  "step": 410,
+  "source": "synthesize_findings_step"
+ }
+]
