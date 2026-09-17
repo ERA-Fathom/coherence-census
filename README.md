@@ -30,7 +30,7 @@ The bundled traces are minimal: each one carries the failure's shape in a dozen 
 
 ## Rows in progress
 
-DBOS's published Hacker News research agent under longer runs, and HAL's τ-bench airline traces across seven frontier models. The CrewAI book-flow and deepagents rows above carry their full runs under `rows/crewai-book-flow/` and `rows/deepagents-deep-research/`. Each lands as a row with its trace and its command when the run is done.
+HAL's τ-bench airline traces across seven frontier models. The CrewAI book-flow, deepagents and DBOS rows above carry their full runs under `rows/crewai-book-flow/`, `rows/deepagents-deep-research/` and `rows/dbos-hn-agent/`. Each lands as a row with its trace and its command when the run is done.
 
 ## Add a row
 
