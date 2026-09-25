@@ -45,6 +45,15 @@
   "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/dbos-hn-agent"
  },
  {
+  "id": "prime-agent-fanin",
+  "agent": "Prime Agent (an orchestrator with rlm child agents)",
+  "trace": "The orchestrator's session with the agent messages its children delivered, mapped by [fathom-prime-agent](https://github.com/ERA-Fathom/fathom-prime-agent)",
+  "run": "Prime Agent (commit 8969d24) as a multi-round orchestrator fanning each round out to 4 or 8 rlm child agents, 11 runs under deepseek/deepseek-chat-v3-0324 on two seeds",
+  "caught": "Under deepseek/deepseek-chat-v3-0324 with 8 children per round the orchestrator wrote child-format messages for children that had not replied and committed from them; across 11 runs with no failure induced, 39 of 329 commits rested on reports not yet delivered, 27 of them in one run",
+  "cmd": "fathom read traces/prime_agent_fanin.json",
+  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/prime-agent-fanin"
+ },
+ {
   "id": "letta",
   "agent": "Letta",
   "trace": "Core blocks, archival passages, and the memory-edit tool calls",

@@ -1,0 +1,95 @@
+[
+ {
+  "op": "set",
+  "kind": "report",
+  "key": "r0t2: e1 delta = 2",
+  "value": "e1 delta = 2",
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 0,
+  "source": "child:r0t2"
+ },
+ {
+  "op": "set",
+  "kind": "report",
+  "key": "r0t0: e9 delta = 1",
+  "value": "e9 delta = 1",
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 1,
+  "source": "child:r0t0"
+ },
+ {
+  "op": "answer",
+  "kind": "report",
+  "key": "r0t4: e2 delta = 1",
+  "value": "e2 delta = 1",
+  "to": null,
+  "ok": true,
+  "refs": [
+   [
+    "report",
+    "r0t4: e2 delta = 1"
+   ]
+  ],
+  "step": 2,
+  "source": "root"
+ },
+ {
+  "op": "set",
+  "kind": "entity",
+  "key": "e9",
+  "value": null,
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 3,
+  "source": "root"
+ },
+ {
+  "op": "set",
+  "kind": "entity",
+  "key": "e1",
+  "value": null,
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 4,
+  "source": "root"
+ },
+ {
+  "op": "set",
+  "kind": "entity",
+  "key": "e2",
+  "value": null,
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 5,
+  "source": "root"
+ },
+ {
+  "op": "set",
+  "kind": "report",
+  "key": "r0t3: e7 delta = 6",
+  "value": "e7 delta = 6",
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 6,
+  "source": "child:r0t3"
+ },
+ {
+  "op": "set",
+  "kind": "report",
+  "key": "r0t4: e2 delta = 4",
+  "value": "e2 delta = 4",
+  "to": null,
+  "ok": true,
+  "refs": [],
+  "step": 7,
+  "source": "child:r0t4"
+ }
+]
