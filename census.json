@@ -5,7 +5,7 @@
   "trace": "Checkpoint lineage (`graph.get_state_history`)",
   "run": "Three coherent multi-agent runs and one parallel super-step where two agents wrote the shared record at once",
   "caught": "The channel reducer merged both writes with no consistency check and left a record citing the key the agent had already renamed away",
-  "cmd": "fathom read traces/langgraph_history.json --format langgraph",
+  "cmd": "right-rudder read traces/langgraph_history.json --format langgraph",
   "study": "https://embeddedriskanalytics.com/research-reading-a-graphs-committed-state-from-its-own-checkpoints.html"
  },
  {
@@ -14,7 +14,7 @@
   "trace": "Event bus (`tool_usage_finished`, `tool_usage_error`, `task_completed`)",
   "run": "Coupled record-keeping across 5, 12, and 20 sub-records, sequential and hierarchical, two models",
   "caught": "A hierarchical crew reported all twenty sub-tasks complete while one record never got written; the read recovered the dropped record from the event stream alone",
-  "cmd": "fathom read traces/crewai_events.json --format crewai --supersede guest_id=customer_id",
+  "cmd": "right-rudder read traces/crewai_events.json --format crewai --supersede guest_id=customer_id",
   "study": "https://embeddedriskanalytics.com/research-reading-a-crews-committed-state-from-its-own-event-stream.html"
  },
  {
@@ -23,8 +23,8 @@
   "trace": "Event bus (`tool_usage_finished`, `task_completed`), mapped by the row's `book_flow_ops.py`",
   "run": "CrewAI's own published book-writing flow, nine runs across gpt-4o-mini, llama-3.3-70b and mistral-small at 4 to 14 chapters",
   "caught": "Under llama-3.3-70b at 14 chapters one chapter crew's researcher issued the identical search 25 times and three crews re-ran queries the outline crew had already committed; another run saved a 14-chapter book as finished with an outlined chapter missing behind a placeholder title",
-  "cmd": "fathom read traces/crewai_book_flow.json",
-  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/crewai-book-flow"
+  "cmd": "right-rudder read traces/crewai_book_flow.json",
+  "study": "https://github.com/RightRudderAI/coherence-census/tree/main/rows/crewai-book-flow"
  },
  {
   "id": "deepagents-deep-research",
@@ -32,8 +32,8 @@
   "trace": "The tool trace across the orchestrator and its research sub-agents (a LangChain callback handler), mapped by the row's `deep_research_ops.py`",
   "run": "deepagents' own published deep research agent, six runs across gpt-4o-mini and llama-3.3-70b on three comparison questions each",
   "caught": "Under llama-3.3-70b the report's only citation was a URL no search returned, the real article's slug rewritten to match its title; in another run the orchestrator delegated the same question twice, the second sub-agent reopened with the first one's exact query, and the run held one unreachable article five times before reporting that nothing was found",
-  "cmd": "fathom read traces/deepagents_deep_research.json",
-  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/deepagents-deep-research"
+  "cmd": "right-rudder read traces/deepagents_deep_research.json",
+  "study": "https://github.com/RightRudderAI/coherence-census/tree/main/rows/deepagents-deep-research"
  },
  {
   "id": "dbos-hn-agent",
@@ -41,17 +41,17 @@
   "trace": "The DBOS step stream (every checkpointed step with its arguments and result), mapped by the row's `hn_agent_ops.py`",
   "run": "DBOS's own published research agent, five topics at ten iterations on gpt-4o-mini, run as published and again with the repair in front of the follow-up step",
   "caught": "As published the agent repeated 14 of 50 searches, all from iteration 4 on, and re-read 42 percent of the threads it fetched; with the repair in front of the one step where it proposes its next queries, repeats fell to 0 of 50, re-reads to 12 percent, and distinct threads covered rose 35 percent at the same model and iteration count",
-  "cmd": "fathom read traces/dbos_hn_agent.json",
-  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/dbos-hn-agent"
+  "cmd": "right-rudder read traces/dbos_hn_agent.json",
+  "study": "https://github.com/RightRudderAI/coherence-census/tree/main/rows/dbos-hn-agent"
  },
  {
   "id": "prime-agent-fanin",
   "agent": "Prime Agent (an orchestrator with rlm child agents)",
-  "trace": "The orchestrator's session with the agent messages its children delivered, mapped by [fathom-prime-agent](https://github.com/ERA-Fathom/fathom-prime-agent)",
+  "trace": "The orchestrator's session with the agent messages its children delivered, mapped by [right-rudder-prime-agent](https://github.com/RightRudderAI/right-rudder-prime-agent)",
   "run": "Prime Agent (commit 8969d24) as a multi-round orchestrator fanning each round out to 4 or 8 rlm child agents, 11 runs under deepseek/deepseek-chat-v3-0324 on two seeds",
   "caught": "Under deepseek/deepseek-chat-v3-0324 with 8 children per round the orchestrator wrote child-format messages for children that had not replied and committed from them; across 11 runs with no failure induced, 39 of 329 commits rested on reports not yet delivered, 27 of them in one run",
-  "cmd": "fathom read traces/prime_agent_fanin.json",
-  "study": "https://github.com/ERA-Fathom/coherence-census/tree/main/rows/prime-agent-fanin"
+  "cmd": "right-rudder read traces/prime_agent_fanin.json",
+  "study": "https://github.com/RightRudderAI/coherence-census/tree/main/rows/prime-agent-fanin"
  },
  {
   "id": "letta",
@@ -59,7 +59,7 @@
   "trace": "Core blocks, archival passages, and the memory-edit tool calls",
   "run": "A fact carried across eight core blocks, then across six core blocks and one archival passage",
   "caught": "The agent renamed the six blocks it could see and left the archival copy on the old key; the read recovered the stale passage from the persisted memory and the edit stream",
-  "cmd": "fathom read traces/letta_memory.json --format letta --supersede guest_id=customer_id",
+  "cmd": "right-rudder read traces/letta_memory.json --format letta --supersede guest_id=customer_id",
   "study": "https://embeddedriskanalytics.com/research-reading-an-agents-committed-state-from-its-own-memory.html"
  },
  {
@@ -68,8 +68,8 @@
   "trace": "TOOL spans as Phoenix stores them",
   "run": "A five-file rename refactor traced through OpenInference, coherent and starved",
   "caught": "The starved run's platform signals read tests-pass-and-done while the tool spans showed no successful edit; the read named the files still carrying the old key",
-  "cmd": "fathom read traces/phoenix_spans.json --format openinference --supersede guest_id=customer_id",
-  "study": "https://github.com/ERA-Fathom/fathom-phoenix"
+  "cmd": "right-rudder read traces/phoenix_spans.json --format openinference --supersede guest_id=customer_id",
+  "study": "https://github.com/RightRudderAI/fathom-phoenix"
  },
  {
   "id": "openhands",
@@ -77,7 +77,7 @@
   "trace": "The edit log (`str_replace_editor` calls with success flags)",
   "run": "Rename an identifier across five files and run the tests, under a capable model and a small model with a distraction step",
   "caught": "The small-model run made no successful edit, ran the suite against unchanged code, and reported the task complete with tests passing; the read was the one check that separated the reported success from the actual one",
-  "cmd": "fathom read traces/rename_starved.json --format edits --supersede guest_id=customer_id",
+  "cmd": "right-rudder read traces/rename_starved.json --format edits --supersede guest_id=customer_id",
   "study": "https://embeddedriskanalytics.com/research-committed-state-coherence-in-a-coding-agent.html"
  },
  {
@@ -86,7 +86,7 @@
   "trace": "The browser action stream",
   "run": "An interaction-dense ordering task across two model tiers and a range of retained-window budgets",
   "caught": "With the window starved, a frontier model duplicated the order (8 lines and $106.20 against the correct 3 lines and $44.10) while every conventional success signal stayed green; the read recovered all five duplicates",
-  "cmd": "fathom read traces/order_duplicate.json",
+  "cmd": "right-rudder read traces/order_duplicate.json",
   "study": "https://embeddedriskanalytics.com/research-reading-coherence-failure-in-a-live-web-agent.html"
  },
  {
@@ -95,7 +95,7 @@
   "trace": "Retrieved items and the answer, with the citation lock's verdict",
   "run": "LongMemEval knowledge-update questions on deepseek-chat and gpt-4o-mini",
   "caught": "When the update fell outside the retrieval window the reader cited the superseded item and answered with the superseded value; across 83 stale answers the citation lock rejected none, and the read fired on every one",
-  "cmd": "fathom read traces/knowledge_update.json",
+  "cmd": "right-rudder read traces/knowledge_update.json",
   "study": "https://embeddedriskanalytics.com/research-reading-committed-state-when-memory-is-provenanced.html"
  },
  {
@@ -104,7 +104,7 @@
   "trace": "The folded history and the answer",
   "run": "ContextPilot's own foldHistory operation on LongMemEval knowledge-update questions, two models",
   "caught": "Once the update was folded, 55 to 60 percent of questions came back with the value the agent had already replaced; the read produced no verified false positives across more than a hundred runs",
-  "cmd": "fathom read traces/knowledge_update.json",
+  "cmd": "right-rudder read traces/knowledge_update.json",
   "study": "https://embeddedriskanalytics.com/research-reading-committed-state-when-an-agent-manages-its-own-context.html"
  }
 ]

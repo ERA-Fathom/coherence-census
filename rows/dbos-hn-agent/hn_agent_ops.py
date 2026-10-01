@@ -21,7 +21,7 @@ What the read can then say:
 
 Usage:
     python hn_agent_ops.py dbos_steps.json > ops.json
-    fathom read ops.json
+    right-rudder read ops.json
 """
 from __future__ import annotations
 

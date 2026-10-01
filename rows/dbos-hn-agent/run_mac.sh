@@ -13,7 +13,7 @@ cd "$(dirname "$0")"
 if [[ -z "${OPENAI_API_KEY:-}" && -n "${OPENROUTER_API_KEY:-}" ]]; then
   export OPENAI_API_KEY="$OPENROUTER_API_KEY"
   export OPENAI_BASE_URL="https://openrouter.ai/api/v1"
-  export FATHOM_MODEL="${FATHOM_MODEL:-openai/gpt-4o-mini}"
+  export RIGHT_RUDDER_MODEL="${RIGHT_RUDDER_MODEL:-openai/gpt-4o-mini}"
 fi
 if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   echo "set OPENAI_API_KEY (or OPENROUTER_API_KEY) in THIS terminal first, e.g.  export OPENROUTER_API_KEY=sk-or-..."; exit 1
@@ -25,23 +25,23 @@ PRE_CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer $OPE
 if [[ "$PRE_CODE" != "200" ]]; then
   echo "key check failed ($PRE_CODE from $PRE_URL). The key in this terminal is empty or wrong; re-export it and rerun."; exit 1
 fi
-echo "key ok (${#OPENAI_API_KEY} chars), model=${FATHOM_MODEL:-gpt-4o-mini}, base=${OPENAI_BASE_URL:-api.openai.com}"
+echo "key ok (${#OPENAI_API_KEY} chars), model=${RIGHT_RUDDER_MODEL:-gpt-4o-mini}, base=${OPENAI_BASE_URL:-api.openai.com}"
 
 command -v uv >/dev/null || { echo "install uv first: brew install uv"; exit 1; }
 if [[ ! -d .venv ]]; then
   uv venv -q --python 3.12 .venv
-  uv pip install -q --python .venv/bin/python "dbos==2.31.0" "httpx>=0.25" "openai>=1.0" rich python-dotenv pydantic fathom-read
+  uv pip install -q --python .venv/bin/python "dbos==2.31.0" "httpx>=0.25" "openai>=1.0" rich python-dotenv pydantic right-rudder
 fi
 
 TOPICS=("${@:-}")
 if [[ -z "${TOPICS[0]}" ]]; then
   TOPICS=("postgres performance" "rust async" "kubernetes cost" "vector databases" "webassembly")
 fi
-ITERS="${FATHOM_ITERATIONS:-3}"
+ITERS="${RIGHT_RUDDER_ITERATIONS:-3}"
 
 for t in "${TOPICS[@]}"; do
   echo; echo "=================================================================="
-  echo "topic: $t   (max_iterations=$ITERS, model=${FATHOM_MODEL:-gpt-4o-mini})"
+  echo "topic: $t   (max_iterations=$ITERS, model=${RIGHT_RUDDER_MODEL:-gpt-4o-mini})"
   echo "=================================================================="
   if ! .venv/bin/python runner.py "$t" "$ITERS"; then
     echo "RUN FAILED for topic '$t' (see the error above). Stopping."; exit 1

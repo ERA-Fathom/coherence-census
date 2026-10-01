@@ -5,7 +5,7 @@ Re-map and re-read banked runs at no spend, after a change to deep_research_ops.
     python reread.py runs/<one run>  # one run
 
 Rewrites ops.json and read.json in each run folder from the trace and messages already on disk, and updates
-the run's row in the map (runs/research_map.db, or FATHOM_MAP_DB). The previous read.json is kept as
+the run's row in the map (runs/research_map.db, or RIGHT_RUDDER_MAP_DB). The previous read.json is kept as
 read.json.prev_<timestamp> the first time it changes. The read comes from the hosted service, or from the
 private core on the dev machine when the service is unreachable from this shell.
 """
@@ -24,7 +24,7 @@ from runner import write_map_row  # noqa: E402
 
 
 def get_read():
-    import fathom_read.client as client
+    import right_rudder.client as client
     core_py = HERE.parent / "_publish" / "fathom-core" / "src" / "fathom_read" / "core.py"
 
     def read(ops):
@@ -41,14 +41,14 @@ def get_read():
         core_ops = [mod.Op(**{k: (tuple(map(tuple, v)) if k == "refs" else v) for k, v in o.as_dict().items()
                              if k in mod.Op.__dataclass_fields__}) for o in ops]
         v = mod.read(core_ops)
-        from fathom_read.ops import Verdict
+        from right_rudder.ops import Verdict
         return Verdict.from_dict(v.as_dict() if hasattr(v, "as_dict") else v)
 
     return read
 
 
 def reread(run_dir: Path, read):
-    from fathom_read.ops import Op
+    from right_rudder.ops import Op
     calls = json.load(open(run_dir / "tool_trace.json"))["calls"]
     messages = json.load(open(run_dir / "messages.json"))
     run = json.load(open(run_dir / "run.json"))
@@ -75,7 +75,7 @@ def reread(run_dir: Path, read):
         by_kind[k] = by_kind.get(k, 0) + 1
     mw_p = run_dir / "middleware.json"
     mw = json.load(open(mw_p)) if mw_p.exists() else None
-    write_map_row(Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "research_map.db"), {
+    write_map_row(Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "research_map.db"), {
         "run": run_dir.name, "stamp": run_dir.name.split("_")[0], "question": run.get("question"), "model": run.get("model"),
         "elapsed_s": run.get("elapsed_s"), "error": run.get("error"), "tool_calls": len(calls), **s, "ops": len(ops),
         "coherent": int(verdict.coherent), "findings": len(verdict.findings), "findings_by_kind": json.dumps(by_kind),

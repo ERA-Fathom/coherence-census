@@ -5,7 +5,7 @@ orchestrator. Each round the orchestrator spawns child agents through `rlm`, eac
 message, and the orchestrator commits results that depend on those values before it opens the next round. Eleven runs
 under deepseek/deepseek-chat-v3-0324, with no failure induced.
 
-The trace is the orchestrator's own session, read by [fathom-prime-agent](https://github.com/ERA-Fathom/fathom-prime-agent).
+The trace is the orchestrator's own session, read by [right-rudder-prime-agent](https://github.com/RightRudderAI/right-rudder-prime-agent).
 A message a child delivers is committed as a report. An `[agent-message from <child>]` header that the orchestrator
 writes in its own text is a claim on that report. When no delivery from that child carries the same message anywhere in
 the session, the read names the claim as a reference to a report the committed state never held.
@@ -36,7 +36,7 @@ result is `e2`, the commits of `e9`, `e1` and `e2` from the same cell, and two m
 of them the real `e2` message.
 
 ```
-fathom read traces/prime_agent_fanin.json
+right-rudder read traces/prime_agent_fanin.json
 ```
 
 returns `stale_reference` x1, at step 2, on the claimed report `r0t4: e2 delta = 1`.
@@ -48,12 +48,12 @@ returns `stale_reference` x1, at step 2, on the claimed report `r0t4: e2 delta =
 - The count is concentrated: one run holds 27 of the 39 commits, and 5 of the 11 runs have none.
 - The task's wording changed between batches of runs, and the rate varied from run to run under the same wording.
 - One model and one Prime Agent commit. Prime Agent's main at cd1f215 keeps the same session format and extension API,
-  and fathom-prime-agent reads it the same way.
+  and right-rudder-prime-agent reads it the same way.
 
 ## Read your own sessions
 
 ```
-prime-agent package install git:github.com/ERA-Fathom/fathom-prime-agent   # the read at every turn end
-pip install git+https://github.com/ERA-Fathom/fathom-prime-agent
-prime-fathom read ~/.prime/agent/sessions/<session>.jsonl                  # a saved session
+prime-agent package install git:github.com/RightRudderAI/right-rudder-prime-agent   # the read at every turn end
+pip install git+https://github.com/RightRudderAI/right-rudder-prime-agent
+prime-right-rudder read ~/.prime/agent/sessions/<session>.jsonl                  # a saved session
 ```

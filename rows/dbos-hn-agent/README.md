@@ -7,12 +7,12 @@ The agent searches Hacker News for a topic, reads the comments on the top storie
 ## Files
 
 - `hn_agent_ops.py` holds the whole mapping from the DBOS step stream to committed-state ops. A search adds its query to one run-wide query collection and sets a `story` per hit. Reading a thread adds its id to one run-wide collection of threads read. An evaluation sets a `finding` under its query and cites the stories it ranked. The report cites a `story` for every Hacker News link it carries.
-- `runner.py` runs the example once, as published, under DBOS with a SQLite system database, records every DBOS step with its arguments and result, exports DBOS's own step table beside it, maps the stream to ops, and sends the ops to the read. With `FATHOM_GATE=1` it puts the repair in front of the follow-up step through the Fathom service (`fathom_read.client.reground`, fathom-read 0.5.0 or later), applies the decision that comes back, and writes every decision to `gate.json` at outcome level.
+- `runner.py` runs the example once, as published, under DBOS with a SQLite system database, records every DBOS step with its arguments and result, exports DBOS's own step table beside it, maps the stream to ops, and sends the ops to the read. With `RIGHT_RUDDER_GATE=1` it puts the repair in front of the follow-up step through the Right Rudder service (`right_rudder.client.reground`, right-rudder 0.5.0 or later), applies the decision that comes back, and writes every decision to `gate.json` at outcome level.
 - `selftest_offline.py` runs the pipeline with a scripted model and a scripted Hacker News API, no network and no spend, and asserts the step stream and the ops.
 - `runs/<timestamp>_<topic>/` holds each run's ops, the verdict, the report, DBOS's step table, and the step stream gzipped (`dbos_steps.json.gz`, the input to the mapping). Gated runs carry `gate.json` as well.
 
 ```
-fathom read runs/20260902T155919Z_kubernetes-cost/ops.json
+right-rudder read runs/20260902T155919Z_kubernetes-cost/ops.json
 gunzip -k runs/<run>/dbos_steps.json.gz && python hn_agent_ops.py runs/<run>/dbos_steps.json > ops.json   # regenerate the ops
 ```
 
@@ -43,8 +43,8 @@ The follow-up step is the only place the repair touches, and it removes the quer
 
 The `superseded_value` findings on `current_topic` show the agent choosing, as its next query, one it had already chosen and moved on from earlier in the run (in the postgres run, step 356 returns to 'postgres performance tools', replaced at step 312). The gated runs show none, since a query already in the committed list never comes back as a proposal the agent can pick.
 
-The verdicts in `runs/*/read.json` come from fathom-read 0.4.1, which also counts a story re-held with the title it already carries. The 2 September study read these runs under 0.1 and reported 331 and 77 duplicate commits, which counted repeated searches and re-read threads only; those two columns are unchanged here.
+The verdicts in `runs/*/read.json` come from right-rudder 0.4.1, which also counts a story re-held with the title it already carries. The 2 September study read these runs under 0.1 and reported 331 and 77 duplicate commits, which counted repeated searches and re-read threads only; those two columns are unchanged here.
 
 DBOS records step outputs in its system database and this runner adds the arguments, so the read sees what each step acted on. The exported `dbos_operation_outputs.json` is DBOS's own table for provenance. On this agent nearly every step commits something, so the informative unit for the expiry read is the iteration rather than the step, and no DBOS calibration exists yet; an expiry read over these runs reports under the pooled default.
 
-To run it yourself, vendor the example beside `runner.py` as `hacker-news-agent/` (the files at the commit above), export `OPENROUTER_API_KEY` in the terminal, and run `bash run_mac.sh` for three iterations or `FATHOM_ITERATIONS=10 bash run_mac.sh` to match these runs. `FATHOM_GATE=1` adds the repair and needs a free service key.
+To run it yourself, vendor the example beside `runner.py` as `hacker-news-agent/` (the files at the commit above), export `OPENROUTER_API_KEY` in the terminal, and run `bash run_mac.sh` for three iterations or `RIGHT_RUDDER_ITERATIONS=10 bash run_mac.sh` to match these runs. `RIGHT_RUDDER_GATE=1` adds the repair and needs a free service key.

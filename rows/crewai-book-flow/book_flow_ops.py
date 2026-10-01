@@ -3,7 +3,7 @@ Map the CrewAI "write a book with flows" example's own event stream to committed
 
 The flow runs an outline crew (a researcher with a search tool, then an outliner) and one chapter
 crew per outlined chapter (a researcher with the same search tool, then a writer), and joins the
-chapters into a book. The events come from CrewAI's event bus as fathom_read.capture.crewai records
+chapters into a book. The events come from CrewAI's event bus as right_rudder.capture.crewai records
 them: tool_usage_finished / tool_usage_error (tool name and arguments) and task_completed (the task's
 raw output). flow_state.json is the flow's own state after kickoff (the outline it committed and the
 chapters it produced), written by the runner from the BookState object.
@@ -32,7 +32,7 @@ What the read can then say:
 
 Usage:
     python book_flow_ops.py crewai_events.json flow_state.json > ops.json
-    fathom read ops.json
+    right-rudder read ops.json
 """
 from __future__ import annotations
 

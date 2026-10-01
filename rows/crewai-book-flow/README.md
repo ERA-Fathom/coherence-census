@@ -7,13 +7,13 @@ The flow runs an outline crew (a researcher with a search tool, then an outliner
 ## Files
 
 - `book_flow_ops.py` is the whole mapping from the crew's event stream to committed-state ops. A search is an `add` to one crew-wide query collection. The outline commits a `chapter_title` and a `chapter_no` per chapter and then a `commit` on the outline. Each chapter is a `set` under the title the writer returned, citing that title and every "Chapter k" the text mentions. The flow's join step is an `answer` for the finished book citing every outlined chapter.
-- `runner.py` runs the example once, with `fathom_read.capture.crewai.FathomListener` on the crew event bus and Arize's `openinference-instrumentation-crewai` exporting spans to a file, and writes one row per run to `runs/book_map.db` (kept with the runs on the machine that ran them).
+- `runner.py` runs the example once, with `right_rudder.capture.crewai.RightRudderListener` on the crew event bus and Arize's `openinference-instrumentation-crewai` exporting spans to a file, and writes one row per run to `runs/book_map.db` (kept with the runs on the machine that ran them).
 - `reread.py` re-maps and re-reads banked runs after a change to the mapping, at no spend.
 - `selftest_offline.py` runs the whole path with a scripted model server and a scripted search API and asserts the planted findings. `serper_map.json` is the one-line map that lets the public openinference adapter read the search tool's spans.
 - `runs/<timestamp>_<title>/` holds each run's event stream, the flow's own state (outline and chapters), the ops, the verdict, the TOOL spans the instrumentor recorded, and the verdict over those spans alone.
 
 ```
-fathom read runs/20260915T205744Z_the-state-of-ai-agents-in-enterprise-sof/ops.json
+right-rudder read runs/20260915T205744Z_the-state-of-ai-agents-in-enterprise-sof/ops.json
 python book_flow_ops.py runs/<run>/crewai_events.json runs/<run>/flow_state.json > ops.json   # regenerate the ops
 ```
 
@@ -35,6 +35,6 @@ The span read, over the TOOL spans Arize's instrumentor recorded for the same pr
 
 The example calls `crew().kickoff()` synchronously inside the async `write_chapters` method, which crewai 1.x rejects (`RuntimeError: Agent execution was invoked synchronously from within a running event loop`); it last ran on 0.203.2. The runs here use the vendored example with that one line changed to `await crew().kickoff_async(...)`, so the chapter crews run concurrently as the example's `asyncio.gather` intended. Every other vendored file was byte-identical to upstream.
 
-Arize's CrewAI instrumentor stores the tool's argument schema in `tool.parameters` and the call's arguments in `input.value`. fathom-read 0.3.0's openinference adapter reads only `tool.parameters`, so `runner.py` copies `input.value` over for TOOL spans before the span read; the adapter fallback ships in the next fathom-read release, after which `fathom read runs/<run>/phoenix_spans_tool.json --format openinference --map serper_map.json` reproduces the span read directly.
+Arize's CrewAI instrumentor stores the tool's argument schema in `tool.parameters` and the call's arguments in `input.value`. right-rudder 0.3.0's openinference adapter reads only `tool.parameters`, so `runner.py` copies `input.value` over for TOOL spans before the span read; the adapter fallback ships in the next right-rudder release, after which `right-rudder read runs/<run>/phoenix_spans_tool.json --format openinference --map serper_map.json` reproduces the span read directly.
 
-To run it yourself, vendor the example beside `runner.py` as `write_a_book_with_flows/` (the archived repository still serves the files), apply the one-line change above, store `OPENROUTER_API_KEY` and `SERPER_API_KEY` (macOS Keychain is what `run_mac.sh` reads), and run `bash run_mac.sh`. `FATHOM_MODEL` picks the model and `FATHOM_CHAPTERS` lengthens the outline.
+To run it yourself, vendor the example beside `runner.py` as `write_a_book_with_flows/` (the archived repository still serves the files), apply the one-line change above, store `OPENROUTER_API_KEY` and `SERPER_API_KEY` (macOS Keychain is what `run_mac.sh` reads), and run `bash run_mac.sh`. `RIGHT_RUDDER_MODEL` picks the model and `RIGHT_RUDDER_CHAPTERS` lengthens the outline.

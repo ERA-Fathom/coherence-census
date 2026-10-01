@@ -5,10 +5,10 @@ Run CrewAI's published "write a book with flows" example once, record its event 
 
 What it does, in order:
   1. Imports the vendored flow unchanged (write_a_book_with_flows/, see VENDORED_FROM.txt).
-  2. Attaches fathom_read's public CrewAI capture listener to the crew event bus, and Arize's own
+  2. Attaches right_rudder's public CrewAI capture listener to the crew event bus, and Arize's own
      OpenInference CrewAI instrumentor with a file exporter, so the same run also leaves the spans
      Phoenix would store (phoenix_spans.json).
-  3. Overrides the example's model object by class attribute when FATHOM_MODEL is set (the vendored
+  3. Overrides the example's model object by class attribute when RIGHT_RUDDER_MODEL is set (the vendored
      files hardcode gpt-4o); the substitution is recorded in flow_state.json.
   4. Kicks the flow off, then writes the run folder: crewai_events.json (the event stream as captured),
      flow_state.json (the flow's own outline and chapters), book.md (the joined book), ops.json (the
@@ -20,10 +20,10 @@ What it does, in order:
 Environment:
   OPENROUTER_API_KEY   the model key (run_mac.sh loads it from the macOS Keychain once you store it)
   SERPER_API_KEY       the search key the example's SerperDevTool needs
-  FATHOM_MODEL         e.g. openrouter/openai/gpt-4o-mini (default: leave the example's gpt-4o alone)
-  FATHOM_API_KEY       key for the read (default: the rate-limited demo key)
-  FATHOM_MAP_DB        where the SQLite map lives (default runs/book_map.db)
-  FATHOM_CHAPTERS      ask the outliner for about this many chapters (pressure lever; default: the outliner decides)
+  RIGHT_RUDDER_MODEL         e.g. openrouter/openai/gpt-4o-mini (default: leave the example's gpt-4o alone)
+  RIGHT_RUDDER_API_KEY       key for the read (default: the rate-limited demo key)
+  RIGHT_RUDDER_MAP_DB        where the SQLite map lives (default runs/book_map.db)
+  RIGHT_RUDDER_CHAPTERS      ask the outliner for about this many chapters (pressure lever; default: the outliner decides)
 """
 from __future__ import annotations
 
@@ -44,8 +44,8 @@ from book_flow_ops import ops_from_events, summary  # noqa: E402
 
 
 def override_model():
-    """Swap the example's LLM object for the one FATHOM_MODEL names, without editing the vendored files."""
-    model = os.environ.get("FATHOM_MODEL")
+    """Swap the example's LLM object for the one RIGHT_RUDDER_MODEL names, without editing the vendored files."""
+    model = (os.environ.get("RIGHT_RUDDER_MODEL") or os.environ.get("FATHOM_MODEL"))
     if not model:
         return None
     from crewai import LLM
@@ -85,8 +85,8 @@ class FileSpanExporter:
 
 def arguments_from_input_value(spans):
     """Arize's CrewAI instrumentor puts the tool's argument SCHEMA in tool.parameters and the call's actual
-    arguments in input.value. fathom-read 0.3.0's openinference adapter reads tool.parameters only, so a
-    TOOL span whose tool.parameters looks like a schema gets input.value copied over it here. fathom-read
+    arguments in input.value. right-rudder 0.3.0's openinference adapter reads tool.parameters only, so a
+    TOOL span whose tool.parameters looks like a schema gets input.value copied over it here. right-rudder
     0.3.1 carries this fallback in the adapter itself; this shim keeps 0.3.0 runs honest."""
     out = []
     for sp in spans:
@@ -164,15 +164,15 @@ def main():
     os.chdir(run_dir)  # the flow saves its book as ./<title>.md
 
     model = override_model()
-    from fathom_read.capture.crewai import FathomListener
+    from right_rudder.capture.crewai import RightRudderListener
     from write_a_book_with_flows.main import BookFlow, BookState
 
-    listener = FathomListener(str(run_dir / "crewai_events.json"))  # keep the reference; the bus holds it weakly
+    listener = RightRudderListener(str(run_dir / "crewai_events.json"))  # keep the reference; the bus holds it weakly
     spans = instrument_openinference()
     flow = BookFlow()
     goal = (f"The goal of this book is to give a reader a complete, current, well-organized account of {topic}. "
             "Each chapter should stand on its own and fit the outline, with no chapter repeating another.")
-    n_ch = os.environ.get("FATHOM_CHAPTERS")  # pressure lever: a longer outline means more crews over one record
+    n_ch = (os.environ.get("RIGHT_RUDDER_CHAPTERS") or os.environ.get("FATHOM_CHAPTERS"))  # pressure lever: a longer outline means more crews over one record
     if n_ch:
         goal += f" The book should have about {int(n_ch)} chapters."
     t0 = time.time()
@@ -199,15 +199,15 @@ def main():
     s = summary(ops)
 
     verdict = None
-    from fathom_read.client import read, ReadError
-    from fathom_read.cli import render
-    from fathom_read.ops import Op
+    from right_rudder.client import read, ReadError
+    from right_rudder.cli import render
+    from right_rudder.ops import Op
     try:
         verdict = read([Op.from_dict(o) for o in ops])
         (run_dir / "read.json").write_text(json.dumps(verdict.as_dict(), indent=1))
-        print("\n" + render(verdict, title=f"fathom read: {title}"))
+        print("\n" + render(verdict, title=f"right-rudder read: {title}"))
     except ReadError as e:
-        print(f"\nfathom read failed: {e}\n(ops.json is saved; run `fathom read ops.json` later)")
+        print(f"\nthe read failed: {e}\n(ops.json is saved; run `right-rudder read ops.json` later)")
 
     by_kind = {}
     if verdict is not None:
@@ -219,16 +219,16 @@ def main():
     if spans is not None:
         (run_dir / "phoenix_spans.json").write_text(json.dumps({"spans": spans.spans}, indent=1))
         n_spans = len(spans.spans)
-        from fathom_read.adapters import openinference as oi_adapter
+        from right_rudder.adapters import openinference as oi_adapter
         span_ops = oi_adapter.load({"spans": arguments_from_input_value(spans.spans)}, mapping_path=str(HERE / "serper_map.json"))
         try:
             sv = read(span_ops)
             (run_dir / "read_spans.json").write_text(json.dumps(sv.as_dict(), indent=1))
             spans_findings = len(sv.findings)
-            print("\n" + render(sv, title=f"fathom read, off the OpenInference spans: {title}"))
+            print("\n" + render(sv, title=f"right-rudder read, off the OpenInference spans: {title}"))
         except ReadError as e:
-            print(f"\nspan read failed: {e}\n(phoenix_spans.json is saved; run `fathom read phoenix_spans.json --format openinference --map serper_map.json` later)")
-    write_map_row(Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "book_map.db"), {
+            print(f"\nspan read failed: {e}\n(phoenix_spans.json is saved; run `right-rudder read phoenix_spans.json --format openinference --map serper_map.json` later)")
+    write_map_row(Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "book_map.db"), {
         "run": run_dir.name, "stamp": stamp, "title": title, "topic": topic, "model": state["model"],
         "elapsed_s": state["elapsed_s"], "error": run_error, "events": len(events), **s, "ops": len(ops),
         "coherent": None if verdict is None else int(verdict.coherent),

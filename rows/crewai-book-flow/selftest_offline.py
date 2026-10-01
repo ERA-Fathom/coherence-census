@@ -15,7 +15,7 @@ The scripted model plants four contradictions the read should name:
 and a specificity check: chapter 1 and chapter 3 are clean and must produce no finding of their own.
 
 Run: python selftest_offline.py
-The read comes from FATHOM_ENDPOINT (the hosted read) when reachable, else from the private core on the
+The read comes from RIGHT_RUDDER_ENDPOINT (the hosted read) when reachable, else from the private core on the
 dev machine, else the findings check is skipped and only the events and ops are asserted.
 """
 from __future__ import annotations
@@ -33,10 +33,10 @@ os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
 
 os.environ["SERPER_API_KEY"] = "offline"
 os.environ["OPENROUTER_API_KEY"] = "offline"
-os.environ["FATHOM_MODEL"] = "openrouter/scripted-book-model"
+os.environ.get("RIGHT_RUDDER_MODEL", os.environ.get("FATHOM_MODEL", "")) = "openrouter/scripted-book-model"
 os.environ["CREWAI_TESTING"] = "true"  # no first-run trace prompt
-MAP_DB = Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "book_map.db")
-os.environ["FATHOM_MAP_DB"] = str(MAP_DB)
+MAP_DB = Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "book_map.db")
+os.environ.get("RIGHT_RUDDER_MAP_DB", os.environ.get("FATHOM_MAP_DB", "")) = str(MAP_DB)
 LOG = HERE / "runs" / "_selftest_requests.jsonl"
 
 CALLS = {"n": 0, "tool_calls": 0}
@@ -176,8 +176,8 @@ def fake_post(url, headers=None, json=None, timeout=None, **kw):
 
 
 def offline_read_if_available():
-    """Point fathom_read.client.read at the private core when the hosted read is unreachable."""
-    import fathom_read.client as client
+    """Point right_rudder.client.read at the private core when the hosted read is unreachable."""
+    import right_rudder.client as client
     orig = client.read
     core_py = HERE.parent / "_publish" / "fathom-core" / "src" / "fathom_read" / "core.py"
 
@@ -195,7 +195,7 @@ def offline_read_if_available():
         core_ops = [mod.Op(**{k: (tuple(map(tuple, v)) if k == "refs" else v) for k, v in o.as_dict().items()
                              if k in mod.Op.__dataclass_fields__}) for o in ops]
         v = mod.read(core_ops)
-        from fathom_read.ops import Verdict
+        from right_rudder.ops import Verdict
         return Verdict.from_dict(v.as_dict() if hasattr(v, "as_dict") else v)
 
     client.read = read

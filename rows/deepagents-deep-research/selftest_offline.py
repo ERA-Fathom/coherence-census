@@ -29,10 +29,10 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 os.environ["TAVILY_API_KEY"] = "offline"
 os.environ["OPENROUTER_API_KEY"] = "offline"
-os.environ["FATHOM_MODEL"] = "scripted-research-model"
-os.environ["FATHOM_RECURSION"] = "80"
-MAP_DB = Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "research_map.db")
-os.environ["FATHOM_MAP_DB"] = str(MAP_DB)
+os.environ.get("RIGHT_RUDDER_MODEL", os.environ.get("FATHOM_MODEL", "")) = "scripted-research-model"
+os.environ.get("RIGHT_RUDDER_RECURSION", os.environ.get("FATHOM_RECURSION", "")) = "80"
+MAP_DB = Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "research_map.db")
+os.environ.get("RIGHT_RUDDER_MAP_DB", os.environ.get("FATHOM_MAP_DB", "")) = str(MAP_DB)
 
 CALLS = {"n": 0, "orch": 0, "sub": 0}
 URL_A, URL_B, URL_NEVER = "https://example.org/topic-a", "https://example.org/topic-b", "https://example.org/never"
@@ -130,7 +130,7 @@ def start_server():
 
 
 def offline_read_if_available():
-    import fathom_read.client as client
+    import right_rudder.client as client
     orig = client.read
     core_py = HERE.parent / "_publish" / "fathom-core" / "src" / "fathom_read" / "core.py"
 
@@ -148,7 +148,7 @@ def offline_read_if_available():
         core_ops = [mod.Op(**{k: (tuple(map(tuple, v)) if k == "refs" else v) for k, v in o.as_dict().items()
                              if k in mod.Op.__dataclass_fields__}) for o in ops]
         v = mod.read(core_ops)
-        from fathom_read.ops import Verdict
+        from right_rudder.ops import Verdict
         return Verdict.from_dict(v.as_dict() if hasattr(v, "as_dict") else v)
 
     client.read = read

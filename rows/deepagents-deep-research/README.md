@@ -7,19 +7,19 @@ The example plans with `write_todos`, saves the request to a file, delegates top
 ## Files
 
 - `deep_research_ops.py` holds the whole mapping from the tool trace to committed-state ops. A `task()` call adds its description to one run-wide delegation collection. A `tavily_search` adds its query to one run-wide query collection and sets a `source` per page it returned. `write_file` sets the file under its path, and the report cites a `source` for every URL it lists. When a run ends without `/final_report.md`, the orchestrator's final message stands in as the report, with the same citation rule.
-- `runner.py` runs the example once with a LangChain callback handler that records every tool call in the graph, the orchestrator's and each sub-agent's, attributing each search to the `task()` it ran under, and appends the published `langchain-fathom` middleware to the same agent. It writes one row per run to `runs/research_map.db` (kept with the runs on the machine that ran them).
+- `runner.py` runs the example once with a LangChain callback handler that records every tool call in the graph, the orchestrator's and each sub-agent's, attributing each search to the `task()` it ran under, and appends the published `langchain-right-rudder` middleware to the same agent. It writes one row per run to `runs/research_map.db` (kept with the runs on the machine that ran them).
 - `deepresearch_map.json` names `task` and `tavily_search` for the middleware, which sees the orchestrator's own tool calls only.
 - `reread.py` re-maps and re-reads banked runs after a change to the mapping, at no spend. `selftest_offline.py` runs the whole path with a scripted model server and a scripted Tavily and asserts the planted findings.
 - `runs/<timestamp>_<question>/` holds each run's tool trace, the orchestrator's message history, the files it wrote, the middleware's verdict, the ops, the verdict, and the run's settings.
 
 ```
-fathom read runs/20260916T183702Z_compare-letta-mem0-zep-langmem-and-cogne/ops.json
+right-rudder read runs/20260916T183702Z_compare-letta-mem0-zep-langmem-and-cogne/ops.json
 python deep_research_ops.py runs/<run>/tool_trace.json runs/<run>/messages.json > ops.json   # regenerate the ops
 ```
 
 ## Runs
 
-Three comparison questions per model, models through OpenRouter with the example's hardcoded `init_chat_model` call routed to the named model at run time. Tavily live. deepagents 0.7.14, langchain-fathom 0.1.0.
+Three comparison questions per model, models through OpenRouter with the example's hardcoded `init_chat_model` call routed to the named model at run time. Tavily live. deepagents 0.7.14, langchain-right-rudder 0.1.0.
 
 | Model | Question | Tool calls | Sub-agents | Searches (distinct) | Sources held | Report | Citations | Read |
 |---|---|---|---|---|---|---|---|---|
@@ -38,8 +38,8 @@ The published middleware, over the orchestrator's own tool calls alone, returned
 
 Under both models the example's own workflow ran short of its prompt. No run called `write_todos`. Four of six runs ended without `/final_report.md`, delivering the report with its Sources list in the final message instead, and one llama run ended with a final message describing the delegation ("This task is delegated to a research-agent subagent, which will perform the research and return a report") and no report at all. The verification step in the orchestrator's prompt never ran.
 
-`langchain-fathom` 0.1.0's `on_finding="store"` writes the verdict to a state key the deepagents graph schema does not declare, so LangGraph drops it before the result reaches the caller. `runner.py` keeps a copy from inside the middleware. A declared state key is the package fix.
+`langchain-right-rudder` 0.1.0's `on_finding="store"` writes the verdict to a state key the deepagents graph schema does not declare, so LangGraph drops it before the result reaches the caller. `runner.py` keeps a copy from inside the middleware. A declared state key is the package fix.
 
 Three earlier llama runs (17:27 to 17:28 UTC) returned an empty completion on the first model call, no text and no tool call, through an OpenRouter provider that appears to have dropped the tool call; they carry an error in the map and no verdict, and the rerun above sets `provider.require_parameters` on every request. A read over zero ops says coherent, so the runner now refuses to post a run that committed nothing.
 
-To run it yourself, vendor the example beside `runner.py` as `deep_research/` (the files at the commit above), store `OPENROUTER_API_KEY` and `TAVILY_API_KEY` (macOS Keychain is what `run_mac.sh` reads), and run `bash run_mac.sh "your question"`. `FATHOM_MODEL` picks the model.
+To run it yourself, vendor the example beside `runner.py` as `deep_research/` (the files at the commit above), store `OPENROUTER_API_KEY` and `TAVILY_API_KEY` (macOS Keychain is what `run_mac.sh` reads), and run `bash run_mac.sh "your question"`. `RIGHT_RUDDER_MODEL` picks the model.

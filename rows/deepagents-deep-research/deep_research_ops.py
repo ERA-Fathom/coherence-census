@@ -26,7 +26,7 @@ What the read can then say:
 
 Usage:
     python deep_research_ops.py tool_trace.json > ops.json
-    fathom read ops.json
+    right-rudder read ops.json
 """
 from __future__ import annotations
 

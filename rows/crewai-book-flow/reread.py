@@ -5,7 +5,7 @@ Re-map and re-read banked runs at no spend, after a change to book_flow_ops.py.
     python reread.py runs/<one run>  # one run
 
 Rewrites ops.json, read.json and read_spans.json in each run folder from the events and spans already on
-disk, and updates the run's row in the map (runs/book_map.db, or FATHOM_MAP_DB). The previous read.json
+disk, and updates the run's row in the map (runs/book_map.db, or RIGHT_RUDDER_MAP_DB). The previous read.json
 is kept as read.json.prev_<timestamp> the first time it changes. The read comes from the hosted service,
 or from the private core on the dev machine when the service is unreachable from this shell.
 """
@@ -24,7 +24,7 @@ from runner import write_map_row, arguments_from_input_value  # noqa: E402
 
 
 def get_read():
-    import fathom_read.client as client
+    import right_rudder.client as client
     core_py = HERE.parent / "_publish" / "fathom-core" / "src" / "fathom_read" / "core.py"
 
     def read(ops):
@@ -41,15 +41,15 @@ def get_read():
         core_ops = [mod.Op(**{k: (tuple(map(tuple, v)) if k == "refs" else v) for k, v in o.as_dict().items()
                              if k in mod.Op.__dataclass_fields__}) for o in ops]
         v = mod.read(core_ops)
-        from fathom_read.ops import Verdict
+        from right_rudder.ops import Verdict
         return Verdict.from_dict(v.as_dict() if hasattr(v, "as_dict") else v)
 
     return read
 
 
 def reread(run_dir: Path, read):
-    from fathom_read.ops import Op
-    from fathom_read.adapters import openinference as oi_adapter
+    from right_rudder.ops import Op
+    from right_rudder.adapters import openinference as oi_adapter
     events = json.load(open(run_dir / "crewai_events.json"))["events"]
     state = json.load(open(run_dir / "flow_state.json"))
     ops = ops_from_events(events, state)
@@ -72,7 +72,7 @@ def reread(run_dir: Path, read):
     by_kind = {}
     for f in verdict.findings:
         by_kind[f.kind + "/" + f.key if f.kind == "stale_reference" else f.kind] = by_kind.get(f.kind + "/" + f.key if f.kind == "stale_reference" else f.kind, 0) + 1
-    write_map_row(Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "book_map.db"), {
+    write_map_row(Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "book_map.db"), {
         "run": run_dir.name, "stamp": run_dir.name.split("_")[0], "title": state.get("title"), "topic": state.get("topic"),
         "model": state.get("model"), "elapsed_s": state.get("elapsed_s"), "error": state.get("error"), "events": len(events),
         **s, "ops": len(ops), "coherent": int(verdict.coherent), "findings": len(verdict.findings),

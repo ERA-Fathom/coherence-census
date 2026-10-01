@@ -5,14 +5,14 @@ Run deepagents' published "deep_research" example once, record every tool call i
 
 What it does, in order:
   1. Imports the vendored example unchanged (deep_research/, see VENDORED_FROM.txt), with two wrappers
-     applied before the import: langchain.chat_models.init_chat_model returns the FATHOM_MODEL model
+     applied before the import: langchain.chat_models.init_chat_model returns the RIGHT_RUDDER_MODEL model
      through OpenRouter when that variable is set (the example hardcodes claude-sonnet-4-5), and
-     deepagents.create_deep_agent adds the langchain-fathom middleware (the published package, in
+     deepagents.create_deep_agent adds the langchain-right-rudder middleware (the published package, in
      "store" mode with deepresearch_map.json) so its own verdict lands on the agent state.
   2. Runs the agent with a callback handler that records every tool call the orchestrator and its
      research sub-agents make, with the task() delegation each call ran under.
   3. Writes the run folder: tool_trace.json (the calls), messages.json (the orchestrator's message
-     history), files.json (the files the agent wrote), middleware.json (langchain-fathom's verdict over
+     history), files.json (the files the agent wrote), middleware.json (langchain-right-rudder's verdict over
      the orchestrator's own tool calls), ops.json (the ops deep_research_ops.py maps from the trace),
      read.json (the read's verdict over the whole run), run.json (settings and timings).
   4. Appends one row per run to runs/research_map.db (SQLite), the map this folder accumulates.
@@ -20,11 +20,11 @@ What it does, in order:
 Environment:
   OPENROUTER_API_KEY   the model key (run_mac.sh loads it from the macOS Keychain once you store it)
   TAVILY_API_KEY       the search key the example's tavily_search needs
-  FATHOM_MODEL         e.g. openai/gpt-4o-mini (an OpenRouter model id; default: the example's own model,
+  RIGHT_RUDDER_MODEL         e.g. openai/gpt-4o-mini (an OpenRouter model id; default: the example's own model,
                        which needs ANTHROPIC_API_KEY)
-  FATHOM_API_KEY       key for the read (default: the rate-limited demo key)
-  FATHOM_MAP_DB        where the SQLite map lives (default runs/research_map.db)
-  FATHOM_RECURSION     LangGraph recursion limit for the run (default 200)
+  RIGHT_RUDDER_API_KEY       key for the read (default: the rate-limited demo key)
+  RIGHT_RUDDER_MAP_DB        where the SQLite map lives (default runs/research_map.db)
+  RIGHT_RUDDER_RECURSION     LangGraph recursion limit for the run (default 200)
 """
 from __future__ import annotations
 
@@ -64,18 +64,18 @@ def install_wrappers():
     import langchain.chat_models as lcm
     import deepagents
 
-    model_name = os.environ.get("FATHOM_MODEL")
+    model_name = (os.environ.get("RIGHT_RUDDER_MODEL") or os.environ.get("FATHOM_MODEL"))
     if model_name:
         from langchain_openai import ChatOpenAI
 
         def init_chat_model(model=None, **kw):
             temp = kw.get("temperature", 0.0)
             # OpenRouter routing: only providers that honor every request parameter (tools included), and an
-            # optional pinned provider list (FATHOM_PROVIDER="Together,Fireworks") with fallbacks off, so a
+            # optional pinned provider list (RIGHT_RUDDER_PROVIDER="Together,Fireworks") with fallbacks off, so a
             # weaker open model does not land on a provider whose tool-call parser drops the call.
             provider = {"require_parameters": True}
-            if os.environ.get("FATHOM_PROVIDER"):
-                provider["order"] = [x.strip() for x in os.environ["FATHOM_PROVIDER"].split(",") if x.strip()]
+            if (os.environ.get("RIGHT_RUDDER_PROVIDER") or os.environ.get("FATHOM_PROVIDER")):
+                provider["order"] = [x.strip() for x in os.environ.get("RIGHT_RUDDER_PROVIDER", os.environ.get("FATHOM_PROVIDER", "")).split(",") if x.strip()]
                 provider["allow_fallbacks"] = False
             extra = {} if "127.0.0.1" in os.environ.get("OPENROUTER_BASE_URL", "") else {"extra_body": {"provider": provider}}
             return ChatOpenAI(model=model_name.removeprefix("openrouter/"),
@@ -84,29 +84,29 @@ def install_wrappers():
 
         lcm.init_chat_model = init_chat_model
 
-    from langchain_fathom import FathomMiddleware
+    from langchain_right_rudder import RightRudderMiddleware
     orig = deepagents.create_deep_agent
 
-    class StashingFathomMiddleware(FathomMiddleware):
+    class StashingRightRudderMiddleware(RightRudderMiddleware):
         """on_finding='store' puts the verdict on the agent state, and LangGraph drops keys the state schema
         does not declare, so on deepagents the stored verdict never reaches the caller. This keeps a copy."""
         last_verdict = None
 
         def after_agent(self, state, runtime=None):
             messages = state.get("messages", []) if isinstance(state, dict) else getattr(state, "messages", [])
-            StashingFathomMiddleware.last_verdict = self._run_read(list(messages))
+            StashingRightRudderMiddleware.last_verdict = self._run_read(list(messages))
             return super().after_agent(state, runtime)
 
     def create_deep_agent(*a, **k):
         mw = list(k.get("middleware") or [])
-        mw.append(StashingFathomMiddleware(on_finding="store", mapping_path=str(HERE / "deepresearch_map.json")))
+        mw.append(StashingRightRudderMiddleware(on_finding="store", mapping_path=str(HERE / "deepresearch_map.json")))
         k["middleware"] = mw
         return orig(*a, **k)
 
     deepagents.create_deep_agent = create_deep_agent
-    install_wrappers.middleware_cls = StashingFathomMiddleware
+    install_wrappers.middleware_cls = StashingRightRudderMiddleware
     return {"model": model_name or "the example's own (anthropic:claude-sonnet-4-5-20250929)",
-            "middleware": "langchain-fathom FathomMiddleware(on_finding='store'), verdict stashed by the runner"}
+            "middleware": "langchain-right-rudder RightRudderMiddleware(on_finding='store'), verdict stashed by the runner"}
 
 
 class ToolTrace:
@@ -249,8 +249,8 @@ def main():
     question = sys.argv[1]
     if not os.environ.get("TAVILY_API_KEY"):
         raise SystemExit("set TAVILY_API_KEY first (the example's search tool needs it)")
-    if os.environ.get("FATHOM_MODEL") and not os.environ.get("OPENROUTER_API_KEY"):
-        raise SystemExit("set OPENROUTER_API_KEY first (FATHOM_MODEL routes through OpenRouter)")
+    if (os.environ.get("RIGHT_RUDDER_MODEL") or os.environ.get("FATHOM_MODEL")) and not os.environ.get("OPENROUTER_API_KEY"):
+        raise SystemExit("set OPENROUTER_API_KEY first (RIGHT_RUDDER_MODEL routes through OpenRouter)")
 
     slug = re.sub(r"[^a-z0-9]+", "-", question.lower()).strip("-")[:40]
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -268,7 +268,7 @@ def main():
     try:
         result = example.agent.invoke({"messages": [HumanMessage(content=question)]},
                                       config={"callbacks": [trace.handler],
-                                              "recursion_limit": int(os.environ.get("FATHOM_RECURSION", "200"))})
+                                              "recursion_limit": int(os.environ.get("RIGHT_RUDDER_RECURSION", "200"))})
     except Exception as e:  # noqa: BLE001
         run_error = f"{type(e).__name__}: {e}"
     elapsed = time.time() - t0
@@ -286,7 +286,7 @@ def main():
     (run_dir / "middleware.json").write_text(json.dumps(middleware, indent=1))
     (run_dir / "run.json").write_text(json.dumps({"question": question, **settings, "elapsed_s": round(elapsed, 1),
                                                    "error": run_error, "tool_calls": len(calls),
-                                                   "recursion_limit": int(os.environ.get("FATHOM_RECURSION", "200"))}, indent=1))
+                                                   "recursion_limit": int(os.environ.get("RIGHT_RUDDER_RECURSION", "200"))}, indent=1))
 
     final = ""
     ai = [m for m in messages if m.get("type") == "ai"]
@@ -299,7 +299,7 @@ def main():
             out_tok = ((ai[-1]["data"].get("usage_metadata") or {}).get("output_tokens"))
         run_error = (f"empty completion: the model returned no text and no tool call ({out_tok} output tokens). "
                      "A provider that cannot parse the model's tool call returns it as nothing; pin one with "
-                     "FATHOM_PROVIDER or change FATHOM_MODEL. This run is not a clean run.")
+                     "RIGHT_RUDDER_PROVIDER or change RIGHT_RUDDER_MODEL. This run is not a clean run.")
         print(f"\nRUN PRODUCED NOTHING. {run_error}")
         (run_dir / "run.json").write_text(json.dumps({**json.load(open(run_dir / "run.json")), "error": run_error}, indent=1))
     ops = ops_from_trace(calls, final)
@@ -309,24 +309,24 @@ def main():
         print("\nNO REPORT DELIVERED: the run ended without /final_report.md and without a report in the final message.")
 
     verdict = None
-    from fathom_read.client import read, ReadError
-    from fathom_read.cli import render
-    from fathom_read.ops import Op
+    from right_rudder.client import read, ReadError
+    from right_rudder.cli import render
+    from right_rudder.ops import Op
     try:
         if not ops:
             raise ReadError("no ops to read (the run committed nothing)")
         verdict = read([Op.from_dict(o) for o in ops])
         (run_dir / "read.json").write_text(json.dumps(verdict.as_dict(), indent=1))
-        print("\n" + render(verdict, title=f"fathom read: {question[:60]}"))
+        print("\n" + render(verdict, title=f"right-rudder read: {question[:60]}"))
     except ReadError as e:
-        print(f"\nfathom read failed: {e}\n(ops.json is saved; run `fathom read ops.json` later)")
+        print(f"\nthe read failed: {e}\n(ops.json is saved; run `right-rudder read ops.json` later)")
 
     by_kind = {}
     if verdict is not None:
         for f in verdict.findings:
             k = f.kind + ("/" + f.key[:40] if f.kind == "stale_reference" else "")
             by_kind[k] = by_kind.get(k, 0) + 1
-    write_map_row(Path(os.environ.get("FATHOM_MAP_DB") or HERE / "runs" / "research_map.db"), {
+    write_map_row(Path((os.environ.get("RIGHT_RUDDER_MAP_DB") or os.environ.get("FATHOM_MAP_DB")) or HERE / "runs" / "research_map.db"), {
         "run": run_dir.name, "stamp": stamp, "question": question, "model": settings["model"], "elapsed_s": round(elapsed, 1),
         "error": run_error, "tool_calls": len(calls), **s, "ops": len(ops),
         "coherent": None if verdict is None else int(verdict.coherent),
@@ -338,7 +338,7 @@ def main():
           f"{s['repeated_searches']} repeated)  delegations: {s['delegations']} ({s['distinct_delegations']} distinct)  "
           f"sources held: {s['sources_held']}  report citations: {s['report_citations']}  report: {s['report']}  ops: {len(ops)}")
     if isinstance(middleware, dict):
-        print(f"langchain-fathom middleware (orchestrator's own tool calls): {middleware.get('ops_read')} ops, "
+        print(f"langchain-right-rudder middleware (orchestrator's own tool calls): {middleware.get('ops_read')} ops, "
               f"{len(middleware.get('findings', []))} findings")
     if run_error:
         raise SystemExit(f"run failed after {elapsed:.0f}s: {run_error}\n(trace and state saved to {run_dir})")

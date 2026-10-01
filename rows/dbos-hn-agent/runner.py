@@ -11,10 +11,10 @@ What this does:
 
 Environment:
   OPENAI_API_KEY   required by the example. To route through OpenRouter, also set
-  OPENAI_BASE_URL  https://openrouter.ai/api/v1  and  FATHOM_MODEL  openai/gpt-4o-mini
-  FATHOM_MODEL     model name passed to the example's LLM calls (default: the example's gpt-4o-mini)
-  FATHOM_API_KEY   key for the read and the repair (free keys from the fathom README; the demo key is rate-limited)
-  FATHOM_GATE=1    put the repair in front of the follow-up step (see gate_followup)
+  OPENAI_BASE_URL  https://openrouter.ai/api/v1  and  RIGHT_RUDDER_MODEL  openai/gpt-4o-mini
+  RIGHT_RUDDER_MODEL     model name passed to the example's LLM calls (default: the example's gpt-4o-mini)
+  RIGHT_RUDDER_API_KEY   key for the read and the repair (free keys from the right-rudder README; the demo key is rate-limited)
+  RIGHT_RUDDER_GATE=1    put the repair in front of the follow-up step (see gate_followup)
 
 Usage:
   python runner.py "<topic>" [max_iterations]
@@ -45,7 +45,7 @@ from hn_agent_ops import ops_from_steps  # noqa: E402
 
 STEPS: list = []
 GATE: list = []          # one entry per gated follow-up decision, at outcome level
-GATE_ON = os.environ.get("FATHOM_GATE", "") not in ("", "0", "false", "no")
+GATE_ON = os.environ.get("RIGHT_RUDDER_GATE", "") not in ("", "0", "false", "no")
 FOLLOWUP_MARK = "Generate focused follow-up queries"
 
 
@@ -59,19 +59,19 @@ def committed_ops():
 
 
 def gate_followup(call, messages, **kw):
-    """The repair in front of the follow-up step, served by the Fathom service.
+    """The repair in front of the follow-up step, served by the Right Rudder service.
 
     The agent proposes follow-up queries. The service checks each proposal against the run's committed
     state and returns a decision: proceed (every proposal is new), filter (keep the proposals that do not
     contradict the committed state), or reground (every proposal contradicts it, and the response carries
     the committed facts to put back in front of the agent before asking again). The policy behind the
-    decision runs in the service; this runner only applies what comes back. Requires fathom-read >= 0.5.0
-    and a service key (free, see the fathom README).
+    decision runs in the service; this runner only applies what comes back. Requires right-rudder >= 0.5.0
+    and a service key (free, see the right-rudder README).
     """
     try:
-        from fathom_read.client import reground
+        from right_rudder.client import reground
     except ImportError as e:  # pragma: no cover
-        raise SystemExit("FATHOM_GATE=1 needs fathom-read >= 0.5.0 (pip install -U fathom-read)") from e
+        raise SystemExit("RIGHT_RUDDER_GATE=1 needs right-rudder >= 0.5.0 (pip install -U right-rudder)") from e
     raw = call(messages, **kw)
     try:
         proposed = json.loads(raw.strip().strip("`").replace("json\n", "", 1)) if raw else []
@@ -161,7 +161,7 @@ def patch_example():
         return
     patch_example.done = True
     # Model override without touching the vendored code.
-    model = os.environ.get("FATHOM_MODEL")
+    model = (os.environ.get("RIGHT_RUDDER_MODEL") or os.environ.get("FATHOM_MODEL"))
     if model:
         orig = agent_mod.call_llm
 
@@ -238,7 +238,7 @@ def main():
     DBOS.destroy()
 
     stream = {"workflow_id": handle.workflow_id, "topic": topic, "max_iterations": max_iterations,
-              "model": os.environ.get("FATHOM_MODEL") or "gpt-4o-mini", "elapsed_s": round(elapsed, 1),
+              "model": (os.environ.get("RIGHT_RUDDER_MODEL") or os.environ.get("FATHOM_MODEL")) or "gpt-4o-mini", "elapsed_s": round(elapsed, 1),
               "error": run_error, "gate": GATE_ON, "steps": STEPS}
     (run_dir / "dbos_steps.json").write_text(json.dumps(stream, indent=1))
     if GATE_ON:
@@ -253,15 +253,15 @@ def main():
     ops = ops_from_steps(STEPS)
     (run_dir / "ops.json").write_text(json.dumps(ops, indent=1))
 
-    from fathom_read.client import read, ReadError
-    from fathom_read.cli import render
-    from fathom_read.ops import Op
+    from right_rudder.client import read, ReadError
+    from right_rudder.cli import render
+    from right_rudder.ops import Op
     try:
         verdict = read([Op.from_dict(o) for o in ops])
         (run_dir / "read.json").write_text(json.dumps(verdict.as_dict(), indent=1))
-        print("\n" + render(verdict, title=f"fathom read: {topic}"))
+        print("\n" + render(verdict, title=f"right-rudder read: {topic}"))
     except ReadError as e:
-        print(f"\nfathom read failed: {e}\n(ops.json is saved; run `fathom read ops.json` later)")
+        print(f"\nthe read failed: {e}\n(ops.json is saved; run `right-rudder read ops.json` later)")
 
     n_llm = sum(1 for s in STEPS if s["step_name"] in ("evaluate_results_step", "should_continue_step",
                                                         "generate_follow_ups_step", "synthesize_findings_step"))

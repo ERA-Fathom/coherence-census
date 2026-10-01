@@ -14,8 +14,8 @@ import sys
 from pathlib import Path
 
 os.environ.setdefault("OPENAI_API_KEY", "offline")
-os.environ["FATHOM_MODEL"] = "scripted"
-os.environ["FATHOM_ENDPOINT"] = os.environ.get("FATHOM_ENDPOINT", "offline")
+os.environ.get("RIGHT_RUDDER_MODEL", os.environ.get("FATHOM_MODEL", "")) = "scripted"
+os.environ.get("RIGHT_RUDDER_ENDPOINT", os.environ.get("FATHOM_ENDPOINT", "")) = os.environ.get("RIGHT_RUDDER_ENDPOINT", "offline")
 
 HERE = Path(__file__).resolve().parent
 sys.argv = ["runner.py", "postgres performance", "3"]
@@ -76,7 +76,7 @@ def fake_llm(messages, **kw):
 api_mod.httpx.Client = FakeClient
 agent_mod.call_llm = fake_llm
 
-# Run the workflow through the runner's own path. The read itself is hosted; with FATHOM_ENDPOINT=offline the
+# Run the workflow through the runner's own path. The read itself is hosted; with RIGHT_RUDDER_ENDPOINT=offline the
 # runner saves ops.json and skips the verdict, and the assertions below check the step stream and the ops.
 runner.main()
 
@@ -101,5 +101,5 @@ if (rd / "read.json").exists():
     print("findings:", fk)
     assert "stale_reference" in fk and "duplicate_commit" in fk, fk
 else:
-    print("no read.json (offline); run `fathom read %s/ops.json` to see duplicate_commit x1 and stale_reference x1" % rd.name)
+    print("no read.json (offline); run `right-rudder read %s/ops.json` to see duplicate_commit x1 and stale_reference x1" % rd.name)
 print(f"selftest OK: {len(steps)} steps, {len(ops)} ops, {CALLS['n']} scripted LLM calls, run folder {rd.name}")
