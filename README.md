@@ -42,3 +42,8 @@ Run the read on an agent the census does not cover, and open a pull request with
 If you would rather not run it yourself, send a trace to [contact@embeddedriskanalytics.com](mailto:contact@embeddedriskanalytics.com?subject=coherence%20census%20trace) and get a readout back. The read is deterministic and needs no model access; the trace is the only thing it receives.
 
 Fathom is a program of [Embedded Risk Analytics](https://embeddedriskanalytics.com). The research behind the read: [embeddedriskanalytics.com/research](https://embeddedriskanalytics.com/research.html). Paper: [SSRN 6683578](https://doi.org/10.2139/ssrn.6683578).
+
+
+---
+
+If a row here matches a failure in your own agents, a star on this repository helps other teams find the census.
