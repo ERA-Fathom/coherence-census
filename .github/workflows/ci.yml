@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install "fathom-read>=0.1.1"
+      - run: pip install "right-rudder>=0.7.0"
       - run: python scripts/build.py --check
